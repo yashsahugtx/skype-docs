@@ -27,20 +27,29 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// A HTTP url which can be given to users to join this meeting via Lync Web App
         /// </summary>
-        public string JoinUrl { get { return PlatformResource.JoinUrl; } }
+        public string JoinUrl
+        {
+            get { return PlatformResource.JoinUrl; }
+        }
 
         /// <summary>
         /// SIP uri of the meeting
         /// </summary>
-        public string OnlineMeetingUri { get { return PlatformResource.OnlineMeetingUri; } }
+        public string OnlineMeetingUri
+        {
+            get { return PlatformResource.OnlineMeetingUri; }
+        }
 
         /// <summary>
         /// Subject specified when the meeting was created
         /// </summary>
-        public string Subject { get { return PlatformResource.Subject; } }
+        public string Subject
+        {
+            get { return PlatformResource.Subject; }
+        }
 
         /// <summary>
-        /// Joins the adhoc meeting
+        /// Saas application Joins the adhoc meeting as trusted entity, won't be seen by other conference participants
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
         /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>

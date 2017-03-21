@@ -22,6 +22,10 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             m_innerLogger = logger;
         }
 
+        /// <summary>
+        /// Initializes the <see cref="Logger"/> with <paramref name="logger"/>
+        /// </summary>
+        /// <param name="logger"></param>
         public static void RegisterLogger(IPlatformServiceLogger logger)
         {
             Logger.Instance.RegisterInnerLogger(logger);

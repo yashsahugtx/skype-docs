@@ -18,9 +18,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     {
         #region Private fields
 
-        /// <summary>
-        /// Communication
-        /// </summary>
+   
         private Communication m_communication;
 
         #endregion
@@ -28,7 +26,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Public properties
 
         /// <summary>
-        /// Get Communication
+        /// Communication of <see cref="Application"/>
         /// </summary>
         public ICommunication Communication
         {
@@ -40,7 +38,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Constructor
 
         /// <summary>
-        /// Constructor
+        /// Initializes an instance of <see cref="Application"/> using given <paramref name="restfulClient"/>, <paramref name="resource"/>, 
+        /// <paramref name="baseUri"/>, <paramref name="resourceUri"/>, <paramref name="parent"/>
         /// </summary>
         /// <param name="restfulClient"></param>
         /// <param name="resource"></param>
@@ -153,10 +152,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
-        /// Creates an adhoc meeting
+        /// Gets the AdhocMeeting Resource
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
-        /// <param name="input">Specifies properties for the meeting to be created</param>
+        /// <param name="input">Specifies configurations for the meeting to be created</param>
         /// <returns>An adhoc meeting</returns>
         [Obsolete("Please use CreateAdhocMeetingAsync instead")]
         public async Task<AdhocMeetingResource> GetAdhocMeetingResourceAsync(LoggingContext loggingContext, AdhocMeetingInput input)
@@ -215,6 +214,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return new AdhocMeeting(RestfulClient, adhocMeetingResource, BaseUri, UriHelper.CreateAbsoluteUri(BaseUri, adhocMeetingResource.SelfUri), this);
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked</param>
+        /// <returns><code>true</code> if the capability is available at the time of invoking</returns>
+        /// <remarks>
+        /// Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="CapabilityNotAvailableException"/>
+        /// when you are using a capability.
+        /// </remarks>
         public override bool Supports(ApplicationCapability capability)
         {
             string href = null;

@@ -28,6 +28,11 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
     }
 
+    /// <summary>
+    /// Base class for Platform service resources
+    /// </summary>
+    /// <typeparam name="TPlatformResource"></typeparam>
+    /// <typeparam name="TCapabilities"></typeparam>
     public abstract class BasePlatformResource<TPlatformResource, TCapabilities> : EventableEntity, IPlatformResource<TCapabilities>
         where TPlatformResource : Resource
     {

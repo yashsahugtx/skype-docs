@@ -29,6 +29,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         public IConversation RelatedConversation { get; private set; }
 
+        /// <summary>
+        /// Gets the application resource.
+        /// </summary>
+        /// <value>The application resource.</value>
         public ApplicationResource ApplicationResource
         {
             get { return PlatformResource?.Application; }

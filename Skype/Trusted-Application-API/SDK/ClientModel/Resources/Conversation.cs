@@ -37,7 +37,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         private ConversationBridge m_conversationBridge;
 
         /// <summary>
-        /// The participants internal resource
+        /// The participants involved in the conversation
         /// </summary>
         private ParticipantsInternal m_participants;
 
@@ -49,6 +49,15 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Constructor
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Conversation"/> class.
+        /// </summary>
+        /// <param name="restfulClient">The restful client.</param>
+        /// <param name="resource">The resource.</param>
+        /// <param name="baseUri">The base URI.</param>
+        /// <param name="resourceUri">The resource URI.</param>
+        /// <param name="parent">The parent.</param>
+        /// <exception cref="System.ArgumentNullException">parent - Communication is required</exception>
         internal Conversation(IRestfulClient restfulClient, ConversationResource resource, Uri baseUri, Uri resourceUri, Communication parent)
             : base(restfulClient, resource, baseUri, resourceUri, parent)
         {

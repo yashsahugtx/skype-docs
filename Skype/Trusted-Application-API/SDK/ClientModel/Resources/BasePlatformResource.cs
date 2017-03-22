@@ -39,11 +39,18 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Constructor
 
         /// <summary>
-        /// Initializes a new instance of the BaseInstance class.
+        /// Initializes a new instance of the <see cref="BasePlatformResource{TPlatformResource, TCapabilities}"/> class.
         /// </summary>
         /// <param name="restfulClient">The restful client.</param>
-        /// <param name="resource">The platform resource.</param>
-        /// <param name="baseUri">The base uri.</param>
+        /// <param name="resource">The resource.</param>
+        /// <param name="baseUri">The base URI.</param>
+        /// <param name="resourceUri">The resource URI.</param>
+        /// <param name="parent">The parent.</param>
+        /// <exception cref="System.ArgumentNullException">
+        /// restfulClient
+        /// or
+        /// baseUri
+        /// </exception>
         internal BasePlatformResource(IRestfulClient restfulClient, TPlatformResource resource, Uri baseUri, Uri resourceUri, object parent)
         {
             if (restfulClient == null)

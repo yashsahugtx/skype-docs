@@ -17,7 +17,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Private fields
 
         /// <summary>
-        /// <see cref="Transfer"/> operations which are currently in progress.
+        /// <see cref="Transfer"/> transfers which are currently in progress.
         /// </summary>
         private readonly ConcurrentDictionary<string, Transfer> m_transfers;
 
@@ -84,6 +84,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             get { return PlatformResource?.CallContext; }
         }
 
+        /// <summary>
+        /// Gets the audio video flow.
+        /// </summary>
+        /// <value>The audio video flow.</value>
         public IAudioVideoFlow AudioVideoFlow { get; private set; }
 
         #endregion

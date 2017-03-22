@@ -38,13 +38,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Constructor
 
         /// <summary>
-        /// Initializes an instance of <see cref="Application"/> using given <paramref name="restfulClient"/>, <paramref name="resource"/>, 
-        /// <paramref name="baseUri"/>, <paramref name="resourceUri"/>, <paramref name="parent"/>
+        /// Initializes a new instance of the <see cref="Application"/> class.
         /// </summary>
-        /// <param name="restfulClient"></param>
-        /// <param name="resource"></param>
-        /// <param name="baseUri"></param>
-        /// <param name="resourceUri"></param>
+        /// <param name="restfulClient">The restful client.</param>
+        /// <param name="resource">The resource.</param>
+        /// <param name="baseUri">The base URI.</param>
+        /// <param name="resourceUri">The resource URI.</param>
+        /// <param name="parent">The parent.</param>
         internal Application(IRestfulClient restfulClient, ApplicationResource resource, Uri baseUri, Uri resourceUri, Applications parent)
                 : base(restfulClient, resource, baseUri, resourceUri, parent)
         {

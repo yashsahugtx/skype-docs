@@ -64,6 +64,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             }
         }
 
+
         /// <summary>
         /// Gets whether a particular capability is available or not.
         /// </summary>

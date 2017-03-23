@@ -39,7 +39,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="loggingContext"></param>
         /// <returns></returns>
-        public async Task RefreshAndInitializeAsync(LoggingContext loggingContext, string endpointId)
+        public async Task RefreshAndInitializeAsync(string endpointId, LoggingContext loggingContext = null)
         {
             await this.RefreshAsync(loggingContext).ConfigureAwait(false);
             if (this.PlatformResource.Applications != null)
@@ -59,12 +59,25 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Gets whether a particular capability is available or not.
         /// </summary>
         /// <param name="capability">Capability that needs to be checked.</param>
         /// <returns><code>true</code> iff the capability is available as of now.</returns>
         /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
         /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
+=======
+        /// Call Get on application and initialize communication resource
+        /// </summary>
+        /// <param name="loggingContext"></param>
+        /// <returns></returns>
+        [Obsolete("Please use the other variation")]
+        public Task RefreshAndInitializeAsync(LoggingContext loggingContext, string endpointId)
+        {
+            return RefreshAndInitializeAsync(endpointId, loggingContext);
+        }
+
+>>>>>>> upstream/master
         public override bool Supports(DiscoverCapability capability)
         {
             return false;

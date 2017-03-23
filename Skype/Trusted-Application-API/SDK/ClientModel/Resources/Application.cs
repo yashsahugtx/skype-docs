@@ -59,7 +59,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="loggingContext"></param>
         /// <returns></returns>
-        public async Task RefreshAndInitializeAsync(LoggingContext loggingContext)
+        public async Task RefreshAndInitializeAsync(LoggingContext loggingContext = null)
         {
             Logger.Instance.Information("calling Application.RefreshAndInitializeAsync");
             await this.RefreshAsync(loggingContext).ConfigureAwait(false);
@@ -128,7 +128,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="allowedOrigins">Semi colon separated list of origins from where the user should be allowed to join the meeting using the IAnonymousApplicationToken</param>
         /// <param name="applicationSessionId">A unique ID required to get the token</param>
         /// <returns>A token that can be used by a user to join the specified meeting.</returns>
-        public Task<IAnonymousApplicationToken> GetAnonApplicationTokenForMeetingAsync(LoggingContext loggingContext, string meetingUrl, string allowedOrigins, string applicationSessionId)
+        public Task<IAnonymousApplicationToken> GetAnonApplicationTokenForMeetingAsync(string meetingUrl, string allowedOrigins, string applicationSessionId, LoggingContext loggingContext = null)
         {
             if(string.IsNullOrEmpty(meetingUrl))
             {
@@ -139,6 +139,21 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
+        /// Gets an anonymous application token for a meeting. This token can be given to a user domain application. Using this token,
+        /// the user can sign in and join the meeting.
+        /// </summary>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <param name="meetingUrl">HTTP join url of the meeting</param>
+        /// <param name="allowedOrigins">Semi colon separated list of origins from where the user should be allowed to join the meeting using the IAnonymousApplicationToken</param>
+        /// <param name="applicationSessionId">A unique ID required to get the token</param>
+        /// <returns>A token that can be used by a user to join the specified meeting.</returns>
+        [Obsolete("Please use the other variation")]
+        public Task<IAnonymousApplicationToken> GetAnonApplicationTokenForMeetingAsync(LoggingContext loggingContext, string meetingUrl, string allowedOrigins, string applicationSessionId)
+        {
+            return GetAnonApplicationTokenForMeetingAsync(meetingUrl, allowedOrigins, applicationSessionId, loggingContext);
+        }
+
+        /// <summary>
         /// Gets an anonymous application token for a P2P call. This token can be given to a user domain application. Using this token,
         /// the user can make P2P calls.
         /// </summary>
@@ -146,13 +161,31 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="allowedOrigins">List of origins from where the user should be allowed to join the meeting using the IAnonymousApplicationToken</param>
         /// <param name="applicationSessionId">A unique ID required to get the token</param>
         /// <returns>A token that can be used by a user to make P2P calls</returns>
-        public Task<IAnonymousApplicationToken> GetAnonApplicationTokenForP2PCallAsync(LoggingContext loggingContext, string allowedOrigins, string applicationSessionId)
+        public Task<IAnonymousApplicationToken> GetAnonApplicationTokenForP2PCallAsync(string allowedOrigins, string applicationSessionId, LoggingContext loggingContext = null)
         {
             return GetAnonApplicationTokenAsync(loggingContext, null, allowedOrigins, applicationSessionId);
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Gets the AdhocMeeting Resource
+=======
+        /// Gets an anonymous application token for a P2P call. This token can be given to a user domain application. Using this token,
+        /// the user can make P2P calls.
+        /// </summary>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <param name="allowedOrigins">List of origins from where the user should be allowed to join the meeting using the IAnonymousApplicationToken</param>
+        /// <param name="applicationSessionId">A unique ID required to get the token</param>
+        /// <returns>A token that can be used by a user to make P2P calls</returns>
+        [Obsolete("Please use the other variation")]
+        public Task<IAnonymousApplicationToken> GetAnonApplicationTokenForP2PCallAsync(LoggingContext loggingContext, string allowedOrigins, string applicationSessionId)
+        {
+            return GetAnonApplicationTokenForP2PCallAsync(allowedOrigins, applicationSessionId, loggingContext);
+        }
+
+        /// <summary>
+        /// Creates an adhoc meeting
+>>>>>>> upstream/master
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
         /// <param name="input">Specifies configurations for the meeting to be created</param>
@@ -200,7 +233,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
         /// <param name="input">Specifies properties for the meeting to be created</param>
         /// <returns><see cref="IAdhocMeeting"/> which can be used to join the meeting or get meeting url, which can be passed onto real users to join it.</returns>
-        public async Task<IAdhocMeeting> CreateAdhocMeetingAsync(LoggingContext loggingContext, AdhocMeetingCreationInput input)
+        public async Task<IAdhocMeeting> CreateAdhocMeetingAsync(AdhocMeetingCreationInput input, LoggingContext loggingContext = null)
         {
             if(input == null)
             {
@@ -215,6 +248,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
+<<<<<<< HEAD
         /// Gets whether a particular capability is available or not
         /// </summary>
         /// <param name="capability">Capability that needs to be checked</param>
@@ -224,6 +258,19 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// the capability will be available when it is actually used. Make sure to catch <see cref="CapabilityNotAvailableException"/>
         /// when you are using a capability.
         /// </remarks>
+=======
+        /// Creates an adhoc meeting
+        /// </summary>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <param name="input">Specifies properties for the meeting to be created</param>
+        /// <returns><see cref="IAdhocMeeting"/> which can be used to join the meeting or get meeting url, which can be passed onto real users to join it.</returns>
+        [Obsolete("Please use the other variation")]
+        public Task<IAdhocMeeting> CreateAdhocMeetingAsync(LoggingContext loggingContext, AdhocMeetingCreationInput input)
+        {
+            return CreateAdhocMeetingAsync(input, loggingContext);
+        }
+
+>>>>>>> upstream/master
         public override bool Supports(ApplicationCapability capability)
         {
             string href = null;

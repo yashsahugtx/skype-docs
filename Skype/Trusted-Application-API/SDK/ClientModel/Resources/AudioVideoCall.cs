@@ -94,6 +94,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
+<<<<<<< HEAD
         /// <summary>
         /// transfers the <see cref="AudioVideoCall"/>> as an asynchronous operation.
         /// </summary>
@@ -104,6 +105,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <exception cref="CapabilityNotAvailableException">Link to start transfer of AudioVideo is not available.</exception>
         /// <exception cref="RemotePlatformServiceException">Timeout to get incoming transfer started event from platformservice!</exception>
         public async Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext)
+=======
+        public async Task<ITransfer> TransferAsync(SipUri transferTarget, string replacesCallContext, LoggingContext loggingContext = null)
+>>>>>>> upstream/master
         {
             string href = PlatformResource?.StartTransferLink?.Href;
             if (string.IsNullOrWhiteSpace(href))
@@ -117,7 +121,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             var tcs = new TaskCompletionSource<Transfer>();
 
             this.HandleNewTransferOperationKickedOff(operationId, tcs);
-            var input = new TransferOperationInput() { To = transferTarget, ReplacesCallContext = replacesCallContext, OperationId = operationId };
+            var input = new TransferOperationInput() { To = transferTarget.ToString(), ReplacesCallContext = replacesCallContext, OperationId = operationId };
             await PostRelatedPlatformResourceAsync(transferLink, input, new ResourceJsonMediaTypeFormatter(), loggingContext).ConfigureAwait(false);
 
             Transfer result = null;
@@ -133,6 +137,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// Terminates as an asynchronous operation.
         /// </summary>
@@ -140,6 +145,15 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>Task.</returns>
         /// <exception cref="CapabilityNotAvailableException">Link to terminate AudioVideo.</exception>
         public override Task TerminateAsync(LoggingContext loggingContext)
+=======
+        [Obsolete("Please use the other variation")]
+        public Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext = null)
+        {
+            return TransferAsync(new SipUri(transferTarget), replacesCallContext, loggingContext);
+        }
+
+        public override Task TerminateAsync(LoggingContext loggingContext = null)
+>>>>>>> upstream/master
         {
             string href = PlatformResource?.StopAudioVideoLink?.Href;
             if (string.IsNullOrWhiteSpace(href))
@@ -158,7 +172,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to use for logging</param>
         /// <returns><see cref="AudioVideoInvitation"/> which tracks the outgoing invite.</returns>
-        public override async Task<IAudioVideoInvitation> EstablishAsync(LoggingContext loggingContext)
+        public override async Task<IAudioVideoInvitation> EstablishAsync(LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.AddAudioVideoLink?.Href;
             if (string.IsNullOrWhiteSpace(href))

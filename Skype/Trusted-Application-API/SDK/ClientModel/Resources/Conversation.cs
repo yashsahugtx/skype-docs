@@ -202,7 +202,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
-<<<<<<< HEAD
+
         /// <summary>
         /// add participant as an asynchronous operation.
         /// </summary>
@@ -215,10 +215,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// or
         /// Platformservice do not deliver a ParticipantInvitation resource with operationId " + operationId
         /// </exception>
-        public async Task<IParticipantInvitation> AddParticipantAsync(string targetSip, LoggingContext loggingContext)
-=======
+    
         public async Task<IParticipantInvitation> AddParticipantAsync(SipUri targetSip, LoggingContext loggingContext = null)
->>>>>>> upstream/master
+
         {
             string href = PlatformResource?.AddParticipantResourceLink?.Href;
             if (string.IsNullOrEmpty(href))
@@ -261,7 +260,14 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
-<<<<<<< HEAD
+
+   
+        [Obsolete("Please use the other variation")]
+        public Task<IParticipantInvitation> AddParticipantAsync(string targetSip, LoggingContext loggingContext = null)
+        {
+            return AddParticipantAsync(new SipUri(targetSip), loggingContext);
+        }
+
         /// <summary>
         /// Gets whether a particular capability is available or not.
         /// </summary>
@@ -269,14 +275,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns><code>true</code> iff the capability is available as of now.</returns>
         /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
         /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
-=======
-        [Obsolete("Please use the other variation")]
-        public Task<IParticipantInvitation> AddParticipantAsync(string targetSip, LoggingContext loggingContext = null)
-        {
-            return AddParticipantAsync(new SipUri(targetSip), loggingContext);
-        }
 
->>>>>>> upstream/master
         public override bool Supports(ConversationCapability capability)
         {
             string href = null;

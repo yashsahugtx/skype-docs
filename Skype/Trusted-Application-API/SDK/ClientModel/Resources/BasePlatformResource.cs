@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
+    /// <summary>
+    /// Class EventableEntity.
+    /// </summary>
     public abstract class EventableEntity
     {
         /// <summary>

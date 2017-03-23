@@ -64,7 +64,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Public methods
 
         /// <summary>
-        /// play prompt as an asynchronous operation.
+        /// Plays prompt with the given <paramref name="promptUri"/>> as an asynchronous operation.
         /// </summary>
         /// <param name="promptUri">The prompt URI.</param>
         /// <param name="loggingContext">The logging context.</param>

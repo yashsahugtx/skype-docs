@@ -110,7 +110,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     }
 
     /// <summary>
-    /// The EventArgs when the CallState is changed
+    /// The Arguments for the event when the CallState is changed
     /// </summary>
     /// <seealso cref="System.EventArgs" />
     public class CallStateChangedEventArgs : EventArgs

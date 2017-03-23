@@ -96,16 +96,28 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             get { return m_messagingCall; }
         }
 
+        /// <summary>
+        /// Gets the audio video call.
+        /// </summary>
+        /// <value>The audio video call.</value>
         public IAudioVideoCall AudioVideoCall
         {
             get { return m_audioVideoCall; }
         }
 
+        /// <summary>
+        /// Gets the conversation conference.
+        /// </summary>
+        /// <value>The conversation conference.</value>
         public IConversationConference ConversationConference
         {
             get { return m_conversationConference; }
         }
 
+        /// <summary>
+        /// Gets the conversation bridge.
+        /// </summary>
+        /// <value>The conversation bridge.</value>
         public IConversationBridge ConversationBridge
         {
             get { return m_conversationBridge; }
@@ -133,6 +145,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public events
 
+        ///The event when participants in the <see cref="Conversation"/> are changed        
         public event EventHandler<ParticipantChangeEventArgs> HandleParticipantChange
         {
             add
@@ -189,6 +202,18 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
+        /// <summary>
+        /// add participant as an asynchronous operation.
+        /// </summary>
+        /// <param name="targetSip">The target sip.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;IParticipantInvitation&gt;.</returns>
+        /// <exception cref="CapabilityNotAvailableException">Link to add participant is not available.</exception>
+        /// <exception cref="RemotePlatformServiceException">
+        /// Timeout to get Participant invitation started event from platformservice!
+        /// or
+        /// Platformservice do not deliver a ParticipantInvitation resource with operationId " + operationId
+        /// </exception>
         public async Task<IParticipantInvitation> AddParticipantAsync(string targetSip, LoggingContext loggingContext)
         {
             string href = PlatformResource?.AddParticipantResourceLink?.Href;
@@ -232,6 +257,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(ConversationCapability capability)
         {
             string href = null;
@@ -401,24 +433,57 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #endregion
     }
 
+    /// <summary>
+    /// Argument for the event when participant is changed
+    /// </summary>
+    /// <seealso cref="System.EventArgs" />
     public class ParticipantChangeEventArgs : EventArgs
     {
+        /// <summary>
+        /// The list of participants added to the list
+        /// </summary>
+        /// <value>The added participants.</value>
         public List<IParticipant> AddedParticipants { get; internal set; }
 
+        /// <summary>
+        /// The list of participants removed from the list
+        /// </summary>
+        /// <value>The removed participants.</value>
         public List<IParticipant> RemovedParticipants { get; internal set; }
 
+        /// <summary>
+        /// The list of participants updated in the list
+        /// </summary>
+        /// <value>The updated participants.</value>
         public List<IParticipant> UpdatedParticipants { get; internal set; }
     }
 
+    /// <summary>
+    /// The arguments for the event when the <see cref="AudioVideoFlow"/> is changed
+    /// </summary>
+    /// <seealso cref="System.EventArgs" />
     public class AudioVideoFlowUpdatedEventArgs : EventArgs
     {
+        /// <summary>
+        /// Gets the audio video flow.
+        /// </summary>
+        /// <value>The audio video flow.</value>
         public IAudioVideoFlow AudioVideoFlow { get; internal set; }
     }
 
+    /// <summary>
+    /// The arguments for the event when the ConversationState is changed
+    /// </summary>
+    /// <seealso cref="System.EventArgs" />
     public class ConversationStateChangedEventArgs : EventArgs
     {
         #region Constructor
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ConversationStateChangedEventArgs"/> class.
+        /// </summary>
+        /// <param name="oldState">The old state.</param>
+        /// <param name="newState">The new state.</param>
         public ConversationStateChangedEventArgs(ConversationState oldState, ConversationState newState)
         {
             OldState = oldState;
@@ -429,8 +494,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public properties
 
+        /// <summary>
+        /// Gets the old state.
+        /// </summary>
+        /// <value>The old state.</value>
         public ConversationState OldState { get; }
 
+        /// <summary>
+        /// Gets the new state.
+        /// </summary>
+        /// <value>The new state.</value>
         public ConversationState NewState { get; }
 
         #endregion

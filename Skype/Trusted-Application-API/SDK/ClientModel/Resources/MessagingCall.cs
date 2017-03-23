@@ -10,6 +10,11 @@ using Microsoft.Rtc.Internal.RestAPI.ResourceModel;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
+    /// <summary>
+    /// Represents a  MessagingCall inside an conversation.
+    /// </summary>
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.Call{Microsoft.Rtc.Internal.Platform.ResourceContract.MessagingResource, Microsoft.SfB.PlatformService.SDK.ClientModel.IMessagingInvitation, Microsoft.SfB.PlatformService.SDK.ClientModel.MessagingCallCapability}" />
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IMessagingCall" />
     internal class MessagingCall : Call<MessagingResource, IMessagingInvitation, MessagingCallCapability>, IMessagingCall
     {
         #region Private fields

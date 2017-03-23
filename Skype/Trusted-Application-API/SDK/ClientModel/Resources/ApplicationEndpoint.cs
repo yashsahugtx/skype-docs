@@ -154,7 +154,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
-        /// Initialize ApplicationPlatform.
+        /// Starts the eventChannel of the <see cref="ApplicationEndpoint"/>.
         /// </summary>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>The task.</returns>

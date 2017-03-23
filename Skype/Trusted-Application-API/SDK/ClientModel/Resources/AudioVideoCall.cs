@@ -94,6 +94,15 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
+        /// <summary>
+        /// transfers the <see cref="AudioVideoCall"/>> as an asynchronous operation.
+        /// </summary>
+        /// <param name="transferTarget">The transfer target.</param>
+        /// <param name="replacesCallContext">The replaces call context.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;ITransfer&gt;.</returns>
+        /// <exception cref="CapabilityNotAvailableException">Link to start transfer of AudioVideo is not available.</exception>
+        /// <exception cref="RemotePlatformServiceException">Timeout to get incoming transfer started event from platformservice!</exception>
         public async Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext)
         {
             string href = PlatformResource?.StartTransferLink?.Href;
@@ -124,6 +133,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
+        /// <summary>
+        /// Terminates as an asynchronous operation.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task.</returns>
+        /// <exception cref="CapabilityNotAvailableException">Link to terminate AudioVideo.</exception>
         public override Task TerminateAsync(LoggingContext loggingContext)
         {
             string href = PlatformResource?.StopAudioVideoLink?.Href;
@@ -201,6 +216,11 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
+        /// <summary>
+        /// Waits for <see cref="AudioVideoFlow"/> to be connected.
+        /// </summary>
+        /// <param name="timeoutInSeconds">The timeout in seconds.</param>
+        /// <returns>Task&lt;IAudioVideoFlow&gt;.</returns>
         public Task<IAudioVideoFlow> WaitForAVFlowConnected(int timeoutInSeconds = 30)
         {
             IAudioVideoFlow flow = AudioVideoFlow;
@@ -214,6 +234,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return s.Task.TimeoutAfterAsync(TimeSpan.FromSeconds(timeoutInSeconds));
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(AudioVideoCallCapability capability)
         {
             string href = null;

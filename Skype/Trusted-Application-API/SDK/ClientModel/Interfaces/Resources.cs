@@ -263,18 +263,39 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     #region public interface IApplicationEndpoint
 
+    /// <summary>
+    /// Interface for an application endpoint
+    /// </summary>
     public interface IApplicationEndpoint
     {
+        /// <summary>
+        /// Handles incoming instant messaging call
+        /// </summary>
         event EventHandler<IncomingInviteEventArgs<IMessagingInvitation>> HandleIncomingInstantMessagingCall;
 
+        /// <summary>
+        /// Handles incoming Audio Video call
+        /// </summary>
         event EventHandler<IncomingInviteEventArgs<IAudioVideoInvitation>> HandleIncomingAudioVideoCall;
 
+        /// <summary>
+        /// Gets the application.
+        /// </summary>
+        /// <value>The application.</value>
         IApplication Application { get; }
-
+        /// <summary>
+        /// Gets the application endpoint identifier.
+        /// </summary>
+        /// <value>The application endpoint identifier.</value>
         Uri ApplicationEndpointId { get; }
 
         IClientPlatform ClientPlatform { get; }
 
+        /// <summary>
+        /// Initializes the application endpoint.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task.</returns>
         Task InitializeAsync(LoggingContext loggingContext = null);
 
         Task InitializeApplicationAsync(LoggingContext loggingContext = null);
@@ -286,10 +307,23 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     #region public interface IApplications
 
+    /// <summary>
+    /// Interface for applications
+    /// </summary>
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ApplicationsCapability}" />
     public interface IApplications : IPlatformResource<ApplicationsCapability>
     {
+        /// <summary>
+        /// Gets the application.
+        /// </summary>
+        /// <value>The application.</value>
         IApplication Application { get; }
 
+        /// <summary>
+        /// Refreshes  and initializes the application.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task.</returns>
         Task RefreshAndInitializeAsync(LoggingContext loggingContext = null);
     }
 
@@ -297,17 +331,46 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     #region public interface IAudioVideoCall
 
+    /// <summary>
+    /// Interface for audio video call
+    /// </summary>
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.ICall{Microsoft.SfB.PlatformService.SDK.ClientModel.IAudioVideoInvitation}" />
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.AudioVideoCallCapability}" />
+
     public interface IAudioVideoCall : ICall<IAudioVideoInvitation>, IPlatformResource<AudioVideoCallCapability>
     {
+        /// <summary>
+        /// The event when audio video flow is connected.
+        /// </summary>
         event EventHandler<AudioVideoFlowUpdatedEventArgs> AudioVideoFlowConnected;
-
+        /// <summary>
+        /// Gets the call context.
+        /// </summary>
+        /// <value>The call context.</value>
         string CallContext { get; }
 
+        /// <summary>
+        /// Gets the audio video flow.
+        /// </summary>
+        /// <value>The audio video flow.</value>
         IAudioVideoFlow AudioVideoFlow { get; }
 
+        /// <summary>
+        /// Transfers the audio video call.
+        /// </summary>
+        /// <param name="transferTarget">The transfer target.</param>
+        /// <param name="replacesCallContext">The replaces call context.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;ITransfer&gt;.</returns>
         [Obsolete("Please use the other variation")]
         Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext = null);
-
+        /// <summary>
+        /// Transfers the audio video call.
+        /// </summary>
+        /// <param name="transferTarget">The transfer target.</param>
+        /// <param name="replacesCallContext">The replaces call context.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;ITransfer&gt;.</returns>
         Task<ITransfer> TransferAsync(SipUri transferTarget, string replacesCallContext, LoggingContext loggingContext = null);
 
         Task<IAudioVideoFlow> WaitForAVFlowConnected(int timeoutInSeconds = 30);
@@ -319,10 +382,23 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     public interface IAudioVideoFlow : IPlatformResource<AudioVideoFlowCapability>
     {
+        /// <summary>
+        /// Occurs when tone is received.
+        /// </summary>
         event EventHandler<ToneReceivedEventArgs> ToneReceivedEvent;
 
+        /// <summary>
+        /// Gets the state of the audio video flow.
+        /// </summary>
+        /// <value>The state.</value>
         FlowState State { get; }
 
+        /// <summary>
+        /// Plays the prompt.
+        /// </summary>
+        /// <param name="promptUri">The prompt URI.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;IPrompt&gt;.</returns>
         Task<IPrompt> PlayPromptAsync(Uri promptUri, LoggingContext loggingContext = null);
     }
 
@@ -332,8 +408,19 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     public interface IAudioVideoInvitation : IInvitation, IPlatformResource<AudioVideoInvitationCapability>
     {
+        /// <summary>
+        /// Accepts the audio video invitation.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         Task<HttpResponseMessage> AcceptAsync(LoggingContext loggingContext = null);
 
+        /// <summary>
+        /// Forwards the audio video invitation.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="forwardTarget">The forward target.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         [Obsolete("Please use the other variation")]
         Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget);
 
@@ -411,6 +498,14 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         [Obsolete("Please use the other StartMessagingAsync")]
         Task<IMessagingInvitation> StartMessagingAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null);
 
+        /// <summary>
+        /// Starts messaging.
+        /// </summary>
+        /// <param name="subject">The subject.</param>
+        /// <param name="to">The <see cref="SipUri"/> of the target.</param>
+        /// <param name="callbackContext">The callback context.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;IMessagingInvitation&gt;.</returns>
         Task<IMessagingInvitation> StartMessagingAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null);
 
         [Obsolete("This feature is not supported by SfB server for public applications")]
@@ -418,7 +513,14 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         [Obsolete("Please use the other StartAudioVideoAsync")]
         Task<IAudioVideoInvitation> StartAudioVideoAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null);
-
+        /// <summary>
+        /// Starts the audio video call.
+        /// </summary>
+        /// <param name="subject">The subject.</param>
+        /// <param name="to">The <see cref="SipUri"/> of the target.</param>
+        /// <param name="callbackContext">The callback context.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;IAudioVideoInvitation&gt;.</returns>
         Task<IAudioVideoInvitation> StartAudioVideoAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null);
 
         [Obsolete("Please use the other StartAudioAsync")]
@@ -541,6 +643,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     #region public interface IInvitation
 
+    /// <summary>
+    /// Interface for an invitation
+    /// </summary>
     public interface IInvitation
     {
         /// <summary>
@@ -576,10 +681,25 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     #region public interface IMessagingCall
 
+    /// <summary>
+    /// Interface for a messaging call
+    /// </summary>
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.ICall{Microsoft.SfB.PlatformService.SDK.ClientModel.IMessagingInvitation}" />
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.MessagingCallCapability}" />
     public interface IMessagingCall : ICall<IMessagingInvitation>, IPlatformResource<MessagingCallCapability>
     {
+        /// <summary>
+        /// Handles the event when incoming message is received
+        /// </summary>
+        /// <value>The incoming message received.</value>
         EventHandler<IncomingMessageEventArgs> IncomingMessageReceived { get; set; }
-
+        /// <summary>
+        /// Sends the message.
+        /// </summary>
+        /// <param name="message">The message.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="contentType">Type of the content.</param>
+        /// <returns>Task.</returns>
         Task SendMessageAsync(string message, LoggingContext loggingContext = null, string contentType = Constants.TextPlainContentType);
     }
 

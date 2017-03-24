@@ -93,6 +93,22 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             await tcs.Task.ConfigureAwait(false);
         }
 
+        /// <summary>
+        /// Establishes a <see cref="IMessagingInvitation"/>> as an asynchronous operation.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;TInvitation&gt;.</returns>
+        /// <exception cref="Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException">Link to establish messaging is not available.</exception>
+        /// <exception cref="System.Exception">
+        /// [Messaging] Failed to get Conversation from messaging base parent
+        /// or
+        /// [Messaging] Failed to get communication from conversation base parent
+        /// </exception>
+        /// <exception cref="Microsoft.SfB.PlatformService.SDK.Common.RemotePlatformServiceException">
+        /// Timeout to get incoming messaging invitation started event from platformservice!
+        /// or
+        /// Platformservice do not deliver a messageInvitation resource with operationId " + operationId
+        /// </exception>
         public override async Task<IMessagingInvitation> EstablishAsync(LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.AddMessagingLink?.Href;
@@ -151,6 +167,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(MessagingCallCapability capability)
         {
             string href = null;

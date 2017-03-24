@@ -29,6 +29,12 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         /// <value>The completed task.</value>
         public static Task CompletedTask { get; } = FromResult(default(Empty));
 
+        /// <summary>
+        /// Gets the result.
+        /// </summary>
+        /// <typeparam name="TResult">The type of the t result.</typeparam>
+        /// <param name="result">The result.</param>
+        /// <returns>Task&lt;TResult&gt;.</returns>
         public static Task<TResult> FromResult<TResult>(TResult result)
         {
             TaskCompletionSource<TResult> tcs = new TaskCompletionSource<TResult>();

@@ -4,6 +4,10 @@ using Microsoft.SfB.PlatformService.SDK.Common;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
+    /// <summary>
+    /// The platform for a client application
+    /// </summary>
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IClientPlatform" />
     public class ClientPlatform : IClientPlatform
     {
         #region Private fields
@@ -150,16 +154,21 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel.Internal
         }
 
         /// <summary>
-        /// Gets if the sandbox Env is ready.
+        /// Gets if this Client platform is a sandbox environment.
         /// </summary>
         /// <param name="This">This.</param>
-        /// <returns><c>true</c> if sandbox Env is ready, <c>false</c> otherwise.</returns>
+        /// <returns><c>true</c> if this Client platform is a sandbox environment, <c>false</c> otherwise.</returns>
         public static bool GetIsSandboxEnv(this ClientPlatform This)
         {
             return This.IsSandBoxEnv;
         }
 
-  
+
+        /// <summary>
+        /// Gets if this client platform is an internal partner
+        /// </summary>
+        /// <param name="This">The this.</param>
+        /// <returns><c>true</c> if this client platform is an internal partner, <c>false</c> otherwise.</returns>
         public static bool GetIsInternalPartner(this ClientPlatform This)
         {
             return This.IsInternalPartner;

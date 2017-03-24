@@ -380,6 +380,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
     #region public interface IAudioVideoFlow
 
+    /// <summary>
+    /// Interface for the audio video flow
+    /// </summary>
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.AudioVideoFlowCapability}" />
     public interface IAudioVideoFlow : IPlatformResource<AudioVideoFlowCapability>
     {
         /// <summary>
@@ -424,8 +428,19 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         [Obsolete("Please use the other variation")]
         Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget);
 
+        /// <summary>
+        /// Forwards the audio video invitation.
+        /// </summary>
+        /// <param name="forwardTarget">The forward target.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         Task<HttpResponseMessage> ForwardAsync(SipUri forwardTarget, LoggingContext loggingContext = null);
 
+        /// <summary>
+        /// Declines the audio video invitation.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         Task<HttpResponseMessage> DeclineAsync(LoggingContext loggingContext = null);
 
         [Obsolete("Please use the other variation")]

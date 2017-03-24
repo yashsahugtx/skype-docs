@@ -101,6 +101,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     internal interface IRestfulClientFactory
     {
+        /// <summary>
+        /// Gets the restful client.
+        /// </summary>
+        /// <param name="oauthIdentity">The oauth identity.</param>
+        /// <param name="tokenProvider">The token provider.</param>
+        /// <returns>IRestfulClient.</returns>
         IRestfulClient GetRestfulClient(OAuthTokenIdentifier oauthIdentity, ITokenProvider tokenProvider);
     }
 }

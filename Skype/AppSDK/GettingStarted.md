@@ -65,14 +65,15 @@ The configuration steps are:
  
   ```gradle
   dependencies {
-      compile fileTree(dir: 'libs', include: ['*.jar'])
-      compile(name: "libucmp", ext: 'aar')
-      compile(name: "platform", ext: 'aar')
-      compile(name: "SkypeForBusiness", ext: 'aar')
-      compile(name: "TelemetryService", ext: 'aar')
-      compile(name: "ucmp-enums", ext: 'aar')
-      compile(name: "TelemetryClient2", ext: 'aar')
-      compile(name: "injector", ext: 'aar')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile(name: "SkypeForBusinessNative", ext: 'aar')
+    compile(name: "SkypeForBusinessPlatform", ext: 'aar')
+    compile(name: "SkypeForBusiness", ext: 'aar')
+    compile(name: "SkypeForBusinessTelemetryService", ext: 'aar')
+    compile(name: "SkypeForBusinessNativeEnums", ext: 'aar')
+    compile(name: "SkypeForBusinessTelemetryClient", ext: 'aar')
+    compile(name: "SkypeForBusinessInjector", ext: 'aar')
+    compile(name: "android-database-sqlcipher", ext: 'aar')
     
   }
 
@@ -80,36 +81,38 @@ The configuration steps are:
 4. **Add app permissions**: Add _uses-permission_ tags to the project **AndroidManifest.xml** file. 
 
   ```xml
-      <uses-permission android:name="android.permission.INTERNET" />
-      <uses-permission
-          android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-          tools:node="replace" />
-      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-      <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-      <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-      <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-      <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
-      <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-      <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-      <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
-      <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-      <uses-permission android:name="android.permission.VIBRATE" />
-      <uses-permission android:name="android.permission.CALL_PHONE" />
-      <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-      <uses-permission android:name="android.permission.RECORD_AUDIO" />
-      <uses-permission android:name="android.permission.WAKE_LOCK" />
-      <uses-permission android:name="android.permission.BLUETOOTH" />
-      <uses-permission android:name="android.permission.CAMERA" />
-      <uses-permission android:name="android.permission.READ_CONTACTS" />
-      <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-      <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-      <uses-permission android:name="android.permission.READ_SYNC_STATS" />
-      <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
-      <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
-      <uses-permission android:name="android.permission.BROADCAST_STICKY" />
-      <uses-permission android:name="android.permission.READ_LOGS" />
-      <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-      <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:node="replace" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
   ```
 
@@ -173,8 +176,21 @@ public class SkypeApplication extends MultiDexApplication{
 ## Next steps
 Now that you've configured your project to code against the **App SDK** API, learn how to get the URL of a **Skype for Business** meeting and then use the API to enable your mobile app to join the meeting:
 
+
+In most cases, use a meeting Url to join a meeting anonymously. Otherwise, you'll need to use a **Trusted Application API**-enabled service application to get the Discover Url and anonymous meeting token. Your mobile app
+will call the service application to get these resources before joining a meeting. To learn more about this, see [Use the App SDK and the Trusted Application API to join an Online meeting - Android](HowToJoinOnlineMeeting_Android.md) or
+[Use the App SDK and the Trusted Application API to join an Online meeting - iOS](../Trusted-Application-API/docs/ImplementingAnonymousClientWithSkypeAppSDK.md).  The following table shows you what resources to use for your SfB deployment scenario.
+
+|Skype for Business topology|Enable preview features enabled|Enable preview features disabled|Meeting join resource|
+|:----|:----|:----|:----|
+|CU June 2016|Chat, AV|Chat only|Meeting Url|
+|CU November 2016|Chat, AV| Chat, AV|Meeting Url|
+|SfB Online|Chat, AV|n/a|Meeting Url|
+|SfB Online|n/a|Chat, AV|Discover Uri, Anon Token|
+
 * [Get a meeting URL](GetMeetingURL.md)
 * [Use the SDK to join a meeting with an Android device](HowToJoinMeeting_Android.md)
+* [Use the App SDK and the Trusted Application API to join an Online meeting - Android](HowToJoinOnlineMeeting_Android.md)
 * [Use the SDK to join a meeting with an iOS device](HowToJoinMeeting_iOS.md)
 
 ## Additional resources

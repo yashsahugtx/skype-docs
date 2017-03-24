@@ -3,10 +3,15 @@
 This article shows you how to enable the core  **Skype for Business** anonymous meeting join scenario in your Android app. iOS developers should read
 [Use the SDK to join a meeting with an iOS device](HowToJoinMeeting_iOS.md). 
 
+If the anonymous meeting your app joins is hosted in a **Skype for Business Online** service and 
+your app is not enabled for Skype for Business preview features, then your app must get a **discovery Url** and an **anonymous meeting token** to join. A meeting Url does not give you 
+meeting access in this scenario. Read [Use the App SDK and the Trusted Application API to join an Online meeting - Android](HowToJoinOnlineMeeting_Android.md)
+
 After completing the steps in this article, your app can join a **Skype for Business** video meeting with a
 meeting URL. No **Skype for Business** credentials are used to join the meeting.
 
->Note: Be sure to read [Getting started with Skype App SDK development](GettingStarted.md) to learn how to configure your Android project for the **Skype for Business** App SDK.  In particular, the following steps assume you have added the _ConversationHelper_ class to your source to let you complete the scenario with a minimum of code. 
+>[!NOTE]
+Be sure to read [Getting started with Skype App SDK development](GettingStarted.md) to learn how to configure your Android project for the **Skype for Business** App SDK.  In particular, the following steps assume you have added the _ConversationHelper_ class to your source to let you complete the scenario with a minimum of code. 
 
 1. Initialize the **App SDK** application by calling the static _com.microsoft.office.sfb.appsdk.Application.getInstance(Context)_ method:
 
@@ -40,6 +45,17 @@ meeting URL. No **Skype for Business** credentials are used to join the meeting.
    ```java
      mConversation = mAnonymousSession.getConversation();
    ```  
+
+1. Show video codec license
+
+    As per the license terms, before you start video for the first time after install, you **must** prompt the user to accept the Microsoft end-user license (also included in the SDK).  
+    This is required to proceed with features that potentially use video codecs.
+
+    This code snippet shows the use of the new Skype App SDK **"setEndUserAcceptedVideoLicense"** api. 
+    Until this method is called, any attempt to use those features will fail.
+    Once the api has been called, the user is considered in acceptance of the third party video codec license that we use to support video.  Subsequent meetings do not require the license acceptance.  
+
+    [!code-java [sample](VideoLicense_Android.md)]  
 1. Connect the conversation property callback to the [**Conversation**](https://ucwa.skype.com/reference/appSDK/Android/com/microsoft/office/sfb/appsdk/Conversation.html) object returned in the previous step.
    ```java
        mConversation.addOnPropertyChangedCallback(
@@ -117,7 +133,7 @@ meeting URL. No **Skype for Business** credentials are used to join the meeting.
 
 1. Start the incoming and outgoing meeting video.
 
-   >Note: as per the license terms, before you start video for the first time after install, you must prompt the user to accept the Microsoft end-user license (also included in the SDK).  Subsequent versions of the SDK preview will include code to assist you in doing so.
+   >Note: as per the license terms, before you start video for the first time after install, you must prompt the user to accept the Microsoft end-user license (also included in the SDK). Please refer step 5 - Show video codec license for the sample code.
 
    ```java
          //Start up the incoming and outgoing video

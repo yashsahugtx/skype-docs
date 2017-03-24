@@ -11,6 +11,9 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
     {
     }
 
+    /// <summary>
+    /// Helper class of a task
+    /// </summary>
     public static class TaskHelpers
     {
         static TaskHelpers()
@@ -20,6 +23,10 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             CompletedTask = tcs.Task;
         }
 
+        /// <summary>
+        /// Gets the completed task.
+        /// </summary>
+        /// <value>The completed task.</value>
         public static Task CompletedTask { get; } = FromResult(default(Empty));
 
         public static Task<TResult> FromResult<TResult>(TResult result)
@@ -30,8 +37,18 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         }
     }
 
+    /// <summary>
+    /// Extensions of a task
+    /// </summary>
     public static class TaskExtensions
     {
+        /// <summary>
+        /// timeout after as an asynchronous operation.
+        /// </summary>
+        /// <param name="task">The task.</param>
+        /// <param name="timeout">The timeout.</param>
+        /// <returns>Task.</returns>
+        /// <exception cref="System.TimeoutException">The operation has timed out.</exception>
         public static async Task TimeoutAfterAsync(this Task task, TimeSpan timeout)
         {
             var timeoutCancellationTokenSource = new CancellationTokenSource();
@@ -49,6 +66,14 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// timeout after as an asynchronous operation.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="task">The task.</param>
+        /// <param name="timeout">The timeout.</param>
+        /// <returns>Task&lt;T&gt;.</returns>
+        /// <exception cref="System.TimeoutException">The operation has timed out.</exception>
         public static async Task<T> TimeoutAfterAsync<T>(this Task<T> task, TimeSpan timeout)
         {
             var timeoutCancellationTokenSource = new CancellationTokenSource();

@@ -166,10 +166,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return GetAnonApplicationTokenAsync(loggingContext, null, allowedOrigins, applicationSessionId);
         }
 
+
+
         /// <summary>
-<<<<<<< HEAD
-        /// Gets the AdhocMeeting Resource
-=======
         /// Gets an anonymous application token for a P2P call. This token can be given to a user domain application. Using this token,
         /// the user can make P2P calls.
         /// </summary>
@@ -184,8 +183,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
-        /// Creates an adhoc meeting
->>>>>>> upstream/master
+        /// Gets the AdhocMeeting Resource
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
         /// <param name="input">Specifies configurations for the meeting to be created</param>
@@ -247,18 +245,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return new AdhocMeeting(RestfulClient, adhocMeetingResource, BaseUri, UriHelper.CreateAbsoluteUri(BaseUri, adhocMeetingResource.SelfUri), this);
         }
 
-        /// <summary>
-<<<<<<< HEAD
-        /// Gets whether a particular capability is available or not
-        /// </summary>
-        /// <param name="capability">Capability that needs to be checked</param>
-        /// <returns><code>true</code> if the capability is available at the time of invoking</returns>
-        /// <remarks>
-        /// Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
-        /// the capability will be available when it is actually used. Make sure to catch <see cref="CapabilityNotAvailableException"/>
-        /// when you are using a capability.
-        /// </remarks>
-=======
+       
         /// Creates an adhoc meeting
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
@@ -270,7 +257,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return CreateAdhocMeetingAsync(input, loggingContext);
         }
 
->>>>>>> upstream/master
+        /// <summary>
+        /// Gets whether a particular capability is available or not
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked</param>
+        /// <returns><code>true</code> if the capability is available at the time of invoking</returns>
+        /// <remarks>
+        /// Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="CapabilityNotAvailableException"/>
+        /// when you are using a capability.
+        /// </remarks>
         public override bool Supports(ApplicationCapability capability)
         {
             string href = null;

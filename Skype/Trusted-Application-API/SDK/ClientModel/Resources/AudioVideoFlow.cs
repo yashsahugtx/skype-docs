@@ -63,7 +63,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
-<<<<<<< HEAD
+
         /// <summary>
         /// Plays prompt with the given <paramref name="promptUri"/>> as an asynchronous operation.
         /// </summary>
@@ -72,10 +72,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>Task&lt;IPrompt&gt;.</returns>
         /// <exception cref="System.ArgumentNullException">promptUri</exception>
         /// <exception cref="CapabilityNotAvailableException">Link to play prompt is not available.</exception>
-        public async Task<IPrompt> PlayPromptAsync(Uri promptUri, LoggingContext loggingContext)
-=======
+     
+
         public async Task<IPrompt> PlayPromptAsync(Uri promptUri, LoggingContext loggingContext = null)
->>>>>>> upstream/master
+
         {
             if (promptUri == null)
             {

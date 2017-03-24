@@ -94,7 +94,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
-<<<<<<< HEAD
         /// <summary>
         /// transfers the <see cref="AudioVideoCall"/>> as an asynchronous operation.
         /// </summary>
@@ -104,10 +103,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>Task&lt;ITransfer&gt;.</returns>
         /// <exception cref="CapabilityNotAvailableException">Link to start transfer of AudioVideo is not available.</exception>
         /// <exception cref="RemotePlatformServiceException">Timeout to get incoming transfer started event from platformservice!</exception>
-        public async Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext)
-=======
+     
         public async Task<ITransfer> TransferAsync(SipUri transferTarget, string replacesCallContext, LoggingContext loggingContext = null)
->>>>>>> upstream/master
         {
             string href = PlatformResource?.StartTransferLink?.Href;
             if (string.IsNullOrWhiteSpace(href))
@@ -137,23 +134,23 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
-<<<<<<< HEAD
-        /// <summary>
-        /// Terminates as an asynchronous operation.
-        /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task.</returns>
-        /// <exception cref="CapabilityNotAvailableException">Link to terminate AudioVideo.</exception>
-        public override Task TerminateAsync(LoggingContext loggingContext)
-=======
+
+     
+
         [Obsolete("Please use the other variation")]
         public Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext = null)
         {
             return TransferAsync(new SipUri(transferTarget), replacesCallContext, loggingContext);
         }
 
+        /// <summary>
+        /// Terminates as an asynchronous operation.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task.</returns>
+        /// <exception cref="CapabilityNotAvailableException">Link to terminate AudioVideo.</exception>
         public override Task TerminateAsync(LoggingContext loggingContext = null)
->>>>>>> upstream/master
+
         {
             string href = PlatformResource?.StopAudioVideoLink?.Href;
             if (string.IsNullOrWhiteSpace(href))

@@ -20,17 +20,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
-<<<<<<< HEAD
+
         /// <summary>
         /// Accepts the <see cref="AudioVideoInvitation"/>> asynchronous.
         /// </summary>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         /// <exception cref="CapabilityNotAvailableException">Link to accept AudioVideoInvitation is not available.</exception>
-        public Task<HttpResponseMessage> AcceptAsync(LoggingContext loggingContext)
-=======
+    
         public Task<HttpResponseMessage> AcceptAsync(LoggingContext loggingContext = null)
->>>>>>> upstream/master
+
         {
             string href = PlatformResource?.AcceptLink?.Href;
             if (string.IsNullOrWhiteSpace(href))
@@ -44,7 +43,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return PostRelatedPlatformResourceAsync(acceptLink, input, new ResourceJsonMediaTypeFormatter(), loggingContext);
         }
 
-<<<<<<< HEAD
+
         /// <summary>
         /// Forwards the <see cref="AudioVideoInvitation"/> asynchronous.
         /// </summary>
@@ -53,10 +52,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         /// <exception cref="System.ArgumentNullException">forwardTarget - forwardTarget</exception>
         /// <exception cref="CapabilityNotAvailableException">Link to forward AudioVideoInvitation is not available.</exception>
-        public Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget)
-=======
+    
         public Task<HttpResponseMessage> ForwardAsync(SipUri forwardTarget, LoggingContext loggingContext = null)
->>>>>>> upstream/master
+
         {
             if (forwardTarget == null)
             {
@@ -75,21 +73,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return PostRelatedPlatformResourceAsync(forwardLink, input, new ResourceJsonMediaTypeFormatter(), loggingContext);
         }
 
-<<<<<<< HEAD
         /// <summary>
         /// Declines the <see cref="AudioVideoInvitation"/> asynchronous.
         /// </summary>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         /// <exception cref="CapabilityNotAvailableException">Link to decline AudioVideoInvitation is not available.</exception>
-=======
-        [Obsolete("Please use the other variation")]
-        public Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget)
-        {
-            return ForwardAsync(new SipUri(forwardTarget), loggingContext);
-        }
-
->>>>>>> upstream/master
         public Task<HttpResponseMessage> DeclineAsync(LoggingContext loggingContext)
         {
             string href = PlatformResource?.DeclineOperationLink?.Href;
@@ -264,6 +253,18 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         public Task AcceptAndBridgeAsync(LoggingContext loggingContext, string meetingUri, string to)
         {
             return AcceptAndBridgeAsync(meetingUri, new SipUri(to), loggingContext);
+        }
+
+        /// <summary>
+        /// Forwards the asynchronous.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="forwardTarget">The forward target.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
+        /// <exception cref="System.NotImplementedException"></exception>
+        public Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

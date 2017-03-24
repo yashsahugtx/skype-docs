@@ -18,6 +18,10 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         }
     }
 
+    /// <summary>
+    /// Represents a remote platform service exception.
+    /// </summary>
+    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.Common.PlatformServiceClientException" />
     [Serializable]
     public class RemotePlatformServiceException : PlatformServiceClientException
     {

@@ -227,11 +227,12 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
             // When
             Task promptTask = m_audioVideoFlow.PlayPromptAsync(new Uri("https://example.com/prompt"), m_loggingContext);
             TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_PromptStarted.json");
-            Assert.IsFalse(promptTask.IsCompleted);
 
-            m_audioVideoFlow.StopPromptsAsync(m_loggingContext);
+            Task stopTask = m_audioVideoFlow.StopPromptsAsync(m_loggingContext);
             await requestReceived.Task.TimeoutAfterAsync(TimeSpan.FromMilliseconds(200)).ConfigureAwait(false);
+            Assert.IsFalse(stopTask.IsCompleted);
             TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_PromptStopped.json");
+            await stopTask.TimeoutAfterAsync(TimeSpan.FromMilliseconds(200)).ConfigureAwait(false);
 
             // Then
             Assert.IsTrue(promptTask.IsCompleted);
@@ -274,10 +275,11 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
             };
 
             // When
-            m_audioVideoFlow.StopPromptsAsync(null);
+            Task stopTask = m_audioVideoFlow.StopPromptsAsync(null);
 
             // Then
             await requestReceived.Task.TimeoutAfterAsync(TimeSpan.FromMilliseconds(200)).ConfigureAwait(false);
+            await stopTask.ConfigureAwait(false);
         }
 
         [TestMethod]

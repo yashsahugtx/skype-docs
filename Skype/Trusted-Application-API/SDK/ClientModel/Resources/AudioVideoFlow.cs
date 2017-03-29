@@ -115,15 +115,11 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                     await entry.Value.Task.ConfigureAwait(false);
                 } catch (RemotePlatformServiceException psException)
                 {
-                    if (psException.ErrorInformation.Subcode == ResourceModel.ErrorSubcode.PromptsStopped)
-                    {
-                        Logger.Instance.Information("Exception in waiting for media prompt to stop");
-                    }
-                    else
+                    if (psException.ErrorInformation.Code != ResourceModel.ErrorCode.Informational ||
+                        psException.ErrorInformation.Subcode != ResourceModel.ErrorSubcode.PromptsStopped)
                     {
                         throw psException;
                     }
-                    
                 }
             }
         }

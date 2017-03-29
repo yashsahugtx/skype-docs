@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Rtc.Internal.Platform.ResourceContract;
@@ -236,6 +238,59 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
 
             // Then
             Assert.IsTrue(promptTask.IsCompleted);
+        }
+
+        [TestMethod]
+        public async Task StopPromptsShouldReturnOnlyOnAllPromptsCompletedEvent()
+        {
+
+            // Given
+            TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_AudioVideoFlowConnected.json");
+            TaskCompletionSource<bool> requestReceived = new TaskCompletionSource<bool>();
+            m_restfulClient.HandleRequestProcessed += (sender, args) =>
+            {
+                if (args.Uri == new Uri(DataUrls.StopPrompts) && args.Method == HttpMethod.Post)
+                {
+                    requestReceived.SetResult(true);
+                }
+            };
+
+            string prompt2Url = "https://example.com/prompt2";
+            m_restfulClient.HandleRequestReceived += (sender, args) =>
+            {
+                PlayPromptInput input = args.Input as PlayPromptInput;
+                if (input != null && input.PromptUrl == prompt2Url)
+                {
+                    args.Response = new HttpResponseMessage(HttpStatusCode.Created);
+                    args.Response.Headers.Add("Location", 
+                        "https://webpoolbl20r04.infra.lync.com/platformservice/tgt-8c81281c925a5c2ea02ec14ac1b492c6/v1/applications/1393347000/communication/conversations/869ce4f6-0076-483a-a7c1-968f6b935afe/audioVideo/audioVideoFlow/prompts/08b7bd6e-0e79-4961-8981-116ac9ddd152?endpointId=sip:monitoringaudio@0mcorp2cloudperf.onmicrosoft.com");
+                }
+            };
+
+            // When
+            m_audioVideoFlow.PlayPromptAsync(new Uri("https://example.com/prompt"), m_loggingContext);
+            m_audioVideoFlow.PlayPromptAsync(new Uri("https://example.com/prompt2"), m_loggingContext);
+            TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_PromptStarted.json");
+            TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_Prompt2Started.json");
+
+            Task stopTask = m_audioVideoFlow.StopPromptsAsync(m_loggingContext);
+            await requestReceived.Task.TimeoutAfterAsync(TimeSpan.FromMilliseconds(200)).ConfigureAwait(false);
+
+            // none of the prompt tasks is stopped yet
+            Assert.IsFalse(stopTask.IsCompleted);
+
+            // receiving stopped event for promptTask
+            TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_PromptStopped.json");
+
+            // yet to receiving stopped event for promptTask2
+            Assert.IsFalse(stopTask.IsCompleted);
+
+            // receiving stopped event for promptTask2
+            TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_Prompt2Stopped.json");
+
+            // stop task must be completed
+            await stopTask.TimeoutAfterAsync(TimeSpan.FromMilliseconds(200)).ConfigureAwait(false);
+            Assert.IsTrue(stopTask.IsCompleted);
         }
 
         [TestMethod]

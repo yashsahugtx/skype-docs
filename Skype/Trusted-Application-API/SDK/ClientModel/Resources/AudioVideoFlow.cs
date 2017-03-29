@@ -6,6 +6,9 @@ using Microsoft.Rtc.Internal.Platform.ResourceContract;
 using Microsoft.Rtc.Internal.RestAPI.Common.MediaTypeFormatters;
 using ResourceModel = Microsoft.Rtc.Internal.RestAPI.ResourceModel;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
+using Microsoft.Rtc.Internal.RestAPI.Common;
+using Microsoft.Rtc.Internal.Tasks;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
@@ -91,6 +94,36 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return await tcs.Task.ConfigureAwait(false);
         }
 
+        /// <summary>
+        /// send stop prompts event and wait for all prompts to complete.
+        /// </summary>
+        public async Task StopPromptsAsync(LoggingContext loggingContext)
+        {
+            string href = PlatformResource?.StopPromptsLink?.Href;
+            if (string.IsNullOrWhiteSpace(href))
+            {
+                throw new CapabilityNotAvailableException("Link to stop prompts is not available.");
+            }
+
+            var stopPromptLink = UriHelper.CreateAbsoluteUri(BaseUri, href);
+            await PostRelatedPlatformResourceAsync(stopPromptLink, null, loggingContext).ConfigureAwait(false);
+
+            foreach (KeyValuePair<string, TaskCompletionSource<Prompt>> entry in m_onGoingPromptTcses)
+            {
+                try
+                {
+                    await entry.Value.Task.ConfigureAwait(false);
+                } catch (RemotePlatformServiceException psException)
+                {
+                    if (psException.ErrorInformation.Code != ResourceModel.ErrorCode.Informational ||
+                        psException.ErrorInformation.Subcode != ResourceModel.ErrorSubcode.PromptsStopped)
+                    {
+                        throw psException;
+                    }
+                }
+            }
+        }
+
         public override bool Supports(AudioVideoFlowCapability capability)
         {
             string href = null;
@@ -101,6 +134,11 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                         href = PlatformResource?.PlayPromptLink?.Href;
                         break;
                     }
+                case AudioVideoFlowCapability.StopPrompts:
+                {
+                    href = PlatformResource?.StopPromptsLink?.Href;
+                    break;
+                }
             }
 
             return !string.IsNullOrWhiteSpace(href);
@@ -152,7 +190,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                                 ResourceModel.ErrorInformation error = eventContext.EventEntity.Error;
                                 ErrorInformation errorInfo = error == null ? null : new ErrorInformation(error);
                                 string errorMessage = errorInfo?.ToString();
-                                tcs.TrySetException(new RemotePlatformServiceException("PlayPrompt failed with error " + errorMessage + eventContext.LoggingContext.ToString(), errorInfo));
+                                tcs.TrySetException(new RemotePlatformServiceException("PlayPrompt failed with error " + errorMessage + eventContext.LoggingContext?.ToString(), errorInfo));
                             }
                             else
                             {

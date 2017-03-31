@@ -30,22 +30,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="callbackUrl">The callback URL.</param>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
-        [Obsolete("Please use StartMeetingAsync")]
+        [Obsolete("Please use ICommunication.StartAdhocMeetingAsync instead")]
         public Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackUrl, LoggingContext loggingContext = null)
         {
             return StartAdhocMeetingAsync(subject, null, callbackUrl, loggingContext);
-        }
-
-        /// <summary>
-        /// Starts the adhoc meeting without a callback url.
-        /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="callbackContext">The callback context.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
-        public Task<IOnlineMeetingInvitation> StartMeetingAsync(string subject, string callbackContext, LoggingContext loggingContext = null)
-        {
-            return StartAdhocMeetingAsync(subject, callbackContext, null, loggingContext);
         }
 
         /// <summary>
@@ -109,7 +97,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 #pragma warning disable CS0618 // Type or member is obsolete
                 case MessagingInvitationCapability.StartAdhocMeeting:
                 #pragma warning restore CS0618 // Type or member is obsolete
-                case MessagingInvitationCapability.StartMeeting:
                     {
                         href = PlatformResource?.StartAdhocMeetingLink?.Href;
                         break;
@@ -126,9 +113,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #endregion
 
-        #region Private methods
+        #region Internal methods
 
-        private async Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackContext, string callbackUrl, LoggingContext loggingContext = null)
+        internal async Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackContext, string callbackUrl, LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.StartAdhocMeetingLink?.Href;
             if (string.IsNullOrWhiteSpace(href))

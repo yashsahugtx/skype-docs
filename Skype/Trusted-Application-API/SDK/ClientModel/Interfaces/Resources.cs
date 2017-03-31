@@ -247,16 +247,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
         /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>
         /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
-        [Obsolete("Please use JoinAdhocMeetingAsync instead")]
+        [Obsolete("Please use ICommunication.JoinAdhocMeetingAsync instead")]
         Task<IOnlineMeetingInvitation> JoinAdhocMeeting(LoggingContext loggingContext, string callbackContext);
-
-        /// <summary>
-        /// Joins the adhoc meeting
-        /// </summary>
-        /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>
-        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
-        /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
-        Task<IOnlineMeetingInvitation> JoinAdhocMeetingAsync(string callbackContext, LoggingContext loggingContext = null);
     }
 
     #endregion
@@ -418,6 +410,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;IPrompt&gt;.</returns>
         Task<IPrompt> PlayPromptAsync(Uri promptUri, LoggingContext loggingContext = null);
+
+        Task StopPromptsAsync(LoggingContext loggingContext = null);
     }
 
     #endregion
@@ -468,17 +462,24 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="meetingUri">The meeting URI.</param>
         /// <param name="to">To.</param>
         /// <returns>Task.</returns>
-        [Obsolete("Please use the other variation")]
+        [Obsolete("Please use any other variation")]
         Task AcceptAndBridgeAsync(LoggingContext loggingContext, string meetingUri, string to);
 
         /// <summary>
         /// Accepts and bridges the audio video invitation.
         /// </summary>
         /// <param name="meetingUri">The meeting URI.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task.</returns>
+        Task AcceptAndBridgeAsync(string meetingUri, LoggingContext loggingContext = null);
+
+        /// <summary>
+        /// Accepts and bridges the audio video invitation.
+        /// </summary>
         /// <param name="to">To.</param>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task.</returns>
-        Task AcceptAndBridgeAsync(string meetingUri, SipUri to, LoggingContext loggingContext = null);
+        Task AcceptAndBridgeAsync(SipUri to, LoggingContext loggingContext = null);
 
         /// <summary>
         /// Starts adhoc meeting.
@@ -487,16 +488,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="callbackContext">The callback context.</param>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
-        [Obsolete("Please use StartMeetingAsync instead")]
+        [Obsolete("Please use ICommunication.StartAdhocMeetingAsync instead")]
         Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackContext, LoggingContext loggingContext = null);
-        /// <summary>
-        /// Starts meeting.
-        /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="callbackContext">The callback context.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
-        Task<IOnlineMeetingInvitation> StartMeetingAsync(string subject, string callbackContext, LoggingContext loggingContext = null);
     }
 
     #endregion
@@ -686,6 +679,30 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;IAudioVideoInvitation&gt;.</returns>
         Task<IAudioVideoInvitation> StartAudioAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null);
+
+        /// <summary>
+        /// Checks whether the application can join a specific meeting or not
+        /// </summary>
+        /// <param name="adhocMeeting">Meeting to be checked</param>
+        /// <returns><code>true</code> if and only if the application is capable of joining the </returns>
+        bool CanJoinAdhocMeeting(IAdhocMeeting adhocMeeting);
+
+        bool CanStartAdhocMeeting(IMessagingInvitation invitation);
+
+        bool CanStartAdhocMeeting(IAudioVideoInvitation invitation);
+
+        /// <summary>
+        /// Adds the application to the meeting.
+        /// </summary>
+        /// <param name="adhocMeeting">Meeting to be joined</param>
+        /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
+        /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
+        Task<IOnlineMeetingInvitation> JoinAdhocMeetingAsync(IAdhocMeeting adhocMeeting, string callbackContext, LoggingContext loggingContext = null);
+
+        Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(IMessagingInvitation invitation, string subject, string callbackContext, LoggingContext loggingContext = null);
+
+        Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(IAudioVideoInvitation invitation, string subject, string callbackContext, LoggingContext loggingContext = null);
     }
 
     #endregion
@@ -924,16 +941,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="callbackUrl">The callback URL.</param>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
-        [Obsolete("Please use StartMeetingAsync")]
+        [Obsolete("Please use ICommunication.StartAdhocMeetingAsync instead")]
         Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackUrl, LoggingContext loggingContext = null);
-        /// <summary>
-        /// Starts the meeting.
-        /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="callbackContext">The callback context.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
-        Task<IOnlineMeetingInvitation> StartMeetingAsync(string subject, string callbackContext, LoggingContext loggingContext = null);
 
         /// <summary>
         /// Accepts and bridges the messaging invitation

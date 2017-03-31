@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
+    /// <summary>
+    /// Class EventableEntity.
+    /// </summary>
     public abstract class EventableEntity
     {
         /// <summary>
@@ -28,17 +31,29 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
     }
 
+    /// <summary>
+    /// Base class for Platform service resources
+    /// </summary>
+    /// <typeparam name="TPlatformResource"></typeparam>
+    /// <typeparam name="TCapabilities"></typeparam>
     public abstract class BasePlatformResource<TPlatformResource, TCapabilities> : EventableEntity, IPlatformResource<TCapabilities>
         where TPlatformResource : Resource
     {
         #region Constructor
 
         /// <summary>
-        /// Initializes a new instance of the BaseInstance class.
+        /// Initializes a new instance of the <see cref="BasePlatformResource{TPlatformResource, TCapabilities}"/> class.
         /// </summary>
         /// <param name="restfulClient">The restful client.</param>
-        /// <param name="resource">The platform resource.</param>
-        /// <param name="baseUri">The base uri.</param>
+        /// <param name="resource">The resource.</param>
+        /// <param name="baseUri">The base URI.</param>
+        /// <param name="resourceUri">The resource URI.</param>
+        /// <param name="parent">The parent.</param>
+        /// <exception cref="System.ArgumentNullException">
+        /// restfulClient
+        /// or
+        /// baseUri
+        /// </exception>
         internal BasePlatformResource(IRestfulClient restfulClient, TPlatformResource resource, Uri baseUri, Uri resourceUri, object parent)
         {
             if (restfulClient == null)
@@ -131,7 +146,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="requestUri">The request uri for the related platform resource.</param>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>The related platform resource.</returns>
-        public async Task RefreshAsync(LoggingContext loggingContext)
+        public async Task RefreshAsync(LoggingContext loggingContext = null)
         {
             string typeName = this.GetType().Name;
             Logger.Instance.Information("Calling " + typeName + " RefreshAsync" + (loggingContext == null ? string.Empty : loggingContext.ToString()));
@@ -146,7 +161,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>The related platform resource.</returns>
-        public async Task DeleteAsync(LoggingContext loggingContext)
+        public async Task DeleteAsync(LoggingContext loggingContext = null)
         {
             string typeName = this.GetType().Name;
             Logger.Instance.Information("Calling " + typeName + " DeleteAsync");

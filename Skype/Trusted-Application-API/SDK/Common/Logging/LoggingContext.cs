@@ -7,6 +7,9 @@ using System.Text;
 
 namespace Microsoft.SfB.PlatformService.SDK.Common
 {
+    /// <summary>
+    /// Catches the context of logging
+    /// </summary>
     public class LoggingContext : ICloneable
     {
         public LoggingContext()

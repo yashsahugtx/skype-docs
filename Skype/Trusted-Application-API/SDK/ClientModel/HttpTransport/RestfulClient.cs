@@ -329,6 +329,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return httpResponse;
         }
 
+        /// <summary>
+        /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+        /// </summary>
         public void Dispose()
         {
             m_httpClient.Dispose();
@@ -352,6 +355,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             m_oAuthEvoHttpClientCache = new LeastRecentlyUsedCache<OAuthTokenIdentifier, IRestfulClient>(settings);
         }
 
+        /// <summary>
+        /// Gets the restful client.
+        /// </summary>
+        /// <param name="oauthIdentity">The oauth identity.</param>
+        /// <param name="tokenProvider">The token provider.</param>
+        /// <returns>IRestfulClient.</returns>
         public IRestfulClient GetRestfulClient(OAuthTokenIdentifier oauthIdentity, ITokenProvider tokenProvider)
         {
             return m_oAuthEvoHttpClientCache.GetOrCreate(oauthIdentity,

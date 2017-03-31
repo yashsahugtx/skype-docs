@@ -98,7 +98,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
-        /// Start messaging
+        /// Start messaging with an Identity
         /// </summary>
         /// <param name="subject"></param>
         /// <param name="to"></param>
@@ -248,6 +248,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return (invitation as AudioVideoInvitation).StartMeetingAsync(subject, callbackContext, loggingContext);
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(CommunicationCapability capability)
         {
             string href = null;

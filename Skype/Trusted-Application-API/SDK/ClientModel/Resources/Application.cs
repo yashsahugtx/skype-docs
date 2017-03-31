@@ -18,9 +18,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     {
         #region Private fields
 
-        /// <summary>
-        /// Communication
-        /// </summary>
+   
         private Communication m_communication;
 
         #endregion
@@ -28,7 +26,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Public properties
 
         /// <summary>
-        /// Get Communication
+        /// Communication of <see cref="Application"/>
         /// </summary>
         public ICommunication Communication
         {
@@ -40,12 +38,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Constructor
 
         /// <summary>
-        /// Constructor
+        /// Initializes a new instance of the <see cref="Application"/> class.
         /// </summary>
-        /// <param name="restfulClient"></param>
-        /// <param name="resource"></param>
-        /// <param name="baseUri"></param>
-        /// <param name="resourceUri"></param>
+        /// <param name="restfulClient">The restful client.</param>
+        /// <param name="resource">The resource.</param>
+        /// <param name="baseUri">The base URI.</param>
+        /// <param name="resourceUri">The resource URI.</param>
+        /// <param name="parent">The parent.</param>
         internal Application(IRestfulClient restfulClient, ApplicationResource resource, Uri baseUri, Uri resourceUri, Applications parent)
                 : base(restfulClient, resource, baseUri, resourceUri, parent)
         {
@@ -167,6 +166,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return GetAnonApplicationTokenAsync(loggingContext, null, allowedOrigins, applicationSessionId);
         }
 
+
+
         /// <summary>
         /// Gets an anonymous application token for a P2P call. This token can be given to a user domain application. Using this token,
         /// the user can make P2P calls.
@@ -182,10 +183,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
-        /// Creates an adhoc meeting
+        /// Gets the AdhocMeeting Resource
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
-        /// <param name="input">Specifies properties for the meeting to be created</param>
+        /// <param name="input">Specifies configurations for the meeting to be created</param>
         /// <returns>An adhoc meeting</returns>
         [Obsolete("Please use CreateAdhocMeetingAsync instead")]
         public async Task<AdhocMeetingResource> GetAdhocMeetingResourceAsync(LoggingContext loggingContext, AdhocMeetingInput input)
@@ -244,7 +245,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return new AdhocMeeting(RestfulClient, adhocMeetingResource, BaseUri, UriHelper.CreateAbsoluteUri(BaseUri, adhocMeetingResource.SelfUri), this);
         }
 
-        /// <summary>
+       
         /// Creates an adhoc meeting
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
@@ -256,6 +257,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return CreateAdhocMeetingAsync(input, loggingContext);
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked</param>
+        /// <returns><code>true</code> if the capability is available at the time of invoking</returns>
+        /// <remarks>
+        /// Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="CapabilityNotAvailableException"/>
+        /// when you are using a capability.
+        /// </remarks>
         public override bool Supports(ApplicationCapability capability)
         {
             string href = null;

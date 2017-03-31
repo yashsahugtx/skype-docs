@@ -20,7 +20,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
+
+        /// <summary>
+        /// Accepts the <see cref="AudioVideoInvitation"/>> asynchronous.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
+        /// <exception cref="CapabilityNotAvailableException">Link to accept AudioVideoInvitation is not available.</exception>
+    
         public Task<HttpResponseMessage> AcceptAsync(LoggingContext loggingContext = null)
+
         {
             string href = PlatformResource?.AcceptLink?.Href;
             if (string.IsNullOrWhiteSpace(href))
@@ -34,7 +43,29 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return PostRelatedPlatformResourceAsync(acceptLink, input, new ResourceJsonMediaTypeFormatter(), loggingContext);
         }
 
+        /// <summary>
+        /// Forwards the <see cref="AudioVideoInvitation"/> asynchronous.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="forwardTarget">The forward target.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
+        /// <exception cref="System.NotImplementedException"></exception>
+        public Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget)
+        {
+            return ForwardAsync(forwardTarget, loggingContext);
+        }
+
+        /// <summary>
+        /// Forwards the <see cref="AudioVideoInvitation"/> asynchronous.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="forwardTarget">The forward target.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
+        /// <exception cref="System.ArgumentNullException">forwardTarget - forwardTarget</exception>
+        /// <exception cref="CapabilityNotAvailableException">Link to forward AudioVideoInvitation is not available.</exception>
+    
         public Task<HttpResponseMessage> ForwardAsync(SipUri forwardTarget, LoggingContext loggingContext = null)
+
         {
             if (forwardTarget == null)
             {
@@ -53,12 +84,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return PostRelatedPlatformResourceAsync(forwardLink, input, new ResourceJsonMediaTypeFormatter(), loggingContext);
         }
 
-        [Obsolete("Please use the other variation")]
-        public Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget)
-        {
-            return ForwardAsync(new SipUri(forwardTarget), loggingContext);
-        }
-
+        /// <summary>
+        /// Declines the <see cref="AudioVideoInvitation"/> asynchronous.
+        /// </summary>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
+        /// <exception cref="CapabilityNotAvailableException">Link to decline AudioVideoInvitation is not available.</exception>
         public Task<HttpResponseMessage> DeclineAsync(LoggingContext loggingContext)
         {
             string href = PlatformResource?.DeclineOperationLink?.Href;
@@ -73,6 +104,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return PostRelatedPlatformResourceAsync(declineLink, input, new ResourceJsonMediaTypeFormatter(), loggingContext);
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(AudioVideoInvitationCapability capability)
         {
             string href = null;

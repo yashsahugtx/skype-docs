@@ -36,7 +36,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #endregion
 
         #region Public events
-
+        
+        ///Adds an Eventhandler to <see cref="m_toneReceivedEvent"/>
         public event EventHandler<ToneReceivedEventArgs> ToneReceivedEvent
         {
             add
@@ -65,6 +66,14 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
+        /// <summary>
+        /// Plays prompt with the given <paramref name="promptUri"/> as an asynchronous operation.
+        /// </summary>
+        /// <param name="promptUri">The prompt URI.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;IPrompt&gt;.</returns>
+        /// <exception cref="System.ArgumentNullException">promptUri</exception>
+        /// <exception cref="CapabilityNotAvailableException">Link to play prompt is not available.</exception>
         public async Task<IPrompt> PlayPromptAsync(Uri promptUri, LoggingContext loggingContext = null)
         {
             if (promptUri == null)
@@ -124,6 +133,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             }
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(AudioVideoFlowCapability capability)
         {
             string href = null;
@@ -213,6 +229,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #endregion
     }
 
+    /// <summary>
+    /// Class ToneReceivedEventArgs.
+    /// </summary>
+    /// <seealso cref="System.EventArgs" />
     public class ToneReceivedEventArgs : EventArgs
     {
         internal ToneReceivedEventArgs(ToneValue tone)
@@ -220,6 +240,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             Tone = tone;
         }
 
+        /// <summary>
+        /// Gets the tone.
+        /// </summary>
+        /// <value>The tone.</value>
         public ToneValue Tone { get; }
     }
 }

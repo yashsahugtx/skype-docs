@@ -13,8 +13,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Represents a  MessagingCall inside an conversation.
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.Call{Microsoft.Rtc.Internal.Platform.ResourceContract.MessagingResource, Microsoft.SfB.PlatformService.SDK.ClientModel.IMessagingInvitation, Microsoft.SfB.PlatformService.SDK.ClientModel.MessagingCallCapability}" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IMessagingCall" />
+    /// <seealso cref="Call{TPlatformResource, TInvitation, TCapabilities}"/>
+    /// <seealso cref="IMessagingCall" />
     internal class MessagingCall : Call<MessagingResource, IMessagingInvitation, MessagingCallCapability>, IMessagingCall
     {
         #region Private fields
@@ -54,7 +54,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Stop messaging, RemotePlatformServiceException may throw if remote failed
         /// </summary>
-        /// <returns></returns>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
         public override Task TerminateAsync(LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.StopMessagingLink?.Href;
@@ -70,7 +70,15 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Send message
         /// </summary>
-        /// <returns></returns>
+        /// <param name="message">Message to be sent</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <param name="contentType">
+        /// Type of the message; could be any of these:
+        /// <ul>
+        /// <li><seealso cref="Common.Constants.TextPlainContentType"/></li>
+        /// <li><seealso cref="Common.Constants.TextHtmlContentType"/></li>
+        /// </ul>
+        /// </param>
         public async Task SendMessageAsync(string message, LoggingContext loggingContext = null, string contentType = Constants.TextPlainContentType)
         {
             string href = PlatformResource?.SendMessageLink?.Href;

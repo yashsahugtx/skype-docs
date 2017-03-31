@@ -20,14 +20,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
-
         /// <summary>
         /// Accepts the <see cref="AudioVideoInvitation"/>> asynchronous.
         /// </summary>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         /// <exception cref="CapabilityNotAvailableException">Link to accept AudioVideoInvitation is not available.</exception>
-    
         public Task<HttpResponseMessage> AcceptAsync(LoggingContext loggingContext = null)
 
         {
@@ -49,7 +47,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return ForwardAsync(new SipUri(forwardTarget), loggingContext);
         }
 
-
         /// <summary>
         /// Forwards the <see cref="AudioVideoInvitation"/> asynchronous.
         /// </summary>
@@ -58,7 +55,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         /// <exception cref="System.ArgumentNullException">forwardTarget - forwardTarget</exception>
         /// <exception cref="CapabilityNotAvailableException">Link to forward AudioVideoInvitation is not available.</exception>
-
         public Task<HttpResponseMessage> ForwardAsync(SipUri forwardTarget, LoggingContext loggingContext = null)
 
         {

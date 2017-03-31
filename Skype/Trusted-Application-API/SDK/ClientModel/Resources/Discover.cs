@@ -18,13 +18,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Constructor
 
-        /// <summary>
-        /// Constructor
-        /// </summary>
-        /// <param name="restfulClient"></param>
-        /// <param name="resource"></param>
-        /// <param name="baseUri"></param>
-        /// <param name="resourceUri"></param>
         internal Discover(IRestfulClient restfulClient, Uri baseUri, Uri resourceUri, object parent)
                 : base(restfulClient, null, baseUri, resourceUri, parent)
         {
@@ -37,8 +30,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Call Get on application and initialize communication resource
         /// </summary>
-        /// <param name="loggingContext"></param>
-        /// <returns></returns>
+        /// <param name="endpointId">The application endpoint's sip id</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
         public async Task RefreshAndInitializeAsync(string endpointId, LoggingContext loggingContext = null)
         {
             await this.RefreshAsync(loggingContext).ConfigureAwait(false);
@@ -58,28 +51,24 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             }
         }
 
-
+        /// <summary>
         /// Call Get on application and initialize communication resource
         /// </summary>
-        /// <param name="loggingContext"></param>
-        /// <returns></returns>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <param name="endpointId">The application endpoint's sip id</param>
         [Obsolete("Please use the other variation")]
         public Task RefreshAndInitializeAsync(LoggingContext loggingContext, string endpointId)
         {
             return RefreshAndInitializeAsync(endpointId, loggingContext);
         }
 
-
-
         /// <summary>
-
         /// Gets whether a particular capability is available or not.
         /// </summary>
         /// <param name="capability">Capability that needs to be checked.</param>
         /// <returns><code>true</code> iff the capability is available as of now.</returns>
         /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
         /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
-
         public override bool Supports(DiscoverCapability capability)
         {
             return false;

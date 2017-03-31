@@ -289,14 +289,14 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Initializes the application endpoint.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task InitializeAsync(LoggingContext loggingContext = null);
 
         /// <summary>
         /// Initializes the application.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task InitializeApplicationAsync(LoggingContext loggingContext = null);
         /// <summary>
@@ -312,7 +312,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for applications
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ApplicationsCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IApplications : IPlatformResource<ApplicationsCapability>
     {
         /// <summary>
@@ -324,7 +324,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Refreshes  and initializes the application.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task RefreshAndInitializeAsync(LoggingContext loggingContext = null);
     }
@@ -336,9 +336,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for audio video call
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.ICall{Microsoft.SfB.PlatformService.SDK.ClientModel.IAudioVideoInvitation}" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.AudioVideoCallCapability}" />
-
+    /// <seealso cref="ICall{TInvitation}"/>
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IAudioVideoCall : ICall<IAudioVideoInvitation>, IPlatformResource<AudioVideoCallCapability>
     {
         /// <summary>
@@ -362,18 +361,20 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="transferTarget">The transfer target.</param>
         /// <param name="replacesCallContext">The replaces call context.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;ITransfer&gt;.</returns>
         [Obsolete("Please use the other variation")]
         Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext = null);
+
         /// <summary>
         /// Transfers the audio video call.
         /// </summary>
         /// <param name="transferTarget">The transfer target.</param>
         /// <param name="replacesCallContext">The replaces call context.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;ITransfer&gt;.</returns>
         Task<ITransfer> TransferAsync(SipUri transferTarget, string replacesCallContext, LoggingContext loggingContext = null);
+
         /// <summary>
         /// Waits for the audio video flow to be connected.
         /// </summary>
@@ -389,7 +390,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for the audio video flow
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.AudioVideoFlowCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IAudioVideoFlow : IPlatformResource<AudioVideoFlowCapability>
     {
         /// <summary>
@@ -407,10 +408,14 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Plays the prompt.
         /// </summary>
         /// <param name="promptUri">The prompt URI.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;IPrompt&gt;.</returns>
         Task<IPrompt> PlayPromptAsync(Uri promptUri, LoggingContext loggingContext = null);
 
+        /// <summary>
+        /// Send stop prompts event and wait for all prompts to complete.
+        /// </summary>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         Task StopPromptsAsync(LoggingContext loggingContext = null);
     }
 
@@ -421,21 +426,21 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for audio video invitation
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IInvitation" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.AudioVideoInvitationCapability}" />
+    /// <seealso cref="IInvitation" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IAudioVideoInvitation : IInvitation, IPlatformResource<AudioVideoInvitationCapability>
     {
         /// <summary>
         /// Accepts the audio video invitation.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         Task<HttpResponseMessage> AcceptAsync(LoggingContext loggingContext = null);
 
         /// <summary>
         /// Forwards the audio video invitation.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <param name="forwardTarget">The forward target.</param>
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         [Obsolete("Please use the other variation")]
@@ -445,20 +450,20 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Forwards the audio video invitation.
         /// </summary>
         /// <param name="forwardTarget">The forward target.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         Task<HttpResponseMessage> ForwardAsync(SipUri forwardTarget, LoggingContext loggingContext = null);
 
         /// <summary>
         /// Declines the audio video invitation.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         Task<HttpResponseMessage> DeclineAsync(LoggingContext loggingContext = null);
         /// <summary>
         /// Accepts and bridges the audio video invitation.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <param name="meetingUri">The meeting URI.</param>
         /// <param name="to">To.</param>
         /// <returns>Task.</returns>
@@ -469,7 +474,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Accepts and bridges the audio video invitation.
         /// </summary>
         /// <param name="meetingUri">The meeting URI.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task AcceptAndBridgeAsync(string meetingUri, LoggingContext loggingContext = null);
 
@@ -477,7 +482,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Accepts and bridges the audio video invitation.
         /// </summary>
         /// <param name="to">To.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task AcceptAndBridgeAsync(SipUri to, LoggingContext loggingContext = null);
 
@@ -486,7 +491,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="subject">The subject.</param>
         /// <param name="callbackContext">The callback context.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
         [Obsolete("Please use ICommunication.StartAdhocMeetingAsync instead")]
         Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackContext, LoggingContext loggingContext = null);
@@ -499,13 +504,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for bridged participant
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.BridgedParticipantCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IBridgedParticipant : IPlatformResource<BridgedParticipantCapability>
     {
         /// <summary>
         /// Updates the bridged participant.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <param name="displayName">The display name.</param>
         /// <param name="isEnableFilter">if set to <c>true</c> [is enable filter].</param>
         /// <returns>Task.</returns>
@@ -517,7 +522,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="displayName">The display name.</param>
         /// <param name="isEnableFilter">if set to <c>true</c> [is enable filter].</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task UpdateAsync(string displayName, bool isEnableFilter, LoggingContext loggingContext = null);
     }
@@ -529,7 +534,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for bridged participants
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.BridgedParticipantsCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IBridgedParticipants : IPlatformResource<BridgedParticipantsCapability>
     {
     }
@@ -555,13 +560,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Establishes the call.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;TInvitation&gt;.</returns>
         Task<TInvitation> EstablishAsync(LoggingContext loggingContext = null);
         /// <summary>
         /// Terminates the call.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task TerminateAsync(LoggingContext loggingContext = null);
     }
@@ -605,90 +610,104 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for communication
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.CommunicationCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface ICommunication : IPlatformResource<CommunicationCapability>
     {
         /// <summary>
-        /// Starts the messaging.
+        /// Starts messaging with a user
         /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="to">To.</param>
-        /// <param name="callbackUrl">The callback URL.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IMessagingInvitation&gt;.</returns>
+        /// <param name="subject">Subject of the conversation</param>
+        /// <param name="to">SIP uri of the user to connect to</param>
+        /// <param name="callbackUrl">Uri where all related events need to be posted</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <returns><see cref="IMessagingInvitation"/> which can be used to wait for user to accept/decline the invitation</returns>
         [Obsolete("Please use the other StartMessagingAsync")]
         Task<IMessagingInvitation> StartMessagingAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null);
 
         /// <summary>
-        /// Starts messaging.
+        /// Starts messaging with a user
         /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="to">The <see cref="SipUri"/> of the target.</param>
-        /// <param name="callbackContext">The callback context.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IMessagingInvitation&gt;.</returns>
+        /// <param name="subject">Subject of the conversation</param>
+        /// <param name="to">SIP uri of the user to connect to</param>
+        /// <param name="callbackContext">An opaque blob which will be provided in all related events so that your application can relate them to this operation</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <returns><see cref="IMessagingInvitation"/> which can be used to wait for user to accept/decline the invitation</returns>
         Task<IMessagingInvitation> StartMessagingAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null);
+
         /// <summary>
-        /// Starts the messaging with identity.
+        /// Starts messaging with a user; user will see the message as originating from the specified user
         /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="to">To.</param>
-        /// <param name="callbackUrl">The callback URL.</param>
-        /// <param name="localUserDisplayName">Display name of the local user.</param>
-        /// <param name="localUserUri">The local user URI.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IMessagingInvitation&gt;.</returns>
+        /// <param name="subject">Subject of the conversation</param>
+        /// <param name="to">SIP uri of the user to connect to</param>
+        /// <param name="callbackUrl">Uri where all related events need to be posted</param>
+        /// <param name="localUserDisplayName">Name to be used as the originating user's identity</param>
+        /// <param name="localUserUri">SIP uri to be used as the originating user's identity</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <returns><see cref="IMessagingInvitation"/> which can be used to wait for user to accept/decline the invitation</returns>
         [Obsolete("This feature is not supported by SfB server for public applications")]
         Task<IMessagingInvitation> StartMessagingWithIdentityAsync(string subject, string to, string callbackUrl, string localUserDisplayName, string localUserUri, LoggingContext loggingContext = null);
 
         /// <summary>
-        /// Starts the audio video in the communication.
+        /// Starts an audio video call with a user
         /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="to">To.</param>
-        /// <param name="callbackUrl">The callback URL.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IAudioVideoInvitation&gt;.</returns>
+        /// <param name="subject">Subject of the conversation</param>
+        /// <param name="to">SIP uri of the user to connect to</param>
+        /// <param name="callbackUrl">Uri where all related events need to be posted</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
+        /// <returns><see cref="IAudioVideoInvitation"/> which can be used to wait for user to accept/decline the invitation</returns>
         [Obsolete("Please use the other StartAudioVideoAsync")]
         Task<IAudioVideoInvitation> StartAudioVideoAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null);
+
         /// <summary>
-        /// Starts the audio video call.
+        /// Starts an audio video call with a user
         /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="to">The <see cref="SipUri"/> of the target.</param>
-        /// <param name="callbackContext">The callback context.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IAudioVideoInvitation&gt;.</returns>
+        /// <param name="subject">Subject of the conversation</param>
+        /// <param name="to">SIP uri of the user to connect to</param>
+        /// <param name="callbackContext">An opaque blob which will be provided in all related events so that your application can relate them to this operation</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
+        /// <returns><see cref="IAudioVideoInvitation"/> which can be used to wait for user to accept/decline the invitation</returns>
         Task<IAudioVideoInvitation> StartAudioVideoAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null);
+
         /// <summary>
-        /// Starts the audio in communication.
+        /// Starts an audio call with a user
         /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="to">To.</param>
-        /// <param name="callbackUrl">The callback URL.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IAudioVideoInvitation&gt;.</returns>
+        /// <param name="subject">Subject of the conversation</param>
+        /// <param name="to">SIP uri of the user to connect to</param>
+        /// <param name="callbackUrl">Uri where all related events need to be posted</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
+        /// <returns><see cref="IAudioVideoInvitation"/> which can be used to wait for user to accept/decline the invitation</returns>
         [Obsolete("Please use the other StartAudioAsync")]
         Task<IAudioVideoInvitation> StartAudioAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null);
+
         /// <summary>
-        /// Starts the audio in communication.
+        /// Starts an audio call with a user
         /// </summary>
-        /// <param name="subject">The subject.</param>
-        /// <param name="to">To.</param>
-        /// <param name="callbackContext">The callback context.</param>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <returns>Task&lt;IAudioVideoInvitation&gt;.</returns>
+        /// <param name="subject">Subject of the conversation</param>
+        /// <param name="to">SIP uri of the user to connect to</param>
+        /// <param name="callbackContext">An opaque blob which will be provided in all related events so that your application can relate them to this operation</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
+        /// <returns><see cref="IAudioVideoInvitation"/> which can be used to wait for user to accept/decline the invitation</returns>
         Task<IAudioVideoInvitation> StartAudioAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null);
 
         /// <summary>
         /// Checks whether the application can join a specific meeting or not
         /// </summary>
         /// <param name="adhocMeeting">Meeting to be checked</param>
-        /// <returns><code>true</code> if and only if the application is capable of joining the </returns>
+        /// <returns><code>true</code> if and only if the application is capable of joining the meeting</returns>
         bool CanJoinAdhocMeeting(IAdhocMeeting adhocMeeting);
 
+        /// <summary>
+        /// Checks whether the application can create and join a meeting for the invitation or not
+        /// </summary>
+        /// <param name="invitation">Invitation for which the meeting needs to be started</param>
+        /// <returns><code>true</code> if and only if the application is capable of joining the meeting</returns>
         bool CanStartAdhocMeeting(IMessagingInvitation invitation);
 
+        /// <summary>
+        /// Checks whether the application can create and join a meeting for the invitation or not
+        /// </summary>
+        /// <param name="invitation">Invitation for which the meeting needs to be started</param>
+        /// <returns><code>true</code> if and only if the application is capable of joining the meeting</returns>
         bool CanStartAdhocMeeting(IAudioVideoInvitation invitation);
 
         /// <summary>
@@ -700,8 +719,24 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
         Task<IOnlineMeetingInvitation> JoinAdhocMeetingAsync(IAdhocMeeting adhocMeeting, string callbackContext, LoggingContext loggingContext = null);
 
+        /// <summary>
+        /// Schedules and joins an adhoc meeting for the invitation
+        /// </summary>
+        /// <param name="invitation">Invitation for which the meeting needs to be created</param>
+        /// <param name="subject">Subject of the meeting</param>
+        /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
+        /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
         Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(IMessagingInvitation invitation, string subject, string callbackContext, LoggingContext loggingContext = null);
 
+        /// <summary>
+        /// Schedules and joins an adhoc meeting for the invitation
+        /// </summary>
+        /// <param name="invitation">Invitation for which the meeting needs to be created</param>
+        /// <param name="subject">Subject of the meeting</param>
+        /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
+        /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
         Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(IAudioVideoInvitation invitation, string subject, string callbackContext, LoggingContext loggingContext = null);
     }
 
@@ -712,7 +747,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for conversation
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ConversationCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IConversation : IPlatformResource<ConversationCapability>
     {
         /// <summary>
@@ -756,21 +791,24 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Occurs when participant in the conversation is changed.
         /// </summary>
         event EventHandler<ParticipantChangeEventArgs> HandleParticipantChange;
+
         /// <summary>
         /// Occurs when conversation state is changed.
         /// </summary>
         event EventHandler<ConversationStateChangedEventArgs> ConversationStateChanged;
+
         /// <summary>
         /// Tries to get participant.
         /// </summary>
         /// <param name="href">The href.</param>
         /// <returns>IParticipant.</returns>
         IParticipant TryGetParticipant(string href);
+
         /// <summary>
         /// Adds participant.
         /// </summary>
         /// <param name="targetSip">The target sip.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;IParticipantInvitation&gt;.</returns>
         [Obsolete("Please use the other variation")]
         Task<IParticipantInvitation> AddParticipantAsync(string targetSip, LoggingContext loggingContext = null);
@@ -779,7 +817,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Adds participant.
         /// </summary>
         /// <param name="targetSip">The target sip.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;IParticipantInvitation&gt;.</returns>
         Task<IParticipantInvitation> AddParticipantAsync(SipUri targetSip, LoggingContext loggingContext = null);
     }
@@ -791,7 +829,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for conversation bridge
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ConversationBridgeCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IConversationBridge : IPlatformResource<ConversationBridgeCapability>
     {
         /// <summary>
@@ -802,7 +840,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Adds the bridged participant .
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <param name="displayName">The display name.</param>
         /// <param name="sipUri">The sip URI.</param>
         /// <param name="enableMessageFilter">if set to <c>true</c> [enable message filter].</param>
@@ -815,7 +853,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="displayName">The display name.</param>
         /// <param name="sipUri">The sip URI.</param>
         /// <param name="enableMessageFilter">if set to <c>true</c> [enable message filter].</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;IBridgedParticipant&gt;.</returns>
         Task<IBridgedParticipant> AddBridgedParticipantAsync(string displayName, SipUri sipUri, bool enableMessageFilter, LoggingContext loggingContext = null);
     }
@@ -827,7 +865,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for conversation conference
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ConversationConferenceCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IConversationConference : IPlatformResource<ConversationConferenceCapability>
     {
         /// <summary>
@@ -839,7 +877,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Terminates the conversation conference.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task TerminateAsync(LoggingContext loggingContext = null);
     }
@@ -851,7 +889,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for discover
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.DiscoverCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IDiscover : IPlatformResource<DiscoverCapability>
     {
         /// <summary>
@@ -861,7 +899,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Refreshes and initializes the discover.
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <param name="endpointId">The endpoint identifier.</param>
         /// <returns>Task.</returns>
         [Obsolete("Please use the other variation")]
@@ -870,7 +908,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Refreshes and initializes the discover.
         /// </summary>
         /// <param name="endpointId">The endpoint identifier.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task RefreshAndInitializeAsync(string endpointId, LoggingContext loggingContext = null);
     }
@@ -930,8 +968,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for messaging invitation
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IInvitation" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.MessagingInvitationCapability}" />
+    /// <seealso cref="IInvitation" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IMessagingInvitation : IInvitation, IPlatformResource<MessagingInvitationCapability>
     {
         /// <summary>
@@ -939,7 +977,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="subject">The subject.</param>
         /// <param name="callbackUrl">The callback URL.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
         [Obsolete("Please use ICommunication.StartAdhocMeetingAsync instead")]
         Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackUrl, LoggingContext loggingContext = null);
@@ -947,7 +985,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Accepts and bridges the messaging invitation
         /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <param name="meetingUrl">The meeting URL.</param>
         /// <param name="displayName">The display name.</param>
         /// <returns>Task.</returns>
@@ -959,7 +997,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="meetingUrl">The meeting URL.</param>
         /// <param name="displayName">The display name.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <returns>Task.</returns>
         Task AcceptAndBridgeAsync(string meetingUrl, string displayName, LoggingContext loggingContext = null);
     }
@@ -971,8 +1009,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for a messaging call
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.ICall{Microsoft.SfB.PlatformService.SDK.ClientModel.IMessagingInvitation}" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.MessagingCallCapability}" />
+    /// <seealso cref="ICall{TInvitation}"/>
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IMessagingCall : ICall<IMessagingInvitation>, IPlatformResource<MessagingCallCapability>
     {
         /// <summary>
@@ -984,7 +1022,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Sends the message.
         /// </summary>
         /// <param name="message">The message.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
         /// <param name="contentType">Type of the content.</param>
         /// <returns>Task.</returns>
         Task SendMessageAsync(string message, LoggingContext loggingContext = null, string contentType = Constants.TextPlainContentType);
@@ -997,8 +1035,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for online meeting invitation
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IInvitation" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.OnlineMeetingInvitationCapability}" />
+    /// <seealso cref="IInvitation" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IOnlineMeetingInvitation : IInvitation, IPlatformResource<OnlineMeetingInvitationCapability>
     {
         /// <summary>
@@ -1014,7 +1052,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for participant
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ParticipantCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IParticipant : IPlatformResource<ParticipantCapability>
     {
         /// <summary>
@@ -1035,6 +1073,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Ejects the participant from the corresponding meeting.
         /// </summary>
+        /// <param name="loggingContext"></param>
         Task EjectAsync(LoggingContext loggingContext = null);
 
         /// <summary>
@@ -1050,8 +1089,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for participant invitation
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IInvitation" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ParticipantInvitationCapability}" />
+    /// <seealso cref="IInvitation" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IParticipantInvitation : IInvitation, IPlatformResource<ParticipantInvitationCapability>
     {
     }
@@ -1063,7 +1102,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for participant messaging
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.ParticipantMessagingCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IParticipantMessaging : IPlatformResource<ParticipantMessagingCapability>
     {
     }
@@ -1075,7 +1114,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for prompt
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.PromptCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface IPrompt : IPlatformResource<PromptCapability>
     {
     }
@@ -1087,7 +1126,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Interface for transfer
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IPlatformResource{Microsoft.SfB.PlatformService.SDK.ClientModel.TransferCapability}" />
+    /// <seealso cref="IPlatformResource{TCapabilities}"/>
     public interface ITransfer : IPlatformResource<TransferCapability>
     {
         /// <summary>

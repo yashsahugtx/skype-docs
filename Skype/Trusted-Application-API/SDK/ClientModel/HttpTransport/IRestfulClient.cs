@@ -75,8 +75,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="requestUri">The request uri.</param>
         /// <param name="httpContent">The instance of http content.</param>
         /// <param name="customerHeaders">The customer headers.</param>
-        /// <param name="audienceUri">The audience uri.</param>
-        /// <param name="timeout">The timeout.</param>
         /// <returns>The HttpResponseMessage.</returns>
         Task<HttpResponseMessage> PutAsync(
             Uri requestUri,
@@ -88,8 +86,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="requestUri">The request uri.</param>
         /// <param name="customerHeaders">The customer headers.</param>
-        /// <param name="audienceUri">The audience uri.</param>
-        /// <param name="timeout">The timeout.</param>
         /// <returns>The HttpResponseMessage.</returns>
         Task<HttpResponseMessage> DeleteAsync(
             Uri requestUri,

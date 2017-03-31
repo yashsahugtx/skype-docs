@@ -268,8 +268,11 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
             };
 
             // When
+            #pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
             m_audioVideoFlow.PlayPromptAsync(new Uri("https://example.com/prompt"), m_loggingContext);
             m_audioVideoFlow.PlayPromptAsync(new Uri("https://example.com/prompt2"), m_loggingContext);
+            #pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+
             TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_PromptStarted.json");
             TestHelper.RaiseEventsFromFile(m_mockEventChannel, "Event_Prompt2Started.json");
 

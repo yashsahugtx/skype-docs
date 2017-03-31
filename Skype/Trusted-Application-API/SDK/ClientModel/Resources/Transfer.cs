@@ -9,8 +9,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// <summary>
     /// Represents the transfer of a <see cref="AudioVideoCall"/>>
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.BasePlatformResource{Microsoft.Rtc.Internal.Platform.ResourceContract.TransferResource, Microsoft.SfB.PlatformService.SDK.ClientModel.TransferCapability}" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.ITransfer" />
+    /// <seealso cref="BasePlatformResource{TPlatformResource, TCapabilities}"/>
+    /// <seealso cref="ITransfer" />
     internal class Transfer : BasePlatformResource<TransferResource, TransferCapability>, ITransfer
     {
         #region Private fields

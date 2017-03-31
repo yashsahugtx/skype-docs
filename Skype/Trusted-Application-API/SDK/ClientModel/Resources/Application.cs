@@ -18,7 +18,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     {
         #region Private fields
 
-   
         private Communication m_communication;
 
         #endregion
@@ -166,8 +165,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return GetAnonApplicationTokenAsync(loggingContext, null, allowedOrigins, applicationSessionId);
         }
 
-
-
         /// <summary>
         /// Gets an anonymous application token for a P2P call. This token can be given to a user domain application. Using this token,
         /// the user can make P2P calls.
@@ -245,12 +242,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return new AdhocMeeting(RestfulClient, adhocMeetingResource, BaseUri, UriHelper.CreateAbsoluteUri(BaseUri, adhocMeetingResource.SelfUri), this);
         }
 
-       
+        /// <summary>
         /// Creates an adhoc meeting
         /// </summary>
-        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext" /> to be used for logging all related events.</param>
         /// <param name="input">Specifies properties for the meeting to be created</param>
-        /// <returns><see cref="IAdhocMeeting"/> which can be used to join the meeting or get meeting url, which can be passed onto real users to join it.</returns>
+        /// <returns><see cref="IAdhocMeeting" /> which can be used to join the meeting or get meeting url, which can be passed onto real users to join it.</returns>
         [Obsolete("Please use the other variation")]
         public Task<IAdhocMeeting> CreateAdhocMeetingAsync(LoggingContext loggingContext, AdhocMeetingCreationInput input)
         {

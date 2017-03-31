@@ -145,7 +145,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public events
 
-        ///The event when participants in the <see cref="Conversation"/> are changed        
         public event EventHandler<ParticipantChangeEventArgs> HandleParticipantChange
         {
             add
@@ -202,7 +201,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
-
         /// <summary>
         /// add participant as an asynchronous operation.
         /// </summary>
@@ -215,7 +213,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// or
         /// Platformservice do not deliver a ParticipantInvitation resource with operationId " + operationId
         /// </exception>
-    
         public async Task<IParticipantInvitation> AddParticipantAsync(SipUri targetSip, LoggingContext loggingContext = null)
 
         {
@@ -260,8 +257,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
-
-   
         [Obsolete("Please use the other variation")]
         public Task<IParticipantInvitation> AddParticipantAsync(string targetSip, LoggingContext loggingContext = null)
         {
@@ -298,6 +293,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Handle current conversation events
         /// </summary>
+        /// <param name="eventContext">Events to be processed</param>
         internal override bool ProcessAndDispatchEventsToChild(EventContext eventContext)
         {
             bool processed = false;
@@ -422,10 +418,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                     }
                 }
 
-                if (entity != null)
-                {
-                    entity.HandleResourceEvent(eventContext);
-                }
+                entity?.HandleResourceEvent(eventContext);
 
                 return true;
             }

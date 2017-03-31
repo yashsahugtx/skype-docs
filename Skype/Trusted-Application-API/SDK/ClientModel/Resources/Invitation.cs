@@ -10,6 +10,11 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// The base class for invitations
     /// </summary>
     /// <typeparam name="TPlatformResource">The type which inherit from InvitationResource.</typeparam>
+    /// <typeparam name="TCapabilities">
+    /// An enum listing all the capabilties that this <see cref="IPlatformResource{TCapabilities}"/> supports. Capabilities
+    /// might not be available at runtime, such cases can be handled by invoking
+    /// <see cref="IPlatformResource{TCapabilities}.Supports(TCapabilities)"/> when a capabilty needs to be used.
+    /// </typeparam>
     internal abstract class Invitation<TPlatformResource, TCapabilities> : BasePlatformResource<TPlatformResource, TCapabilities>, IInvitation, IInvitationWithConversation
         where TPlatformResource : InvitationResource
     {

@@ -30,13 +30,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Constructor
 
-        /// <summary>
-        /// Constructor
-        /// </summary>
-        /// <param name="restfulClient"></param>
-        /// <param name="resource"></param>
-        /// <param name="baseUri"></param>
-        /// <param name="resourceUri"></param>
         internal Applications(IRestfulClient restfulClient, ApplicationsResource resource, Uri baseUri, Uri resourceUri, object parent)
                 : base(restfulClient, resource, baseUri, resourceUri, parent)
         {
@@ -63,7 +56,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 throw new RemotePlatformServiceException("Not get application resource from applications");
             }
         }
-
 
         /// <summary>
         /// Gets whether a particular capability is available or not.

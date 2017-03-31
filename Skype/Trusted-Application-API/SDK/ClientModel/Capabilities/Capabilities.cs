@@ -7,7 +7,14 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum AudioVideoFlowCapability
     {
+        /// <summary>
+        /// Play prompt in an <see cref="IAudioVideoFlow"/>
+        /// </summary>
         PlayPrompt = 0,
+
+        /// <summary>
+        /// Stop all prompts playing in an <see cref="IAudioVideoFlow"/>
+        /// </summary>
         StopPrompts = 1
     }
 
@@ -23,8 +30,19 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum AudioVideoCallCapability
     {
+        /// <summary>
+        /// Establish an <see cref="IAudioVideoCall"/> in an existing <see cref="IConversation"/>
+        /// </summary>
         Establish = 0,
+
+        /// <summary>
+        /// Transfer the <see cref="IAudioVideoCall"/> to some other user
+        /// </summary>
         Transfer = 1,
+
+        /// <summary>
+        /// Terminate an established <see cref="IAudioVideoCall"/>
+        /// </summary>
         Terminate = 2
     }
 
@@ -33,8 +51,19 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum MessagingCallCapability
     {
+        /// <summary>
+        /// Establish an <see cref="IMessagingCall"/> in an existing <see cref="IConversation"/>
+        /// </summary>
         Establish = 0,
+
+        /// <summary>
+        /// Send an Instant Message to an established <see cref="IMessagingCall"/>
+        /// </summary>
         SendMessage = 1,
+
+        /// <summary>
+        /// Terminate an established <see cref="IMessagingCall"/>
+        /// </summary>
         Terminate = 2
     }
 
@@ -50,6 +79,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum ConversationCapability
     {
+        /// <summary>
+        /// Add a new participant to an ongoing <see cref="IConversation"/>
+        /// </summary>
         AddParticipant = 0
     }
 
@@ -58,6 +90,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum ConversationConferenceCapability
     {
+        /// <summary>
+        /// Terminate the <see cref="IConversationConference"/>
+        /// </summary>
         Terminate = 0
     }
 
@@ -66,6 +101,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum ConversationBridgeCapability
     {
+        /// <summary>
+        /// Add a bridged participant to <see cref="IConversationBridge"/>
+        /// </summary>
         AddBridgedParticipant = 0
     }
 
@@ -95,6 +133,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum ParticipantCapability
     {
+        /// <summary>
+        /// Eject/remove a <see cref="IParticipant"/> from the corresponding <see cref="IConversation"/>
+        /// </summary>
         Eject = 0
     }
 
@@ -110,12 +151,31 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum ApplicationCapability
     {
+        /// <summary>
+        /// Get a token which can be used by anyone to join a meeting anonymously
+        /// </summary>
         [Obsolete("Use GetAnonApplicationTokenForMeeting instead")]
         GetAnonApplicationToken = 0,
+
+        /// <summary>
+        /// Schdule a meeting
+        /// </summary>
         [Obsolete("Use CreateAdhocMeeting instead")]
         GetAdhocMeetingResource = 1,
+
+        /// <summary>
+        /// Get a token which can be used by anyone to join a meeting anonymously
+        /// </summary>
         GetAnonApplicationTokenForMeeting = 2,
+
+        /// <summary>
+        /// Get a token which can be used by anyone to start a P2P call anonymously
+        /// </summary>
         GetAnonApplicationTokenForP2PCall = 3,
+
+        /// <summary>
+        /// Schdule a meeting
+        /// </summary>
         CreateAdhocMeeting = 4
     }
 
@@ -131,6 +191,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum AdhocMeetingCapability
     {
+        /// <summary>
+        /// Add the application as a trusted participant in a meeting
+        /// </summary>
+        /// <remarks>
+        /// Trusted participant is invisible to normal users
+        /// </remarks>
         [Obsolete("Use ICommunication.CanJoinAdhocMeeting instead")]
         JoinAdhocMeeting = 0
     }
@@ -140,9 +206,24 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum CommunicationCapability
     {
+        /// <summary>
+        /// Start messaging with a user
+        /// </summary>
         StartMessaging = 0,
+
+        /// <summary>
+        /// Start messaging with a user; user will see the message as originating from the specified identity
+        /// </summary>
         StartMessagingWithIdentity = 1,
+
+        /// <summary>
+        /// Start an audio video call with a user
+        /// </summary>
         StartAudioVideo = 2,
+
+        /// <summary>
+        /// Start an audio call with a user
+        /// </summary>
         StartAudio = 3
     }
 
@@ -151,8 +232,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum MessagingInvitationCapability
     {
+        /// <summary>
+        /// Schedule and join a meeting related to the invitation
+        /// </summary>
         [Obsolete("Use ICommunication.CanStartAdhocMeeting instead")]
         StartAdhocMeeting = 0,
+
+        /// <summary>
+        /// Accept the incoming invitation and bridge it to a meeting or a user. Bridging means
+        /// that the application is sitting in middle of the call and can listen to all the messages.
+        /// </summary>
         AcceptAndBridge = 1,
     }
 
@@ -161,11 +250,31 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
     /// </summary>
     public enum AudioVideoInvitationCapability
     {
+        /// <summary>
+        /// Accept the incoming <see cref="IAudioVideoInvitation"/>
+        /// </summary>
         Accept = 0,
+
+        /// <summary>
+        /// Forward the invitation to some other user/application
+        /// </summary>
         Forward = 1,
+
+        /// <summary>
+        /// Decline the invitation
+        /// </summary>
         Decline = 2,
+
+        /// <summary>
+        /// Schedule and join a meeting related to the invitation
+        /// </summary>
         [Obsolete("Use ICommunication.CanStartAdhocMeeting instead")]
         StartAdhocMeeting = 3,
+
+        /// <summary>
+        /// Accept the incoming invitation and bridge it to a meeting or a user. Bridging means
+        /// that the application is sitting in middle of the call and can listen to all the messages.
+        /// </summary>
         AcceptAndBridge = 4,
     }
 

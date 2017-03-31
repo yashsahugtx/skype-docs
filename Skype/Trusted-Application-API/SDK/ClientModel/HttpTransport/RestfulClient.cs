@@ -35,6 +35,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Initializes a new instance of the <see cref="OauthEvoRestfulClient"/> class.
         /// </summary>
         /// <param name="tokenProvider">The token provider.</param>
+        /// <param name="oauthIdentity">The oauth identity.</param>
         public OauthEvoRestfulClient(ITokenProvider tokenProvider, OAuthTokenIdentifier oauthIdentity)
         {
             if (tokenProvider == null)
@@ -57,7 +58,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="customerHeaders">The customer headers.</param>
         /// <param name="mediaType">The media type.</param>
         /// <param name="charSet">The char set.</param>
-        /// <param name="timeout">The timeout.</param>
         /// <returns>The HttpResponseMessage.</returns>
         public Task<HttpResponseMessage> GetAsync(
             Uri requestUri,
@@ -232,8 +232,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="requestUri">The request uri.</param>
         /// <param name="customizeHttpRequestFunc">The async function delegate.</param>
         /// <param name="customerHeaders">The customer headers.</param>
-        /// <param name="audienceUri">The audience uri.</param>
-        /// <param name="timeout">The timeout.</param>
         /// <returns>The HttpResponseMessage.</returns>
         private async Task<HttpResponseMessage> HttpClientBaseMethodAsync(
             Uri requestUri,

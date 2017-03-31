@@ -110,8 +110,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         /// Convert Http Response Message to Platform Service Exception.
         /// </summary>
         /// <param name="httpResponseMessage">The http response message.</param>
-        /// <param name="externalServiceType">The external service type.</param>
-        /// <param name="loggingContext">The logging context.</param>
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events.</param>
         /// <returns><see cref="RemotePlatformServiceException"/>.</returns>
         internal static async Task<RemotePlatformServiceException> ConvertToRemotePlatformServiceExceptionAsync(HttpResponseMessage httpResponseMessage, LoggingContext loggingContext)
         {

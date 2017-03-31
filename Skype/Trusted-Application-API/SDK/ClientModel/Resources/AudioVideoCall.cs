@@ -103,7 +103,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>Task&lt;ITransfer&gt;.</returns>
         /// <exception cref="CapabilityNotAvailableException">Link to start transfer of AudioVideo is not available.</exception>
         /// <exception cref="RemotePlatformServiceException">Timeout to get incoming transfer started event from platformservice!</exception>
-     
         public async Task<ITransfer> TransferAsync(SipUri transferTarget, string replacesCallContext, LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.StartTransferLink?.Href;
@@ -133,9 +132,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
             return result;
         }
-
-
-     
 
         [Obsolete("Please use the other variation")]
         public Task<ITransfer> TransferAsync(string transferTarget, string replacesCallContext, LoggingContext loggingContext = null)
@@ -327,8 +323,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Handle a transfer started event
         /// </summary>
-        /// <param name="operationId"></param>
-        /// <param name="exception"></param>
+        /// <param name="operationId">ID of the transfer operation</param>
+        /// <param name="transfer">The <see cref="Transfer"/> object representing the transfer operation</param>
         internal void HandleTransferStarted(string operationId, Transfer transfer)
         {
             TaskCompletionSource<Transfer> tcs = null;

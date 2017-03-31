@@ -163,7 +163,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel.Internal
             return This.IsSandBoxEnv;
         }
 
-
         /// <summary>
         /// Gets if this client platform is an internal partner
         /// </summary>

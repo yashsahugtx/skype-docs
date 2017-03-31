@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
-
     /// <summary>
     /// Represents an OnlineMeeting
     /// </summary>
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.BasePlatformResource{Microsoft.Rtc.Internal.Platform.ResourceContract.ConversationConferenceResource, Microsoft.SfB.PlatformService.SDK.ClientModel.ConversationConferenceCapability}" />
-    /// <seealso cref="Microsoft.SfB.PlatformService.SDK.ClientModel.IConversationConference" />
+    /// <seealso cref="BasePlatformResource{TPlatformResource, TCapabilities}"/>
+    /// <seealso cref="IConversationConference" />
     internal class ConversationConference : BasePlatformResource<ConversationConferenceResource, ConversationConferenceCapability>, IConversationConference
     {
         #region Constructor

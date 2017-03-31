@@ -62,7 +62,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Constructors
 
-
         /// <summary>
         /// Initializes a new instance of the <see cref="ApplicationEndpoint"/> class. Prevents a default instance of the ApplicationEndpoint class from being created
         /// </summary>
@@ -120,7 +119,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             }
             remove { handleIncomingInstantMessagingCall -= value; }
         }
-
 
         /// <summary>
         /// Handles new incoming Audio Video call
@@ -283,10 +281,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             }
         }
 
-        /// <summary>
-        /// The action when receive callback.
-        /// </summary>
-        /// <returns>The task.</returns>
         private void OnReceivedCallback(object sender, EventsChannelArgs events)
         {
             SerializableHttpRequestMessage httpMessage = events.CallbackHttpRequest;
@@ -337,8 +331,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #region Internal methods
 
         /// <summary>
-        /// Handle new incoming invite
+        /// Handle a new incoming invite
         /// </summary>
+        /// <param name="newInvite">The incoming invite</param>
         internal void HandleNewIncomingInvite(IInvitation newInvite)
         {
             var messagingInvite = newInvite as IMessagingInvitation;

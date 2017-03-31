@@ -7,8 +7,6 @@ using Microsoft.Rtc.Internal.RestAPI.Common.MediaTypeFormatters;
 using ResourceModel = Microsoft.Rtc.Internal.RestAPI.ResourceModel;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using Microsoft.Rtc.Internal.RestAPI.Common;
-using Microsoft.Rtc.Internal.Tasks;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
@@ -36,8 +34,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         #endregion
 
         #region Public events
-        
-        ///Adds an Eventhandler to <see cref="m_toneReceivedEvent"/>
+
+        /// <summary>
+        /// The event raised when a tone event is received
+        /// </summary>
         public event EventHandler<ToneReceivedEventArgs> ToneReceivedEvent
         {
             add
@@ -104,9 +104,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
 
         /// <summary>
-        /// send stop prompts event and wait for all prompts to complete.
+        /// Send stop prompts event and wait for all prompts to complete.
         /// </summary>
-        public async Task StopPromptsAsync(LoggingContext loggingContext)
+        /// <param name="loggingContext"><see cref="LoggingContext"/> to be used to log all related events</param>
+        public async Task StopPromptsAsync(LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.StopPromptsLink?.Href;
             if (string.IsNullOrWhiteSpace(href))
@@ -124,10 +125,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                     await entry.Value.Task.ConfigureAwait(false);
                 } catch (RemotePlatformServiceException psException)
                 {
-                    if (psException.ErrorInformation.Code != ResourceModel.ErrorCode.Informational ||
-                        psException.ErrorInformation.Subcode != ResourceModel.ErrorSubcode.PromptsStopped)
+                    if (psException.ErrorInformation.Code != ResourceModel.ErrorCode.Informational
+                        || psException.ErrorInformation.Subcode != ResourceModel.ErrorSubcode.PromptsStopped)
                     {
-                        throw psException;
+                        throw;
                     }
                 }
             }

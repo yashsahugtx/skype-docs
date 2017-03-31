@@ -63,7 +63,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Internal methods
 
-    
         internal override bool ProcessAndDispatchEventsToChild(EventContext eventContext)
         {
             ParticipantChangeEventArgs participantChangeEventArgs = null;

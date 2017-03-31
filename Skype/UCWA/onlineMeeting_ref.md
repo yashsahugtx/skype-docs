@@ -66,8 +66,6 @@ This resource can have the following relationships.
 
 ### Azure Active Directory scopes for online applications
 
-
-
 The user must have at least one of these scopes for operations on the resource to be allowed.
 
 |**Scope**|**Permission**|**Description**|

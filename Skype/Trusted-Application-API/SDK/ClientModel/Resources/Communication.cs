@@ -17,17 +17,17 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Conversations
         /// </summary>
-        private ConcurrentDictionary<string, Conversation> m_conversations;
+        private readonly ConcurrentDictionary<string, Conversation> m_conversations;
 
         /// <summary>
         /// invitations
         /// </summary>
-        private ConcurrentDictionary<string, IInvitation> m_invites;
+        private readonly ConcurrentDictionary<string, IInvitation> m_invites;
 
         /// <summary>
-        /// invitations TCS: invites thread Id <---> Invites Tcs, this is to track the incoming invite comes
+        /// invitations TCS: invites thread Id &lt;---&gt; Invites Tcs, this is to track the incoming invite comes
         /// </summary>
-        private ConcurrentDictionary<string, TaskCompletionSource<IInvitation>> m_inviteAddedTcses;
+        private readonly ConcurrentDictionary<string, TaskCompletionSource<IInvitation>> m_inviteAddedTcses;
 
         #endregion
 
@@ -40,7 +40,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="resource"></param>
         /// <param name="baseUri"></param>
         /// <param name="resourceUri"></param>
-        internal Communication(IRestfulClient restfulClient, CommunicationResource resource, Uri baseUri, Uri resourceUri, object parent)
+        internal Communication(IRestfulClient restfulClient, CommunicationResource resource, Uri baseUri, Uri resourceUri, Application parent)
                 : base(restfulClient, resource, baseUri, resourceUri, parent)
         {
             m_conversations = new ConcurrentDictionary<string, Conversation>();
@@ -59,7 +59,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="to"></param>
         /// <param name="callbackUrl"></param>
         /// <returns></returns>
-        public async Task<IMessagingInvitation> StartMessagingAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null)
+        [Obsolete("Please use the other StartMessagingAsync")]
+        public Task<IMessagingInvitation> StartMessagingAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null)
         {
             Logger.Instance.Information(string.Format("[Communication] calling startMessaging. LoggingContext: {0}",
                  loggingContext == null ? string.Empty : loggingContext.ToString()));
@@ -71,7 +72,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 throw new CapabilityNotAvailableException("Link to start messaging is not available.");
             }
 
-            return await StartMessagingWithIdentityAsync(subject, to, callbackUrl, href, null, null, loggingContext).ConfigureAwait(false);
+            return StartMessagingWithIdentityAsync(subject, to, null, callbackUrl, href, null, null, loggingContext);
         }
 
         /// <summary>
@@ -80,10 +81,33 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="subject"></param>
         /// <param name="to"></param>
         /// <param name="callbackUrl"></param>
+        /// <returns></returns>
+        public Task<IMessagingInvitation> StartMessagingAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null)
+        {
+            Logger.Instance.Information(string.Format("[Communication] calling startMessaging. LoggingContext: {0}",
+                 loggingContext == null ? string.Empty : loggingContext.ToString()));
+
+            string href = PlatformResource?.StartMessagingLink?.Href;
+
+            if (string.IsNullOrWhiteSpace(href))
+            {
+                throw new CapabilityNotAvailableException("Link to start messaging is not available.");
+            }
+
+            return StartMessagingWithIdentityAsync(subject, to.ToString(), callbackContext, null, href, null, null, loggingContext);
+        }
+
+        /// <summary>
+        /// Start messaging with an Identity
+        /// </summary>
+        /// <param name="subject"></param>
+        /// <param name="to"></param>
+        /// <param name="callbackUrl"></param>
         /// <param name="localUserDisplayName"></param>
         /// <param name="localUserUri"></param>
         /// <returns></returns>
-        public async Task<IMessagingInvitation> StartMessagingWithIdentityAsync(string subject, string to, string callbackUrl, string localUserDisplayName, string localUserUri, LoggingContext loggingContext = null)
+        [Obsolete("This feature is not supported by SfB server for public applications")]
+        public Task<IMessagingInvitation> StartMessagingWithIdentityAsync(string subject, string to, string callbackUrl, string localUserDisplayName, string localUserUri, LoggingContext loggingContext = null)
         {
             Logger.Instance.Information(string.Format("[Communication] calling startMessagingWithIdentity. LoggingContext: {0}",
                  loggingContext == null ? string.Empty : loggingContext.ToString()));
@@ -95,7 +119,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 throw new CapabilityNotAvailableException("Link to start messaging with identity is not available.");
             }
 
-            return await StartMessagingWithIdentityAsync(subject, to, callbackUrl, href, localUserDisplayName, localUserUri, loggingContext).ConfigureAwait(false);
+            return StartMessagingWithIdentityAsync(subject, to, null, callbackUrl, href, localUserDisplayName, localUserUri, loggingContext);
         }
 
         /// <summary>
@@ -105,7 +129,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="to"></param>
         /// <param name="callbackUrl"></param>
         /// <returns></returns>
-        public async Task<IAudioVideoInvitation> StartAudioVideoAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null)
+        [Obsolete("Please use the other StartAudioVideoAsync")]
+        public Task<IAudioVideoInvitation> StartAudioVideoAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null)
         {
             Logger.Instance.Information(string.Format("[Communication] calling startAudioVideo. LoggingContext: {0}",
                  loggingContext == null ? string.Empty : loggingContext.ToString()));
@@ -117,7 +142,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 throw new CapabilityNotAvailableException("Link to start AudioVideoCall is not available.");
             }
 
-            return await StartAudioVideoAsync(href, subject, to, callbackUrl, loggingContext);
+            return StartAudioVideoAsync(href, subject, to, null, callbackUrl, loggingContext);
         }
 
         /// <summary>
@@ -127,7 +152,30 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="to"></param>
         /// <param name="callbackUrl"></param>
         /// <returns></returns>
-        public async Task<IAudioVideoInvitation> StartAudioAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null)
+        public Task<IAudioVideoInvitation> StartAudioVideoAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null)
+        {
+            Logger.Instance.Information(string.Format("[Communication] calling startAudioVideo. LoggingContext: {0}",
+                 loggingContext == null ? string.Empty : loggingContext.ToString()));
+
+            string href = PlatformResource?.StartAudioVideoLink?.Href;
+
+            if (string.IsNullOrWhiteSpace(href))
+            {
+                throw new CapabilityNotAvailableException("Link to start AudioVideoCall is not available.");
+            }
+
+            return StartAudioVideoAsync(href, subject, to.ToString(), callbackContext, null, loggingContext);
+        }
+
+        /// <summary>
+        /// Start audio video call
+        /// </summary>
+        /// <param name="subject"></param>
+        /// <param name="to"></param>
+        /// <param name="callbackUrl"></param>
+        /// <returns></returns>
+        [Obsolete("Please use the other StartAudioAsync")]
+        public Task<IAudioVideoInvitation> StartAudioAsync(string subject, string to, string callbackUrl, LoggingContext loggingContext = null)
         {
             Logger.Instance.Information(string.Format("[Communication] calling startAudio. LoggingContext: {0}",
                  loggingContext == null ? string.Empty : loggingContext.ToString()));
@@ -139,9 +187,74 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 throw new CapabilityNotAvailableException("Link to start audio is not available.");
             }
 
-            return await StartAudioVideoAsync(href, subject, to, callbackUrl, loggingContext);
+            return StartAudioVideoAsync(href, subject, to, null, callbackUrl, loggingContext);
         }
 
+        /// <summary>
+        /// Start audio video call
+        /// </summary>
+        /// <param name="subject"></param>
+        /// <param name="to"></param>
+        /// <param name="callbackUrl"></param>
+        /// <returns></returns>
+        public Task<IAudioVideoInvitation> StartAudioAsync(string subject, SipUri to, string callbackContext, LoggingContext loggingContext = null)
+        {
+            Logger.Instance.Information(string.Format("[Communication] calling startAudio. LoggingContext: {0}",
+                 loggingContext == null ? string.Empty : loggingContext.ToString()));
+
+            string href = PlatformResource?.StartAudioLink?.Href;
+
+            if (string.IsNullOrWhiteSpace(href))
+            {
+                throw new CapabilityNotAvailableException("Link to start audio is not available.");
+            }
+
+            return StartAudioVideoAsync(href, subject, to.ToString(), callbackContext, null, loggingContext);
+        }
+
+        public bool CanJoinAdhocMeeting(IAdhocMeeting adhocMeeting)
+        {
+            #pragma warning disable CS0618 // Type or member is obsolete
+            return adhocMeeting.Supports(AdhocMeetingCapability.JoinAdhocMeeting);
+            #pragma warning restore CS0618 // Type or member is obsolete
+        }
+
+        public bool CanStartAdhocMeeting(IMessagingInvitation invitation)
+        {
+            #pragma warning disable CS0618 // Type or member is obsolete
+            return invitation.Supports(MessagingInvitationCapability.StartAdhocMeeting);
+            #pragma warning restore CS0618 // Type or member is obsolete
+        }
+
+        public bool CanStartAdhocMeeting(IAudioVideoInvitation invitation)
+        {
+            #pragma warning disable CS0618 // Type or member is obsolete
+            return invitation.Supports(AudioVideoInvitationCapability.StartAdhocMeeting);
+            #pragma warning restore CS0618 // Type or member is obsolete
+        }
+
+        public Task<IOnlineMeetingInvitation> JoinAdhocMeetingAsync(IAdhocMeeting adhocMeeting, string callbackContext, LoggingContext loggingContext = null)
+        {
+            return (adhocMeeting as AdhocMeeting).JoinAdhocMeetingAsync(callbackContext, loggingContext);
+        }
+
+        public Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(IMessagingInvitation invitation, string subject, string callbackContext, LoggingContext loggingContext = null)
+        {
+            return (invitation as MessagingInvitation).StartAdhocMeetingAsync(subject, callbackContext, null, loggingContext);
+        }
+
+        public Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(IAudioVideoInvitation invitation, string subject, string callbackContext, LoggingContext loggingContext = null)
+        {
+            return (invitation as AudioVideoInvitation).StartMeetingAsync(subject, callbackContext, loggingContext);
+        }
+
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(CommunicationCapability capability)
         {
             string href = null;
@@ -202,72 +315,71 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// ProcessAndDispatchEventsToChild implementation
         /// </summary>
-        /// <param name="eventcontext"></param>
+        /// <param name="eventContext"></param>
         /// <returns></returns>
-        internal override bool ProcessAndDispatchEventsToChild(EventContext eventcontext)
+        internal override bool ProcessAndDispatchEventsToChild(EventContext eventContext)
         {
             //There is no child for events with sender = communication
             Logger.Instance.Information(string.Format("[Communication] get incoming communication event, sender: {0}, senderHref: {1}, EventResourceName: {2} EventFullHref: {3}, EventType: {4} ,LoggingContext: {5}",
-                        eventcontext.SenderResourceName, eventcontext.SenderHref, eventcontext.EventResourceName, eventcontext.EventFullHref, eventcontext.EventEntity.Relationship.ToString(), eventcontext.LoggingContext == null ? string.Empty : eventcontext.LoggingContext.ToString()));
+                        eventContext.SenderResourceName, eventContext.SenderHref, eventContext.EventResourceName, eventContext.EventFullHref, eventContext.EventEntity.Relationship.ToString(), eventContext.LoggingContext == null ? string.Empty : eventContext.LoggingContext.ToString()));
 
-            if (string.Equals(eventcontext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(ConversationResource))))
+            if (string.Equals(eventContext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(ConversationResource))))
             {
-                string conversationNormalizedUri = UriHelper.NormalizeUriWithNoQueryParameters(eventcontext.EventEntity.Link.Href, eventcontext.BaseUri);
+                string conversationNormalizedUri = UriHelper.NormalizeUriWithNoQueryParameters(eventContext.EventEntity.Link.Href, eventContext.BaseUri);
                 Conversation currentConversation = m_conversations.GetOrAdd(conversationNormalizedUri,
                     (a) =>
                     {
                         Logger.Instance.Information(string.Format("[Communication] Add conversation {0} LoggingContext: {1}",
-                        conversationNormalizedUri, eventcontext.LoggingContext == null ? string.Empty : eventcontext.LoggingContext.ToString()));
+                        conversationNormalizedUri, eventContext.LoggingContext == null ? string.Empty : eventContext.LoggingContext.ToString()));
 
-                        ConversationResource localResource = this.ConvertToPlatformServiceResource<ConversationResource>(eventcontext);
+                        ConversationResource localResource = this.ConvertToPlatformServiceResource<ConversationResource>(eventContext);
                         //For every conversation resource, we want to make sure it is using latest rest ful client
-                        return new Conversation(this.RestfulClient, localResource, eventcontext.BaseUri, eventcontext.EventFullHref, this);
+                        return new Conversation(this.RestfulClient, localResource, eventContext.BaseUri, eventContext.EventFullHref, this);
                     }
                     );
 
                 //Remove from cache if it is a delete operation
-                if (eventcontext.EventEntity.Relationship == EventOperation.Deleted)
+                if (eventContext.EventEntity.Relationship == EventOperation.Deleted)
                 {
                     Conversation removedConversation = null;
                     Logger.Instance.Information(string.Format("[Communication] Remove conversation {0} LoggingContext: {1}",
-                           conversationNormalizedUri, eventcontext.LoggingContext == null ? string.Empty : eventcontext.LoggingContext.ToString()));
+                           conversationNormalizedUri, eventContext.LoggingContext == null ? string.Empty : eventContext.LoggingContext.ToString()));
                     m_conversations.TryRemove(conversationNormalizedUri, out removedConversation);
                 }
 
-                currentConversation.HandleResourceEvent(eventcontext);
+                currentConversation.HandleResourceEvent(eventContext);
 
                 return true;
             }
-
-            else if (string.Equals(eventcontext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(MessagingInvitationResource))))
+            else if (string.Equals(eventContext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(MessagingInvitationResource))))
             {
                 this.HandleInvitationEvent<MessagingInvitationResource>(
-                    eventcontext,
-                    (localResource) => new MessagingInvitation(this.RestfulClient, localResource, eventcontext.BaseUri, eventcontext.EventFullHref, this)
+                    eventContext,
+                    (localResource) => new MessagingInvitation(this.RestfulClient, localResource, eventContext.BaseUri, eventContext.EventFullHref, this)
                  );
                 return true;
             }
-            else if (string.Equals(eventcontext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(AudioVideoInvitationResource))))
+            else if (string.Equals(eventContext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(AudioVideoInvitationResource))))
             {
                 this.HandleInvitationEvent<AudioVideoInvitationResource>(
-                    eventcontext,
-                    (localResource) => new AudioVideoInvitation(this.RestfulClient, localResource, eventcontext.BaseUri, eventcontext.EventFullHref, this)
+                    eventContext,
+                    (localResource) => new AudioVideoInvitation(this.RestfulClient, localResource, eventContext.BaseUri, eventContext.EventFullHref, this)
                 );
                 return true;
             }
-            else if (string.Equals(eventcontext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(OnlineMeetingInvitationResource))))
+            else if (string.Equals(eventContext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(OnlineMeetingInvitationResource))))
             {
                 this.HandleInvitationEvent<OnlineMeetingInvitationResource>(
-                    eventcontext,
-                    (localResource) => new OnlineMeetingInvitation(this.RestfulClient, localResource, eventcontext.BaseUri, eventcontext.EventFullHref, this)
+                    eventContext,
+                    (localResource) => new OnlineMeetingInvitation(this.RestfulClient, localResource, eventContext.BaseUri, eventContext.EventFullHref, this)
                 );
                 return true;
             }
-            else if (string.Equals(eventcontext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(ParticipantInvitationResource))))
+            else if (string.Equals(eventContext.EventEntity.Link.Token, TokenMapper.GetTokenName(typeof(ParticipantInvitationResource))))
             {
                 this.HandleInvitationEvent<ParticipantInvitationResource>(
-                    eventcontext,
-                    (localResource) => new ParticipantInvitation(this.RestfulClient, localResource, eventcontext.BaseUri, eventcontext.EventFullHref, this)
+                    eventContext,
+                    (localResource) => new ParticipantInvitation(this.RestfulClient, localResource, eventContext.BaseUri, eventContext.EventFullHref, this)
                 );
                 return true;
             }
@@ -380,8 +492,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="localUserDisplayName"></param>
         /// <param name="localUserUri"></param>
         /// <returns></returns>
-        private async Task<IMessagingInvitation> StartMessagingWithIdentityAsync(string subject, string to, string callbackUrl, string href, string localUserDisplayName, string localUserUri, LoggingContext loggingContext = null)
+        private async Task<IMessagingInvitation> StartMessagingWithIdentityAsync(string subject, string to, string callbackContext, string callbackUrl, string href, string localUserDisplayName, string localUserUri, LoggingContext loggingContext = null)
         {
+            (Parent as Application).GetCallbackUrlAndCallbackContext(ref callbackUrl, ref callbackContext);
+
             string operationId = Guid.NewGuid().ToString();
             var tcs = new TaskCompletionSource<IInvitation>();
             HandleNewInviteOperationKickedOff(operationId, tcs);
@@ -391,6 +505,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 OperationContext = operationId,
                 To = to,
                 Subject = subject,
+                CallbackContext = callbackContext,
                 CallbackUrl = callbackUrl,
                 LocalUserDisplayName = localUserDisplayName,
                 LocalUserUri = localUserUri
@@ -424,8 +539,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="to"></param>
         /// <param name="callbackUrl"></param>
         /// <returns></returns>
-        private async Task<IAudioVideoInvitation> StartAudioVideoAsync(string href, string subject, string to, string callbackUrl, LoggingContext loggingContext = null)
+        private async Task<IAudioVideoInvitation> StartAudioVideoAsync(string href, string subject, string to, string callbackContext, string callbackUrl, LoggingContext loggingContext = null)
         {
+            (Parent as Application).GetCallbackUrlAndCallbackContext(ref callbackUrl, ref callbackContext);
+
             var operationId = Guid.NewGuid().ToString();
             var tcs = new TaskCompletionSource<IInvitation>();
             HandleNewInviteOperationKickedOff(operationId, tcs);
@@ -435,6 +552,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 OperationContext = operationId,
                 To = to,
                 Subject = subject,
+                CallbackContext = callbackContext,
                 CallbackUrl = callbackUrl,
                 MediaHost = MediaHostType.Remote
             };

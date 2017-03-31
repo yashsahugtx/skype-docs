@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
+    /// <summary>
+    /// Class EventableEntity.
+    /// </summary>
     public abstract class EventableEntity
     {
         /// <summary>
@@ -28,17 +31,29 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         }
     }
 
+    /// <summary>
+    /// Base class for Platform service resources
+    /// </summary>
+    /// <typeparam name="TPlatformResource"></typeparam>
+    /// <typeparam name="TCapabilities"></typeparam>
     public abstract class BasePlatformResource<TPlatformResource, TCapabilities> : EventableEntity, IPlatformResource<TCapabilities>
         where TPlatformResource : Resource
     {
         #region Constructor
 
         /// <summary>
-        /// Initializes a new instance of the BaseInstance class.
+        /// Initializes a new instance of the <see cref="BasePlatformResource{TPlatformResource, TCapabilities}"/> class.
         /// </summary>
         /// <param name="restfulClient">The restful client.</param>
-        /// <param name="resource">The platform resource.</param>
-        /// <param name="baseUri">The base uri.</param>
+        /// <param name="resource">The resource.</param>
+        /// <param name="baseUri">The base URI.</param>
+        /// <param name="resourceUri">The resource URI.</param>
+        /// <param name="parent">The parent.</param>
+        /// <exception cref="System.ArgumentNullException">
+        /// restfulClient
+        /// or
+        /// baseUri
+        /// </exception>
         internal BasePlatformResource(IRestfulClient restfulClient, TPlatformResource resource, Uri baseUri, Uri resourceUri, object parent)
         {
             if (restfulClient == null)
@@ -74,7 +89,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         protected TPlatformResource PlatformResource { get; private set; }
 
-
+        //Unit test can leverage this to avoid waiting too long
         internal TimeSpan WaitForEvents { get; set; } = TimeSpan.FromSeconds(30);
 
         #endregion
@@ -84,17 +99,17 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Gets the BaseUri.
         /// </summary>
-        public Uri BaseUri { get; private set; }
+        public Uri BaseUri { get; }
 
         /// <summary>
         /// Gets the local resource uri.
         /// </summary>
-        public Uri ResourceUri { get; private set; }
+        public Uri ResourceUri { get; }
 
         /// <summary>
         /// The parent resource
         /// </summary>
-        public object Parent { get; private set; }
+        public object Parent { get; }
 
         /// <summary>
         /// Updated Event Handlers
@@ -118,7 +133,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <summary>
         /// Gets the Restful Client.
         /// </summary>
-        internal IRestfulClient RestfulClient { get; private set; }
+        internal IRestfulClient RestfulClient { get; }
 
         #endregion
 
@@ -131,7 +146,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="requestUri">The request uri for the related platform resource.</param>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>The related platform resource.</returns>
-        public async Task RefreshAsync(LoggingContext loggingContext)
+        public async Task RefreshAsync(LoggingContext loggingContext = null)
         {
             string typeName = this.GetType().Name;
             Logger.Instance.Information("Calling " + typeName + " RefreshAsync" + (loggingContext == null ? string.Empty : loggingContext.ToString()));
@@ -146,7 +161,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         /// <param name="loggingContext">The logging context.</param>
         /// <returns>The related platform resource.</returns>
-        public async Task DeleteAsync(LoggingContext loggingContext)
+        public async Task DeleteAsync(LoggingContext loggingContext = null)
         {
             string typeName = this.GetType().Name;
             Logger.Instance.Information("Calling " + typeName + " DeleteAsync");
@@ -201,10 +216,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 var httpResponse = await RestfulClient.GetAsync(requestUri, customerHeaders).ConfigureAwait(false);
 
                 localLoggingContext.FillTracingInfoFromHeaders(httpResponse.Headers, false);
-                if (httpResponse.IsSuccessStatusCode ||
-                (httpResponse.StatusCode == HttpStatusCode.NotFound &&
-                    !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseCorrelationId) &&
-                    !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseServerFqdn)))
+                if (httpResponse.IsSuccessStatusCode
+                    || (httpResponse.StatusCode == HttpStatusCode.NotFound
+                    && !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseCorrelationId)
+                    && !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseServerFqdn)))
                 {
                     if (httpResponse.StatusCode != HttpStatusCode.NoContent && httpResponse.StatusCode != HttpStatusCode.NotFound && httpResponse.Content != null)
                     {
@@ -239,14 +254,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>The HttpResponse Message.</returns>
         protected async Task<HttpResponseMessage> PostRelatedPlatformResourceAsync(Uri requestUri, HttpContent content, LoggingContext loggingContext)
         {
-            LoggingContext localLoggingContext = loggingContext == null ? null : loggingContext.Clone() as LoggingContext;
+            LoggingContext localLoggingContext = loggingContext?.Clone() as LoggingContext ?? new LoggingContext();
 
             var customerHeaders = new Dictionary<string, string>();
-
-            if (localLoggingContext == null)
-            {
-                localLoggingContext = new LoggingContext();
-            }
 
             Logger.Instance.Information("calling" + this.GetType().Name + "  PostRelatedPlatformResourceAsync " + requestUri.ToString() + "\r\n" + localLoggingContext.ToString());
 
@@ -294,14 +304,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         protected async Task<HttpResponseMessage> PostRelatedPlatformResourceAsync<TInput>(Uri requestUri, TInput input, MediaTypeFormatter mediaTypeFormatter, LoggingContext loggingContext)
             where TInput : class
         {
-            LoggingContext localLoggingContext = loggingContext == null ? null : loggingContext.Clone() as LoggingContext;
+            LoggingContext localLoggingContext = loggingContext?.Clone() as LoggingContext ?? new LoggingContext();
 
             var customerHeaders = new Dictionary<string, string>();
-
-            if (localLoggingContext == null)
-            {
-                localLoggingContext = new LoggingContext();
-            }
 
             Logger.Instance.Information("calling" + this.GetType().Name + "  PostRelatedPlatformResourceAsync " + requestUri.ToString() + "\r\n" + localLoggingContext.ToString());
 
@@ -345,12 +350,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         protected async Task PutRelatedPlatformResourceAsync(Uri requestUri, HttpContent content, LoggingContext loggingContext)
         {
             var customerHeaders = new Dictionary<string, string>();
-            LoggingContext localLoggingContext = loggingContext == null ? null : loggingContext.Clone() as LoggingContext;
-
-            if (localLoggingContext == null)
-            {
-                localLoggingContext = new LoggingContext();
-            }
+            var localLoggingContext = loggingContext?.Clone() as LoggingContext ?? new LoggingContext();
 
             Logger.Instance.Information("calling" + this.GetType().Name + "  PutRelatedPlatformResourceAsync " + requestUri.ToString() + "\r\n" + localLoggingContext.ToString());
 
@@ -395,21 +395,16 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         protected async Task<HttpResponseMessage> PutRelatedPlatformResourceAsync<TInput>(Uri requestUri, TInput input, MediaTypeFormatter mediaTypeFormatter, LoggingContext loggingContext)
             where TInput : class
         {
-            LoggingContext localLoggingContext = loggingContext == null ? null : loggingContext.Clone() as LoggingContext;
+            LoggingContext localLoggingContext = loggingContext?.Clone() as LoggingContext ?? new LoggingContext();
 
             var customerHeaders = new Dictionary<string, string>();
-
-            if (localLoggingContext == null)
-            {
-                localLoggingContext = new LoggingContext();
-            }
 
             Logger.Instance.Information("calling" + this.GetType().Name + "  PutRelatedPlatformResourceAsync " + requestUri.ToString() + "\r\n" + localLoggingContext.ToString());
 
             localLoggingContext.PropertyBag[Constants.RemotePlatformServiceUri] = requestUri;
             if (!string.IsNullOrEmpty(loggingContext?.JobId))
             {
-                customerHeaders.Add(Constants.UcapClientRequestId, loggingContext.JobId.ToString());
+                customerHeaders.Add(Constants.UcapClientRequestId, loggingContext.JobId);
             }
 
             try
@@ -444,13 +439,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>The task.</returns>
         protected async Task DeleteRelatedPlatformResourceAsync(Uri requestUri, LoggingContext loggingContext)
         {
-            LoggingContext localLoggingContext = loggingContext == null ? null : loggingContext.Clone() as LoggingContext;
+            var localLoggingContext = loggingContext?.Clone() as LoggingContext ?? new LoggingContext();
             var customerHeaders = new Dictionary<string, string>();
-
-            if (localLoggingContext == null)
-            {
-                localLoggingContext = new LoggingContext();
-            }
 
             Logger.Instance.Information("calling" + this.GetType().Name + "  DeleteRelatedPlatformResourceAsync " + requestUri.ToString() + "\r\n" + localLoggingContext.ToString());
 
@@ -466,9 +456,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 localLoggingContext.FillTracingInfoFromHeaders(httpResponse.Headers, false);
                 if (!httpResponse.IsSuccessStatusCode)
                 {
-                    if (httpResponse.StatusCode == HttpStatusCode.NotFound &&
-                    !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseCorrelationId) &&
-                    !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseServerFqdn))
+                    if (httpResponse.StatusCode == HttpStatusCode.NotFound
+                        && !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseCorrelationId)
+                        && !string.IsNullOrWhiteSpace(loggingContext.PlatformResponseServerFqdn))
                     {
                         return;
                     }

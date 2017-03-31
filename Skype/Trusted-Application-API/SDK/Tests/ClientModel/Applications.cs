@@ -21,7 +21,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
             m_restfulClient = new MockRestfulClient();
             Logger.RegisterLogger(new ConsoleLogger());
             Logger.RegisterLogger(new ConsoleLogger());
-            
+
             m_loggingContext = new LoggingContext(Guid.NewGuid());
             TestHelper.InitializeTokenMapper();
 
@@ -30,7 +30,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
             SipUri ApplicationEndpointId = TestHelper.ApplicationEndpointUri;
 
             var discover = new Discover(m_restfulClient, baseUri, discoverUri, this);
-            await discover.RefreshAndInitializeAsync(m_loggingContext, ApplicationEndpointId.ToString()).ConfigureAwait(false);
+            await discover.RefreshAndInitializeAsync(ApplicationEndpointId.ToString(), m_loggingContext).ConfigureAwait(false);
 
             m_applications = discover.Applications;
         }
@@ -43,7 +43,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
             Assert.IsFalse(m_restfulClient.RequestsProcessed("GET " + DataUrls.Applications));
 
             // When
-            await m_applications.RefreshAndInitializeAsync(m_loggingContext);
+            await m_applications.RefreshAndInitializeAsync(m_loggingContext).ConfigureAwait(false);
 
             // Then
             Assert.IsNotNull(m_applications.Application);
@@ -58,7 +58,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests.ClientModel
             m_restfulClient.OverrideResponse(new Uri(DataUrls.Applications), HttpMethod.Get, HttpStatusCode.OK, "Applications_NoApplication.json");
 
             // When
-            await m_applications.RefreshAndInitializeAsync(m_loggingContext);
+            await m_applications.RefreshAndInitializeAsync(m_loggingContext).ConfigureAwait(false);
 
             // Then
             // Exception is thrown

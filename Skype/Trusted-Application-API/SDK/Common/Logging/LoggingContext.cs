@@ -7,6 +7,9 @@ using System.Text;
 
 namespace Microsoft.SfB.PlatformService.SDK.Common
 {
+    /// <summary>
+    /// Catches the context of logging
+    /// </summary>
     public class LoggingContext : ICloneable
     {
         public LoggingContext()
@@ -84,7 +87,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         /// The tracking Id
         /// </summary>
         [JsonProperty]
-        public Guid TrackingId { get; private set; }
+        public Guid TrackingId { get; }
 
         /// <summary>
         /// Get related tracing info from header.

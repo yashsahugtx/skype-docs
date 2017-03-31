@@ -29,6 +29,8 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests
         internal ApplicationEndpoint ApplicationEndpoint { get; set; }
 
         internal ClientPlatform ClientPlatform { get; set; }
+
+        internal ClientPlatformSettings ClientPlatformSettings { get; set; }
     }
 
     internal static class TestHelper
@@ -43,9 +45,8 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests
                 DiscoverUri,              
                 AADClientId,
                 AppTokenCertThumbprint,
-                false,
                 null,
-                TestHelper.IsInternalApp);
+                IsInternalApp);
 
             var restfulClient = new MockRestfulClient();
             var restfulClientFactory = new Mock<IRestfulClientFactory>();
@@ -65,6 +66,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Tests
                 EventChannel = mockEventChannel,
                 RestfulClientFactory = restfulClientFactory,
                 RestfulClient = restfulClient,
+                ClientPlatformSettings = platformSettings,
                 ClientPlatform = platform,
                 ApplicationEndpoint = new ApplicationEndpoint(platform, endpointSettings, mockEventChannel.Object)
             };

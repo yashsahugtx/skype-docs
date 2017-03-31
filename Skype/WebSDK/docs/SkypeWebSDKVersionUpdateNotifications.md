@@ -13,7 +13,7 @@ The latest release fixes several bugs in relation to AV scnearios.
 
 **Bugs fixed in the new public preview build:**
 * Solved spinner issues for participants that don't have a camera
-* Fixed camera issues when excalating to a meeting
+* Fixed camera issues when escalating to a meeting
 * Fixed negotiation issue with WebRTC enabled clients
 
 ---

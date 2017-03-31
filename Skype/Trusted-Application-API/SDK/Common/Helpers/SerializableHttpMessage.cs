@@ -44,6 +44,11 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         /// <value><c>true</c> if this instance is incoming; otherwise, <c>false</c>.</value>
         public bool IsIncoming { get; set; }
 
+        /// <summary>
+        /// Gets the inner <see cref="HttpContent"/> of this object
+        /// </summary>
+        /// <returns><see cref="HttpContent"/> stored inside this object</returns>
+        /// <remarks>For logging purposes</remarks>
         protected async Task<HttpContent> GetHttpContentForLogAsync()
         {
             HttpContent content = null;
@@ -99,21 +104,25 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
     public class SerializableHttpRequestMessage : SerializableHttpMessage
     {
         #region properties/fields
+
         /// <summary>
         /// Gets or sets the method.
         /// </summary>
         /// <value>The method.</value>
         public HttpMethod Method { get; set; }
+
         /// <summary>
         /// Gets or sets the URI of the Http request.
         /// </summary>
         /// <value>The URI.</value>
         public string Uri { get; set; }
+
         /// <summary>
         /// Gets or sets the request headers.
         /// </summary>
         /// <value>The request headers.</value>
         public List<Tuple<string, string>> RequestHeaders { get; set; }
+
         /// <summary>
         /// Gets or sets the logging context.
         /// </summary>
@@ -121,19 +130,11 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         public LoggingContext LoggingContext { get; set; }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="SerializableHttpRequestMessage"/> class.
+        /// Initiliazes this <see cref="SerializableHttpRequestMessage"/> with a <see cref="HttpRequestMessage"/>
         /// </summary>
-        public SerializableHttpRequestMessage()
-        {
-        }
-
-        /// <summary>
-        /// InitializeFromHttpContent
-        /// </summary>
-        /// <param name="RequestUri"></param>
-        /// <param name="content"></param>
-        /// <param name="method"></param>
-        /// <param name="requestId"></param>
+        /// <param name="requestMessage">The <see cref="HttpRequestMessage"/> from where to read all the content and headers</param>
+        /// <param name="requestId">ID of the request (if available in request headers)</param>
+        /// <param name="isIncoming"><code>true</code> if the <see cref="HttpResponseMessage"/> is in response of an incoming HTTP request</param>
         /// <returns></returns>
         public async Task InitializeAsync(HttpRequestMessage requestMessage, string requestId, bool isIncoming = true)
         {

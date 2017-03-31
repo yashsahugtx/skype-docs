@@ -39,6 +39,10 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             get { return instance.Value; }
         }
 
+        /// <summary>
+        /// Writes logs at INFO level
+        /// </summary>
+        /// <param name="message">Message to be logged</param>
         public void Information(string message)
         {
             if (this.m_innerLogger != null)
@@ -47,6 +51,11 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at INFO level
+        /// </summary>
+        /// <param name="fmt">formatted string</param>
+        /// <param name="vars">parameters for formatted string</param>
         public void Information(string fmt, params object[] vars)
         {
             if (this.m_innerLogger != null)
@@ -55,6 +64,12 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at INFO level
+        /// </summary>
+        /// <param name="exception"><see cref="Exception"/> to be logged</param>
+        /// <param name="fmt">formatted string</param>
+        /// <param name="vars">parameters for formatted string</param>
         public void Information(Exception exception, string fmt, params object[] vars)
         {
             if (this.m_innerLogger != null)
@@ -63,6 +78,10 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at WARN level
+        /// </summary>
+        /// <param name="message">Message to be logged</param>
         public void Warning(string message)
         {
             if (this.m_innerLogger != null)
@@ -71,6 +90,11 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at WARN level
+        /// </summary>
+        /// <param name="fmt">formatted string</param>
+        /// <param name="vars">parameters for formatted string</param>
         public void Warning(string fmt, params object[] vars)
         {
             if (this.m_innerLogger != null)
@@ -79,6 +103,12 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at WARN level
+        /// </summary>
+        /// <param name="exception"><see cref="Exception"/> to be logged</param>
+        /// <param name="fmt">formatted string</param>
+        /// <param name="vars">parameters for formatted string</param>
         public void Warning(Exception exception, string fmt, params object[] vars)
         {
             if (this.m_innerLogger != null)
@@ -87,6 +117,10 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at ERROR level
+        /// </summary>
+        /// <param name="message">Message to be logged</param>
         public void Error(string message)
         {
             if (this.m_innerLogger != null)
@@ -95,6 +129,11 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at ERROR level
+        /// </summary>
+        /// <param name="fmt">formatted string</param>
+        /// <param name="vars">parameters for formatted string</param>
         public void Error(string fmt, params object[] vars)
         {
             if (this.m_innerLogger != null)
@@ -103,6 +142,12 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Writes logs at ERROR level
+        /// </summary>
+        /// <param name="exception"><see cref="Exception"/> to be logged</param>
+        /// <param name="fmt">formatted string</param>
+        /// <param name="vars">parameters for formatted string</param>
         public void Error(Exception exception, string fmt, params object[] vars)
         {
             if (this.m_innerLogger != null)
@@ -111,6 +156,9 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
             }
         }
 
+        /// <summary>
+        /// Decides whether to write full HTTP requests and responses to logs
+        /// </summary>
         public bool HttpRequestResponseNeedsToBeLogged
         {
             get

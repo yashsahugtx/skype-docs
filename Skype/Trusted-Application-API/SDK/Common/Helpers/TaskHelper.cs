@@ -100,6 +100,7 @@ namespace Microsoft.SfB.PlatformService.SDK.Common
         /// <summary>
         /// Observes platform exception and then ignores it.
         /// </summary>
+        /// <typeparam name="TException"><see cref="Exception"/> to be ignored</typeparam>
         /// <param name="task">Task to set exception handler.</param>
         /// <returns>Returns the task after setting the exception handler.</returns>
         public static Task Observe<TException>(this Task task)

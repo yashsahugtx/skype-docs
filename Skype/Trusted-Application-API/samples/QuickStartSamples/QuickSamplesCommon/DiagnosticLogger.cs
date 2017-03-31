@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics;
 
-namespace AudioVideoIVRSample
+namespace QuickSamplesCommon
 {
     /// <summary>
     /// Definition for the class AzureDiagnosticLogger

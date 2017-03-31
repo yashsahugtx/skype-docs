@@ -43,17 +43,12 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return PostRelatedPlatformResourceAsync(acceptLink, input, new ResourceJsonMediaTypeFormatter(), loggingContext);
         }
 
-        /// <summary>
-        /// Forwards the <see cref="AudioVideoInvitation"/> asynchronous.
-        /// </summary>
-        /// <param name="loggingContext">The logging context.</param>
-        /// <param name="forwardTarget">The forward target.</param>
-        /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
-        /// <exception cref="System.NotImplementedException"></exception>
+        [Obsolete("Please use the other variation")]
         public Task<HttpResponseMessage> ForwardAsync(LoggingContext loggingContext, string forwardTarget)
         {
-            return ForwardAsync(forwardTarget, loggingContext);
+            return ForwardAsync(new SipUri(forwardTarget), loggingContext);
         }
+
 
         /// <summary>
         /// Forwards the <see cref="AudioVideoInvitation"/> asynchronous.
@@ -63,7 +58,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <returns>Task&lt;HttpResponseMessage&gt;.</returns>
         /// <exception cref="System.ArgumentNullException">forwardTarget - forwardTarget</exception>
         /// <exception cref="CapabilityNotAvailableException">Link to forward AudioVideoInvitation is not available.</exception>
-    
+
         public Task<HttpResponseMessage> ForwardAsync(SipUri forwardTarget, LoggingContext loggingContext = null)
 
         {

@@ -4,6 +4,58 @@ Thank you for your interest in Skype for Business developer documentation!
 
 ## Release Notes
 
+### 1.0.0-prerelease6
+
+Key changes:
+ 1. IAudioVideoInvitation.AcceptAndBridgeAsync() has been deprecated and segregated into two methods with same name to clarify their use cases
+
+ 2. **!!ATTENTION!!** Newer variations of following methods now take **CallbackContext** as input in place of callback uri:
+    1. ICommunication.JoinAdhocMeetingAsync()
+    2. ICommunication.StartAdhocMeetingAsync()
+    3. ICommunication.StartMessagingAsync()
+    4. ICommunication.StartAudioVideoAsync()
+    5. ICommunication.StartAudioAsync()
+
+ 3. LoggingContext is now an optional parameter in these methods:
+    1. IPlatformResource.RefreshAsync()
+    2. IPlatformResource.DeleteAsync()
+    3. IApplication.RefreshAndInitializeAsync()
+    4. IApplicationEndpoint.InitializeAsync()
+    5. IApplicationEndpoint.InitializeApplicationAsync()
+    6. IApplications.RefreshAndInitializeAsync()
+    7. IAudioVideoFlow.PlayPromptAsync()
+    8. IAudioVideoInvitation.AcceptAsync()
+    9. IAudioVideoInvitation.DeclineAsync()
+    10. ICall.EstablishAsync()
+    11. ICall.TerminateAsync()
+    12. IMessagingCall.SendMessageAsync()
+    13. IParticipant.EjectAsync()
+
+Following methods have newer variation with same name and the previous variation has been deprecated:
+ 1. IApplication.GetAnonApplicationTokenForMeetingAsync()
+ 2. IApplication.GetAnonApplicationTokenForP2PCallAsync()
+ 3. IApplication.CreateAdhocMeetingAsync()
+ 4. IAudioVideoCall.TransferAsync()
+ 5. IAudioVideoInvitation.ForwardAsync()
+ 6. IBridgedParticipant.UpdateAsync()
+ 7. ICommunication.StartMessagingAsync()
+ 8. ICommunication.StartAudioVideoAsync()
+ 9. ICommunication.StartAudioAsync()
+ 10. IConversation.AddParticipantAsync()
+ 11. IConversationBridge.AddBridgedParticipantAsync()
+ 12. IDiscover.RefreshAndInitializeAsync()
+
+New methods:
+ 1. ICommunication.JoinAdhocMeetingAsync() replaces IAdhocMeeting.JoinAdhocMeeting()
+ 2. ICommunication.StartAdhocMeetingAsync() replaces IAudioVideoInvitation.StartAdhocMeetingAsync()
+ 3. ICommunication.StartAdhocMeetingAsync() replaces IMessagingInvitation.JoinAdhocMeeting()
+ 4. ICommunication.CanJoinAdhocMeeting()
+ 5. ICommunication.CanStartAdhocMeeting
+ 6. IAudioVideoFlow.StopPromptsAsync()
+
+Deprecated methods:
+ 1. ICommunication.StartMessagingWithIdentityAsync()
+
 ### 1.0.0-prerelease5
 
 Key changes:

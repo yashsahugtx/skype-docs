@@ -108,7 +108,7 @@ namespace CallTransferSample
             }
             catch (RemotePlatformServiceException ex)
             {
-                ErrorInformation error = ex.ErrorInformation;
+                Microsoft.SfB.PlatformService.SDK.ClientModel.ErrorInformation error = ex.ErrorInformation;
                 if (error != null && error.Code == ErrorCode.Informational && error.Subcode == ErrorSubcode.CallTerminated)
                 {
                     Logger.Instance.Information("[CallCenterJob] Call terminated while playing prompt.");
@@ -185,7 +185,7 @@ namespace CallTransferSample
             string CallbackUrl = string.Format("{0}?callbackContext={1}", m_callbackUri.ToString() ,HttpUtility.UrlEncode(callbackContextJsonString));
 
             Logger.Instance.Information("Making outbound call to " + agent);
-            IAudioVideoInvitation invite = await communication.StartAudioAsync("customer call", agent, CallbackUrl, m_loggingContext).ConfigureAwait(false);
+            IAudioVideoInvitation invite = await communication.StartAudioAsync("customer call", new SipUri(agent), CallbackUrl, m_loggingContext).ConfigureAwait(false);
             await invite.WaitForInviteCompleteAsync().ConfigureAwait(false);
             IConversation c = invite.RelatedConversation;
             if (c.AudioVideoCall != null)
@@ -212,7 +212,7 @@ namespace CallTransferSample
 
                 IAudioVideoCall av = invite.RelatedConversation.AudioVideoCall;
 
-                ITransfer t = await av.TransferAsync(null, callContext, m_loggingContext).ConfigureAwait(false);
+                ITransfer t = await av.TransferAsync((SipUri)null, callContext, m_loggingContext).ConfigureAwait(false);
                 await t.WaitForTransferCompleteAsync().TimeoutAfterAsync(TimeSpan.FromSeconds(30)).ConfigureAwait(false);
                 Logger.Instance.Information("[CallCenterJob] Transfer completed successfully!");
             }

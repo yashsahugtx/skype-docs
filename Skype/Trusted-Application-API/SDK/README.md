@@ -31,6 +31,8 @@ Key changes:
     12. IMessagingCall.SendMessageAsync()
     13. IParticipant.EjectAsync()
 
+ 4.  4. AdhocMeetingCreationInput now supports setting leaders
+
 Following methods have newer variation with same name and the previous variation has been deprecated:
  1. IApplication.GetAnonApplicationTokenForMeetingAsync()
  2. IApplication.GetAnonApplicationTokenForP2PCallAsync()

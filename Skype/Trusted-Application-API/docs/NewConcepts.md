@@ -88,39 +88,6 @@ In order to create a Conversation Bridge (when the Service Application wants to 
 Callback functionality is implemented using [Webhooks](./Webhooks.md). 
 
 
-## Audio Video:
-Audio video is the communication between the service applications' endpoint and remote participant with audio/video modality. **Trusted Application API** supports incoming
- and outgoing audio video calls. For example, from the SA's endpoint to a user. For this release, **Trusted Application API** only supports incoming audio video call to 
-the SA endpoint's registered PSTN number. To receive incoming calls from PSTN, the tenant administrator acquires a service phone number and assigns it to the SA's endpoint.
-Please refer the [Trusted Application Endpoint](./TrustedApplicationEndpoint.md) and [Registration in SFB Online](./SfBRegistration.md) for more details. 
-
-The target of an outgoing audio video call must be an SfB user within the same tenant as the SA endpoint. 
-For media, **Trusted Application API** supports interactive voice response (IVR) capability. With IVR support, the SA never directly 
-interacts with the media. Instead, **Trusted Application API** allocates a media bot remotely on behalf of the
-service application. **Trusted Application API** allows the application to interact with remote participant by playing a prompt or recognizing DTMF tones. A remote users uses a keypad to input choices and the client app sends tones using functions exposed by **Trusted Application API**. 
-
-When an application accepts incoming audio video call or makes outbound calls, it must specify **mediaHost** as "Remote"
-in the HTTP input body to access **Trusted Application API** IVR capability. 
-
-The **[service:audiovideo](https://ucwa.skype.com/trustedapplicationapi/Resources/service_audioVideo.html)** resource implements the signaling connection with the remote participant for the audio video call. The actual audio and video media is exchanged on an instance of **[service:audioVideoFlow](https://ucwa.skype.com/trustedapplicationapi/Resources/service_audioVideoFlow.html)**, which is created at the time call is established.
-The **[service:startAudioVideo](https://ucwa.skype.com/trustedapplicationapi/Resources/service_startAudioVideo.html)** allows the application to create a new conversation with the specified contact with audio/video modality.
-
-## Audio Video Flow:
-
-Audio Video flow is the media connection between an SA endpoint and a remote participant. The **[service:audioVideoFlow](https://ucwa.skype.com/trustedapplicationapi/Resources/service_audioVideoFlow.html)** resource exposes the media capabilities and 
-plays a pre-recorded prompt **[service:playPrompt](https://ucwa.skype.com/trustedapplicationapi/Resources/service_playPrompt.html)** or recognize an incoming DTMF or tone events **[service:tone](https://ucwa.skype.com/trustedapplicationapi/Resources/service_tone.html)**. 
-These operation capabilities are made available to the application only after a successful media negotiation, 
-when the state of the flow is **Connected**.
-
-## Transfer Audio Video Call:
-
-**[service:transfer](https://ucwa.skype.com/trustedapplicationapi/Resources/service_transfer.html)** is the capability to transfer an ongoing audio video call. **Trusted Application API** supports both attended
-transfer and supervised transfer. For the attended and supervised transfer concept please refer to 
-[UCMA documentation](https://msdn.microsoft.com/en-us/library/office/hh347347.aspx). The application needs to specify either the "to" input property 
-(the address of the transfer target) or the "replacesCallContext" input property (the call to be replaced as the result of the transfer) in the transfer request body, 
-to indicate that the transfer request is attended or supervised.
-
-
 ## Programming tips
 
 When coding with the Trusted Application , you should keep the following tips in mind:

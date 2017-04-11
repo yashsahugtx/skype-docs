@@ -10,7 +10,7 @@ General information about PowerShell cmdlets usage can be found in [Using Window
 2. Open Windows PowerShell as Administrator and run the following:
 
 ```PowerShell
-Import-PSSession (New-CsOnlineSession -Credential Get-Credential)
+Import-PSSession (New-CsOnlineSession -Credential (Get-Credential))
 ```
 
 For more information see: [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795.aspx)

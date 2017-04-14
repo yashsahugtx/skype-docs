@@ -468,7 +468,7 @@
 ### [Desktop Apps](https://msdn.microsoft.com/en-us/library/office/jj933180.aspx)
 ### [Unified Communications Managed API (UCMA)](https://msdn.microsoft.com/en-us/library/office/dn454984.aspx)
 ### [Unified Communications Web API (UCWA)](https://msdn.microsoft.com/en-us/library/office/dn324971.aspx)
-### [Skype for Business SDN Interface](https://aka.ms/p7xn2x)
+### [Skype for Business SDN Interface](SDN/Lync_SDN.md)
 
 
 ## [Lync](https://msdn.microsoft.com/en-us/library/office/dn820099.aspx)

@@ -46,7 +46,7 @@ These two schema shall be referred to as the "C" and "D" schemas, respectively. 
 -  [Skype for Business Software Defined Networking (SDN) Interface](skype-for-business-sdn-interface.md)
     
   
--  [Skype for Business Software Defined Networking (SDN) Interface 3.0](http://msdn.microsoft.com/library/3bd64f71-04fb-e590-1dbd-765f14ae6720.aspx)
+-  [Skype for Business Software Defined Networking (SDN) Interface 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=54685)
     
   
 

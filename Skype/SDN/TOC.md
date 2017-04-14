@@ -1,6 +1,4 @@
 
-  
-
 # [Skype for Business SDN Interface](articles/skype-for-business-sdn-interface.md)
 ## [Overview](articles/overview.md)
 ### [Release Notes](articles/release-notes.md)

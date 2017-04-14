@@ -29,10 +29,10 @@ These two schema shall be referred to as the "C" and "D" schemas, respectively. 
 ## In this section
 
 
--  [Skype for Business SDN Interface 2.2, Schema C](skype-for-business-sdn-interface-2-2-schema-c.md)
+-  [Skype for Business SDN Interface 2.2, Schema C](https://msdn.microsoft.com/en-us/library/office/mt404709(v=office.16).aspx)
     
   
--  [Skype for Business SDN Interface 2.2, Schema D](skype-for-business-sdn-interface-2-2-schema-d.md)
+-  [Skype for Business SDN Interface 2.2, Schema D](https://msdn.microsoft.com/en-us/library/office/mt429384(v=office.16).aspx)
     
   
 

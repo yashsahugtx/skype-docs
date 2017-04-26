@@ -4,10 +4,18 @@ Thank you for your interest in Skype for Business developer documentation!
 
 ## Release Notes
 
-### 1.0.0-prerelease8 (in progress; not yet released)
+### 1.0.0-prerelease9
 
 Key changes:
- 1. IAudioVideoCall.TransferAsync() has been deprecated and segregated into two methods with same name to clarify their use cases
+ 1. IMessagingInvitation.CustomContent property now retrieves the custom content that was sent by the caller in the invitation
+ 2. Minor bug fix in SerializableHttpMessage
+ 3. Add a temporary workaround for a server issue which caused the server to return 500 Internal Server Error when a client tries to discover services. It will be reverted in the next release of the SDK.
+
+### 1.0.0-prerelease8
+
+Key changes:
+ 1. IAudioVideoCall.TransferAsync() has been deprecated and segregated into two methods; one for transferring to a user, second for replacing an existing call
+ 2. Fixed a NullReferenceException in IAudioVideoInvitation.AcceptAndBridgeAsync() for bridging to a meeting
 
 ### 1.0.0-prerelease7
 
@@ -23,7 +31,7 @@ Dependency changes:
 ### 1.0.0-prerelease6
 
 Key changes:
- 1. IAudioVideoInvitation.AcceptAndBridgeAsync() has been deprecated and segregated into two methods with same name to clarify their use cases
+ 1. IAudioVideoInvitation.AcceptAndBridgeAsync() has been deprecated and segregated into two methods; one for bridging to a meeting, second for bridging to a user
 
  2. **!!ATTENTION!!** Newer variations of following methods now take **CallbackContext** as input in place of callback uri:
     1. ICommunication.JoinAdhocMeetingAsync()

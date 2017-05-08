@@ -1,14 +1,12 @@
 # README
 
-Thank you for your interest in Skype for Business Bot Framework documentation!
+Thank you for your interest in **Skype for Business Bot Framework** documentation!
 
 This documentation is hosted at [MSDN](https://msdn.microsoft.com/en-us/skype/Skype-For-Business-Bot-Framework/docs/overview) . Please read it there.
 
 If you're interested in contributing to this documentation, then please read on.
 
-## **Skype for Business Bot Framework** 
-
-## Contribute to the documentation
+ ## Contribute to the documentation
 
 You may want to contribute new content or improve existing **Skype for Business Bot Framework** content. If you do, then clone this repoistory, 
 create a new branch from the master branch, add your content, and then create a pull request to contribute your changes back into master branch.

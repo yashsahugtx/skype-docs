@@ -1,6 +1,8 @@
-# Getting Started
+# Skype for Business Bot Framework (Preview)
 
-This article will help you build and enable a Skype for Business bot using the Microsoft Bot Framework. 
+This article will help you build and enable a Skype for Business bot using the Microsoft Bot Framework.
+
+## Getting Started
 
 **In this section we’ll cover:**
 -	[Creating a Skype for Business bot](#create-bot)
@@ -20,8 +22,12 @@ The Skype for Business bots are created using the [Microsoft Bot Framework](http
 3.	Deploy the bot to a cloud service, such as [Microsoft Azure](https://azure.microsoft.com/en-gb/).
 4.	[Register](https://dev.botframework.com/bots/new) the bot with the Microsoft Bot Framework, and click Add Skype for Business as a channel.  Enable the channel in the configuration page.
 5.	Add the bot to a Skype for Business tenant by clicking Add to Skype for Business.
+ Copy and paste the following code snippet to embed the **Add to Skype for Business** button to your website
+  ```html
+  <a href='https://skypeappregistration.azurewebsites.net/bot/561bae84-ea1c-4f75-a512-b84566779c2c'><img src='https://dev.botframework.com/ChannelConfigs/Images/skypeforbusiness/Add-To-SkypeForBusiness-Buttons.png'></a>
+  ```
 
-    <a href='https://skypeappregistration.azurewebsites.net/bot/561bae84-ea1c-4f75-a512-b84566779c2c'><img src='https://dev.botframework.com/ChannelConfigs/Images/skypeforbusiness/Add-To-SkypeForBusiness-Buttons.png'></a> 
+  <a href='https://skypeappregistration.azurewebsites.net/bot/561bae84-ea1c-4f75-a512-b84566779c2c'><img src='https://dev.botframework.com/ChannelConfigs/Images/skypeforbusiness/Add-To-SkypeForBusiness-Buttons.png'></a> 
 
 
 <a name="add-bot"></a>
@@ -117,15 +123,15 @@ Your bot will also need to add the [Skype for Business Channel entry point URL](
 Here’s a code snippet that illustrates how to initiate an outbound message to a Skype for Business user using the C# Bot Builder SDK.
 
 ```cs
-MicrosoftAppCredentials.TrustServiceUrl(“https://api.skypeforbusiness.com/platformservice/botframework”);     
-to = new string[] {“sip:usera@contoso.com”, “sip:userb@contoso.com”};
+MicrosoftAppCredentials.TrustServiceUrl("https://api.skypeforbusiness.com/platformservice/botframework");     
+to = new string[] {"sip:usera@contoso.com", "sip:userb@contoso.com"};
 public async Task MakeOutboundCall(string[] to, string topic)
         {
             var connector = new ConnectorClient(new Uri(https://api.skypeforbusiness.com/ platformservice/botframework/)); //initial entry point to talk to the Skype for Business channel
             List<ChannelAccount> participants = new List<ChannelAccount>();
             foreach (string t in to)
             {
-                participants.Add(new ChannelAccount(t, t + " name"));
+                participants.Add(new ChannelAccount(t, t + "name"));
             }
             ConversationParameters cpMessage = new ConversationParameters(true, new ChannelAccount(sip:bot@contoso.com, "DisplayNameofBot"),  participants, topic);
             ConversationResourceResponse  response = await connector.Conversations.CreateConversationAsync(cpMessage);
@@ -141,8 +147,7 @@ The Skype for Business Bot Framework channel is currently supported for Skype fo
 
 <a name="remove-bot-dev"></a>
 ## Removing a bot - Developer
-- **Disabling a bot :** To stop your bot from receiving messages and to remove it from the directories, go to the bot dashboard, select edit the Skype for Business channel and click disable the bot option. 
-
+ 
 - **Deleting a bot :** To delete your bot completely, go to your bot dashboard, select edit the Skype for Business channel and click the Delete button at the bottom.
 
 <a name="remove-bot-tenant"></a>

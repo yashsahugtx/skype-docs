@@ -1,5 +1,21 @@
 # Skype Web SDK Version Updates
 
+## Skype Web SDK Version Update 5/8/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.90.16 | 5/8/17 | 1.89.16
+| Skype Web SDK Preview    | 0.4.481 | 5/8/17 | 0.4.474
+| Conversation Control Production | 1.89.16 | 5/8/17 | 1.88.30
+| Skype Web SDK Production| 0.4.474 | 5/8/17 | 0.4.470 |
+
+**Bugs fixed in the new public preview build:**
+* Apply debouncing logic to mute/unmute and hold/resume
+* Fix renegotiation logic for hold and resume
+* Handling of renegotiation conflict during audio-to-video p2p escalation
+* Allow messages from participants outside the roster.
+* snapshot=null tells to not read the snapshot from session storage
+
 ## Skype Web SDK Version Update 5/1/17
 
 | Product        | New Version           | Last Updated  |Previous Version

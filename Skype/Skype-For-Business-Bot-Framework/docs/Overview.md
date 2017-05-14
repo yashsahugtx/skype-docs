@@ -106,7 +106,7 @@ Skype for Business emoticons can be sent by using emoticon keyword.
 }
 ```
 - **Cards and buttons :**
-Skype for Business does not support cards and buttons in the Developer Preview. For preview, they are simply dropped and not shown to the user. Cards and buttons fallback to text will be added soon.
+Skype for Business does not support cards and buttons in the Developer Preview. For the Developer Preview, cards and buttons are not shown to the user if they are sent by a bot. Cards and buttons fallback to text support will be added soon.
 
 - **Groups :**
 A bot can be enabled for groups in outgoing bot scenarios.  A bot can message multiple users in a group conversation.  Skype for Business does not support adding an additional participant to a 1:1 bot conversation. 

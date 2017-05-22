@@ -4,6 +4,11 @@ Thank you for your interest in Skype for Business developer documentation!
 
 ## Release Notes
 
+### 1.0.0-prerelease91
+
+Key changes:
+ 1. AdhocMeetingCreationInput now supports setting AutomaticLeaderAssignment
+
 ### 1.0.0-prerelease9
 
 Key changes:

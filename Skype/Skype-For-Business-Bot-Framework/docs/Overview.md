@@ -61,8 +61,6 @@ This cmdlet registers an instance of your bot with a Skype for Business Online t
 <a name="feature-support"></a>
 ## Feature Support
 
-For a full list of current supported features please refer to the [Skype for Business Channel Inspector](https://docs.botframework.com/en-us/channel-inspector/channels/SkypeForBusiness/#navtitle).
-
 - **Messages :**
 Your bot can send plain text, HTML, and emoticons to a user or group. Users can send rich text, HTML, and emoticons to your bot.
 - **Typing indicator :**

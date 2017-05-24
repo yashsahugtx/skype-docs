@@ -78,8 +78,7 @@ The Skype for Business ID of a user is available for your bot, and is sent along
     "id": "sip:user@contoso.com",
     "name": "Contoso User"
   },
-  "conversation": {
-    "isGroup": true,
+  "conversation": {    "isGroup": true,
     "id": "ZmMyYmY4OGMjc2lwOmppZWluY29taW5nYm90ZXA4QDBtY29ycDJjbG91ZHBlcmYub25taWNyb3NvZnQuY2t"
   },
   "recipient": {
@@ -115,7 +114,7 @@ A bot can be enabled for groups in outgoing bot scenarios.  A bot can message mu
 Skype for Business bots can initiate outbound messages to users proactively because they are enabled by a Tenant Administrator.  In order to initiate an outbound message, your bot must be Skype for Business tenant-specific (your code must be written for a bot that will only be deployed in a single tenant. Eg. bot@contoso.com). 
 
  In addition, in order to initiate an outbound message, your bot must also have the Skype for Business identity of the user or users that bot will be messaging directly eg. user@contoso.com.
-Your bot will also need to add the [Skype for Business Channel entry point URL](https://api.skypeforbusiness.com/platformservice/botframework) to the Trusted Service URLs.
+Your bot will also need to add the Skype for Business Channel entry point URL (https://api.skypeforbusiness.com/platformservice/botframework) to the Trusted Service URLs.
 Here’s a code snippet that illustrates how to initiate an outbound message to a Skype for Business user using the C# Bot Builder SDK.
 
 ```cs

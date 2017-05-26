@@ -50,7 +50,7 @@ To add your bot to Skype for Business, you must be the Tenant Administrator of a
 4. Run the following PowerShell cmdlet
 
 ```PowerShell
-New-CsOnlineApplicationEndpoint 41ec7d50-ba91-1208-73ee-136b88859725 -Name NameOfTheBot -Uri sip:username@yourdomain.com
+New-CsOnlineApplicationEndpoint -ApplicationID 41ec7d50-ba91-1208-73ee-136b88859725 -Name NameOfTheBot -Uri sip:username@yourdomain.com
 ```
 >Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795.aspx)
  

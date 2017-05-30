@@ -1,5 +1,18 @@
 # Skype Web SDK Version Updates
 
+## Skype Web SDK Version Update 5/22/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.91.33 | 5/22/17 | 1.90.16
+| Skype Web SDK Preview    | 0.4.499 | 5/22/17 | 0.4.481
+| Conversation Control Production | 1.90.16 | 5/15/17 | 1.89.16
+| Skype Web SDK Production| 0.4.481 | 5/15/17 | 0.4.474 |
+
+**Bugs fixed in the new public preview build:**
+* Fixing issue where mute/unmute state was not honored when rejoining audio calls
+* General improvements for hold/resume scenarios
+
 ## Skype Web SDK Version Update 5/8/17
 
 | Product        | New Version           | Last Updated  |Previous Version

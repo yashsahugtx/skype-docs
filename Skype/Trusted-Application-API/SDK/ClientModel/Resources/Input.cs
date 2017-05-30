@@ -37,16 +37,26 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         public string[] Leaders { get; }
 
         /// <summary>
+        /// The policy that indicates which participants should be automatically promoted to leader when they join the online meeting
+        /// <para>
+        /// Leader assignments are applied when users join the online meeting. Such users are automatically promoted to the leader role
+        /// </para>
+        /// </summary>
+        public AutomaticLeaderAssignment? AutomaticLeaderAssignment { get; }
+
+        /// <summary>
         /// Creates an instance of <see cref="AdhocMeetingCreationInput"/>
         /// </summary>
         /// <param name="subject">Subject of the meeting</param>
         /// <param name="accessLevel"><see cref="AccessLevel"/> deciding who all can join the meeting</param>
         /// <param name="leaders">List of users who should be the leaders for the meeting</param>
-        public AdhocMeetingCreationInput(string subject, AccessLevel accessLevel = AccessLevel.Everyone, string[] leaders = null)
+        /// <param name="automaticLeaderAssignment">Policy indicating which participants should be automatically promoted to leader when they join the online meeting</param>
+        public AdhocMeetingCreationInput(string subject, AccessLevel accessLevel = AccessLevel.Everyone, string[] leaders = null, AutomaticLeaderAssignment? automaticLeaderAssignment = null)
         {
             Subject = subject;
             AccessLevel = accessLevel;
             Leaders = leaders;
+            AutomaticLeaderAssignment = automaticLeaderAssignment;
         }
 
         /// <summary>
@@ -59,7 +69,8 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             {
                 Subject = Subject,
                 AccessLevel = AccessLevel,
-                Leaders = Leaders
+                Leaders = Leaders,
+                AutomaticLeaderAssignment = AutomaticLeaderAssignment
             };
         }
     }

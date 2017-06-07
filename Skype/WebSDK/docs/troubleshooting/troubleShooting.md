@@ -16,6 +16,7 @@ The following technical challenges are covered in this documentation:
 
 - Authentication: [Authentication failures overview](./auth/AADAuthFailures.md)
 - Gathering logs: [Gathering logs to troubleshoot issues and submit error reports](./gatheringLogs/GatherLogs.md)
+- Application Errors: [Checking for and handling application errors](./handlingApplicationErrors.md)
 
 ## External resources
 

@@ -5,7 +5,7 @@ _**Applies to:** Skype for Business 2015_
 **In this article**
 - [Common AAD Sign in Error Messages](#error-messages)
 - [Other common AAD Authentication Failures](#other-failures)
-- [ AAD Authentication Failures in Internet Explorer and Microsoft Edge](#MS-specific)
+- [AAD Authentication Failures in Internet Explorer and Microsoft Edge](#MS-specific)
 - [Related Topics](#related-topics)
 - [External Resources](#external-resources)
 

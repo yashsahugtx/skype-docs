@@ -4,6 +4,19 @@
 
 | Product        | New Version           | Last Updated  |Previous Version
 | ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.92.29 | 6/5/17 | 1.91.33
+| Skype Web SDK Preview    | 0.4.514 | 6/5/17 | 0.4.502
+| Conversation Control Production | 1.92.29 | 6/5/17 | 1.91.33
+| Skype Web SDK Production| 0.4.514 | 6/8/17 | 0.4.502 |
+
+**Bugs fixed in the new public preview build:**
+* Surface more detailed error on failure
+* Fix bug to allow html messaging in anonymous meetings
+
+## Skype Web SDK Version Update 5/29/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | unchanged | 5/22/17 | 1.91.33
 | Skype Web SDK Preview    | unchanged | 5/22/17 | 0.4.499
 | Conversation Control Production | 1.91.33 | 5/29/17 | 1.90.16

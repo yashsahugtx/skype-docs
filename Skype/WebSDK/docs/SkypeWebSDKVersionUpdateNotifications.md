@@ -1,5 +1,17 @@
 # Skype Web SDK Version Updates
 
+## Skype Web SDK Version Update 6/19/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.93.21 | 6/19/17 | 1.92.29
+| Skype Web SDK Preview    | 0.4.525 | 6/19/17 | 0.4.514
+| Conversation Control Production | 1.92.29 | 6/12/17 | 1.92.29
+| Skype Web SDK Production| 0.4.514 | 6/8/17 | 0.4.514 |
+
+**Bugs fixed in the new public preview build:**
+* Fix bug in hold/resume video in group converstations
+
 ## Skype Web SDK Version Update 5/29/17
 
 | Product        | New Version           | Last Updated  |Previous Version

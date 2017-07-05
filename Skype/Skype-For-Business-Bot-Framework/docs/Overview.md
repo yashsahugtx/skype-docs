@@ -161,7 +161,7 @@ The Skype for Business Bot Framework channel is currently supported for Skype fo
 4. Run the following PowerShell 
 
 ```PowerShell
-Remove -CsOnlineApplicationEndpoint -Uri sip:username@yourdomain.com
+Remove-CsOnlineApplicationEndpoint -Uri sip:username@yourdomain.com
  ```
 
 >Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell]  (https://technet.microsoft.com/en-us/library/dn362795.aspx)

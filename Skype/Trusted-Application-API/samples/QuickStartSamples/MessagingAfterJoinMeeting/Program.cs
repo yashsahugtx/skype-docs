@@ -1,33 +1,34 @@
 ﻿using System;
-using System.Configuration;
 using System.Threading.Tasks;
 using Microsoft.Rtc.Internal.Platform.ResourceContract;
 using Microsoft.SfB.PlatformService.SDK.ClientModel;
 using Microsoft.SfB.PlatformService.SDK.ClientModel.Internal; // Required for setting customized callback url
 using Microsoft.SfB.PlatformService.SDK.Common;
-using Microsoft.Skype.Calling.ServiceAgents.SkypeToken;
 using QuickSamplesCommon;
-using TrouterCommon;
+
 namespace MessagingAfterJoinMeeting
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var sample = new MessagingAfterJoinMeeting();
             try
             {
-                sample.RunAsync().Wait();
+                Uri callbackUri;
+                // Start HTTP server and get callback uri
+                using (WebEventChannel.WebEventChannel.StartHttpServer(out callbackUri))
+                {
+                    sample.RunAsync(callbackUri).Wait();
+                }
             }
             catch (AggregateException ex)
             {
                 Console.WriteLine("Exception: " + ex.GetBaseException().ToString());
             }
 
-            if(sample.EventChannel != null)
-            {
-                sample.EventChannel.TryStopAsync().Wait();
-            }
+            Console.WriteLine("Sample run complete. Press any key to exit...");
+            Console.ReadKey();
         }
     }
 
@@ -40,29 +41,17 @@ namespace MessagingAfterJoinMeeting
     /// </summary>
     internal class MessagingAfterJoinMeeting
     {
-        public TrouterBasedEventChannel EventChannel { get; private set; }
-
         private IPlatformServiceLogger m_logger;
 
-        public async Task RunAsync()
+        public async Task RunAsync(Uri callbackUri)
         {
-            var skypeId = ConfigurationManager.AppSettings["Trouter_SkypeId"];
-            var password = ConfigurationManager.AppSettings["Trouter_Password"];
-            var applicationName = ConfigurationManager.AppSettings["Trouter_ApplicationName"];
-            var userAgent = ConfigurationManager.AppSettings["Trouter_UserAgent"];
-            var token = SkypeTokenClient.ConstructSkypeToken(
-                skypeId: skypeId,
-                password: password,
-                useTestEnvironment: false,
-                scope: string.Empty,
-                applicationName: applicationName).Result;
-
             m_logger = new SampleAppLogger();
 
             // Uncomment for debugging
             // m_logger.HttpRequestResponseNeedsToBeLogged = true;
 
-            EventChannel = new TrouterBasedEventChannel(m_logger, token, userAgent);
+            // You can hook up your own implementation of IEventChannel here
+            IEventChannel eventChannel = WebEventChannel.WebEventChannel.Instance;
 
             // Prepare platform
             var platformSettings = new ClientPlatformSettings(QuickSamplesConfig.AAD_ClientSecret, new Guid(QuickSamplesConfig.AAD_ClientId));
@@ -70,7 +59,7 @@ namespace MessagingAfterJoinMeeting
 
             // Prepare endpoint
             var endpointSettings = new ApplicationEndpointSettings(new SipUri(QuickSamplesConfig.ApplicationEndpointId));
-            var applicationEndpoint = new ApplicationEndpoint(platform, endpointSettings, EventChannel);
+            var applicationEndpoint = new ApplicationEndpoint(platform, endpointSettings, eventChannel);
 
             var loggingContext = new LoggingContext(Guid.NewGuid());
             await applicationEndpoint.InitializeAsync(loggingContext).ConfigureAwait(false);
@@ -80,16 +69,22 @@ namespace MessagingAfterJoinMeeting
             var meetingConfiguration = new AdhocMeetingCreationInput(Guid.NewGuid().ToString("N") + " test meeting");
 
             // Schedule meeting
-            var adhocMeeting = await applicationEndpoint.Application.CreateAdhocMeetingAsync(loggingContext, meetingConfiguration).ConfigureAwait(false);
+            var adhocMeeting = await applicationEndpoint.Application.CreateAdhocMeetingAsync(meetingConfiguration, loggingContext).ConfigureAwait(false);
 
             WriteToConsoleInColor("ad hoc meeting uri : " + adhocMeeting.OnlineMeetingUri);
             WriteToConsoleInColor("ad hoc meeting join url : " + adhocMeeting.JoinUrl);
 
-            // Get all the events related to join meeting through Trouter's uri
-            platformSettings.SetCustomizedCallbackurl(new Uri(EventChannel.CallbackUri));
+            // Get all the events related to join meeting through our custom callback uri
+            platformSettings.SetCustomizedCallbackurl(callbackUri);
 
             // Start joining the meeting
-            var invitation = await adhocMeeting.JoinAdhocMeeting(loggingContext, null).ConfigureAwait(false);
+            ICommunication communication = applicationEndpoint.Application.Communication;
+            if(!communication.CanJoinAdhocMeeting(adhocMeeting))
+            {
+                throw new Exception("Cannot join adhoc meeting");
+            }
+
+            var invitation = await communication.JoinAdhocMeetingAsync(adhocMeeting, null, loggingContext).ConfigureAwait(false);
 
             // Wait for the join to complete
             await invitation.WaitForInviteCompleteAsync().ConfigureAwait(false);
@@ -111,7 +106,7 @@ namespace MessagingAfterJoinMeeting
 
             var messagingInvitation = await imCall.EstablishAsync(loggingContext).ConfigureAwait(false);
 
-            messagingInvitation.HandleResourceCompleted += OnMessagingResourceCompletedReceived;
+            messagingInvitation.HandleResourceCompleted += OnMessagingInvitationCompleted;
 
             await messagingInvitation.WaitForInviteCompleteAsync().ConfigureAwait(false);
 
@@ -133,17 +128,21 @@ namespace MessagingAfterJoinMeeting
                 }
             }
 
-            await imCall.SendMessageAsync("Hello World.", loggingContext).ConfigureAwait(false);
-
             if (!hasMessagingModality)
             {
                 WriteToConsoleInColor("Failed to connect messaging call.", ConsoleColor.Red);
                 return;
             }
             WriteToConsoleInColor("Adding messaging to meeting completed successfully.");
+
+            WriteToConsoleInColor("Sending Hellow World!");
+            await imCall.SendMessageAsync("Hello World!", loggingContext).ConfigureAwait(false);
+            WriteToConsoleInColor("Sent Hello World!");
+
+            await WebEventChannel.WebEventChannel.Instance.TryStopAsync().ConfigureAwait(false);
         }
 
-        private void OnMessagingResourceCompletedReceived(object sender, PlatformResourceEventArgs args)
+        private void OnMessagingInvitationCompleted(object sender, PlatformResourceEventArgs args)
         {
             if (args.PlatformResource is MessagingInvitationResource)
             {

@@ -55,7 +55,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #endregion
 
-        #region Public methods
+        #region Internal methods
 
         /// <summary>
         /// Saas application Joins the adhoc meeting as trusted entity, won't be seen by other conference participants
@@ -63,7 +63,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
         /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>
         /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
-        public async Task<IOnlineMeetingInvitation> JoinAdhocMeetingAsync(string callbackContext, LoggingContext loggingContext = null)
+        internal async Task<IOnlineMeetingInvitation> JoinAdhocMeetingAsync(string callbackContext, LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.JoinAdhocMeetingLink?.Href;
             if (string.IsNullOrWhiteSpace(href))
@@ -114,13 +114,17 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return result;
         }
 
+        #endregion
+
+        #region Public methods
+
         /// <summary>
         /// Saas application Joins the adhoc meeting as trusted entity, won't be seen by other conference participants
         /// </summary>
         /// <param name="loggingContext"><see cref="LoggingContext"/> to be used for logging all related events</param>
         /// <param name="callbackContext">A state/context object which will be provided by SfB in all related events</param>
         /// <returns><see cref="IOnlineMeetingInvitation"/> which can be used to wait for the meeting join to complete</returns>
-        [Obsolete("Please use JoinAdhocMeetingAsync instead")]
+        [Obsolete("Please use ICommunication.JoinAdhocMeetingAsync instead")]
         public Task<IOnlineMeetingInvitation> JoinAdhocMeeting(LoggingContext loggingContext, string callbackContext)
         {
             return JoinAdhocMeetingAsync(callbackContext, loggingContext);
@@ -130,7 +134,7 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// Gets whether a particular capability is available or not
         /// </summary>
         /// <param name="capability">Capability that needs to be checked</param>
-        /// <returns><code>true</code> iff the capability is available at the time of invoking</returns>
+        /// <returns><code>true</code> if the capability is available at the time of invoking</returns>
         /// <remarks>
         /// Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
         /// the capability will be available when it is actually used. Make sure to catch <see cref="CapabilityNotAvailableException"/>
@@ -142,7 +146,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
             switch (capability)
             {
+                #pragma warning disable CS0618 // Type or member is obsolete
                 case AdhocMeetingCapability.JoinAdhocMeeting:
+                #pragma warning restore CS0618 // Type or member is obsolete
                     {
                         href = PlatformResource?.JoinAdhocMeetingLink?.Href;
                         break;

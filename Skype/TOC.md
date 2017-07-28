@@ -48,6 +48,7 @@
 ###### [Gathering web traffic logs from the Skype Web SDK or Conversation Control](WebSDK/docs/troubleshooting/gatheringLogs/Logs-WebTraffic.md)
 ###### [Gathering media logs from the Skype Web SDK or Conversation Control](WebSDK/docs/troubleshooting/gatheringLogs/Logs-Media.md)
 ###### [Gathering logs from a Skype for Business Desktop Client](WebSDK/docs/troubleshooting/gatheringLogs/Logs-DesktopClient.md)
+##### [Checking for and handling application errors](WebSDK/docs/troubleshooting/handlingapplicationerrors)
 #### [Programming Tasks](WebSDK/docs/ProgrammingTasks.md)
 
 ##### [Authentication](WebSDK/docs/PTAuth.md)
@@ -128,6 +129,7 @@
 ##### [The ConversationHelper class](AppSDK/ConversationHelperCodeList.md)
 #### [Submit your questions, bugs, feature requests, and contributions](AppSDK/Feedback.md)
 
+### [Skype for Business Bot Framework (Preview)](Skype-For-Business-Bot-Framework/docs/Overview.md)
 ### [Trusted Application API](Trusted-Application-API/docs/Overview.md)
 #### [Enabling communications services for the cloud](Trusted-Application-API/docs/Trusted_Application_API_GeneralReference.md)
 

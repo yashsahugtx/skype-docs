@@ -11,8 +11,10 @@ using Microsoft.Rtc.Internal.RestAPI.ResourceModel;
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
     /// <summary>
-    /// Define the conversation bridge class
+    /// Represents a ConversationBridge
     /// </summary>
+    /// <seealso cref="BasePlatformResource{TPlatformResource, TCapabilities}"/>
+    /// <seealso cref="IConversationBridge" />
     internal class ConversationBridge : BasePlatformResource<ConversationBridgeResource, ConversationBridgeCapability>, IConversationBridge
     {
         #region Private fields

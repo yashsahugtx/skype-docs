@@ -1,5 +1,133 @@
 # Skype Web SDK Version Updates
 
+## Skype Web SDK Version Update 6/19/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.93.21 | 6/19/17 | 1.92.29
+| Skype Web SDK Preview    | 0.4.525 | 6/19/17 | 0.4.514
+| Conversation Control Production | 1.92.29 | 6/12/17 | 1.92.29
+| Skype Web SDK Production| 0.4.514 | 6/8/17 | 0.4.514 |
+
+**Bugs fixed in the new public preview build:**
+* Fix bug in hold/resume video in group converstations
+
+## Skype Web SDK Version Update 5/29/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.92.29 | 6/5/17 | 1.91.33
+| Skype Web SDK Preview    | 0.4.514 | 6/5/17 | 0.4.502
+| Conversation Control Production | 1.92.29 | 6/5/17 | 1.91.33
+| Skype Web SDK Production| 0.4.514 | 6/8/17 | 0.4.502 |
+
+**Bugs fixed in the new public preview build:**
+* Surface more detailed error on failure
+* Fix bug to allow html messaging in anonymous meetings
+
+## Skype Web SDK Version Update 5/29/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | unchanged | 5/22/17 | 1.91.33
+| Skype Web SDK Preview    | unchanged | 5/22/17 | 0.4.499
+| Conversation Control Production | 1.91.33 | 5/29/17 | 1.90.16
+| Skype Web SDK Production| 0.4.502 | 5/29/17 | 0.4.481 |
+
+**Bugs fixed in the new public preview build:**
+
+None
+
+## Skype Web SDK Version Update 5/22/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.91.33 | 5/22/17 | 1.90.16
+| Skype Web SDK Preview    | 0.4.499 | 5/22/17 | 0.4.481
+| Conversation Control Production | 1.90.16 | 5/15/17 | 1.89.16
+| Skype Web SDK Production| 0.4.481 | 5/15/17 | 0.4.474 |
+
+**Bugs fixed in the new public preview build:**
+* Fixing issue where mute/unmute state was not honored when rejoining audio calls
+* General improvements for hold/resume scenarios
+
+## Skype Web SDK Version Update 5/8/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.90.16 | 5/8/17 | 1.89.16
+| Skype Web SDK Preview    | 0.4.481 | 5/8/17 | 0.4.474
+| Conversation Control Production | 1.89.16 | 5/8/17 | 1.88.30
+| Skype Web SDK Production| 0.4.474 | 5/8/17 | 0.4.470 |
+
+**Bugs fixed in the new public preview build:**
+* Apply debouncing logic to mute/unmute and hold/resume
+* Fix renegotiation logic for hold and resume
+* Handling of renegotiation conflict during audio-to-video p2p escalation
+* Allow messages from participants outside the roster.
+* snapshot=null tells to not read the snapshot from session storage
+
+## Skype Web SDK Version Update 5/1/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.89.16 | 5/1/17 | 1.88.30
+| Skype Web SDK Preview    | 0.4.474 | 5/1/17 | 0.4.470
+| Conversation Control Production | 1.88.30 | 5/1/17 | 1.87.47
+| Skype Web SDK Production| 0.4.470 | 4/3/17 | 0.4.464 |
+
+**Bugs fixed in the new public preview build:**
+* Audio and video reliability fixes for plugin and pluginless calling
+* Fixed issue when trying to restore an application instance
+* Improved error messaging
+
+## Skype Web SDK Version Update 4/25/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.88.30 | 4/25/17 | 1.87.47
+| Skype Web SDK Preview    | 0.4.470 | 4/25/17 | 0.4.464
+| Conversation Control Production | 1.87.47 | 4/3/17 | 1.86.57
+| Skype Web SDK Production| 0.4.464 | 4/3/17 | 0.4.449 |
+
+There is no new production release of either the WebSDK or Conversation Control.
+
+## Skype Web SDK Version Update 4/13/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.87.47 | 4/13/17 | 1.86.57
+| Skype Web SDK Preview    | 0.4.464 | 4/13/17 | 0.4.449
+| Conversation Control Production | unchanged | 4/3/17 | 1.86.57
+| Skype Web SDK Production| unchanged | 4/3/17 | 0.4.449 |
+
+There is no new production release of either the WebSDK or Conversation Control.
+
+**Bugs fixed in the new public preview build:**
+* Serialization of outgoing renegotiations
+* Sync person.status once connection is restored
+* Ensure negotiation rejection if media agent fails to process the final answer
+
+---
+
+## Skype Web SDK Version Update 3/29/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.86.57 | 3/29/17 | 1.85.29
+| Skype Web SDK Preview    | 0.4.449 | 3/29/17 | 0.4.440
+| Conversation Control Production |  1.85.29 | 3/29/17 | 1.85.27
+| Skype Web SDK Production| 0.4.440 | 3/29/17 | 0.4.438 |
+
+The latest release fixes several bugs in relation to AV scnearios.
+
+**Bugs fixed in the new public preview build:**
+* Solved spinner issues for participants that don't have a camera
+* Fixed camera issues when escalating to a meeting
+* Fixed negotiation issue with WebRTC enabled clients
+
+---
+
 ## Skype Web SDK Version Update 3/21/17
 
 | Product        | New Version           | Last Updated  |Previous Version

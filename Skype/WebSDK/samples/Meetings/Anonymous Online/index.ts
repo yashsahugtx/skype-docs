@@ -174,7 +174,7 @@
         meetingUrl = (<HTMLInputElement>content.querySelector('.meeting_url')).value;
 
         var allowedOrigins = window.location.href;
-        var serviceUrl = "http://webrtctest.cloudapp.net";
+        var serviceUrl = "https://acceptandbridgeimquickstart.azurewebsites.net";
 
         var request = new XMLHttpRequest();
         request.onreadystatechange = function () {
@@ -199,7 +199,7 @@
             "&AllowedOrigins=" + encodeURIComponent(allowedOrigins) +
             "&MeetingUrl=" + encodeURIComponent(meetingUrl);
 
-        request.open('post', serviceUrl + "/getAnonTokenJob");
+        request.open('post', serviceUrl + "/GetAnonToken");
         request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
         request.send(data);
     }

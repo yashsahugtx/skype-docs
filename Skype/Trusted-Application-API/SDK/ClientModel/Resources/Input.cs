@@ -32,14 +32,31 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         public AccessLevel AccessLevel { get; }
 
         /// <summary>
+        /// List of users who should be the leaders for the meeting
+        /// </summary>
+        public string[] Leaders { get; }
+
+        /// <summary>
+        /// The policy that indicates which participants should be automatically promoted to leader when they join the online meeting
+        /// <para>
+        /// Leader assignments are applied when users join the online meeting. Such users are automatically promoted to the leader role
+        /// </para>
+        /// </summary>
+        public AutomaticLeaderAssignment? AutomaticLeaderAssignment { get; }
+
+        /// <summary>
         /// Creates an instance of <see cref="AdhocMeetingCreationInput"/>
         /// </summary>
         /// <param name="subject">Subject of the meeting</param>
         /// <param name="accessLevel"><see cref="AccessLevel"/> deciding who all can join the meeting</param>
-        public AdhocMeetingCreationInput(string subject, AccessLevel accessLevel = AccessLevel.Everyone)
+        /// <param name="leaders">List of users who should be the leaders for the meeting</param>
+        /// <param name="automaticLeaderAssignment">Policy indicating which participants should be automatically promoted to leader when they join the online meeting</param>
+        public AdhocMeetingCreationInput(string subject, AccessLevel accessLevel = AccessLevel.Everyone, string[] leaders = null, AutomaticLeaderAssignment? automaticLeaderAssignment = null)
         {
             Subject = subject;
             AccessLevel = accessLevel;
+            Leaders = leaders;
+            AutomaticLeaderAssignment = automaticLeaderAssignment;
         }
 
         /// <summary>
@@ -51,7 +68,9 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return new AdhocMeetingInput()
             {
                 Subject = Subject,
-                AccessLevel = this.AccessLevel
+                AccessLevel = AccessLevel,
+                Leaders = Leaders,
+                AutomaticLeaderAssignment = AutomaticLeaderAssignment
             };
         }
     }

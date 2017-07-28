@@ -7,9 +7,14 @@ using ResourceModel = Microsoft.Rtc.Internal.RestAPI.ResourceModel;
 namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 {
     /// <summary>
-    /// The Invitation.
+    /// The base class for invitations
     /// </summary>
     /// <typeparam name="TPlatformResource">The type which inherit from InvitationResource.</typeparam>
+    /// <typeparam name="TCapabilities">
+    /// An enum listing all the capabilties that this <see cref="IPlatformResource{TCapabilities}"/> supports. Capabilities
+    /// might not be available at runtime, such cases can be handled by invoking
+    /// <see cref="IPlatformResource{TCapabilities}.Supports(TCapabilities)"/> when a capabilty needs to be used.
+    /// </typeparam>
     internal abstract class Invitation<TPlatformResource, TCapabilities> : BasePlatformResource<TPlatformResource, TCapabilities>, IInvitation, IInvitationWithConversation
         where TPlatformResource : InvitationResource
     {
@@ -29,6 +34,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
         /// </summary>
         public IConversation RelatedConversation { get; private set; }
 
+        /// <summary>
+        /// Gets the application resource.
+        /// </summary>
+        /// <value>The application resource.</value>
         public ApplicationResource ApplicationResource
         {
             get { return PlatformResource?.Application; }
@@ -48,6 +57,10 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             }
         }
 
+        /// <summary>
+        /// Sets the related conversation.
+        /// </summary>
+        /// <param name="conversation">The conversation.</param>
         public void SetRelatedConversation(Conversation conversation)
         {
             this.RelatedConversation = conversation;

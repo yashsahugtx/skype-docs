@@ -23,15 +23,17 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
 
         #region Public methods
 
-        [Obsolete("Please use StartMeetingAsync")]
+        /// <summary>
+        /// Starts the adhoc meeting without a callback context.
+        /// </summary>
+        /// <param name="subject">The subject.</param>
+        /// <param name="callbackUrl">The callback URL.</param>
+        /// <param name="loggingContext">The logging context.</param>
+        /// <returns>Task&lt;IOnlineMeetingInvitation&gt;.</returns>
+        [Obsolete("Please use ICommunication.StartAdhocMeetingAsync instead")]
         public Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackUrl, LoggingContext loggingContext = null)
         {
             return StartAdhocMeetingAsync(subject, null, callbackUrl, loggingContext);
-        }
-
-        public Task<IOnlineMeetingInvitation> StartMeetingAsync(string subject, string callbackContext, LoggingContext loggingContext = null)
-        {
-            return StartAdhocMeetingAsync(subject, callbackContext, null, loggingContext);
         }
 
         /// <summary>
@@ -80,6 +82,13 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return AcceptAndBridgeAsync(meetingUrl, displayName, loggingContext);
         }
 
+        /// <summary>
+        /// Gets whether a particular capability is available or not.
+        /// </summary>
+        /// <param name="capability">Capability that needs to be checked.</param>
+        /// <returns><code>true</code> iff the capability is available as of now.</returns>
+        /// <remarks>Capabilities can change when a resource is updated. So, this method returning <code>true</code> doesn't guarantee that
+        /// the capability will be available when it is actually used. Make sure to catch <see cref="T:Microsoft.SfB.PlatformService.SDK.Common.CapabilityNotAvailableException" /></remarks>
         public override bool Supports(MessagingInvitationCapability capability)
         {
             string href = null;
@@ -88,7 +97,6 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
                 #pragma warning disable CS0618 // Type or member is obsolete
                 case MessagingInvitationCapability.StartAdhocMeeting:
                 #pragma warning restore CS0618 // Type or member is obsolete
-                case MessagingInvitationCapability.StartMeeting:
                     {
                         href = PlatformResource?.StartAdhocMeetingLink?.Href;
                         break;
@@ -103,11 +111,20 @@ namespace Microsoft.SfB.PlatformService.SDK.ClientModel
             return !string.IsNullOrWhiteSpace(href);
         }
 
+        /// <summary>
+        /// Custom content provided by the caller in the invitation
+        /// </summary>
+        /// <returns>Custom content as string or <code>null</code> if nothing was provided</returns>
+        public string CustomContent
+        {
+            get { return PlatformResource?.CustomContent?.Value?.ToString(); }
+        }
+
         #endregion
 
-        #region Private methods
+        #region Internal methods
 
-        private async Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackContext, string callbackUrl, LoggingContext loggingContext = null)
+        internal async Task<IOnlineMeetingInvitation> StartAdhocMeetingAsync(string subject, string callbackContext, string callbackUrl, LoggingContext loggingContext = null)
         {
             string href = PlatformResource?.StartAdhocMeetingLink?.Href;
             if (string.IsNullOrWhiteSpace(href))

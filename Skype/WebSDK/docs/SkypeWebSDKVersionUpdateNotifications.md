@@ -1,5 +1,30 @@
 # Skype Web SDK Version Updates
 
+## Skype Web SDK Version Update 8/4/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.97.2 | 8/4/17 | 1.95.24
+| Skype Web SDK Preview    | 0.4.573 | 8/4/17 | 0.4.554
+| Conversation Control Production | 1.94.32 | 7/10/17 | 1.93.21
+| Skype Web SDK Production| 0.4.545 | 7/3/17 | 0.4.525 |
+
+**Bugs fixed in the new public preview build:**
+* Added ability to override _supportsMessaging_, _supportsAudio_ and _supportsVideo_ parameters from the sign-in parameters (settings object passed to `signinManager.signin(options)`
+* Fixed video rendering issue in Safari where participants video would not load unless self-video is turned on
+
+## Skype Web SDK Version Update 6/19/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.93.21 | 6/19/17 | 1.92.29
+| Skype Web SDK Preview    | 0.4.525 | 6/19/17 | 0.4.514
+| Conversation Control Production | 1.92.29 | 6/12/17 | 1.92.29
+| Skype Web SDK Production| 0.4.514 | 6/8/17 | 0.4.514 |
+
+**Bugs fixed in the new public preview build:**
+* Fix bug in hold/resume video in group converstations
+
 ## Skype Web SDK Version Update 5/29/17
 
 | Product        | New Version           | Last Updated  |Previous Version

@@ -10,6 +10,7 @@ This article will help you build and enable a Skype for Business bot using the M
 -	[Feature Support](#feature-support)
 -	[Creating outbound bots](#create-outbound-bots)
 -	[Supported Skype for Business versions](#version-suport)
+- [Skype for Business Hybrid enviornment support](#hybrid-suport)
 -	[Removing a bot – Developer](#remove-bot-dev)
 -	[Removing a bot – Tenant Administrator](#remove-bot-tenant)
 
@@ -50,7 +51,7 @@ To add your bot to Skype for Business, you must be the Tenant Administrator of a
 4. Run the following PowerShell cmdlet
 
 ```PowerShell
-New-CsOnlineApplicationEndpoint -ApplicationID 41ec7d50-ba91-1208-73ee-136b88859725 -Name NameOfTheBot -Uri sip:username@yourdomain.com
+ New-CsOnlineApplicationEndpoint -ApplicationID <AppID generated from BotFramework Portal like 41ec7d50-ba91-1208-73ee-136b88859725> -Name <NameOfTheBot> -Uri sip:<bothandle@yourdomain.com>
 ```
 >Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795.aspx)
  
@@ -138,51 +139,14 @@ public async Task MakeOutboundCall(string[] to, string topic)
 <a name="version-suport"></a>
 ## Supported Skype for Business versions
 
-The Skype for Business Bot Framework channel is currently supported for **Skype for Business Online** and **Skype for Business Hybrid enviornment**. 
+The Skype for Business Bot Framework channel is currently supported for **Skype for Business Online** and **Skype for Business Hybrid enviornment** only. 
 
-### **Skype for Business Bot -  Hybrid environment support** 
+<a name="hybrid-suport"></a>
+### **Skype for Business Hybrid enviornment support** 
 
-Skype for Business bots can be connected to Skype for Business Server users if Hybrid connectivity has been deployed in the environment. 
+Skype for Business bots can be connected to Skype for Business Server users if Hybrid connectivity has been deployed in the environment. For more information about hybrid connectivity and bot setup, see [Skype for Business Bot - Hybrid environment support](./Bot-Hybrid-Support.md).
 
-Hybrid connectivity between Skype for Business Server and Skype for Business Online means users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Skype for Business Online. Some of the domain users are homed on premises, and some users are homed online.  
- 
-Bots will be configured as online users reachable by the on-premises users.  
-#### Getting started 
-
-- For more information about hybrid connectivity, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](https://technet.microsoft.com/en-us/library/jj204669.aspx). 
-- For more information about using Azure AD Connect to configure a hybrid environment, see [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).
-
-#### Setup bot for Skype for Business Hybrid enviornment 
-
-1. Follow [Creating a Skype for Business bot](#create-bot) section to create the bot. 
-2. Follow [Adding a bot to Skype for Business](#add-bot) section to add the bot.
-3. Sign in as a Tenant administrator of a Skype for Business Online environment and run  the following  PowerShell cmdlet.
-
-```PowerShell
- New-CsOnlineApplicationEndpoint <AppID generated from BotFraework Portal> -Name <NameOfTheBot> -Uri sip:<bothandle>@yourdomain.com
-
-``` 
-> Note: For Hybrid OPCH tenants only the above cmdlet will prompt additional commands to be run on the On-Prem server with CU5 patched. 
-
-4. Create an application endpoint on the on-premises server from the Lync Server management Shell using the following on-premises cmdlet.
- 
-```PowerShell
-New-CsHybridApplicationEndpoint -ApplicationId XXX -DisplayName "NameOfTheBot" -SipAddress sip:bot@XXX.com 
-```
- |**Parameters**|**Required**|**Type**|**Description**|
-|:-----|:-----|:-----|:-----|
-|ApplicationId|Required|Guid|The ApplicationId or Client Id for which the endpoint is being created|
-|DisplayName|Required|String|Friendly name for the application endpoint|
-|SipAddress|Required|String|The SipUri for the Endpoint. SIP Uri must be lowercase.|
-|LineUri|Optional|String|Valid phone number for the application endpoint.|
-|OU|Optional|String|A valid OU for the application endpoint|
- 
-The succesful execution of **New-CsHybridApplicationEndpoint** cmdlets will create a disabled user object on the Azure Directory and show **"Successfully initiated provisioning of application endpoint on-prem"** message.
-
-5. Wait for the newly created user object to be DIR syned to the Azure Active Directory or start a new DIR sync cycle by running the Start-ADSyncSyncCycle on the DC machine.
-
-6. Please make sure that you wait for 8 hours before the endpoint is discovered from Skype for Business clients for newly created application ids.  
-Onprem user should be able to search for the BOT from the client and initiate chat conversations 
+>Note: Skype for Business Server 2015 is not currently supported.
 
 
  <a name="remove-bot-dev"></a>

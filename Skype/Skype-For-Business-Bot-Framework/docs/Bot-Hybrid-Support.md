@@ -29,7 +29,7 @@ Once you have successfully deployed the hybrid enviornment, follow the steps out
 ```PowerShell
 New-CsHybridApplicationEndpoint -ApplicationId <AppID generated from Bot Framework Portal like 41ec7d50-ba91-1208-73ee-136b88859725> -DisplayName <NameOfTheBot> -SipAddress sip:<bothandle@yourdomain.com> –OU <ou=Redmond,dc=litwareinc,dc=com>
 ```
-> Note: Please make sure that the **New-CsHybridApplicationEndpoint** parameters: ApplicationId, DisplayName and SipAddress  have the same value as (step 2) **New-CsOnlineApplicationEndpoint** parameters: ApplicationID, Name and Uri, respectively. 
+> Note: Please make sure that the **New-CsHybridApplicationEndpoint** parameters: ApplicationId, DisplayName and SipAddress have the same values as (step 2) **New-CsOnlineApplicationEndpoint** parameters: ApplicationID, Name and Uri, respectively. 
 
  |**Parameters**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|

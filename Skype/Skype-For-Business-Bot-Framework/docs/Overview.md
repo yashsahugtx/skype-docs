@@ -54,6 +54,8 @@ To add your bot to Skype for Business, you must be the Tenant Administrator of a
 ```PowerShell
  New-CsOnlineApplicationEndpoint -ApplicationID <AppID generated from BotFramework Portal like 41ec7d50-ba91-1208-73ee-136b88859725> -Name <NameOfTheBot> -Uri sip:<bothandle@yourdomain.com>
 ```
+For the **Skype for Business Hybrid enviornment**, the **New-CsOnlineApplicationEndpoint** cmdlet will output additional on-premises cmdlet to be run in your [Skype for Business Server (on-premises) Management Shell](https://technet.microsoft.com/en-us/library/gg398474.aspx). For more information about bot setup for Skype for Business Hybrid enviornment, see [Skype for Business Bot - Hybrid environment support](./Bot-Hybrid-Support.md).
+
 >Note: Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) to troubleshoot some of the common issues. For more information about powershell usage, see [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795.aspx).
  
 This cmdlet registers an instance of your bot with a Skype for Business Online tenant. A Skype for Business Admin can replace the **_Name_** parameter with their desired bot display name and replace the **_Uri_** parameter with a unique user account from their domain (eg. mybot@contoso.com)

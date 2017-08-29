@@ -177,7 +177,7 @@ Skype for Business bots can be connected to Skype for Business Server users if H
 Remove -CsOnlineApplicationEndpoint -Uri sip:username@yourdomain.com
  ```
 
->Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell]  (https://technet.microsoft.com/en-us/library/dn362795.aspx)
+>Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell] (https://technet.microsoft.com/en-us/library/dn362795.aspx)
 
 This command removes the instance of a bot with a Skype for Business Online tenant. A Skype for Business Admin must replace the Uri parameter with the user account from their domain (eg. mybot@contoso.com) , which they created when adding the bot.  More details on using PowerShell to manage bots and apps for Skype for Business can be found [here](https://msdn.microsoft.com/en-us/skype/trusted-application-api/docs/trustedapplicationendpoint).
 

@@ -147,13 +147,12 @@ public async Task MakeOutboundCall(string[] to, string topic)
 
 The Skype for Business Bot Framework channel is currently supported for **Skype for Business Online** and **Skype for Business Hybrid enviornment** only. 
 
+>Note: Skype for Business Server 2015 is currently not  a supported [Microsoft Bot Framework](https://dev.botframework.com/) channel.
+
 <a name="hybrid-suport"></a>
 ### **Skype for Business Hybrid enviornment support** 
 
 Skype for Business bots can be connected to Skype for Business Server users if Hybrid connectivity has been deployed in the environment. For more information about hybrid connectivity and bot setup, see [Skype for Business Bot - Hybrid environment support](./Bot-Hybrid-Support.md).
-
->Note: Skype for Business Server 2015 is currently not  supported.
-
 
  <a name="remove-bot-dev"></a>
 ## Removing a bot - Developer

@@ -8,6 +8,8 @@ Hybrid connectivity between Skype for Business Server and Skype for Business Onl
 
 - For more information about how to deploy hybrid connectivity between Skype for Business Server and Skype for Business Online, see [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](https://technet.microsoft.com/en-us/library/jj204669.aspx). 
 - Configuring hybrid connectivity requires **Active Directory synchronization** to keep your on-premises and online users synchronized.  **[Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)** is the best way to connect your on-premises directory with Azure AD and Office 365. For more information about using the **[Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)** for hybrid environment configuration, see [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).
+- Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) to troubleshoot some of the common errors encountered during the Skype for Business Bot setup.
+
 
 ## Bot setup for Skype for Business Hybrid enviornment 
 
@@ -22,14 +24,17 @@ Once you have successfully deployed the hybrid enviornment, follow the steps out
     ```
 
     For the **Skype for Business Hybrid enviornment**, the **New-CsOnlineApplicationEndpoint** cmdlet will output additional on-premises cmdlet to be run in your [Skype for Business Server (on-premises) Management Shell](https://technet.microsoft.com/en-us/library/gg398474.aspx). The additional cmdlet is covered in more detail in the next step.
+
+> Note: Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) to troubleshoot some of the common Bot setup issues.</p> 
  
 3. Create an application endpoint on the [Skype for Business Server (on-premises) Management Shell](https://technet.microsoft.com/en-us/library/gg398474.aspx) using the following on-premises cmdlet:  
 
-> Note: **Skype for Business Server Cumulative Update 5 or greater** is required to run this cmdlet. 
 ```PowerShell
 New-CsHybridApplicationEndpoint -ApplicationId <AppID generated from Bot Framework Portal like 41ec7d50-ba91-1208-73ee-136b88859725> -DisplayName <NameOfTheBot> -SipAddress sip:<bothandle@yourdomain.com> –OU <ou=Redmond,dc=litwareinc,dc=com>
 ```
+
 > Note: Please make sure that the **New-CsHybridApplicationEndpoint** parameters: ApplicationId, DisplayName and SipAddress have the same values as (step 2) **New-CsOnlineApplicationEndpoint** parameters: ApplicationID, Name and Uri, respectively. 
+<br><p>>**Skype for Business Server Cumulative Update 5 or greater** is required to run this cmdlet. </p>
 
  |**Parameters**|**Required**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -43,7 +48,5 @@ The succesful execution of **New-CsHybridApplicationEndpoint** cmdlet will creat
 
 
 4. Wait for the newly created user object to be directory synced to the Azure Active Directory or start a new directory sync cycle by running the [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler#start-the-scheduler) on the domain controller machine. To learn more about Azure AD Connect directory sync, see [Azure AD Connect sync: Scheduler](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) and [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)
-
-
 
 5. Please make sure that you wait for 8 hours before the endpoint is discovered from the Skype for Business clients for the newly created application ids. Onprem user should be able to search for the BOT from the client and initiate the chat conversations 

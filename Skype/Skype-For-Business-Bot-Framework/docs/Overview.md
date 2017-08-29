@@ -1,6 +1,8 @@
 # Skype for Business Bot Framework (Preview)
 
-This article will help you build and enable a Skype for Business bot using the Microsoft Bot Framework.
+In a few simple steps you can build and connect intelligent bots to interact with your Skype for Business users using text, cards, or speech.
+
+This article will help you build and enable a Skype for Business bot using the Microsoft Bot Framework. 
 
 ## Getting Started
 
@@ -156,11 +158,11 @@ Skype for Business bots can be connected to Skype for Business Server users if H
  <a name="remove-bot-dev"></a>
 ## Removing a bot - Developer
  
-- **Deleting a bot :** To delete your bot completely, go to your bot dashboard, select edit the Skype for Business channel and click the Delete button at the bottom.
+To delete your bot completely, go to your bot dashboard, select edit the Skype for Business channel and click the Delete button at the bottom.
 
 <a name="remove-bot-tenant"></a>
 ## Removing a bot – Skype for Business Tenant Administrator
-- **Deleting a bot :** To delete a bot completely from a Skype for Business Tenant, you must be the Tenant administrator of a Skype for Business Online environment. A Tenant administrator can easily delete your bot by using the Skype for Business Admin **[PowerShell cmdlets](https://technet.microsoft.com/en-us/library/dn362831.aspx)**. Complete the following steps to delete a bot:
+To delete a bot completely from a Skype for Business Tenant, you must be the Tenant administrator of a Skype for Business Online environment. A Tenant administrator can easily delete your bot by using the Skype for Business Admin **[PowerShell cmdlets](https://technet.microsoft.com/en-us/library/dn362831.aspx)**. Complete the following steps to delete a bot:
 
 1. [Download and install the Skype for Business Online Connector module](http://go.microsoft.com/fwlink/?LinkId=294688)
 2. Open Windows PowerShell as Administrator and run the following:

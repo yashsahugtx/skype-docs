@@ -48,7 +48,7 @@
 ###### [Gathering web traffic logs from the Skype Web SDK or Conversation Control](WebSDK/docs/troubleshooting/gatheringLogs/Logs-WebTraffic.md)
 ###### [Gathering media logs from the Skype Web SDK or Conversation Control](WebSDK/docs/troubleshooting/gatheringLogs/Logs-Media.md)
 ###### [Gathering logs from a Skype for Business Desktop Client](WebSDK/docs/troubleshooting/gatheringLogs/Logs-DesktopClient.md)
-##### [Checking for and handling application errors](WebSDK/docs/troubleshooting/handlingapplicationerrors)
+##### [Checking for and handling application errors](WebSDK/docs/troubleshooting/handlingapplicationerrors.md)
 #### [Programming Tasks](WebSDK/docs/ProgrammingTasks.md)
 
 ##### [Authentication](WebSDK/docs/PTAuth.md)

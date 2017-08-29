@@ -130,6 +130,8 @@
 #### [Submit your questions, bugs, feature requests, and contributions](AppSDK/Feedback.md)
 
 ### [Skype for Business Bot Framework (Preview)](Skype-For-Business-Bot-Framework/docs/Overview.md)
+####[Skype for Business Bot - Hybrid environment support](Skype-For-Business-Bot-Framework/docs/Bot-Hybrid-Support.md)
+####[Skype for Business Bot - Common Errors](Skype-For-Business-Bot-Framework/docs/Bot-Common-Errors.md)
 ### [Trusted Application API](Trusted-Application-API/docs/Overview.md)
 #### [Enabling communications services for the cloud](Trusted-Application-API/docs/Trusted_Application_API_GeneralReference.md)
 

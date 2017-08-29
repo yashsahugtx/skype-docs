@@ -1,6 +1,10 @@
 # Skype for Business Bot - Common Errors
-The most common error codes encountered are outlined in the following tables.
-## New-CsOnlineApplicationEndpoint common errors
+
+This article lists the most common errors encountered during the Skype for Business Bot setup and what you can do to solve them.
+
+ 
+1. **New-CsOnlineApplicationEndpoint cmdlet** related errors are outlined in the following table.
+
 |Error|Resolution|
 |:-|:-|
 |**+ FullyQualifiedErrorId : Error processing cmdlet request**<br> "type":"Microsoft.Skype.EnterpriseVoice.CbdService.DataAccess.EntityNotFoundException"|Add a Url for CallbackUri in the messaging Url field in botframework properties|
@@ -11,7 +15,7 @@ The most common error codes encountered are outlined in the following tables.
 |Processing data from remote server failed with the following error message: The user 'victor@metio.onmicrosoft.com' does not have permission to manage this tenant.|Make sure you are sign-in as a Tenant Admin, see [About the Skype for Business admin role](https://support.office.com/en-us/article/About-the-Skype-for-Business-admin-role-aeb35bda-93fc-49b1-ac2c-c74fbeb737b5) for details.|
 |||
 
- ## Other common errors
+ 2. **Other common errors are as follows:**
 
 |Error|Resolution|
 |:-|:-|

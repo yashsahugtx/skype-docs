@@ -13,6 +13,7 @@ This article will help you build and enable a Skype for Business bot using the M
 - [Skype for Business Hybrid enviornment support](#hybrid-suport)
 -	[Removing a bot – Developer](#remove-bot-dev)
 -	[Removing a bot – Tenant Administrator](#remove-bot-tenant)
+- [Common Errors](#common-errors)
 
 <a name="create-bot"></a>
 ## Creating a Skype for Business bot
@@ -53,7 +54,7 @@ To add your bot to Skype for Business, you must be the Tenant Administrator of a
 ```PowerShell
  New-CsOnlineApplicationEndpoint -ApplicationID <AppID generated from BotFramework Portal like 41ec7d50-ba91-1208-73ee-136b88859725> -Name <NameOfTheBot> -Uri sip:<bothandle@yourdomain.com>
 ```
->Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795.aspx)
+>Note: Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) to troubleshoot some of the common issues. For more information about powershell usage, see [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795.aspx).
  
 This cmdlet registers an instance of your bot with a Skype for Business Online tenant. A Skype for Business Admin can replace the **_Name_** parameter with their desired bot display name and replace the **_Uri_** parameter with a unique user account from their domain (eg. mybot@contoso.com)
 
@@ -176,4 +177,9 @@ Remove -CsOnlineApplicationEndpoint -Uri sip:username@yourdomain.com
 >Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell]  (https://technet.microsoft.com/en-us/library/dn362795.aspx)
 
 This command removes the instance of a bot with a Skype for Business Online tenant. A Skype for Business Admin must replace the Uri parameter with the user account from their domain (eg. mybot@contoso.com) , which they created when adding the bot.  More details on using PowerShell to manage bots and apps for Skype for Business can be found [here](https://msdn.microsoft.com/en-us/skype/trusted-application-api/docs/trustedapplicationendpoint).
+
+ <a name="common-errors"></a>
+## Common Errors
+
+Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) for the list of  errors encountered during the Skype for Business Bot setup and what you can do to solve them. 
 

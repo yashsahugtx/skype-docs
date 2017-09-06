@@ -1,3 +1,15 @@
+## Skype Web SDK Version Update 9/06/17
+
+| Product        | New Version           | Last Updated  |Previous Version
+| ------------- |:-------------:| :-----:|:----------:|
+| Conversation Control Preview     | 1.99.7 | 8/4/17 | 1.97.4
+| Skype Web SDK Preview    | 0.4.607 | 8/21/17 | 0.4.596
+| Conversation Control Production | 1.97.4 | 8/4/17 | 1.94.32
+| Skype Web SDK Production| 0.4.582 | 8/4/17 | 0.4.545 |
+
+**Changes made in the new public preview build:**
+* Added verbose logging mode
+
 ## Skype Web SDK Version Update 8/21/17
 
 | Product        | New Version           | Last Updated  |Previous Version

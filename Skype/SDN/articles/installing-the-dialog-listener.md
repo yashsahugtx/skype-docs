@@ -25,6 +25,9 @@ Follow these steps to use the **Setup Wizard** to install the Dialog Listener co
   
     
     
+> [!WARNING]
+> Installing a DialogListener for a second FE pool removes the application registration in the CMS for the first pool. Subsequent pool DialogListener installations **MUST** a) utilize manual installation with the **SKIPREGISTRATION=1** option, b) manually create the **CsServerApplication** for the second FE pool, and c) restart the DialogListener service.
+
 
 
 ## To install the Dialog Listener

@@ -152,7 +152,8 @@ Following are unattended installation parameters for the Dialog Listener.
 |APPLIED_SERVICE_PASSWORD |Password for the Dialog Listener Windows Service account. |
 |THUMBPRINT |Thumbprint of the client certificate needed to contact the SDN Manager. |
 |USE_SRV_RECORD_BOOL |If **true**, then instead of using the configuration service URI, retrieve the location from the DNS SRV record. |
-|SKIPREGISTRATION |During the installation, a Windows PowerShell script is executed to register the Dialog Listener with the Skype for Business Server. To skip executing this script, set SKIPREGISTRATION=1.  You must manually perform this registration and start the Dialog Listener Windows service. An example of this script can be found under `C:\\ProgramData\\Microsoft\\Skype for Business Dialog Listener\\Register.ps1`. |
+|SKIPREGISTRATION |During the installation, a Windows PowerShell script is executed to register the Dialog Listener with the Skype for Business Server. To skip executing this script, set SKIPREGISTRATION=1.  You must manually perform this registration and start the Dialog Listener Windows service. An **example** of this script can be found under `C:\\ProgramData\\Microsoft\\Skype for Business Dialog Listener\\Register.ps1`. You **MUST** replace the example's CsServerApplication Identity $name construction using '/Diagnostics' with '/SDN22'. The current SDN version only recogizes Identity names constructed with 'SDN22'.
+|
    
 
 > [!NOTE]

@@ -147,12 +147,12 @@ public async Task MakeOutboundCall(string[] to, string topic)
 <a name="version-suport"></a>
 ## Supported Skype for Business versions
 
-The Skype for Business Bot Framework channel is currently supported for **Skype for Business Online** and **Skype for Business Hybrid enviornment** only. 
+The Skype for Business Bot Framework channel is currently supported for **Skype for Business Online** and **Skype for Business Hybrid** environments only. 
 
->Note: Skype for Business Server 2015 is currently not  a supported [Microsoft Bot Framework](https://dev.botframework.com/) channel.
+>Note: Skype for Business Server 2015 is currently not a supported [Microsoft Bot Framework](https://dev.botframework.com/) channel.
 
 <a name="hybrid-suport"></a>
-### **Skype for Business Hybrid enviornment support** 
+### **Skype for Business Hybrid environment support** 
 
 Skype for Business bots can be connected to Skype for Business Server users if Hybrid connectivity has been deployed in the environment. For more information about hybrid connectivity and bot setup, see [Skype for Business Bot - Hybrid environment support](./Bot-Hybrid-Support.md).
 
@@ -184,10 +184,9 @@ Remove -CsOnlineApplicationEndpoint -Uri sip:username@yourdomain.com
 
 This command removes the instance of a bot with a Skype for Business Online tenant. A Skype for Business Admin must replace the Uri parameter with the user account from their domain (eg. mybot@contoso.com) , which they created when adding the bot.  More details on using PowerShell to manage bots and apps for Skype for Business can be found [here](https://msdn.microsoft.com/en-us/skype/trusted-application-api/docs/trustedapplicationendpoint).
 
-
  <a name="common-errors"></a>
 ## Common Errors
 
-Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) for the list of errors encountered during the Skype for Business Bot setup and what you can do to solve them. 
+Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) for a list of common errors encountered during the Skype for Business Bot setup and what you can do to solve them. 
 
 

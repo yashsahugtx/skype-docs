@@ -3,7 +3,7 @@
 This article lists the most common errors encountered during the Skype for Business Bot setup and what you can do to solve them.
 
  
-1. **New-CsOnlineApplicationEndpoint cmdlet** related errors are outlined in the following table.
+1\. **New-CsOnlineApplicationEndpoint cmdlet** related errors are outlined in the following table.
 
 |Error|Resolution|
 |:---|:---|
@@ -15,7 +15,7 @@ This article lists the most common errors encountered during the Skype for Busin
 |Processing data from remote server failed with the following error message: The user 'usera@contoso.com' does not have permission to manage this tenant.|To add your bot to Skype for Business, you must sign-in as the Tenant Administrator of a Skype for Business Online environment. See [About the Skype for Business admin role](https://support.office.com/en-us/article/About-the-Skype-for-Business-admin-role-aeb35bda-93fc-49b1-ac2c-c74fbeb737b5) for details.|
 |||
 
- 2. **Other common errors are as follows:**
+ 2\. **Other common errors are as follows:**
 
 |Error|Resolution|
 |:-|:-|

@@ -1,7 +1,5 @@
 # README
 
-> **Note**: The SDK is now deprecated. No new features or bug fixes will be provided.
-
 This documentation is hosted at http://aka.ms/skypeappsdk.  Please read it there.
 
 If you're interested in contributing to this documentation, then please read on. 

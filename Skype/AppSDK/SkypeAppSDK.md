@@ -1,16 +1,15 @@
 
-
 # Skype for Business App SDK
 
  **Last modified:** April 23, 2016
 
  _**Applies to:** Skype for Business 2015 CU4_, _Skype for Business Online_
 
->**Note**: The SDK is now deprecated. No new features or bug fixes will be provided.
-
 The Skype for Business App SDK enables developers to seamlessly integrate messaging, audio, and video experiences into mobile and tablet applications.
 
 The initial focus of this SDK is to power “remote advisor” solutions that enable consumer iOS and Android apps to embed communications from external guests to users within a Skype for Business organization.  To achieve this, the SDK uses the “guest meeting join” capability that is available both for Skype for Business Online and for Skype for Business Server.  
+
+> **Note**: Over time, the SDK's capabilities will expand to cover other scenarios. 
 
 The Skype App SDK documentation consists of the following sections:
 

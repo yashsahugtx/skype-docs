@@ -518,7 +518,7 @@
 ###### [SDN Manager command-line example](SDN/articles/sdn-manager-command-line-example.md)
 ###### [SDN Interface Bandwidth Estimates](SDN/articles/sdn-interface-bandwidth-estimates.md)
 ###### [SDN Interface Performance Overview](SDN/articles/sdn-interface-performance-overview.md)
-
+#### [Skype for Business SDN Interface Schema Reference](SDN/articles/Skype for Business SDN Interface Schema Reference.md)
 ## [Lync](https://msdn.microsoft.com/en-us/library/office/dn820099.aspx)
 ### [Lync 2013](https://msdn.microsoft.com/en-us/library/office/jj162980.aspx)
 ###[Lync 2010](https://msdn.microsoft.com/en-us/library/office/hh467893.aspx)

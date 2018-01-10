@@ -473,7 +473,7 @@
 ### [Unified Communications Managed API (UCMA)](https://msdn.microsoft.com/en-us/library/office/dn454984.aspx)
 ### [Unified Communications Web API (UCWA)](https://msdn.microsoft.com/en-us/library/office/dn324971.aspx)
 ### [Skype for Business SDN Interface](SDN/articles/skype-for-business-sdn-interface.md)
-#### [Skype for Business SDN Interface Schema Reference](SDN/articles/skype-for-business-sdn-interface-schema-reference.md)
+
 
 #### [Overview](SDN/articles/overview.md)
 ##### [Release Notes](SDN/articles/release-notes.md)
@@ -520,6 +520,7 @@
 ###### [SDN Manager command-line example](SDN/articles/sdn-manager-command-line-example.md)
 ###### [SDN Interface Bandwidth Estimates](SDN/articles/sdn-interface-bandwidth-estimates.md)
 ###### [SDN Interface Performance Overview](SDN/articles/sdn-interface-performance-overview.md)
+#### [Skype for Business SDN Interface Schema Reference](SDN/articles/skype-for-business-sdn-interface-schema-reference.md)
 ## [Lync](https://msdn.microsoft.com/en-us/library/office/dn820099.aspx)
 ### [Lync 2013](https://msdn.microsoft.com/en-us/library/office/jj162980.aspx)
 ###[Lync 2010](https://msdn.microsoft.com/en-us/library/office/hh467893.aspx)

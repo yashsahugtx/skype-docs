@@ -46,8 +46,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Callee](callee-element.md)| [EndPointType](endpointtype-complextype-1.md)|Properties of the callee. |
-| [Caller](caller-element-1.md)| [EndPointType](endpointtype-complextype-1.md)|Properties of the caller. |
+| [Callee](callee-element.md)| [EndPointType](endpointtype-complextype.md)|Properties of the callee. |
+| [Caller](caller-element.md)| [EndPointType](endpointtype-complextype.md)|Properties of the caller. |
    
 
 ### Attributes

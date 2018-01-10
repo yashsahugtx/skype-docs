@@ -50,7 +50,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
 | [Average](average-element.md)|xs:long |Estimated average amount of the bandwidth. |
-| [Maximum](maximum-element-1.md)|xs:long |Estimated upper limit of the bandwidth needed by this stream. |
+| [Maximum](maximum-element.md)|xs:long |Estimated upper limit of the bandwidth needed by this stream. |
    
 
 ### Attributes

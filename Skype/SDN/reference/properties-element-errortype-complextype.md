@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Error](error-element.md)| [ErrorType](errortype-complextype-1.md)|This event is optional. Error event that a SIP dialog has failed. Error events are also sent for SIP calls that are terminated even before a media stream is started or for failed to be updated. |
+| [Error](error-element.md)| [ErrorType](errortype-complextype.md)|This event is optional. Error event that a SIP dialog has failed. Error events are also sent for SIP calls that are terminated even before a media stream is started or for failed to be updated. |
    
 
 ### Child elements
@@ -60,8 +60,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 | [MSDiagnostics](msdiagnostics-element-errorproperties-complextype.md)|xs:string |More info related to the error. |
 | [MSDiagnosticsClient](msdiagnosticsclient-element-errorproperties-complextype.md)|xs:string |Info about the error related to and reported by the client. |
 | [MSDiagnosticsPublic](msdiagnosticspublic-element-errorproperties-complextype.md)|xs:string |Public info about the error. |
-| [ResponseCode](responsecode-element-errorproperties-complextype-1.md)|xs:int |SIP Error code. |
-| [ResponsePhrase](responsephrase-element-1.md)|xs:string |More info related to the error. |
+| [ResponseCode](responsecode-element-errorproperties-complextype.md)|xs:int |SIP Error code. |
+| [ResponsePhrase](responsephrase-element.md)|xs:string |More info related to the error. |
    
 
 ### Attributes

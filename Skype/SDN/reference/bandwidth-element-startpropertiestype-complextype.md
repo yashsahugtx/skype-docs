@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Properties](properties-element-startorupdatetype-complextype-1.md)| [StartPropertiesType](startpropertiestype-complextype.md)|Properties of the started or updated media stream. |
+| [Properties](properties-element-startorupdatetype-complextype.md)| [StartPropertiesType](startpropertiestype-complextype.md)|Properties of the started or updated media stream. |
    
 
 ### Child elements
@@ -57,7 +57,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Average](average-element-1.md)|xs:long |Estimated average amount of the bandwidth. |
+| [Average](average-element.md)|xs:long |Estimated average amount of the bandwidth. |
 | [Maximum](maximum-element.md)|xs:long |Estimated upper limit of the bandwidth needed by this stream. |
    
 

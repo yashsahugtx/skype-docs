@@ -16,7 +16,7 @@ This topic lists the types in the SDNInterface.Schema.D.xsd XML schema.
 -  [BandwidthDataType simpleType](bandwidthdatatype-simpletype.md)
     
   
--  [BandwidthType complexType](bandwidthtype-complextype-1.md)
+-  [BandwidthType complexType](bandwidthtype-complextype.md)
     
   
 -  [BSSIDPattern simpleType](bssidpattern-simpletype.md)
@@ -28,10 +28,10 @@ This topic lists the types in the SDNInterface.Schema.D.xsd XML schema.
 -  [ByeType complexType](byetype-complextype.md)
     
   
--  [CodecType complexType](codectype-complextype-1.md)
+-  [CodecType complexType](codectype-complextype.md)
     
   
--  [ConnectionInfoType complexType](connectioninfotype-complextype-1.md)
+-  [ConnectionInfoType complexType](connectioninfotype-complextype.md)
     
   
 -  [ConnectionModalities simpleType](connectionmodalities-simpletype.md)
@@ -61,7 +61,7 @@ This topic lists the types in the SDNInterface.Schema.D.xsd XML schema.
 -  [ErrorEndPointType complexType](errorendpointtype-complextype.md)
     
   
--  [ErrorProperties complexType](errorproperties-complextype-1.md)
+-  [ErrorProperties complexType](errorproperties-complextype.md)
     
   
 -  [ErrorType complexType](errortype-complextype.md)
@@ -91,25 +91,25 @@ This topic lists the types in the SDNInterface.Schema.D.xsd XML schema.
 -  [ProtocolTypes simpleType](protocoltypes-simpletype.md)
     
   
--  [QualityEndPointType complexType](qualityendpointtype-complextype-1.md)
+-  [QualityEndPointType complexType](qualityendpointtype-complextype.md)
     
   
 -  [QualityPropertiesType complexType](qualitypropertiestype-complextype.md)
     
   
--  [QualityType complexType](qualitytype-complextype-1.md)
+-  [QualityType complexType](qualitytype-complextype.md)
     
   
--  [ResponseCodeType complexType](responsecodetype-complextype-1.md)
+-  [ResponseCodeType complexType](responsecodetype-complextype.md)
     
   
--  [RouteType complexType](routetype-complextype-1.md)
+-  [RouteType complexType](routetype-complextype.md)
     
   
 -  [StartOrUpdateType complexType](startorupdatetype-complextype.md)
     
   
--  [StartPropertiesType complexType](startpropertiestype-complextype-1.md)
+-  [StartPropertiesType complexType](startpropertiestype-complextype.md)
     
   
 -  [StreamQualityType complexType](streamqualitytype-complextype.md)

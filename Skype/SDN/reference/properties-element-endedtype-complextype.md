@@ -17,7 +17,7 @@ Properties of the Error.
 
 |||
 |:-----|:-----|
-|**Element type**| [EndedProperties](endedproperties-complextype-1.md)|
+|**Element type**| [EndedProperties](endedproperties-complextype.md)|
 |**Namespace**||
 |**Schema file**|SDNInterface.Schema.C.xsd |
    
@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Ended](ended-element.md)| [EndedType](endedtype-complextype-1.md)|Event that a Sip call has ended and all media stream terminated. |
+| [Ended](ended-element.md)| [EndedType](endedtype-complextype.md)|Event that a Sip call has ended and all media stream terminated. |
    
 
 ### Child elements

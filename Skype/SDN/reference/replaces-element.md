@@ -49,7 +49,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Properties](properties-element-startorupdatetype-complextype.md)| [StartPropertiesType](startpropertiestype-complextype-1.md)|Properties of the started or updated media stream. |
+| [Properties](properties-element-startorupdatetype-complextype.md)| [StartPropertiesType](startpropertiestype-complextype.md)|Properties of the started or updated media stream. |
    
 
 ### Child elements

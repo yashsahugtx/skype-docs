@@ -48,8 +48,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Codec](codec-element-qualitypropertiestype-complextype-1.md)| [CodecType](codectype-complextype.md)|Describes the last codec used for the media. |
-| [Codec](codec-element-startpropertiestype-complextype-1.md)| [CodecType](codectype-complextype.md)|Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch among these codecs at any time (without additional signalling). |
+| [Codec](codec-element-qualitypropertiestype-complextype.md)| [CodecType](codectype-complextype.md)|Describes the last codec used for the media. |
+| [Codec](codec-element-startpropertiestype-complextype.md)| [CodecType](codectype-complextype.md)|Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch among these codecs at any time (without additional signalling). |
    
 
 ### Child elements

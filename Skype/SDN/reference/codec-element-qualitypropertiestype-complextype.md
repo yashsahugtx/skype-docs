@@ -18,7 +18,7 @@ Describes the last codec used for the media.
 
 |||
 |:-----|:-----|
-|**Element type**| [CodecType](codectype-complextype-1.md)|
+|**Element type**| [CodecType](codectype-complextype.md)|
 |**Namespace**||
 |**Schema file**|SDNInterface.Schema.D.XSD |
    
@@ -49,7 +49,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Properties](properties-element-qualitytype-complextype-1.md)| [QualityPropertiesType](qualitypropertiestype-complextype.md)|Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determine a bad call. |
+| [Properties](properties-element-qualitytype-complextype.md)| [QualityPropertiesType](qualitypropertiestype-complextype.md)|Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determine a bad call. |
    
 
 ### Child elements

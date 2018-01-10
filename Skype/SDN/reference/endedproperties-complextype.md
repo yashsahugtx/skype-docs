@@ -47,9 +47,9 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [MSDiagnostics](msdiagnostics-element-endedproperties-complextype-1.md)|xs:string |More info related to the error. |
-| [MSDiagnosticsClient](msdiagnosticsclient-element-endedproperties-complextype-1.md)|xs:string |Info about the error related to and reported by the client. |
-| [MSDiagnosticsPublic](msdiagnosticspublic-element-endedproperties-complextype-1.md)|xs:string |Public info about the error. |
+| [MSDiagnostics](msdiagnostics-element-endedproperties-complextype.md)|xs:string |More info related to the error. |
+| [MSDiagnosticsClient](msdiagnosticsclient-element-endedproperties-complextype.md)|xs:string |Info about the error related to and reported by the client. |
+| [MSDiagnosticsPublic](msdiagnosticspublic-element-endedproperties-complextype.md)|xs:string |Public info about the error. |
    
 
 ### Attributes

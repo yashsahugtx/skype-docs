@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Properties](properties-element-messagetype-complextype.md)| [MessageProperties](messageproperties-complextype-1.md)|Details of the Error or reason for ending the streams. |
+| [Properties](properties-element-messagetype-complextype.md)| [MessageProperties](messageproperties-complextype.md)|Details of the Error or reason for ending the streams. |
    
 
 ### Child elements

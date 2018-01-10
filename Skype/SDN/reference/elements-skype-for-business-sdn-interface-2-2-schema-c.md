@@ -21,22 +21,22 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [AudioTimestampErrorSpkMs element](audiotimestamperrorspkms-element.md)
     
   
--  [Average element](average-element-1.md)
+-  [Average element](average-element.md)
     
   
--  [Bandwidth element](bandwidth-element-codectype-complextype-1.md)
+-  [Bandwidth element](bandwidth-element-codectype-complextype.md)
     
   
--  [Bandwidth element](bandwidth-element-startpropertiestype-complextype-1.md)
+-  [Bandwidth element](bandwidth-element-startpropertiestype-complextype.md)
     
   
--  [BitRateAvg element](bitrateavg-element-1.md)
+-  [BitRateAvg element](bitrateavg-element.md)
     
   
 -  [BitRateMax element](bitratemax-element.md)
     
   
--  [BSSID element](bssid-element-1.md)
+-  [BSSID element](bssid-element.md)
     
   
 -  [BurstDensity element](burstdensity-element.md)
@@ -48,34 +48,34 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [BurstGapDensity element](burstgapdensity-element.md)
     
   
--  [BurstGapDuration element](burstgapduration-element-1.md)
+-  [BurstGapDuration element](burstgapduration-element.md)
     
   
--  [Bye element](bye-element-1.md)
+-  [Bye element](bye-element.md)
     
   
 -  [Callee element](callee-element.md)
     
   
--  [Caller element](caller-element-1.md)
+-  [Caller element](caller-element.md)
     
   
--  [CallId element](callid-element-1.md)
+-  [CallId element](callid-element.md)
     
   
--  [CaptureDevice element](capturedevice-element-1.md)
+-  [CaptureDevice element](capturedevice-element.md)
     
   
--  [CaptureDeviceDriver element](capturedevicedriver-element-1.md)
+-  [CaptureDeviceDriver element](capturedevicedriver-element.md)
     
   
--  [Codec element](codec-element-startpropertiestype-complextype-1.md)
+-  [Codec element](codec-element-startpropertiestype-complextype.md)
     
   
--  [Codec element](codec-element-qualitypropertiestype-complextype-1.md)
+-  [Codec element](codec-element-qualitypropertiestype-complextype.md)
     
   
--  [ConferenceId element](conferenceid-element-1.md)
+-  [ConferenceId element](conferenceid-element.md)
     
   
 -  [ConferenceURI element](conferenceuri-element.md)
@@ -90,10 +90,10 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [Connectivity element](connectivity-element.md)
     
   
--  [Contact element](contact-element-qualityendpointtype-complextype-1.md)
+-  [Contact element](contact-element-qualityendpointtype-complextype.md)
     
   
--  [Contact element](contact-element-endpointtype-complextype-1.md)
+-  [Contact element](contact-element-endpointtype-complextype.md)
     
   
 -  [ConversationalMOS element](conversationalmos-element.md)
@@ -102,7 +102,7 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [ConversationId element](conversationid-element.md)
     
   
--  [CorrelationId element](correlationid-element-1.md)
+-  [CorrelationId element](correlationid-element.md)
     
   
 -  [CPUInsufficientEventRatio element](cpuinsufficienteventratio-element.md)
@@ -117,22 +117,22 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [CPUProcessorSpeed element](cpuprocessorspeed-element.md)
     
   
--  [CSEQ element](cseq-element-1.md)
+-  [CSEQ element](cseq-element.md)
     
   
--  [DegradationAvg element](degradationavg-element-1.md)
+-  [DegradationAvg element](degradationavg-element.md)
     
   
--  [DegradationJitterAvg element](degradationjitteravg-element-1.md)
+-  [DegradationJitterAvg element](degradationjitteravg-element.md)
     
   
--  [DegradationMax element](degradationmax-element-1.md)
+-  [DegradationMax element](degradationmax-element.md)
     
   
--  [DegradationPacketLossAvg element](degradationpacketlossavg-element-1.md)
+-  [DegradationPacketLossAvg element](degradationpacketlossavg-element.md)
     
   
--  [DeviceCaptureNotFunctioningEventRatio element](devicecapturenotfunctioningeventratio-element-1.md)
+-  [DeviceCaptureNotFunctioningEventRatio element](devicecapturenotfunctioningeventratio-element.md)
     
   
 -  [DeviceClippingEventRatio element](deviceclippingeventratio-element.md)
@@ -141,7 +141,7 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [DeviceEchoEventRatio element](deviceechoeventratio-element.md)
     
   
--  [DeviceHowlingEventCount element](devicehowlingeventcount-element-1.md)
+-  [DeviceHowlingEventCount element](devicehowlingeventcount-element.md)
     
   
 -  [DeviceNearEndToEchoRatioEventRatio element](devicenearendtoechoratioeventratio-element.md)
@@ -150,22 +150,22 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [DeviceRenderNotFunctioningEventRatio element](devicerendernotfunctioningeventratio-element.md)
     
   
--  [DSCPInbound element](dscpinbound-element-1.md)
+-  [DSCPInbound element](dscpinbound-element.md)
     
   
--  [DSCPOutbound element](dscpoutbound-element-1.md)
+-  [DSCPOutbound element](dscpoutbound-element.md)
     
   
 -  [DynamicCapabilityPercent element](dynamiccapabilitypercent-element.md)
     
   
--  [EchoEventCauses element](echoeventcauses-element-1.md)
+-  [EchoEventCauses element](echoeventcauses-element.md)
     
   
 -  [EchoPercentMicIn element](echopercentmicin-element.md)
     
   
--  [EchoPercentSend element](echopercentsend-element-1.md)
+-  [EchoPercentSend element](echopercentsend-element.md)
     
   
 -  [EchoReturn element](echoreturn-element.md)
@@ -177,7 +177,7 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [EndPoint element](endpoint-element-endedtype-complextype.md)
     
   
--  [EndPoint element](endpoint-element-byetype-complextype-1.md)
+-  [EndPoint element](endpoint-element-byetype-complextype.md)
     
   
 -  [EndPoint element](endpoint-element-errortype-complextype.md)
@@ -192,25 +192,25 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [EPId element](epid-element-endpointtype-complextype.md)
     
   
--  [EPType element](eptype-element-endpointtype-complextype-1.md)
+-  [EPType element](eptype-element-endpointtype-complextype.md)
     
   
--  [EPType element](eptype-element-qualityendpointtype-complextype-1.md)
+-  [EPType element](eptype-element-qualityendpointtype-complextype.md)
     
   
 -  [Error element](error-element.md)
     
   
--  [FrameRate element](framerate-element-1.md)
+-  [FrameRate element](framerate-element.md)
     
   
--  [From element](from-element-qualitytype-complextype-1.md)
+-  [From element](from-element-qualitytype-complextype.md)
     
   
 -  [From element](from-element-startorupdatetype-complextype.md)
     
   
--  [From element](from-element-errortype-complextype-1.md)
+-  [From element](from-element-errortype-complextype.md)
     
   
 -  [From element](from-element-endedtype-complextype.md)
@@ -219,34 +219,34 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [HDQualityRatio element](hdqualityratio-element.md)
     
   
--  [HealerPacketDropRatio element](healerpacketdropratio-element-1.md)
+-  [HealerPacketDropRatio element](healerpacketdropratio-element.md)
     
   
 -  [Hop element](hop-element.md)
     
   
--  [Id element](id-element-qualityendpointtype-complextype-1.md)
+-  [Id element](id-element-qualityendpointtype-complextype.md)
     
   
--  [Id element](id-element-endpointtype-complextype-1.md)
+-  [Id element](id-element-endpointtype-complextype.md)
     
   
 -  [IncallEnabled element](incallenabled-element.md)
     
   
--  [InCallQuality element](incallquality-element-1.md)
+-  [InCallQuality element](incallquality-element.md)
     
   
 -  [Inside element](inside-element.md)
     
   
--  [Invite element](invite-element-1.md)
+-  [Invite element](invite-element.md)
     
   
 -  [IP element](ip-element-qualityendpointtype-complextype.md)
     
   
--  [IP element](ip-element-endpointtype-complextype-1.md)
+-  [IP element](ip-element-endpointtype-complextype.md)
     
   
 -  [JitterInterArrival element](jitterinterarrival-element.md)
@@ -261,25 +261,25 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [LocalFrameLossPercentageAvg element](localframelosspercentageavg-element.md)
     
   
--  [LowFrameRateCallPercent element](lowframeratecallpercent-element-1.md)
+-  [LowFrameRateCallPercent element](lowframeratecallpercent-element.md)
     
   
--  [LowResolutionCallPercent element](lowresolutioncallpercent-element-1.md)
+-  [LowResolutionCallPercent element](lowresolutioncallpercent-element.md)
     
   
--  [LyncDiagnostics element](lyncdiagnostics-element-1.md)
+-  [LyncDiagnostics element](lyncdiagnostics-element.md)
     
   
--  [MACAddr element](macaddr-element-1.md)
+-  [MACAddr element](macaddr-element.md)
     
   
--  [MaxBandwidth element](maxbandwidth-element-1.md)
+-  [MaxBandwidth element](maxbandwidth-element.md)
     
   
 -  [Maximum element](maximum-element.md)
     
   
--  [MediaBypass element](mediabypass-element-1.md)
+-  [MediaBypass element](mediabypass-element.md)
     
   
 -  [MediationServerLegPosition element](mediationserverlegposition-element.md)
@@ -309,49 +309,49 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [MSDiagnosticsPublic element](msdiagnosticspublic-element-errorproperties-complextype.md)
     
   
--  [MSDiagnosticsPublic element](msdiagnosticspublic-element-messageproperties-complextype-1.md)
+-  [MSDiagnosticsPublic element](msdiagnosticspublic-element-messageproperties-complextype.md)
     
   
 -  [MSDiagnosticsPublic element](msdiagnosticspublic-element-endedproperties-complextype.md)
     
   
--  [NetworkDelayEventRatio element](networkdelayeventratio-element-1.md)
+-  [NetworkDelayEventRatio element](networkdelayeventratio-element.md)
     
   
 -  [OS element](os-element.md)
     
   
--  [OverallAvgNetworkMOS element](overallavgnetworkmos-element-1.md)
+-  [OverallAvgNetworkMOS element](overallavgnetworkmos-element.md)
     
   
 -  [OverallMinNetworkMOS element](overallminnetworkmos-element.md)
     
   
--  [PacketLossRate element](packetlossrate-element-1.md)
+-  [PacketLossRate element](packetlossrate-element.md)
     
   
--  [PacketLossRateMax element](packetlossratemax-element-1.md)
+-  [PacketLossRateMax element](packetlossratemax-element.md)
     
   
 -  [PacketUtilization element](packetutilization-element.md)
     
   
--  [Port element](port-element-qualityendpointtype-complextype-1.md)
+-  [Port element](port-element-qualityendpointtype-complextype.md)
     
   
 -  [Port element](port-element-endpointtype-complextype.md)
     
   
--  [Properties element](properties-element-errortype-complextype-1.md)
+-  [Properties element](properties-element-errortype-complextype.md)
     
   
 -  [Properties element](properties-element-qualitytype-complextype.md)
     
   
--  [Properties element](properties-element-endedtype-complextype-1.md)
+-  [Properties element](properties-element-endedtype-complextype.md)
     
   
--  [Properties element](properties-element-startorupdatetype-complextype-1.md)
+-  [Properties element](properties-element-startorupdatetype-complextype.md)
     
   
 -  [Properties element](properties-element-messagetype-complextype.md)
@@ -363,28 +363,28 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [Protocol element](protocol-element-startpropertiestype-complextype.md)
     
   
--  [QualityUpdate element](qualityupdate-element-1.md)
+-  [QualityUpdate element](qualityupdate-element.md)
     
   
--  [RatioConcealedSamplesAvg element](ratioconcealedsamplesavg-element-1.md)
+-  [RatioConcealedSamplesAvg element](ratioconcealedsamplesavg-element.md)
     
   
--  [RawSDP element](rawsdp-element-1.md)
+-  [RawSDP element](rawsdp-element.md)
     
   
 -  [RDPTileProcessingLatencyAverage element](rdptileprocessinglatencyaverage-element.md)
     
   
--  [RDPTileProcessingLatencyBurstDensity element](rdptileprocessinglatencyburstdensity-element-1.md)
+-  [RDPTileProcessingLatencyBurstDensity element](rdptileprocessinglatencyburstdensity-element.md)
     
   
--  [RecvFrameRateAverage element](recvframerateaverage-element-1.md)
+-  [RecvFrameRateAverage element](recvframerateaverage-element.md)
     
   
--  [RecvListenMOS element](recvlistenmos-element-1.md)
+-  [RecvListenMOS element](recvlistenmos-element.md)
     
   
--  [RecvListenMOSMin element](recvlistenmosmin-element-1.md)
+-  [RecvListenMOSMin element](recvlistenmosmin-element.md)
     
   
 -  [RecvNoiseLevel element](recvnoiselevel-element.md)
@@ -393,7 +393,7 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [RecvSignalLevel element](recvsignallevel-element.md)
     
   
--  [ReflexiveIP element](reflexiveip-element-endpointtype-complextype-1.md)
+-  [ReflexiveIP element](reflexiveip-element-endpointtype-complextype.md)
     
   
 -  [ReflexiveIP element](reflexiveip-element-qualityendpointtype-complextype.md)
@@ -414,37 +414,37 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [Relay element](relay-element-endpointtype-complextype.md)
     
   
--  [Relay element](relay-element-qualityendpointtype-complextype-1.md)
+-  [Relay element](relay-element-qualityendpointtype-complextype.md)
     
   
--  [RelayPort element](relayport-element-endpointtype-complextype-1.md)
+-  [RelayPort element](relayport-element-endpointtype-complextype.md)
     
   
 -  [RelayPort element](relayport-element-qualityendpointtype-complextype.md)
     
   
--  [RenderDevice element](renderdevice-element-1.md)
+-  [RenderDevice element](renderdevice-element.md)
     
   
 -  [RenderDeviceDriver element](renderdevicedriver-element.md)
     
   
--  [ResponseCode element](responsecode-element-errorproperties-complextype-1.md)
+-  [ResponseCode element](responsecode-element-errorproperties-complextype.md)
     
   
 -  [ResponseCode element](responsecode-element-messageproperties-complextype.md)
     
   
--  [ResponsePhrase element](responsephrase-element-1.md)
+-  [ResponsePhrase element](responsephrase-element.md)
     
   
--  [RoundTrip element](roundtrip-element-1.md)
+-  [RoundTrip element](roundtrip-element.md)
     
   
--  [RoundTripMax element](roundtripmax-element-1.md)
+-  [RoundTripMax element](roundtripmax-element.md)
     
   
--  [Route element](route-element-messagetype-complextype-1.md)
+-  [Route element](route-element-messagetype-complextype.md)
     
   
 -  [Route element](route-element-qualitytype-complextype.md)
@@ -459,28 +459,28 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [SourcePool element](sourcepool-element.md)
     
   
--  [SpeakerGlitchRate element](speakerglitchrate-element-1.md)
+-  [SpeakerGlitchRate element](speakerglitchrate-element.md)
     
   
 -  [SpoiledTilePercentAverage element](spoiledtilepercentaverage-element.md)
     
   
--  [SpoiledTilePercentTotal element](spoiledtilepercenttotal-element-1.md)
+-  [SpoiledTilePercentTotal element](spoiledtilepercenttotal-element.md)
     
   
 -  [Start element](start-element.md)
     
   
--  [StartTime element](starttime-element-1.md)
+-  [StartTime element](starttime-element.md)
     
   
--  [StreamQuality element](streamquality-element-1.md)
+-  [StreamQuality element](streamquality-element.md)
     
   
 -  [TimeStamp element](timestamp-element.md)
     
   
--  [To element](to-element-qualitytype-complextype-1.md)
+-  [To element](to-element-qualitytype-complextype.md)
     
   
 -  [To element](to-element-startorupdatetype-complextype.md)
@@ -495,22 +495,22 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [Update element](update-element.md)
     
   
--  [URI element](uri-element-qualityendpointtype-complextype-1.md)
+-  [URI element](uri-element-qualityendpointtype-complextype.md)
     
   
 -  [URI element](uri-element-endpointtype-complextype.md)
     
   
--  [UserAgent element](useragent-element-qualityendpointtype-complextype-1.md)
+-  [UserAgent element](useragent-element-qualityendpointtype-complextype.md)
     
   
--  [UserAgent element](useragent-element-endpointtype-complextype-1.md)
+-  [UserAgent element](useragent-element-endpointtype-complextype.md)
     
   
--  [VGAQualityRatio element](vgaqualityratio-element-1.md)
+-  [VGAQualityRatio element](vgaqualityratio-element.md)
     
   
--  [VideoFrameLossRate element](videoframelossrate-element-1.md)
+-  [VideoFrameLossRate element](videoframelossrate-element.md)
     
   
 -  [VideoLocalFrameLossPercentageAvg element](videolocalframelosspercentageavg-element.md)
@@ -519,16 +519,16 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 -  [VideoPacketLossRate element](videopacketlossrate-element.md)
     
   
--  [Virtualization element](virtualization-element-1.md)
+-  [Virtualization element](virtualization-element.md)
     
   
--  [VPN element](vpn-element-1.md)
+-  [VPN element](vpn-element.md)
     
   
--  [WifiDriverDeviceDesc element](wifidriverdevicedesc-element-1.md)
+-  [WifiDriverDeviceDesc element](wifidriverdevicedesc-element.md)
     
   
--  [WifiDriverVersion element](wifidriverversion-element-1.md)
+-  [WifiDriverVersion element](wifidriverversion-element.md)
     
   
 

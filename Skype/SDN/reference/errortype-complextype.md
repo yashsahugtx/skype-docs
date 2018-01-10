@@ -48,10 +48,10 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [EndPoint](endpoint-element-errortype-complextype.md)| [EndPointType](endpointtype-complextype-1.md)|Endpoint involved in the ended SIP call. |
-| [From](from-element-errortype-complextype-1.md)| [EndPointType](endpointtype-complextype-1.md)|Endpoint involved in the ended SIP call. |
-| [Properties](properties-element-errortype-complextype-1.md)| [ErrorProperties](errorproperties-complextype.md)|Properties of the Error. |
-| [To](to-element-errortype-complextype.md)| [EndPointType](endpointtype-complextype-1.md)|Endpoint involved in the ended SIP call. |
+| [EndPoint](endpoint-element-errortype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Endpoint involved in the ended SIP call. |
+| [From](from-element-errortype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Endpoint involved in the ended SIP call. |
+| [Properties](properties-element-errortype-complextype.md)| [ErrorProperties](errorproperties-complextype.md)|Properties of the Error. |
+| [To](to-element-errortype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Endpoint involved in the ended SIP call. |
    
 
 ### Attributes

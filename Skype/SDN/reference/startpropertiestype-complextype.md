@@ -47,9 +47,9 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Bandwidth](bandwidth-element-startpropertiestype-complextype.md)| [BandwidthType](bandwidthtype-complextype-1.md)|Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account. |
-| [Codec](codec-element-startpropertiestype-complextype.md)| [CodecType](codectype-complextype-1.md)|Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch among these codecs at any time (without additional signalling). |
-| [Protocol](protocol-element-startpropertiestype-complextype-1.md)| [ProtocolTypes](protocoltypes-simpletype.md)|Transmission protocol of the media stream such as TCP or UDP. |
+| [Bandwidth](bandwidth-element-startpropertiestype-complextype.md)| [BandwidthType](bandwidthtype-complextype.md)|Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account. |
+| [Codec](codec-element-startpropertiestype-complextype.md)| [CodecType](codectype-complextype.md)|Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch among these codecs at any time (without additional signalling). |
+| [Protocol](protocol-element-startpropertiestype-complextype.md)| [ProtocolTypes](protocoltypes-simpletype.md)|Transmission protocol of the media stream such as TCP or UDP. |
 | [ReferredBy](referredby-element.md)|xs:string |Content of the REFERRED BY SIP tag. |
 | [Replaces](replaces-element.md)|xs:string |Content of the REPLACES SIP tag. |
 | [Via](via-element.md)|xs:string |Content of the VIA SIP tags. |

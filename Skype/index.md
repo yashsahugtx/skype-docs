@@ -9,7 +9,7 @@ Use the Skype network to optimize communications and to build better relationshi
 - [Skype for Business App SDK Preview](AppSDK/SkypeAppSDK.md)
 - [Skype for Business - Mobile URIs](Skype-For-Business-Uris/SfBMobileURI.md)
 - [Desktop components](https://msdn.microsoft.com/en-us/library/office/jj933180.aspx)
-- [Unified Communications Managed API (UCMA)](https://msdn.microsoft.com/en-us/library/office/dn454984.aspx)
+- [Unified Communications Managed API (UCMA)](https://msdn.microsoft.com/en-us/library/office/dn454984(v=office.16).aspx)
 - [Unified Communications Web API](ucwa/UnifiedCommunicationsWebAPI2_0.md)
 
 

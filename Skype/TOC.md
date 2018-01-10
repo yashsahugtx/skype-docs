@@ -473,7 +473,7 @@
 ### [Unified Communications Managed API (UCMA)](https://msdn.microsoft.com/en-us/library/office/dn454984.aspx)
 ### [Unified Communications Web API (UCWA)](https://msdn.microsoft.com/en-us/library/office/dn324971.aspx)
 ### [Skype for Business SDN Interface](SDN/articles/skype-for-business-sdn-interface.md)
-#### [Skype for Business SDN Interface Schema Reference](SDN/articles/Skype-for-business-sdn-interface-schema-reference.md)
+#### [Skype for Business SDN Interface Schema Reference](SDN/articles/skype-for-business-sdn-interface-schema-reference.md)
 
 #### [Overview](SDN/articles/overview.md)
 ##### [Release Notes](SDN/articles/release-notes.md)

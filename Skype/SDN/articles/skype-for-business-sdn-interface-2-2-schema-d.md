@@ -19,10 +19,10 @@ Skype for Business SDN Interface schema: Schema "D" documents the schema file SD
 -  [Schema map (Skype for Business SDN Interface 2.2, Schema D)](schema-map-skype-for-business-sdn-interface-2-2-schema-d.md)
     
   
--  [Elements (Skype for Business SDN Interface 2.2, Schema D)](elements-skype-for-business-sdn-interface-2-2-schema-d.md)
+-  [Elements (Skype for Business SDN Interface 2.2, Schema D)](../reference/elements-skype-for-business-sdn-interface-2-2-schema-d.md)
     
   
--  [Types (Skype for Business SDN Interface 2.2, Schema D)](types-skype-for-business-sdn-interface-2-2-schema-d.md)
+-  [Types (Skype for Business SDN Interface 2.2, Schema D)](../reference/types-skype-for-business-sdn-interface-2-2-schema-d.md)
     
   
 

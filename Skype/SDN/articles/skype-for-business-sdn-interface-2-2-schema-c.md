@@ -21,7 +21,7 @@ Skype for Business SDN Interface schema: Schema "C" documents the schema file SD
 -  [Elements (Skype for Business SDN Interface 2.2, Schema C)](../reference/elements-skype-for-business-sdn-interface-2-2-schema-c.md)
     
   
--  [Types (Skype for Business SDN Interface 2.2, Schema C)](types-skype-for-business-sdn-interface-2-2-schema-c.md)
+-  [Types (Skype for Business SDN Interface 2.2, Schema C)](../reference/types-skype-for-business-sdn-interface-2-2-schema-c.md)
     
   
 

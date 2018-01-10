@@ -47,7 +47,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Hop](hop-element-1.md)|xs:string |IP address of one hop (router, gateway, switch, etc) on the path from the source to the destination of the media stream. |
+| [Hop](hop-element.md)|xs:string |IP address of one hop (router, gateway, switch, etc) on the path from the source to the destination of the media stream. |
    
 
 ### Attributes

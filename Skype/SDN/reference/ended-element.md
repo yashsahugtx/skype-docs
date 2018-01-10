@@ -17,7 +17,7 @@ Event that a Sip call has ended and all media stream terminated.
 
 |||
 |:-----|:-----|
-|**Element type**| [EndedType](endedtype-complextype-1.md)|
+|**Element type**| [EndedType](endedtype-complextype.md)|
 |**Namespace**||
 |**Schema file**|SDNInterface.Schema.C.xsd |
    
@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [LyncDiagnostics](lyncdiagnostics-element-1.md)| [MessageType](messagetype-complextype-1.md)|The root element for output from the Skype for Business SDN Manager. |
+| [LyncDiagnostics](lyncdiagnostics-element.md)| [MessageType](messagetype-complextype.md)|The root element for output from the Skype for Business SDN Manager. |
    
 
 ### Child elements
@@ -57,10 +57,10 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [EndPoint](endpoint-element-endedtype-complextype.md)| [EndPointType](endpointtype-complextype-1.md)|Endpoint involved in the ended SIP call. |
-| [From](from-element-endedtype-complextype.md)| [EndPointType](endpointtype-complextype-1.md)|Endpoint involved in the ended SIP call. |
-| [Properties](properties-element-endedtype-complextype-1.md)| [EndedProperties](endedproperties-complextype-1.md)|Properties of the Error. |
-| [To](to-element-endedtype-complextype.md)| [EndPointType](endpointtype-complextype-1.md)|Endpoint involved in the ended SIP call. |
+| [EndPoint](endpoint-element-endedtype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Endpoint involved in the ended SIP call. |
+| [From](from-element-endedtype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Endpoint involved in the ended SIP call. |
+| [Properties](properties-element-endedtype-complextype.md)| [EndedProperties](endedproperties-complextype.md)|Properties of the Error. |
+| [To](to-element-endedtype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Endpoint involved in the ended SIP call. |
    
 
 ### Attributes

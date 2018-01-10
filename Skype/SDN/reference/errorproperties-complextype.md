@@ -49,8 +49,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 | [MSDiagnostics](msdiagnostics-element-errorproperties-complextype.md)|xs:string |More info related to the error. |
 | [MSDiagnosticsClient](msdiagnosticsclient-element-errorproperties-complextype.md)|xs:string |Info about the error related to and reported by the client. |
 | [MSDiagnosticsPublic](msdiagnosticspublic-element-errorproperties-complextype.md)|xs:string |Public info about the error. |
-| [ResponseCode](responsecode-element-errorproperties-complextype-1.md)|xs:int |SIP Error code. |
-| [ResponsePhrase](responsephrase-element-1.md)|xs:string |More info related to the error. |
+| [ResponseCode](responsecode-element-errorproperties-complextype.md)|xs:int |SIP Error code. |
+| [ResponsePhrase](responsephrase-element.md)|xs:string |More info related to the error. |
    
 
 ### Attributes

@@ -17,7 +17,7 @@ Event that a Sip call has ended and all media stream terminated.
 
 |||
 |:-----|:-----|
-|**Element type**| [ByeType](byetype-complextype-1.md)|
+|**Element type**| [ByeType](byetype-complextype.md)|
 |**Namespace**||
 |**Schema file**|SDNInterface.Schema.C.xsd |
    
@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [LyncDiagnostics](lyncdiagnostics-element-1.md)| [MessageType](messagetype-complextype-1.md)|The root element for output from the Skype for Business SDN Manager. |
+| [LyncDiagnostics](lyncdiagnostics-element.md)| [MessageType](messagetype-complextype.md)|The root element for output from the Skype for Business SDN Manager. |
    
 
 ### Child elements
@@ -57,7 +57,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [EndPoint](endpoint-element-byetype-complextype-1.md)| [EndPointType](endpointtype-complextype-1.md)|Endpoint involved in the ended SIP call. |
+| [EndPoint](endpoint-element-byetype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Endpoint involved in the ended SIP call. |
    
 
 ### Attributes

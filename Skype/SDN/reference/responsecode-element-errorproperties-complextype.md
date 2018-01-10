@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Properties](properties-element-errortype-complextype-1.md)| [ErrorProperties](errorproperties-complextype.md)|Properties of the Error. |
+| [Properties](properties-element-errortype-complextype.md)| [ErrorProperties](errorproperties-complextype.md)|Properties of the Error. |
    
 
 ### Child elements

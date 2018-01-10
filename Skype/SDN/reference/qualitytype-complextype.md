@@ -49,10 +49,10 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [From](from-element-qualitytype-complextype.md)| [QualityEndPointType](qualityendpointtype-complextype-1.md)|The source of the reported media stream. |
-| [Properties](properties-element-qualitytype-complextype-1.md)| [QualityPropertiesType](qualitypropertiestype-complextype.md)|Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determine a bad call. |
-| [Route](route-element-qualitytype-complextype-1.md)| [RouteType](routetype-complextype-1.md)|Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business. |
-| [To](to-element-qualitytype-complextype.md)| [QualityEndPointType](qualityendpointtype-complextype-1.md)|Destination of the media stream. |
+| [From](from-element-qualitytype-complextype.md)| [QualityEndPointType](qualityendpointtype-complextype.md)|The source of the reported media stream. |
+| [Properties](properties-element-qualitytype-complextype.md)| [QualityPropertiesType](qualitypropertiestype-complextype.md)|Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determine a bad call. |
+| [Route](route-element-qualitytype-complextype.md)| [RouteType](routetype-complextype.md)|Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business. |
+| [To](to-element-qualitytype-complextype.md)| [QualityEndPointType](qualityendpointtype-complextype.md)|Destination of the media stream. |
    
 
 ### Attributes

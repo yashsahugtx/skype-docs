@@ -15,7 +15,7 @@ This topic lists the types in the SDNInterface.Schema.C.xsd XML schema.
 -  [BandwidthType complexType](bandwidthtype-complextype.md)
     
   
--  [ByeType complexType](byetype-complextype-1.md)
+-  [ByeType complexType](byetype-complextype.md)
     
   
 -  [CodecType complexType](codectype-complextype.md)
@@ -24,34 +24,34 @@ This topic lists the types in the SDNInterface.Schema.C.xsd XML schema.
 -  [ConnectionInfoType complexType](connectioninfotype-complextype.md)
     
   
--  [EndedProperties complexType](endedproperties-complextype-1.md)
+-  [EndedProperties complexType](endedproperties-complextype.md)
     
   
--  [EndedType complexType](endedtype-complextype-1.md)
+-  [EndedType complexType](endedtype-complextype.md)
     
   
--  [EndPointType complexType](endpointtype-complextype-1.md)
+-  [EndPointType complexType](endpointtype-complextype.md)
     
   
 -  [ErrorProperties complexType](errorproperties-complextype.md)
     
   
--  [ErrorType complexType](errortype-complextype-1.md)
+-  [ErrorType complexType](errortype-complextype.md)
     
   
--  [InviteType complexType](invitetype-complextype-1.md)
+-  [InviteType complexType](invitetype-complextype.md)
     
   
--  [MessageProperties complexType](messageproperties-complextype-1.md)
+-  [MessageProperties complexType](messageproperties-complextype.md)
     
   
--  [MessageType complexType](messagetype-complextype-1.md)
+-  [MessageType complexType](messagetype-complextype.md)
     
   
 -  [QualityEndPointType complexType](qualityendpointtype-complextype.md)
     
   
--  [QualityPropertiesType complexType](qualitypropertiestype-complextype-1.md)
+-  [QualityPropertiesType complexType](qualitypropertiestype-complextype.md)
     
   
 -  [QualityType complexType](qualitytype-complextype.md)
@@ -63,7 +63,7 @@ This topic lists the types in the SDNInterface.Schema.C.xsd XML schema.
 -  [RouteType complexType](routetype-complextype.md)
     
   
--  [StartOrUpdateType complexType](startorupdatetype-complextype-1.md)
+-  [StartOrUpdateType complexType](startorupdatetype-complextype.md)
     
   
 -  [StartPropertiesType complexType](startpropertiestype-complextype.md)

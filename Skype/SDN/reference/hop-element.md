@@ -49,8 +49,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Route](route-element-messagetype-complextype.md)| [RouteType](routetype-complextype-1.md)|Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business. |
-| [Route](route-element-qualitytype-complextype-1.md)| [RouteType](routetype-complextype-1.md)|Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business. |
+| [Route](route-element-messagetype-complextype.md)| [RouteType](routetype-complextype.md)|Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business. |
+| [Route](route-element-qualitytype-complextype.md)| [RouteType](routetype-complextype.md)|Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business. |
    
 
 ### Child elements

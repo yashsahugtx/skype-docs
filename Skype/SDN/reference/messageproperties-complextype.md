@@ -47,10 +47,10 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [MSDiagnostics](msdiagnostics-element-messageproperties-complextype-1.md)|xs:string |Skype for Business-specific diagnostics message. |
-| [MSDiagnosticsClient](msdiagnosticsclient-element-messageproperties-complextype-1.md)|xs:string |Skype for Business-specific diagnostics message from the client. |
+| [MSDiagnostics](msdiagnostics-element-messageproperties-complextype.md)|xs:string |Skype for Business-specific diagnostics message. |
+| [MSDiagnosticsClient](msdiagnosticsclient-element-messageproperties-complextype.md)|xs:string |Skype for Business-specific diagnostics message from the client. |
 | [MSDiagnosticsPublic](msdiagnosticspublic-element-messageproperties-complextype.md)|xs:string |Skype for Business-specific public diagnostics message. |
-| [ResponseCode](responsecode-element-messageproperties-complextype-1.md)| [ResponseCodeType](responsecodetype-complextype-1.md)|Message describing the error. |
+| [ResponseCode](responsecode-element-messageproperties-complextype.md)| [ResponseCodeType](responsecodetype-complextype.md)|Message describing the error. |
    
 
 ### Attributes

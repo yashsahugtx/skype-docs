@@ -49,7 +49,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Bandwidth](bandwidth-element-startpropertiestype-complextype.md)| [BandwidthType](bandwidthtype-complextype-1.md)|Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account. |
+| [Bandwidth](bandwidth-element-startpropertiestype-complextype.md)| [BandwidthType](bandwidthtype-complextype.md)|Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account. |
    
 
 ### Child elements

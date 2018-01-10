@@ -18,7 +18,7 @@ Message describing the error.
 
 |||
 |:-----|:-----|
-|**Element type**| [ResponseCodeType](responsecodetype-complextype-1.md)|
+|**Element type**| [ResponseCodeType](responsecodetype-complextype.md)|
 |**Namespace**||
 |**Schema file**|SDNInterface.Schema.D.XSD |
    
@@ -49,7 +49,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [Properties](properties-element-messagetype-complextype-1.md)| [MessageProperties](messageproperties-complextype.md)|Details of the Error or reason for ending the streams. |
+| [Properties](properties-element-messagetype-complextype.md)| [MessageProperties](messageproperties-complextype.md)|Details of the Error or reason for ending the streams. |
    
 
 ### Child elements

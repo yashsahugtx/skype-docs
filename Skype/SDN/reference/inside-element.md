@@ -48,8 +48,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [From](from-element-qualitytype-complextype-1.md)| [QualityEndPointType](qualityendpointtype-complextype.md)|The source of the reported media stream. |
-| [To](to-element-qualitytype-complextype-1.md)| [QualityEndPointType](qualityendpointtype-complextype.md)|Destination of the media stream. |
+| [From](from-element-qualitytype-complextype.md)| [QualityEndPointType](qualityendpointtype-complextype.md)|The source of the reported media stream. |
+| [To](to-element-qualitytype-complextype.md)| [QualityEndPointType](qualityendpointtype-complextype.md)|Destination of the media stream. |
    
 
 ### Child elements

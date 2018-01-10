@@ -17,7 +17,7 @@ Event that a media stream is started. Every Start element contains a report abou
 
 |||
 |:-----|:-----|
-|**Element type**| [StartOrUpdateType](startorupdatetype-complextype-1.md)|
+|**Element type**| [StartOrUpdateType](startorupdatetype-complextype.md)|
 |**Namespace**||
 |**Schema file**|SDNInterface.Schema.C.xsd |
    
@@ -48,7 +48,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [LyncDiagnostics](lyncdiagnostics-element-1.md)| [MessageType](messagetype-complextype-1.md)|The root element for output from the Skype for Business SDN Manager. |
+| [LyncDiagnostics](lyncdiagnostics-element.md)| [MessageType](messagetype-complextype.md)|The root element for output from the Skype for Business SDN Manager. |
    
 
 ### Child elements
@@ -57,9 +57,9 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-| [From](from-element-startorupdatetype-complextype.md)| [EndPointType](endpointtype-complextype-1.md)|Source of the media stream. |
-| [Properties](properties-element-startorupdatetype-complextype-1.md)| [StartPropertiesType](startpropertiestype-complextype.md)|Properties of the started or updated media stream. |
-| [To](to-element-startorupdatetype-complextype.md)| [EndPointType](endpointtype-complextype-1.md)|Destination of the media stream. |
+| [From](from-element-startorupdatetype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Source of the media stream. |
+| [Properties](properties-element-startorupdatetype-complextype.md)| [StartPropertiesType](startpropertiestype-complextype.md)|Properties of the started or updated media stream. |
+| [To](to-element-startorupdatetype-complextype.md)| [EndPointType](endpointtype-complextype.md)|Destination of the media stream. |
    
 
 ### Attributes

@@ -1,5 +1,7 @@
 # Skype for Business Bot - Common Errors
 
+>Note: The Skype for Business Bot Framework channel is in Developer Preview.
+
 This article lists the most common errors encountered during the Skype for Business Bot setup and what you can do to solve them.
 
  

@@ -1,5 +1,7 @@
 # Skype for Business Bot Framework (Preview)
 
+>Note: The Skype for Business Bot Framework channel is in Developer Preview.
+
 In a few simple steps you can build and connect intelligent bots to interact with your Skype for Business users using text, cards, or speech.
 
 This article will help you build and enable a Skype for Business bot using the Microsoft Bot Framework. 

@@ -1,5 +1,7 @@
 # Skype for Business Bot - Common Errors
 
+>Note: The Skype for Business Bot Framework channel is in Developer Preview.
+
 This article lists the most common errors encountered during the Skype for Business Bot setup and what you can do to solve them.
 
  
@@ -21,7 +23,8 @@ This article lists the most common errors encountered during the Skype for Busin
 |:-|:-|
 |There was an error sending the message to your bot. HTTP status code Gateway Timeout|SFB can only callback to 443 port for external urls. SFB does not allow other ports for security reasons. Set the bot callback to listen on 443 port|
 |In a federation/multi-tenant scenario, external users are unable to contact the BOT|Skype for Business Bots can only communicate to users in the same domain/tenant. In most cases, it is recommended a bot “instance” be created in each domain/tenant.|
-
+|Skype for Business Bot Presence appears as "Unknown"|The Bot Framework Skype for Business Channel is in Developer Preview and does not support presence at the current time.|
+|Skype for Business Bot display picture is not set|The Bot Framework Skype for Business Channel is in Developer Preview and does not support bot display pictures at the current time.|
  
  
  

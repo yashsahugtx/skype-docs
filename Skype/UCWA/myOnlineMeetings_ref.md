@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the set of [myOnlineMeeting](myOnlineMeeting_ref.md)s currently on the user's calendar.
+Represents the set of [myOnlineMeeting](myOnlineMeeting_ref.md)s currently on the user's calendar.
             
 
 ## Web Link

@@ -179,7 +179,7 @@ To delete a bot completely from a Skype for Business Tenant, you must be the Ten
 4. Run the following PowerShell 
 
 ```PowerShell
-Remove -CsOnlineApplicationEndpoint -Uri sip:username@yourdomain.com
+Remove-CsOnlineApplicationEndpoint -Uri sip:username@yourdomain.com
  ```
 
 >Note: For more information see: [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795.aspx)

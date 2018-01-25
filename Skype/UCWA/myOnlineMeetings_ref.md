@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the set of [myOnlineMeeting](myOnlineMeeting_ref.md)s currently on the user's calendar.
+Represents the set of [myOnlineMeeting](myOnlineMeeting_ref.md)s currently on the user's calendar.
             
 
 ## Web Link
@@ -340,12 +340,12 @@ Creates a new [myOnlineMeeting](myOnlineMeeting_ref.md).
 |**Name**|**Description**|**Required?**|
 |:-----|:-----|:-----|
 |accessLevel|The policy that indicates which users are permitted to join the onlinemeeting without being placed in the online meeting lobby.Set this property to control access to the online meeting.An application should query the organizer's eligible access levels before setting this property.Nullable (AccessLevel)None, SameEnterprise, Locked, Invited, or Everyone|No|
-|attendees|A list of the participants who have the attendee role.Array of String|No|
+|attendees|A list of the participants who have the attendee role. Attendees have to be part of the organization.Array of String|No|
 |automaticLeaderAssignment|The policy that indicates which participants should be automatically promoted to leader when they join the online meeting.Leader assignments are applied when users join the online meeting. Such users are automatically promoted to the leader role.An application should query the automatic leader assignment options to see which are available to the organizer before setting this property.The request will fail if the application attempts to schedule an online meeting using a value that is not permitted.Nullable (AutomaticLeaderAssignment)Disabled, SameEnterprise, or Everyone|No|
 |description|The long description of the online meeting.String|No|
 |entryExitAnnouncement|The policy that indicates how entry/exit announcements will be used in the online meeting.When entry/exit announcements are enabled, the online meeting will announce the names of the participantswho join the online meeting through audio.An application should set this property to entryExitAnnouncement.Enabledonly if the online meeting supports modifying the entry/exit announcements status. See onlineMeetingPolicies.Nullable (EntryExitAnnouncement)Unsupported, Disabled, or Enabled|No|
 |expirationTime|The absolute date and time after which the online meeting can be deleted.The day and time must fall between one year before and ten years after thecurrent date and time on the server.If no value is supplied, the expiry time is set to 8 hours.Nullable DateTime|No|
-|leaders|A list of the participants who have the leader role.Organizers do not need to be added to the leaders listbecause they are automatically added to this list.Array of String|No|
+|leaders|A list of the participants who have the leader role.Organizers do not need to be added to the leaders list because they are automatically added to this list. Leaders have to be part of the organization.Array of String|No|
 |lobbyBypassForPhoneUsers|The lobby bypass setting for the online meeting.An online meeting leader can allow specific types of users to bypass the lobby and be admitted directly into the online meeting.For example, an online meeting leader can allow participants who join by phone to bypass the lobby.Note that if the current online meeting access level is AccessLevel.Locked, all new users who join the online meeting -regardless of any bypass setting - are placed in the online meeting lobby.An application should query the lobby bypass options available to the organizer before setting this property.The request will fail if the application attempts to schedule an online meeting using a value that is not permitted.Nullable (LobbyBypassForPhoneUsers)Disabled, or Enabled|No|
 |phoneUserAdmission|Whether participants can join the online meeting over the phone.Setting this property to true means that online meeting participants can join itby phone through the Conferencing Auto Attendant (CAA) service.Nullable (PhoneUserAdmission)Disabled, or Enabled|No|
 |subject|The subject of the online meeting.String|No|

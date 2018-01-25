@@ -62,7 +62,7 @@ client.devicesManager.speakers.subscribe();
 
 console.log("Available speakers:");
 for(var i = 0; i < client.devicesManager.speakers.size(); i++) {
-	var speakers = client.devicesManager.speakers(i);
+	var speaker = client.devicesManager.speakers(i);
 	console.log(speaker.name());
 }
 

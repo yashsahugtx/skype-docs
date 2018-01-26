@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents phone access information for an [onlineMeeting](onlineMeeting_ref.md).
+Represents phone access information for an [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

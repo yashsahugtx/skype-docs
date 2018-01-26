@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the subscription to a user-defined set of contacts.
+Represents the subscription to a user-defined set of contacts.
             
 
 ## Web Link

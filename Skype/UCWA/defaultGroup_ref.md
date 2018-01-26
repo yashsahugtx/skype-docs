@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a persistent, system-created group where a user's contacts are placed by default.
+Represents a persistent, system-created group where a user's contacts are placed by default.
             
 
 ## Web Link

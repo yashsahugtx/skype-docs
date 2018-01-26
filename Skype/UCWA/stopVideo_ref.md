@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to stop established AudioVideo. This token indicates 
-            The user has ability to renegotiate only video.
+Represents an operation to stop established AudioVideo. This token indicates 
+The user has ability to renegotiate only video.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to resume both audio and video modalities. 
+Represents an operation to resume both audio and video modalities. 
             
 
 ## Web Link

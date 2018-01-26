@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-             Represents an instant message sent or received by the local participant.
+Represents an instant message sent or received by the local participant.
              
 
 ## Web Link

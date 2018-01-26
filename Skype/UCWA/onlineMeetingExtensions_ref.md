@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the set of [onlineMeetingExtension](onlineMeetingExtension_ref.md)s for the associated [onlineMeeting](onlineMeeting_ref.md).
+Represents the set of [onlineMeetingExtension](onlineMeetingExtension_ref.md)s for the associated [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

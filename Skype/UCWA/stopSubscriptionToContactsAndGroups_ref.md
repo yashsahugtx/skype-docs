@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Stops the subscription to a user's contacts and groups.
+Stops the subscription to a user's contacts and groups.
             
 
 ## Web Link

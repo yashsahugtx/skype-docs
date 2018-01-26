@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a group of user's organization contacts
+Represents a group of user's organization contacts
             
 
 ## Web Link

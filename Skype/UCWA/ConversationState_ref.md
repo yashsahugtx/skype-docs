@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the state of a <a href="../Resources/conversation.html" class = "linkOrEmbedded">conversation</a> instance.
+Represents the state of a <a href="../Resources/conversation.html" class = "linkOrEmbedded">conversation</a> instance.
             
 ## Members
 

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the dashboard for viewing and scheduling online meetings.
+Represents the dashboard for viewing and scheduling online meetings.
             
 
 ## Web Link

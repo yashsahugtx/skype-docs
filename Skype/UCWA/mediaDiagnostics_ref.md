@@ -3,12 +3,12 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represent a class to help a client to post media related diagnostics information. This is
-            mainly used for audio/video/application call. The API is private. 
+Represent a class to help a client to post media related diagnostics information. This is
+mainly used for audio/video/application call. The API is private. 
             
-            CallTerminationReason:- An enumeration of media diagnostics codes. A client uses these codes 
-            to publish media diagnostics information to the UCWA server. A valid publish includes a code 
-            as an HTTP query parameter plus the "X-MS-MediaDiagnostics" custom header with detailed information.
+CallTerminationReason:- An enumeration of media diagnostics codes. A client uses these codes 
+to publish media diagnostics information to the UCWA server. A valid publish includes a code 
+as an HTTP query parameter plus the "X-MS-MediaDiagnostics" custom header with detailed information.
             
 
 ## Web Link

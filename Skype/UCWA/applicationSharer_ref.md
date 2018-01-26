@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the participant in a [conversation](conversation_ref.md) who is currently sharing a program or her screen.
+Represents the participant in a [conversation](conversation_ref.md) who is currently sharing a program or her screen.
             
 
 ## Web Link

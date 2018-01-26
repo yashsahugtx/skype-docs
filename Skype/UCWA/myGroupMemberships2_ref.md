@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the version two of MyGroupMembershipsResource (a collection of groupMembership resources)
+Represents the version two of MyGroupMembershipsResource (a collection of groupMembership resources)
             
 
 ## Web Link

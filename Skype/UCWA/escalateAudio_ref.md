@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to escalate audio modality from P2P to conferencing
+Represents an operation to escalate audio modality from P2P to conferencing
             
 
 ## Web Link

@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Reasons for declining a ReNegotiation.
+Reasons for declining a ReNegotiation.
             
 ## Members
 

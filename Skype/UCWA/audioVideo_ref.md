@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the audio/video modality in the corresponding [conversation](conversation_ref.md).
+Represents the audio/video modality in the corresponding [conversation](conversation_ref.md).
             
 
 ## Web Link

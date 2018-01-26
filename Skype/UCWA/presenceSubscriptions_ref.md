@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's set of [presenceSubscription](presenceSubscription_ref.md) resources.
+Represents the user's set of [presenceSubscription](presenceSubscription_ref.md) resources.
             
 
 ## Web Link

@@ -4,14 +4,14 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the different states for attendance announcements in an online meeting.
+Represents the different states for attendance announcements in an online meeting.
             
 
-            When attendance announcements are enabled, the online meeting will announce the names
-            of the participants who join the meeting through audio.
+When attendance announcements are enabled, the online meeting will announce the names
+of the participants who join the meeting through audio.
             
-            An application should set this property to EntryExitAnnouncement.Enabled
-            only if the online meeting supports modifying the attendance announcements status. 
+An application should set this property to EntryExitAnnouncement.Enabled
+only if the online meeting supports modifying the attendance announcements status. 
             
 ## Members
 

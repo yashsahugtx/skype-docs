@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Enumeration of different relationship levels.
+Enumeration of different relationship levels.
             
 ## Members
 

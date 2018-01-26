@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of contacts for which the logged-on user has created active presence subscriptions.
+A collection of contacts for which the logged-on user has created active presence subscriptions.
             
 
 ## Web Link

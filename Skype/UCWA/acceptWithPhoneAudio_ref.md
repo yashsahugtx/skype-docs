@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a link to an audioVideoInvitation resource that allows the client application to accept the invitation by using phoneAudio.
+Represents a link to an audioVideoInvitation resource that allows the client application to accept the invitation by using phoneAudio.
             
 
 ## Web Link

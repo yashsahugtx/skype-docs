@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Makes the user available for incoming communications.
+Makes the user available for incoming communications.
             
 
 ## Web Link

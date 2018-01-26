@@ -3,9 +3,9 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a resource that allows clients to fetch all media-related settings that
-            cannot be modeled as capability links or properties of individual resources. Most
-            of them are directly consumed by media stack manager on the client side.
+Represents a resource that allows clients to fetch all media-related settings that
+cannot be modeled as capability links or properties of individual resources. Most
+of them are directly consumed by media stack manager on the client side.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a view of the [participant](participant_ref.md)s having the attendee role in an [onlineMeeting](onlineMeeting_ref.md).
+Represents a view of the [participant](participant_ref.md)s having the attendee role in an [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

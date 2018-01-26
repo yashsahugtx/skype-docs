@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            ConversationExtensionResult
+ConversationExtensionResult
             
 
 ## Web Link

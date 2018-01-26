@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Joins an online meeting.
+Joins an online meeting.
             
 
 ## Web Link

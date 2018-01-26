@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            The large meeting status of an <a href="../Resources/onlineMeeting.html" class = "linkOrEmbedded">onlineMeeting</a>.
+The large meeting status of an <a href="../Resources/onlineMeeting.html" class = "linkOrEmbedded">onlineMeeting</a>.
             
 ## Members
 

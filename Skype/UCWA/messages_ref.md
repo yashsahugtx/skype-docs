@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of instant message resources.
+A collection of instant message resources.
             
 
 ## Web Link

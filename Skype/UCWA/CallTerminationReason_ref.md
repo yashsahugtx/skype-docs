@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            The reason why a call was terminated.
+The reason why a call was terminated.
             
 ## Members
 

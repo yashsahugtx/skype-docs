@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Clients network location
+Clients network location
             
 ## Members
 

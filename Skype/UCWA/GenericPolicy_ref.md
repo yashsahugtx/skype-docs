@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration of generic policy values.
+An enumeration of generic policy values.
             
 ## Members
 

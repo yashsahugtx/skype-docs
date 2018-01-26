@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a link resource to a collection for all sessions in an AudioVideo
+Represents a link resource to a collection for all sessions in an AudioVideo
             
 
 ## Web Link

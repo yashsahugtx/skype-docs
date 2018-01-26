@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents a user's availability values.    
+Represents a user's availability values.    
             
 ## Members
 

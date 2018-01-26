@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Creates and joins an ad-hoc multiparty conversation.
+Creates and joins an ad-hoc multiparty conversation.
             
 
 ## Web Link

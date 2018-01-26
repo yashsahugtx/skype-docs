@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an error transcript within a [conversationLog](conversationLog_ref.md).
+Represents an error transcript within a [conversationLog](conversationLog_ref.md).
             
 
 ## Web Link

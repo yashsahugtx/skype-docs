@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the local participants perspective on a multi-modal, multi-party communication.
+Represents the local participants perspective on a multi-modal, multi-party communication.
             
 
 ## Web Link

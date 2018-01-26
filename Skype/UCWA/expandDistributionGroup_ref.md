@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Expands a distribution group and returns the set of [contact](contact_ref.md) resources it contains.
+Expands a distribution group and returns the set of [contact](contact_ref.md) resources it contains.
             
 
 ## Web Link

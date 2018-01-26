@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Initiates a call-via-work.
+Initiates a call-via-work.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Changes or clears the number stored in the corresponding [phone](phone_ref.md) resource.
+Changes or clears the number stored in the corresponding [phone](phone_ref.md) resource.
             
 
 ## Web Link

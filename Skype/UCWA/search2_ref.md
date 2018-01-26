@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Provides a way to search for contacts.
+Provides a way to search for contacts.
             
 
 ## Web Link

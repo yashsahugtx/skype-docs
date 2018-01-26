@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            MediaRelay class contains the information about media relay and ports.
+MediaRelay class contains the information about media relay and ports.
             
 
 ## Web Link

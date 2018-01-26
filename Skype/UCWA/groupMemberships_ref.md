@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a collection of all the [group](group_ref.md) memberships for a particular group
+Represents a collection of all the [group](group_ref.md) memberships for a particular group
             
 
 ## Web Link

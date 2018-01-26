@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Indicates that the user is actively using this application.
+Indicates that the user is actively using this application.
             
 
 ## Web Link

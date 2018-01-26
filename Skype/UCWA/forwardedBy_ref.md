@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [contact](contact_ref.md) who last forwarded the invitation before it was received by the user.
+Represents the [contact](contact_ref.md) who last forwarded the invitation before it was received by the user.
             
 
 ## Web Link

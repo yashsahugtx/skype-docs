@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Places a phone call on hold.
+Places a phone call on hold.
             
 
 ## Web Link

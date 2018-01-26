@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the recommended custom values to use when an [onlineMeetingInvitation](onlineMeetingInvitation_ref.md) is sent.
+Represents the recommended custom values to use when an [onlineMeetingInvitation](onlineMeetingInvitation_ref.md) is sent.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Starts a [messagingInvitation](messagingInvitation_ref.md) that adds the instant messaging modality to an existing [conversation](conversation_ref.md). 
+Starts a [messagingInvitation](messagingInvitation_ref.md) that adds the instant messaging modality to an existing [conversation](conversation_ref.md). 
             
 
 ## Web Link

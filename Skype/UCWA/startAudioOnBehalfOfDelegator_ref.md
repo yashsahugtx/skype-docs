@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to start Audio call on behalf of the delegator. This token indicates 
-            the user has ability to start audio call on behalf of the delegator.
+Represents an operation to start Audio call on behalf of the delegator. This token indicates 
+the user has ability to start audio call on behalf of the delegator.
             
 
 ## Web Link

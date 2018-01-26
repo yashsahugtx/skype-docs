@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the entry point for registering this application with the server.
+Represents the entry point for registering this application with the server.
             
 
 ## Web Link

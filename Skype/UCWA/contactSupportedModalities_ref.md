@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the communication modalities supported by a contact.
+Represents the communication modalities supported by a contact.
             
 
 ## Web Link

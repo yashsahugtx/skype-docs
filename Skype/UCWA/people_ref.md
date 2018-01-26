@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A hub for the people with whom the logged-on user can communicate, using Skype for Business.
+A hub for the people with whom the logged-on user can communicate, using Skype for Business.
             
 
 ## Web Link

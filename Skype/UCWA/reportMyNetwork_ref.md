@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the reportMyNetwork resource.
+Represents the reportMyNetwork resource.
             
 
 ## Web Link

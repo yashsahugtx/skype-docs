@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the mute status for both audio and video.
+Represents the mute status for both audio and video.
             
 ## Members
 

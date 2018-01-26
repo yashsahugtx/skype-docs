@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Promotes the corresponding [participant](participant_ref.md) from the attendee role to the leader role.
+Promotes the corresponding [participant](participant_ref.md) from the attendee role to the leader role.
             
 
 ## Web Link

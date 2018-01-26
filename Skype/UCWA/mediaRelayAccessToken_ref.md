@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a media relay token.
+Represents a media relay token.
             
 
 ## Web Link

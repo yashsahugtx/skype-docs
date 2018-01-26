@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a [participant](participant_ref.md) that failed to receive an instant message sent by the user.
+Represents a [participant](participant_ref.md) that failed to receive an instant message sent by the user.
             
 
 ## Web Link

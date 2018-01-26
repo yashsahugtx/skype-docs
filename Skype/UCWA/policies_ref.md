@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the admin policies that can apply to a user's application.
+Represents the admin policies that can apply to a user's application.
             
 
 ## Web Link

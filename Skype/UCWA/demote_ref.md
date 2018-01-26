@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Demotes the corresponding [participant](participant_ref.md) from the leader role to the attendee role.
+Demotes the corresponding [participant](participant_ref.md) from the leader role to the attendee role.
             
 
 ## Web Link

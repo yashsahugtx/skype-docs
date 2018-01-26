@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Mutes a [participant](participant_ref.md)'s audio.
+Mutes a [participant](participant_ref.md)'s audio.
             
 
 ## Web Link

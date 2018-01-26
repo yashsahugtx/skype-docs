@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Unmutes a [participant](participant_ref.md)'s video.
+Unmutes a [participant](participant_ref.md)'s video.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Sends an instant message to the [participant](participant_ref.md)s in a [conversation](conversation_ref.md).
+Sends an instant message to the [participant](participant_ref.md)s in a [conversation](conversation_ref.md).
             
 
 ## Web Link

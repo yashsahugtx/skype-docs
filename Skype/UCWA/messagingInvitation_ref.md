@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an invitation to a [conversation](conversation_ref.md) for the [messaging](messaging_ref.md) modality.
+Represents an invitation to a [conversation](conversation_ref.md) for the [messaging](messaging_ref.md) modality.
             
 
 ## Web Link

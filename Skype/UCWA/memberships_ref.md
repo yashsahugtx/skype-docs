@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            The memberships resource.
+The memberships resource.
             
 
 ## Web Link

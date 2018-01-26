@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents RreportMediaDiagnostics operation.
+Represents RreportMediaDiagnostics operation.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the subscription to a user's contacts and groups.
+Represents the subscription to a user's contacts and groups.
             
 
 ## Web Link

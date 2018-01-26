@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Continues instant messaging modality of a past conversation.
+Continues instant messaging modality of a past conversation.
             
 
 ## Web Link

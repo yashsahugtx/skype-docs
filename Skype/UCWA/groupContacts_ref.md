@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of contact resources that belong to a particular group resource.
+A collection of contact resources that belong to a particular group resource.
             
 
 ## Web Link

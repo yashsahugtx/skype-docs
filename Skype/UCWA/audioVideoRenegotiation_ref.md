@@ -3,9 +3,9 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a single re-negotiation entity of a session entity. The entity will only show
-            up in the event channel. When a client wants to initiate a re-negotiation, it uses application/sdp
-            instead of CommunicationRequest to do so.
+Represents a single re-negotiation entity of a session entity. The entity will only show
+up in the event channel. When a client wants to initiate a re-negotiation, it uses application/sdp
+instead of CommunicationRequest to do so.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to resume audio modality. 
+Represents an operation to resume audio modality. 
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Adds phone audio to an existing conversation.
+Adds phone audio to an existing conversation.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to add audio to an existing conversation.
+Represents an operation to add audio to an existing conversation.
             
 
 ## Web Link

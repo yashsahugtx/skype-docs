@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents one of the user's phone numbers.
+Represents one of the user's phone numbers.
             
 
 ## Web Link

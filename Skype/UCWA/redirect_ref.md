@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a pointer to a different server that the application should use for future requests.
+Represents a pointer to a different server that the application should use for future requests.
             
 
 ## Web Link

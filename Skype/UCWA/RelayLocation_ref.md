@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Indicates how the relay is reachable: from the internet or from the intranet.
+Indicates how the relay is reachable: from the internet or from the intranet.
             
 ## Members
 

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents settings that govern call forwarding.
+Represents settings that govern call forwarding.
             
 
 ## Web Link

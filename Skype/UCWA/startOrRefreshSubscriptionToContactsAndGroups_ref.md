@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Starts or refreshes the subscription to a user's contacts and groups.
+Starts or refreshes the subscription to a user's contacts and groups.
             
 
 ## Web Link

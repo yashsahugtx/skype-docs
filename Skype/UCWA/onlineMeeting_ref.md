@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a read-only version of the [onlineMeeting](onlineMeeting_ref.md) associated with this [conversation](conversation_ref.md).
+Represents a read-only version of the [onlineMeeting](onlineMeeting_ref.md) associated with this [conversation](conversation_ref.md).
             
 
 ## Web Link

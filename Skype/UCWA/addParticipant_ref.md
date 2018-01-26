@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Invites a [contact](contact_ref.md) to participate in a multiparty [conversation](conversation_ref.md).
+Invites a [contact](contact_ref.md) to participate in a multiparty [conversation](conversation_ref.md).
             
 
 ## Web Link

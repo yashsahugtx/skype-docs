@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the privacy relationship between the user and a [contact](contact_ref.md).
+Represents the privacy relationship between the user and a [contact](contact_ref.md).
             
 
 ## Web Link

@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to start AudioVideo. This token indicates 
-            the user has ability to start audio, video, or audio and video.
+Represents an operation to start AudioVideo. This token indicates 
+the user has ability to start audio, video, or audio and video.
             
 
 ## Web Link

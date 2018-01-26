@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-             Initiates a call-via-work on behalf of the delegator.
+Initiates a call-via-work on behalf of the delegator.
              
 
 ## Web Link

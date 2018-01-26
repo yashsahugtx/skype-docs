@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the collection of renegotiations.
+Represents the collection of renegotiations.
             
 
 ## Web Link

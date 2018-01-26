@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Subscribes to the presence information of all the contacts in a particular group.
+Subscribes to the presence information of all the contacts in a particular group.
             
 
 ## Web Link

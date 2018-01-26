@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's location.
+Represents the user's location.
             
 
 ## Web Link

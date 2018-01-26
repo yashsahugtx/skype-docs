@@ -79,8 +79,12 @@ The user must have at least one of these scopes for operations on the resource t
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
 |messagingInvitation|High|communication|Delivered when a messaging invitation is started. This occurs when the application starts the [messaging](messaging_ref.md) modality.|
-Sample of returned event data.
+
+**Sample of returned event data**
+
 This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
+
+```JSON
 {
   "_links" : {
     "self" : {
@@ -106,8 +110,7 @@ This sample is given only as an illustration of event syntax. The semantic conte
     }
   ]
 }
-
-
+```
 ### Updated
 
 
@@ -115,8 +118,12 @@ This sample is given only as an illustration of event syntax. The semantic conte
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
 |messagingInvitation|High|communication|Delivered when the messaging invitation is updated.|
-Sample of returned event data.
+
+**Sample of returned event data.**
+
 This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
+
+```JSON
 {
   "_links" : {
     "self" : {
@@ -149,15 +156,10 @@ This sample is given only as an illustration of event syntax. The semantic conte
 ### completed
 
 
-
-
-
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
 |messagingInvitation|High|communication|Delivered when the messaging invitation completes.|
-Sample of returned event data.
 
-This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
 
 
 
@@ -230,7 +232,8 @@ Accept: application/json
 
 
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
+
+```JSON
 HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: 5561
@@ -453,7 +456,8 @@ Accept: application/xml
 
 
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
+
+```JSON
 HTTP/1.1 200 OK
 Content-Type: application/xml
 Content-Length: 6744

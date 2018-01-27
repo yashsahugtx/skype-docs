@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a user's persistent, personal group.
+Represents a user's persistent, personal group.
             
 
 ## Web Link

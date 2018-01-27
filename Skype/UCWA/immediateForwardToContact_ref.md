@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Immediately forward all incoming calls to a user-provided number or contact.
+Immediately forward all incoming calls to a user-provided number or contact.
             
 
 ## Web Link

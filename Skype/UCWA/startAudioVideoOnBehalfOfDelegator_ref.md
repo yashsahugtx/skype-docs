@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to start AudioVideo call on behalf of the delegator. This token indicates 
-            the user has ability to start audiovideo call on behalf of the delegator.
+Represents an operation to start AudioVideo call on behalf of the delegator. This token indicates 
+the user has ability to start audiovideo call on behalf of the delegator.
             
 
 ## Web Link
@@ -78,7 +78,7 @@ Starts an [audioVideoInvitation](audioVideoInvitation_ref.md) on behalf of deleg
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[audioVideoInvitation](AudioVideoInvitationResource_ref.md_ref.md)|Represents an audio-video invitation.|
+|[audioVideoInvitation](AudioVideoInvitation_ref.md)|Represents an audio-video invitation.|
 
 #### Synchronous errors
 

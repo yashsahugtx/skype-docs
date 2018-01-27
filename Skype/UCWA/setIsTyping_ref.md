@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Sets the user's typing status in a [conversation](conversation_ref.md).
+Sets the user's typing status in a [conversation](conversation_ref.md).
             
 
 ## Web Link

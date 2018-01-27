@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a recipient within a [conversationLog](conversationLog_ref.md).
+Represents a recipient within a [conversationLog](conversationLog_ref.md).
             
 
 ## Web Link

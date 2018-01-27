@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the remote participant who accepted the invitation of the user.
+Represents the remote participant who accepted the invitation of the user.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the entry point to the API using user credentials.
+Represents the entry point to the API using user credentials.
             
 
 ## Web Link

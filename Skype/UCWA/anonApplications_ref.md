@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the entry point for registering this anonymous application with the server.
+Represents the entry point for registering this anonymous application with the server.
             
 
 ## Web Link
@@ -58,7 +58,7 @@ This very first operation used to create an instance of the anonymous applicatio
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[application](ApplicationResource_ref.md)|Represents your real-time communication application.|
+|[application](Application_ref.md)|Represents your real-time communication application.|
 
 #### Synchronous errors
 

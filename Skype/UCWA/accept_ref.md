@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Accepts an incoming invitation.
+Accepts an incoming invitation.
             
 
 ## Web Link

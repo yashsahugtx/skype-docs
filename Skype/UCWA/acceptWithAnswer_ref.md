@@ -2,8 +2,7 @@
 
  _**Applies to:** Skype for Business 2015_
 
-
-            Accepts an invitation that requires SDP (audio/video, application sharing).
+Accepts an invitation that requires SDP (audio/video, application sharing).
             
 
 ## Web Link

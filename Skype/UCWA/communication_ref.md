@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the dashboard for communication capabilities.
+Represents the dashboard for communication capabilities.
             
 
 ## Web Link

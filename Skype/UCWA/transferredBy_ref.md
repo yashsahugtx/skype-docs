@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [contact](contact_ref.md) who transferred the call.
+Represents the [contact](contact_ref.md) who transferred the call.
             
 
 ## Web Link

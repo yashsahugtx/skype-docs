@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a system-created group of contacts that the user pins or that the user frequently
-            communicates and collaborates with.
+Represents a system-created group of contacts that the user pins or that the user frequently
+communicates and collaborates with.
             
 
 ## Web Link

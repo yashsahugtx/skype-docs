@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Resets unanswered call settings to the default values.
+Resets unanswered call settings to the default values.
             
 
 ## Web Link

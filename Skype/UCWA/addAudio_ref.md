@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to add audio to an existing conversation.
+Represents an operation to add audio to an existing conversation.
             
 
 ## Web Link
@@ -71,7 +71,7 @@ Adds Audio to a Conversation and starts a AudioInvitation.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[audioVideoInvitation](AudioVideoInvitationResource_ref.md)|Represents an audio-video invitation.|
+|[audioVideoInvitation](AudioVideoInvitation_ref.md)|Represents an audio-video invitation.|
 
 #### Synchronous errors
 

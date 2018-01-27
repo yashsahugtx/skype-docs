@@ -2,9 +2,8 @@
 
  _**Applies to:** Skype for Business 2015_
 
-
-            Replay message. Client would use this resource to trigger a notification 
-            from an application endpoint to current ucwa application instance
+Replay message. Client would use this resource to trigger a notification 
+from an application endpoint to current ucwa application instance
             
 
 ## Web Link

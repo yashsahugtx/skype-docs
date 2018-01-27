@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Stops the corresponding instant messaging modality that is currently connecting or connected.
+Stops the corresponding instant messaging modality that is currently connecting or connected.
             
 
 ## Web Link

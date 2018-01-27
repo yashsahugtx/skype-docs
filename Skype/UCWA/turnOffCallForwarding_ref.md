@@ -2,8 +2,7 @@
 
  _**Applies to:** Skype for Business 2015_
 
-
-            Turns off call forwarding.
+Turns off call forwarding.
             
 
 ## Web Link

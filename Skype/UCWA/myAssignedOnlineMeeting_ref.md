@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a user's [onlineMeeting](onlineMeeting_ref.md) that is commonly used for scheduled meetings with other [contact](contact_ref.md)s.
+Represents a user's [onlineMeeting](onlineMeeting_ref.md) that is commonly used for scheduled meetings with other [contact](contact_ref.md)s.
             
 
 ## Web Link
@@ -366,7 +366,7 @@ Updates a scheduled meeting on the user's calendar.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[myOnlineMeeting](OnlineMeetingResource_ref.md)|Represents a scheduled meeting on the user's calendar.|
+|[myOnlineMeeting](OnlineMeeting_ref.md)|Represents a scheduled meeting on the user's calendar.|
 
 #### Synchronous errors
 

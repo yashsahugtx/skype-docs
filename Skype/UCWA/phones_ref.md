@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of phone resources that represent the phone numbers of the logged-on user.
+A collection of phone resources that represent the phone numbers of the logged-on user.
             
 
 ## Web Link

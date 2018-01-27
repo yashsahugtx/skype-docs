@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration that indicates whether policy is required.
+An enumeration that indicates whether policy is required.
             
 ## Members
 

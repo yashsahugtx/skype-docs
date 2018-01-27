@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the phone audio modality in a [conversation](conversation_ref.md).
+Represents the phone audio modality in a [conversation](conversation_ref.md).
             
 
 ## Web Link

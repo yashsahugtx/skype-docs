@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Defines which users are automatically promoted to leaders when they join the meeting.
+Defines which users are automatically promoted to leaders when they join the meeting.
             
 ## Members
 

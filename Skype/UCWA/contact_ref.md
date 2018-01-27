@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a person or service that the user can communicate and collaborate with.
+Represents a person or service that the user can communicate and collaborate with.
             
 
 ## Web Link

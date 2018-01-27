@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration that represents the media channel direction. 
+An enumeration that represents the media channel direction. 
             
 ## Members
 

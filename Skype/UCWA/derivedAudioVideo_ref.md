@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            The derived audioVideo resource.
+The derived audioVideo resource.
             
 
 ## Web Link

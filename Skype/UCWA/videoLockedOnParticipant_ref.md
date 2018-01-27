@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [participant](participant_ref.md) on whom the video spotlight is locked in an [onlineMeeting](onlineMeeting_ref.md).
+Represents the [participant](participant_ref.md) on whom the video spotlight is locked in an [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

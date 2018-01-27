@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a session in a call. 
+Represents a session in a call. 
             
 
 ## Web Link

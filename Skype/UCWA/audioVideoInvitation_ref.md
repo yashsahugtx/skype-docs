@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an audio-video invitation.
+Represents an audio-video invitation.
             
 
 ## Web Link

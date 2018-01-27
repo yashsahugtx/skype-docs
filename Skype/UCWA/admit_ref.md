@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Admits the corresponding [participant](participant_ref.md) into the [onlineMeeting](onlineMeeting_ref.md).
+Admits the corresponding [participant](participant_ref.md) into the [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

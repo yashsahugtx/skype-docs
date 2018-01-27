@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's photo.
+Represents the user's photo.
             
 
 ## Web Link

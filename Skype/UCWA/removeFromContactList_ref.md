@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Removes a [distributionGroup](distributionGroup_ref.md) from contact list. 
+Removes a [distributionGroup](distributionGroup_ref.md) from contact list. 
             
 
 ## Web Link

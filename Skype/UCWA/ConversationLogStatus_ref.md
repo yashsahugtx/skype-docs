@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            ConversationLog status.
+ConversationLog status.
             
 ## Members
 

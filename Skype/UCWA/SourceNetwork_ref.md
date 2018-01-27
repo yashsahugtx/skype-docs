@@ -4,11 +4,10 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration that represents the source-network type of a participant.
+An enumeration that represents the source-network type of a participant.
             
 The participant's source network can be the same enterprise as the user's (SameEnterprise), an organization 
-            that is federated with the user's organization (Federated), or the public internet cloud (PublicCloud). The Everyone value 
-            includes SameEnterprise, Federated, and PublicCloud.
+that is federated with the user's organization (Federated), or the public internet cloud (PublicCloud). The Everyone value includes SameEnterprise, Federated, and PublicCloud.
             
 ## Members
 

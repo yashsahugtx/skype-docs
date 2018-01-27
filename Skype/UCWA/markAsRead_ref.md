@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Marks a [conversationLog](conversationLog_ref.md) as read in Exchange.
+Marks a [conversationLog](conversationLog_ref.md) as read in Exchange.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents whether a participant is using the audio modality in a conversation.
+Represents whether a participant is using the audio modality in a conversation.
             
 
 ## Web Link

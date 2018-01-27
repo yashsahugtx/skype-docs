@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the originally intended target of the invitation as a [contact](contact_ref.md).
+Represents the originally intended target of the invitation as a [contact](contact_ref.md).
             
 
 ## Web Link

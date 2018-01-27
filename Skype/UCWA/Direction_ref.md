@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the direction of the call, message, etc.
+Represents the direction of the call, message, etc.
             
 ## Members
 

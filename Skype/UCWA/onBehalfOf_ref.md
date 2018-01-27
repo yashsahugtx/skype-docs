@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [contact](contact_ref.md) on whose behalf the invitation was received.
+Represents the [contact](contact_ref.md) on whose behalf the invitation was received.
             
 
 ## Web Link

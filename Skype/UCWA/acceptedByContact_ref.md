@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [contact](contact_ref.md) who ultimately accepted an incoming invitation.
+Represents the [contact](contact_ref.md) who ultimately accepted an incoming invitation.
             
 
 ## Web Link

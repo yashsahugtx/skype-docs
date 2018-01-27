@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the entry point to the API.
+Represents the entry point to the API.
             
 
 ## Web Link

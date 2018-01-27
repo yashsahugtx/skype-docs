@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a group of users designated as delegates.
+Represents a group of users designated as delegates.
             
 
 ## Web Link

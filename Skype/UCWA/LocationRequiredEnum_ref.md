@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration of location required values.
+An enumeration of location required values.
             
 ## Members
 

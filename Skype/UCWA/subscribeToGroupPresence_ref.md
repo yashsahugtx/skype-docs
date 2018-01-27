@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Subscribes to the presence information of all the contacts in a particular group.
+Subscribes to the presence information of all the contacts in a particular group.
             
 
 ## Web Link
@@ -82,7 +82,7 @@ Creates a time-bound [presenceSubscription](presenceSubscription_ref.md) resourc
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[presenceSubscription](PresenceSubscriptionResource_ref.md)|Represents the subscription to a user-defined set of contacts.|
+|[presenceSubscription](PresenceSubscription_ref.md)|Represents the subscription to a user-defined set of contacts.|
 
 #### Synchronous errors
 

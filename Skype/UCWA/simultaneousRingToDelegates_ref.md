@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Simultaneously send all incoming calls to a user's delegates in addition to the user.
+Simultaneously send all incoming calls to a user's delegates in addition to the user.
             
 
 ## Web Link

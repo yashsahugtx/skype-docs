@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a related conversation with a different [participant](participant_ref.md) than the one of the original conversation.
+Represents a related conversation with a different [participant](participant_ref.md) than the one of the original conversation.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [contact](contact_ref.md) who is the delegator
+Represents the [contact](contact_ref.md) who is the delegator
             
 
 ## Web Link

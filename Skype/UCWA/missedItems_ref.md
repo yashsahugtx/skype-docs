@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of unread voicemails and conversations.
+A collection of unread voicemails and conversations.
             
 
 ## Web Link

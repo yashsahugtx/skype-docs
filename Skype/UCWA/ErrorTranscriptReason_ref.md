@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the type of error transcript reason.
+Represents the type of error transcript reason.
             
 ## Members
 

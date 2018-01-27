@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration summarizing the LIS query result.
+An enumeration summarizing the LIS query result.
             
 ## Members
 

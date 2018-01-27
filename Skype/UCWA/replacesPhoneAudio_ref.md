@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a link to a resource that will be replaced, if this invitation succeeds. 
+Represents a link to a resource that will be replaced, if this invitation succeeds. 
             
 
 ## Web Link

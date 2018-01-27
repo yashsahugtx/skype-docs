@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Forward all incoming calls to a user-provided number or contact if the user does not respond.
+Forward all incoming calls to a user-provided number or contact if the user does not respond.
             
 
 ## Web Link

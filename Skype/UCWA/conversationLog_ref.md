@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's view of an instance of past conversation.
+Represents the user's view of an instance of past conversation.
             
 
 ## Web Link

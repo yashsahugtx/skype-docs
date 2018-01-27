@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Remove a contact from the buddy list (delete all the group memerbships that a particular contact belongs to)
+Remove a contact from the buddy list (delete all the group memerbships that a particular contact belongs to)
             
 
 ## Web Link

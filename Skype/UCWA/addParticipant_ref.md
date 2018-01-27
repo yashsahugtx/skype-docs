@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Invites a [contact](contact_ref.md) to participate in a multiparty [conversation](conversation_ref.md).
+Invites a [contact](contact_ref.md) to participate in a multiparty [conversation](conversation_ref.md).
             
 
 ## Web Link
@@ -73,7 +73,7 @@ Starts a [participantInvitation](participantInvitation_ref.md) in the event chan
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[participantInvitation](ParticipantInvitationResource_ref.md)|Represents an invitation to an existing [conversation](conversation_ref.md) for an additional participant.|
+|[participantInvitation](ParticipantInvitation_ref.md)|Represents an invitation to an existing [conversation](conversation_ref.md) for an additional participant.|
 
 #### Synchronous errors
 

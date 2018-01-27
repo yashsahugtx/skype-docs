@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration that indicates whether policy is enforced/supported/non-supported.
+An enumeration that indicates whether policy is enforced/supported/non-supported.
             
 ## Members
 

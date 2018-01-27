@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the call state.
+Represents the call state.
             
 ## Members
 

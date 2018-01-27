@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a link resource to answer the negotiation.
+Represents a link resource to answer the negotiation.
             
 
 ## Web Link

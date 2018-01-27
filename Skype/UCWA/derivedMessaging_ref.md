@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [messaging](messaging_ref.md) modality in a [derivedConversation](derivedConversation_ref.md).
+Represents the [messaging](messaging_ref.md) modality in a [derivedConversation](derivedConversation_ref.md).
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [group](group_ref.md) membership of a single [contact](contact_ref.md).
+Represents the [group](group_ref.md) membership of a single [contact](contact_ref.md).
             
 
 ## Web Link

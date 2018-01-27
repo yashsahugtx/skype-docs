@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents whether calls will be forwarded, and if forwarded, how calls are to be forwarded.
+Represents whether calls will be forwarded, and if forwarded, how calls are to be forwarded.
             
 ## Members
 

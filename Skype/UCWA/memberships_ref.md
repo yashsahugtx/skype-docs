@@ -201,7 +201,7 @@ Operation description coming soon...
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[presenceSubscriptionMemberships](PresenceSubscriptionMembershipsResource_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
+|[presenceSubscriptionMemberships](PresenceSubscriptionMemberships_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
 
 #### Synchronous errors
 

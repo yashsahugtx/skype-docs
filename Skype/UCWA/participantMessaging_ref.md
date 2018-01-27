@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Used to determine whether a participant is using the instant messaging modality in a conversation.
+Used to determine whether a participant is using the instant messaging modality in a conversation.
             
 
 ## Web Link

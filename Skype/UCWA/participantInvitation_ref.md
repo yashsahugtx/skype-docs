@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an invitation to an existing [conversation](conversation_ref.md) for an additional participant.
+Represents an invitation to an existing [conversation](conversation_ref.md) for an additional participant.
             
 
 ## Web Link

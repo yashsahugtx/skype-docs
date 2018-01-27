@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents modality types that can be active in the conversation.
+Represents modality types that can be active in the conversation.
             
 ## Members
 

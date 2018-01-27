@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Resumes a phone call that was placed on hold.
+Resumes a phone call that was placed on hold.
             
 
 ## Web Link

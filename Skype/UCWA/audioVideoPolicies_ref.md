@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            The AudioVideoPolicies resource captures all audio-video policies that may apply
-            to UCWA clients.
+The AudioVideoPolicies resource captures all audio-video policies that may apply
+to UCWA clients.
             
 
 ## Web Link

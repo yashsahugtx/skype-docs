@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the values of [myOnlineMeeting](myOnlineMeeting_ref.md) properties if not specified at scheduling time.
+Represents the values of [myOnlineMeeting](myOnlineMeeting_ref.md) properties if not specified at scheduling time.
             
 
 ## Web Link

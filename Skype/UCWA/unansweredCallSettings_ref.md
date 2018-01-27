@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a user's settings to send unanswered calls to a specified target.
+Represents a user's settings to send unanswered calls to a specified target.
             
 
 ## Web Link

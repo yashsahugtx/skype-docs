@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents information in a typical invitation.
+Represents information in a typical invitation.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            The (archived) messages from Exchange.
+The (archived) messages from Exchange.
             
 
 ## Web Link

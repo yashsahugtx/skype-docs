@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents access information for phone users who wish to join an [onlineMeeting](onlineMeeting_ref.md).
+Represents access information for phone users who wish to join an [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

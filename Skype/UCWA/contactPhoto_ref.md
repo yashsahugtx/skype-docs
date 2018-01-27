@@ -2,8 +2,7 @@
 
  _**Applies to:** Skype for Business 2015_
 
-
-            The photo of a contact.
+The photo of a contact.
             
 
 ## Web Link

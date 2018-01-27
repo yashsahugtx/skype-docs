@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.
+A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.
             
 
 ## Web Link
@@ -205,7 +205,7 @@ Operation description coming soon...
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[presenceSubscriptionMemberships](PresenceSubscriptionMembershipsResource_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
+|[presenceSubscriptionMemberships](PresenceSubscriptionMemberships_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
 
 #### Synchronous errors
 

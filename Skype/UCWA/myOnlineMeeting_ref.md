@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a scheduled meeting on the user's calendar.
+Represents a scheduled meeting on the user's calendar.
             
 
 ## Web Link
@@ -366,7 +366,7 @@ Updates a scheduled meeting on the user's calendar.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[myOnlineMeeting](OnlineMeetingResource_ref.md)|Represents a scheduled meeting on the user's calendar.|
+|[myOnlineMeeting](OnlineMeeting_ref.md)|Represents a scheduled meeting on the user's calendar.|
 
 #### Synchronous errors
 

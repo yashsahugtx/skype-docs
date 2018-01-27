@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the admin policies for the user's online meetings ([myOnlineMeetings](myOnlineMeetings_ref.md)).
+Represents the admin policies for the user's online meetings ([myOnlineMeetings](myOnlineMeetings_ref.md)).
             
 
 ## Web Link

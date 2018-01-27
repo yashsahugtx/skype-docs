@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the reportMyNetwork resource.
+Represents the reportMyNetwork resource.
             
 
 ## Web Link
@@ -82,7 +82,7 @@ Report network changes.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[reportMyNetwork](ReportMyNetworkResource_ref.md)|Represents the reportMyNetwork resource.|
+|[reportMyNetwork](ReportMyNetwork_ref.md)|Represents the reportMyNetwork resource.|
 
 #### Synchronous errors
 

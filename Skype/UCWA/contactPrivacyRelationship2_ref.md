@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the privacy relationship between the user and a [contact](contact_ref.md).
+Represents the privacy relationship between the user and a [contact](contact_ref.md).
             
 
 ## Web Link
@@ -60,8 +60,12 @@ The user must have at least one of these scopes for operations on the resource t
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
 |contactPrivacyRelationship|Medium|people|Indicates that the contact's privacy relationship has changed. The application may decide to fetch the updated information.</p><p></p>|
-Sample of returned event data.
+
+**Sample of returned event data**
+
 This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
+
+```json
 {
   "_links" : {
     "self" : {
@@ -91,7 +95,7 @@ This sample is given only as an illustration of event syntax. The semantic conte
     }
   ]
 }
-
+```
 
 ## Operations
 
@@ -160,7 +164,9 @@ if-none-match: 33934c8d-3574-4244-989d-a9109729b153
 
 
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
+
+
+```json
 HTTP/1.1 200 OK
 Etag: c2155e1c-512b-4024-a662-db3b02b81400
 Content-Type: application/json
@@ -200,11 +206,9 @@ if-none-match: f6eaac49-f760-4c51-8fa9-fb5ac9a7c4ff
 
 
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
-HTTP/1.1 200 OK
-Etag: 3936a6c5-3ad4-4b4a-a3e8-5ce1742a6d20
-Content-Type: application/xml
-Content-Length: 486
+
+```xml
+
 <?xml version="1.0" encoding="utf-8"?>
 <resource rel="contactPrivacyRelationship" href="/ucwa/v1/applications/192/people/282/contactPrivacyRelationship" xmlns="http://schemas.microsoft.com/rtc/2012/03/ucwa">
   <link rel="resetContactPrivacyRelationship" href="/ucwa/v1/applications/192/people/282/contactPrivacyRelationship/resetContactPrivacyRelationship" />

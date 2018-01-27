@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A resource that provides an outgoing audioVideo call its media answers. This resource appears only
-            in the event channel or in a response to a request. It will not appear in a request.
+A resource that provides an outgoing audioVideo call its media answers. This resource appears only
+in the event channel or in a response to a request. It will not appear in a request.
             
 
 ## Web Link

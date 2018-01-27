@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Resets a contact's privacy relationship
+Resets a contact's privacy relationship
             
 
 ## Web Link

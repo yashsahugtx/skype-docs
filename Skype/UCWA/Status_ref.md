@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the status of a job instance.
+Represents the status of a job instance.
             
 ## Members
 

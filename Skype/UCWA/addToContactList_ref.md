@@ -2,8 +2,7 @@
 
  _**Applies to:** Skype for Business 2015_
 
-
-            Adds a [distributionGroup](distributionGroup_ref.md) into contact list. 
+Adds a [distributionGroup](distributionGroup_ref.md) into contact list. 
             
 
 ## Web Link

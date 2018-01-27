@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's availability and activity.
+Represents the user's availability and activity.
             
 
 ## Web Link

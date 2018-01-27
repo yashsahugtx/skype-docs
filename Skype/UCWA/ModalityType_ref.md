@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the various types of modalities.
+Represents the various types of modalities.
             
 ## Members
 

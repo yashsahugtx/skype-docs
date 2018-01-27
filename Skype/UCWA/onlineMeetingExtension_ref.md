@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents custom data for the associated [onlineMeeting](onlineMeeting_ref.md) that can be used by an application. 
+Represents custom data for the associated [onlineMeeting](onlineMeeting_ref.md) that can be used by an application. 
             
 
 ## Web Link
@@ -276,7 +276,7 @@ Modifies an existing extension.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[onlineMeetingExtension](OnlineMeetingExtensionResource_ref.md)|Represents custom data for the associated [onlineMeeting](onlineMeeting_ref.md) that can be used by an application.|
+|[onlineMeetingExtension](OnlineMeetingExtension_ref.md)|Represents custom data for the associated [onlineMeeting](onlineMeeting_ref.md) that can be used by an application.|
 
 #### Synchronous errors
 

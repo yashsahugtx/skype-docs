@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a [contact](contact_ref.md)'s personal or out-of-office note.
+Represents a [contact](contact_ref.md)'s personal or out-of-office note.
             
 
 ## Web Link

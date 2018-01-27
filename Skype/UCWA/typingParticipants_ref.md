@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a view of the [participant](participant_ref.md)s who are currently typing a message in a [conversation](conversation_ref.md).
+Represents a view of the [participant](participant_ref.md)s who are currently typing a message in a [conversation](conversation_ref.md).
             
 
 ## Web Link

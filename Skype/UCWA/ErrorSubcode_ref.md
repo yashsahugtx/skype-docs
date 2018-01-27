@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Error Subcodes
+Error Subcodes
             
 ## Members
 

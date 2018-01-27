@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a link in an audioVideoInvitation resource that allows the application to send an answer for early media negotiation.
+Represents a link in an audioVideoInvitation resource that allows the application to send an answer for early media negotiation.
             
 
 ## Web Link

@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents whether unanswered calls will be forwarded.
+Represents whether unanswered calls will be forwarded.
             
 ## Members
 

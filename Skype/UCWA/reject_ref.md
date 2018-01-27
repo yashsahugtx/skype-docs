@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Denies the corresponding [participant](participant_ref.md) access to the [onlineMeeting](onlineMeeting_ref.md).
+Denies the corresponding [participant](participant_ref.md) access to the [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

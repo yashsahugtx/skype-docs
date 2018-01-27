@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the set of [onlineMeetingExtension](onlineMeetingExtension_ref.md)s for the associated [onlineMeeting](onlineMeeting_ref.md).
+Represents the set of [onlineMeetingExtension](onlineMeetingExtension_ref.md)s for the associated [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link
@@ -196,7 +196,7 @@ Creates a new [onlineMeetingExtension](onlineMeetingExtension_ref.md) for the as
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[onlineMeetingExtension](OnlineMeetingExtensionResource_ref.md)|Represents custom data for the associated [onlineMeeting](onlineMeeting_ref.md) that can be used by an application.|
+|[onlineMeetingExtension](OnlineMeetingExtension_ref.md)|Represents custom data for the associated [onlineMeeting](onlineMeeting_ref.md) that can be used by an application.|
 
 #### Synchronous errors
 

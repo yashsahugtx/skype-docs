@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Sends an instant message to the [participant](participant_ref.md)s in a [conversation](conversation_ref.md).
+Sends an instant message to the [participant](participant_ref.md)s in a [conversation](conversation_ref.md).
             
 
 ## Web Link
@@ -82,7 +82,7 @@ Passes a plain text body to the server and starts a [message](message_ref.md) op
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[message](MessageResource_ref.md)|Represents an instant message sent or received by the local participant.|
+|[message](Message_ref.md)|Represents an instant message sent or received by the local participant.|
 
 #### Synchronous errors
 

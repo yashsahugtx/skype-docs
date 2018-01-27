@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of groups in the contact list of the logged-on user.
+A collection of groups in the contact list of the logged-on user.
             
 
 ## Web Link

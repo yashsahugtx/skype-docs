@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Declines an incoming invitation.
+Declines an incoming invitation.
             
 
 ## Web Link

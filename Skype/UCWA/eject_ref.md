@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Ejects the corresponding [participant](participant_ref.md) from the [onlineMeeting](onlineMeeting_ref.md).
+Ejects the corresponding [participant](participant_ref.md) from the [onlineMeeting](onlineMeeting_ref.md).
             
 
 ## Web Link

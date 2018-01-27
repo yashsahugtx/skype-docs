@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Enables the forced mute of attendees in a [conversation](conversation_ref.md).
+Enables the forced mute of attendees in a [conversation](conversation_ref.md).
             
 
 ## Web Link

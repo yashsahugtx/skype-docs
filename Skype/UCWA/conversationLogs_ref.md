@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's past conversation logs (both peer-to-peer and conferences).
+Represents the user's past conversation logs (both peer-to-peer and conferences).
             
 
 ## Web Link

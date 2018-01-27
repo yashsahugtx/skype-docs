@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a link resource to indicate local participant's video should be freezed
+Represents a link resource to indicate local participant's video should be freezed
             
 
 ## Web Link

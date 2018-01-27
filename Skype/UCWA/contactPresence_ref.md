@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a [contact](contact_ref.md)'s availability and activity.
+Represents a [contact](contact_ref.md)'s availability and activity.
             
 
 ## Web Link

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Changes the visibility of a phone number to other contacts.
+Changes the visibility of a phone number to other contacts.
             
 
 ## Web Link

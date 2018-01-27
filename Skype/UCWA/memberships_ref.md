@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            The memberships resource.
+The memberships resource.
             
 
 ## Web Link
@@ -201,7 +201,7 @@ Operation description coming soon...
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[presenceSubscriptionMemberships](PresenceSubscriptionMembershipsResource_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
+|[presenceSubscriptionMemberships](PresenceSubscriptionMemberships_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
 
 #### Synchronous errors
 

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the subscription to a user-defined set of contacts.
+Represents the subscription to a user-defined set of contacts.
             
 
 ## Web Link
@@ -317,7 +317,7 @@ Extends an existing subscription to a user-defined set of contacts.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[presenceSubscription](PresenceSubscriptionResource_ref.md)|Represents the subscription to a user-defined set of contacts.|
+|[presenceSubscription](PresenceSubscription_ref.md)|Represents the subscription to a user-defined set of contacts.|
 
 #### Synchronous errors
 

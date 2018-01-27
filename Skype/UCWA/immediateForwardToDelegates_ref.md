@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Immediately forward all incoming calls to the user's delegates.
+Immediately forward all incoming calls to the user's delegates.
             
 
 ## Web Link

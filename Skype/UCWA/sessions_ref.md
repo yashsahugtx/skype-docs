@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of the sessions in audio/video or application sharing call. 
+A collection of the sessions in audio/video or application sharing call. 
             
 
 ## Web Link

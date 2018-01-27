@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the settings for a user to immediately forward incoming calls to a specified target.
+Represents the settings for a user to immediately forward incoming calls to a specified target.
             
 
 ## Web Link

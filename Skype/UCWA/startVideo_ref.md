@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to start AudioVideo. This token indicates 
-            the user has ability to start only video.
+Represents an operation to start AudioVideo. This token indicates 
+the user has ability to start only video.
             
 
 ## Web Link
@@ -75,7 +75,7 @@ Starts a VideoInvitation and creates a new conversation with a contact.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[audioVideoInvitation](AudioVideoInvitationResource_ref.md)|Represents an audio-video invitation.|
+|[audioVideoInvitation](AudioVideoInvitation_ref.md)|Represents an audio-video invitation.|
 
 #### Synchronous errors
 

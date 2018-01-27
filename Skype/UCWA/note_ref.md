@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's personal or out-of-office note.
+Represents the user's personal or out-of-office note.
             
 
 ## Web Link

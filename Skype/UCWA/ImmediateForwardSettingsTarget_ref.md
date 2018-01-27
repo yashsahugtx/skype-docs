@@ -4,10 +4,10 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            The target that receives forwarded calls.
+The target that receives forwarded calls.
             
 Calls are immediately forwarded. The primary number (the number being forwarded from)
-            does not ring. 
+does not ring. 
             
 ## Members
 

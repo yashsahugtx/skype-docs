@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Disables the [messaging](messaging_ref.md) modality for all members of a [conversation](conversation_ref.md).
+Disables the [messaging](messaging_ref.md) modality for all members of a [conversation](conversation_ref.md).
             
 
 ## Web Link

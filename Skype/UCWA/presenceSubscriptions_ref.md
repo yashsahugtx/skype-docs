@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's set of [presenceSubscription](presenceSubscription_ref.md) resources.
+Represents the user's set of [presenceSubscription](presenceSubscription_ref.md) resources.
             
 
 ## Web Link
@@ -213,7 +213,7 @@ Creates a new subscription to a user-defined set of contacts.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[presenceSubscription](PresenceSubscriptionResource_ref.md)|Represents the subscription to a user-defined set of contacts.|
+|[presenceSubscription](PresenceSubscription_ref.md)|Represents the subscription to a user-defined set of contacts.|
 
 #### Synchronous errors
 

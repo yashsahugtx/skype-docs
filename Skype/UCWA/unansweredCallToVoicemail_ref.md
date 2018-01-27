@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Forward all incoming calls to the user's voicemail if she does not respond.
+Forward all incoming calls to the user's voicemail if she does not respond.
             
 
 ## Web Link

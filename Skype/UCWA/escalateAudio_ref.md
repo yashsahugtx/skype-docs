@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to escalate audio modality from P2P to conferencing
+Represents an operation to escalate audio modality from P2P to conferencing
             
 
 ## Web Link
@@ -78,7 +78,7 @@ Starts audio negotiation by supplying offer. Creates [audioVideoInvitation](audi
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[audioVideoInvitation](AudioVideoInvitationResource_ref.md)|Represents an audio-video invitation.|
+|[audioVideoInvitation](AudioVideoInvitation_ref.md)|Represents an audio-video invitation.|
 
 #### Synchronous errors
 

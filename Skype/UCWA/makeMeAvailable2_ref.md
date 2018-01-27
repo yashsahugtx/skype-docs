@@ -3,10 +3,10 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            This resource lets users share their availability and allows them to receive incoming invitations for the modalities of their choice.
-            Please note that a user can initiate communications, such as joining an [onlineMeeting](onlineMeeting_ref.md) or starting a phone call, without invoking this capability.
-            This version will silently succeed if access is denied to one operation due to insufficient permissions. In the command channel we return what 
-            operations succeeded
+This resource lets users share their availability and allows them to receive incoming invitations for the modalities of their choice.
+Please note that a user can initiate communications, such as joining an [onlineMeeting](onlineMeeting_ref.md) or starting a phone call, without invoking this capability.
+This version will silently succeed if access is denied to one operation due to insufficient permissions. In the command channel we return what 
+operations succeeded
             
 
 ## Web Link

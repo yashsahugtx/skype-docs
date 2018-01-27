@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Starts or refreshes the subscription to a user's contacts and groups.
+Starts or refreshes the subscription to a user's contacts and groups.
             
 
 ## Web Link
@@ -81,7 +81,7 @@ Starts or refreshes the subscription to a user's contacts and groups.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[myContactsAndGroupsSubscription](ContactsAndGroupsSubscriptionResource_ref.md)|Represents the subscription to a user's contacts and groups.|
+|[myContactsAndGroupsSubscription](contactsAndGroupsSubscription_ref.md)|Represents the subscription to a user's contacts and groups.|
 
 #### Synchronous errors
 

@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the privacy relationship between the user and a [contact](contact_ref.md).
+Represents the privacy relationship between the user and a [contact](contact_ref.md).
             
 
 ## Web Link
@@ -59,8 +59,13 @@ The user must have at least one of these scopes for operations on the resource t
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
 |contactPrivacyRelationship|Medium|people|Indicates that the contact's privacy relationship has changed. The application may decide to fetch the updated information.</p><p></p>|
-Sample of returned event data.
+
+
+**Sample of returned event data.**
+
 This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
+
+```json
 {
   "_links" : {
     "self" : {
@@ -90,7 +95,7 @@ This sample is given only as an illustration of event syntax. The semantic conte
     }
   ]
 }
-
+```
 
 ## Operations
 
@@ -158,10 +163,9 @@ Accept: application/json
 
 
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
-HTTP/1.1 200 OK
-Content-Type: application/json
-Content-Length: 159
+
+
+```json
 {
   "rel" : "contactPrivacyRelationship",
   "relationshipLevel" : "Unknown",
@@ -193,10 +197,8 @@ Accept: application/xml
 
 
 This sample is given only as an illustration of response syntax. The semantic content is not guaranteed to correspond to a valid scenario.
-```
-HTTP/1.1 200 OK
-Content-Type: application/xml
-Content-Length: 328
+
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <resource rel="contactPrivacyRelationship" href="/ucwa/v1/applications/192/people/282/contactPrivacyRelationship" xmlns="http://schemas.microsoft.com/rtc/2012/03/ucwa">
   <property name="rel">contactPrivacyRelationship</property>

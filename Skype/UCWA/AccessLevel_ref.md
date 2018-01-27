@@ -4,14 +4,14 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the access levels used to control access to an online meeting.
+Represents the access levels used to control access to an online meeting.
             
 
-            The access level defines which users are immediately admitted into the online meeting
-            without being placed into the lobby. An online meeting organizer or leader
-            can select specific types of user to bypass the online meeting lobby (see the LobbyBypassForPhoneUsers 
-            enumeration). However, users other than the organizer are always placed in the lobby if the online meeting access level
-            was set to AccessLevel.Locked.
+The access level defines which users are immediately admitted into the online meeting
+without being placed into the lobby. An online meeting organizer or leader
+can select specific types of user to bypass the online meeting lobby (see the LobbyBypassForPhoneUsers 
+enumeration). However, users other than the organizer are always placed in the lobby if the online meeting access level
+was set to AccessLevel.Locked.
             
 ## Members
 

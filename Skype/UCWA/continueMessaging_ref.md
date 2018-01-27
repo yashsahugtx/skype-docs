@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Continues instant messaging modality of a past conversation.
+Continues instant messaging modality of a past conversation.
             
 
 ## Web Link
@@ -68,7 +68,7 @@ Continues the instant messaging modality of a past [conversationLog](conversatio
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[messagingInvitation](MessagingInvitationResource_ref.md)|Represents an invitation to a [conversation](conversation_ref.md) for the [messaging](messaging_ref.md) modality.|
+|[messagingInvitation](MessagingInvitation_ref.md)|Represents an invitation to a [conversation](conversation_ref.md) for the [messaging](messaging_ref.md) modality.|
 
 #### Synchronous errors
 

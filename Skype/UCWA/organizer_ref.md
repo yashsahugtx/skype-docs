@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the organizer of the online meeting.
+Represents the organizer of the online meeting.
             
 
 ## Web Link

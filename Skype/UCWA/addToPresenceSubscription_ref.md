@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the capability to add contacts to a [presenceSubscription](presenceSubscription_ref.md).
+Represents the capability to add contacts to a [presenceSubscription](presenceSubscription_ref.md).
             
 
 ## Web Link
@@ -71,7 +71,7 @@ Add contacts to a [presenceSubscription](presenceSubscription_ref.md).
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[presenceSubscriptionMemberships](PresenceSubscriptionMembershipsResource_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
+|[presenceSubscriptionMemberships](PresenceSubscriptionMemberships_ref.md)|A collection of [presenceSubscriptionMembership](presenceSubscriptionMembership_ref.md) resources.|
 
 #### Synchronous errors
 

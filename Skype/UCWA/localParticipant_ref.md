@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user as a local [participant](participant_ref.md) in a specific [conversation](conversation_ref.md).
+Represents the user as a local [participant](participant_ref.md) in a specific [conversation](conversation_ref.md).
             
 
 ## Web Link

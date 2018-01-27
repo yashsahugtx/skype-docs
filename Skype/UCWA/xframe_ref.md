@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the cross-domain frame used for web-based applications.
+Represents the cross-domain frame used for web-based applications.
             
 
 ## Web Link

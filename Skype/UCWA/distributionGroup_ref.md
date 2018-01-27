@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents a persistent, pre-existing group of contacts.
+Represents a persistent, pre-existing group of contacts.
             
 
 ## Web Link

@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            The target of simultaneous ring call forwarding, if enabled.
+The target of simultaneous ring call forwarding, if enabled.
             
 ## Members
 

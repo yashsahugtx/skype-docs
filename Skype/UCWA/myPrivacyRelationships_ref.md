@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the various privacy relationships that the user maintains with his or her contacts.
+Represents the various privacy relationships that the user maintains with his or her contacts.
             
 
 ## Web Link

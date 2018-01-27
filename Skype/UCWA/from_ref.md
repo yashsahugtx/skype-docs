@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the [participant](participant_ref.md) that sent an invitation.
+Represents the [participant](participant_ref.md) that sent an invitation.
             
 
 ## Web Link

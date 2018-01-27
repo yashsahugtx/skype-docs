@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            A collection of groupMembership resources, each of which uniquely links a contact to a group.
+A collection of groupMembership resources, each of which uniquely links a contact to a group.
             
 
 ## Web Link

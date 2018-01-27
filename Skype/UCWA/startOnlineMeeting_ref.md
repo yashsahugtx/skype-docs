@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Creates and joins an ad-hoc multiparty conversation.
+Creates and joins an ad-hoc multiparty conversation.
             
 
 ## Web Link
@@ -74,7 +74,7 @@ Starts an [onlineMeetingInvitation](onlineMeetingInvitation_ref.md) in the event
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[onlineMeetingInvitation](OnlineMeetingInvitationResource_ref.md)|Represents an invitation to a new or existing [onlineMeeting](onlineMeeting_ref.md).|
+|[onlineMeetingInvitation](OnlineMeetingInvitation_ref.md)|Represents an invitation to a new or existing [onlineMeeting](onlineMeeting_ref.md).|
 
 #### Synchronous errors
 

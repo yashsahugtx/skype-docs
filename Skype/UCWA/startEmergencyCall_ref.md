@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to start E911 (emergency) call, provided enhanced
-            emergency services are enabled for a registered user
+Represents an operation to start E911 (emergency) call, provided enhanced
+emergency services are enabled for a registered user
             
 
 ## Web Link
@@ -82,7 +82,7 @@ Starts an E911 (Emergency) Call provided enhanced emergency services are enabled
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[audioVideoInvitation](AudioVideoInvitationResource_ref.md)|Represents an audio-video invitation.|
+|[audioVideoInvitation](AudioVideoInvitation_ref.md)|Represents an audio-video invitation.|
 
 #### Synchronous errors
 

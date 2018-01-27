@@ -3,8 +3,8 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents an operation to escalate both audio and video modality from P2P to conferencing.
-            The client must provide sdp for both modalities.
+Represents an operation to escalate both audio and video modality from P2P to conferencing.
+The client must provide sdp for both modalities.
             
 
 ## Web Link
@@ -79,7 +79,7 @@ Starts audio/video negotiation by supplying offer. Creates [audioVideoInvitation
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[audioVideoInvitation](AudioVideoInvitationResource_ref.md)|Represents an audio-video invitation.|
+|[audioVideoInvitation](AudioVideoInvitation_ref.md)|Represents an audio-video invitation.|
 
 #### Synchronous errors
 

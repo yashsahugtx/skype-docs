@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            An enumeration of the various subscription states.
+An enumeration of the various subscription states.
             
 ## Members
 

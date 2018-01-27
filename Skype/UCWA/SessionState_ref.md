@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the state of a session.
+Represents the state of a session.
             
 ## Members
 

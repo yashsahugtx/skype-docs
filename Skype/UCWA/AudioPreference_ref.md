@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the preference for incoming audio.
+Represents the preference for incoming audio.
             
 ## Members
 

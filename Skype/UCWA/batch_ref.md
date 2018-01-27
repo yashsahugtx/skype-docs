@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-             Initiates an operation that groups multiple, independent HTTP operations into a single HTTP request payload.
+Initiates an operation that groups multiple, independent HTTP operations into a single HTTP request payload.
              
 
 ## Web Link
@@ -73,7 +73,7 @@ None
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[batch](BatchingResource_ref.md)|Initiates an operation that groups multiple, independent HTTP operations into a single HTTP request payload.|
+|[batch](Batching_ref.md)|Initiates an operation that groups multiple, independent HTTP operations into a single HTTP request payload.|
 
 #### Synchronous errors
 

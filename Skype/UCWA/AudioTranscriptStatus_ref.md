@@ -4,7 +4,7 @@
 
 _** Applies to: **Skype for Business 2015_
 
-            Represents the type of an audio transcript.
+Represents the type of an audio transcript.
             
 ## Members
 

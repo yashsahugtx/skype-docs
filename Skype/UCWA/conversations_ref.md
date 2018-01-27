@@ -3,7 +3,7 @@
  _**Applies to:** Skype for Business 2015_
 
 
-            Represents the user's ongoing [conversation](conversation_ref.md)s.
+Represents the user's ongoing [conversation](conversation_ref.md)s.
             
 
 ## Web Link

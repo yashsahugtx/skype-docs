@@ -66,9 +66,6 @@ namespace Microsoft.SfB.PlatformService.SDK.Samples.ApplicationCore
                         Message = message.GetBody<string>()
                     };
                     this.OnCallbackMessageReceived(this, args);
-
-                    // Remove message from queue.
-                    message.Complete();
                 }
             }
             catch (Exception ex)

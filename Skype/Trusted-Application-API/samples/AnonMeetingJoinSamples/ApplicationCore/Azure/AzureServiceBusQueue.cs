@@ -66,9 +66,6 @@ namespace Microsoft.SfB.PlatformService.SDK.Samples.ApplicationCore
                         Message = message.GetBody<string>()
                     };
                     this.OnCallbackMessageReceived(this, args);
-
-                    // Remove message from queue.
-                    message.Complete();
                 }
             }
             catch (Exception ex)
@@ -76,7 +73,6 @@ namespace Microsoft.SfB.PlatformService.SDK.Samples.ApplicationCore
                 //Log error here
                 // Indicates a problem, unlock message in queue.
                 Logger.Instance.Error(ex, "Error in processing incoming service bus queue message!");
-                //message.Abandon();
             }
             finally
             {

@@ -19,13 +19,13 @@ Once you have successfully deployed the hybrid enviornment, follow the steps out
 
 2\. Launch the [Connecting your bot to Skype for Business Online](https://skypeappregistration.azurewebsites.net/bot/29415286-5a43-4a00-9dc5-bcbc2ce1f59e) page and follow all the instructions to add your bot to the Skype for Business Online.  You will be required to sign-in as a Tenant Administrator of the Skype for Business Online environment and run the **New-CsOnlineApplicationEndpoint** PowerShell cmdlet.
 
-    ```PowerShell
-    New-CsOnlineApplicationEndpoint -ApplicationID <AppID generated from Bot Framework Portal like 41ec7d50-ba91-1208-73ee-136b88859725> -Name <NameOfTheBot> -Uri sip:<bothandle@yourdomain.com>
-    ```
+```PowerShell
+    New-CsOnlineApplicationEndpoint -ApplicationID <AppID generated from Bot Framework Portal like 41ec7d50-ba91-1207-73ee-136b88859725> -Name <NameOfTheBot> -Uri sip:<bothandle@yourdomain.com>
+```
 
-    For the **Skype for Business Hybrid enviornment**, the **New-CsOnlineApplicationEndpoint** cmdlet will output additional on-premises cmdlet to be run in your [Skype for Business Server (on-premises) Management Shell](https://technet.microsoft.com/en-us/library/gg398474.aspx). The additional cmdlet is covered in more detail in the next step.
+For the **Skype for Business Hybrid environment**, the **New-CsOnlineApplicationEndpoint** cmdlet will output additional on-premises cmdlet to be run in your [Skype for Business Server (on-premises) Management Shell](https://technet.microsoft.com/en-us/library/gg398474.aspx). The additional cmdlet is covered in more detail in the next step.
 
-    > Note: Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) to troubleshoot some of the common Bot setup issues.</p> 
+> Note: Read [Skype for Business Bot - Common Errors](./Bot-Common-Errors.md) to troubleshoot some of the common Bot setup issues.</p> 
  
 3\. Create an application endpoint on the [Skype for Business Server (on-premises) Management Shell](https://technet.microsoft.com/en-us/library/gg398474.aspx) using the following on-premises cmdlet:  
 

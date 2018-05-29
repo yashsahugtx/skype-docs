@@ -14,7 +14,15 @@
         }
     ],
     "globalMetadata": {
-        "ROBOTS": "INDEX, FOLLOW"
+        "ROBOTS": "INDEX, FOLLOW",
+      "breadcrumb_path": "/skype/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+     "ms.topic": "conceptual",
+	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
+	   "ms.suite": "office",
+	   "ms.prod" : "skype",
+	   "ms.author": "o365devx",
+	   "author": "o365devx"
     },
     "externalReference": [
     ],

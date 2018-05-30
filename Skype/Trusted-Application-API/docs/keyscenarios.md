@@ -9,10 +9,10 @@ In general, Trusted Application scenarios can be grouped into two categories:
 
 ## Common Scenarios
 
-- [Notifications](./ApplicationCallFlow.md) **COMING SOON**
+- Notifications **COMING SOON**
 
-- [Customer Care: Anonymous Customer Web Chat with an Agent](./CustomerChatCallflow.md) **COMING SOON**
+- Customer Care: Anonymous Customer Web Chat with an Agent **COMING SOON**
 
 - [Remote Advisor: Anonymous Meeting Join](./AnonymousMeetingJoin.md)
 
-- [Voice Scenarios: Custom IVR](./PSTN.md) **COMING SOON**
+- Voice Scenarios: Custom IVR**COMING SOON**

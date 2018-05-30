@@ -22,8 +22,17 @@
 	   "ms.suite": "office",
 	   "ms.prod" : "skype",
 	   "ms.author": "o365devx",
-	   "author": "o365devx"
+	   "author": "o365devx",
+	   "ms.date": "04-27-2018",
+	   "ms.technology": "sdk"
     },
+	 "fileMetadata": {
+ 	"ms.technology": 
+       { 
+         "WebSDK/**.md" : "sdk",
+		 "UCWA/**.md" : "web-api"
+       }
+	},
     "externalReference": [
     ],
     "template": "op.html",

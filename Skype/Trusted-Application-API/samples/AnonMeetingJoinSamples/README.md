@@ -11,7 +11,7 @@ The sample Web SDK application interacts with the Trusted Application sample and
 - Using the anon application token to join Anonymously into a Skype for Business Online meeting
 - Enabling audio/video in an anonymously-joined Skype for Business Online meeting
 
-# Getting started
+## Getting started
 ## Prerequisites
 1.	Download [Azure SDK v2.9](http://go.microsoft.com/fwlink/?LinkId=746481) or above.
 2.	Create a Cloud Service from Azure and give it a name to reserve a *.cloudapp.net URL. Refer to [this link](https://azure.microsoft.com/en-us/documentation/services/cloud-services/) for details.
@@ -66,7 +66,7 @@ When visiting your base URL (e.g. https://name.cloudapp.net), the expected respo
 ### Client webpage
 You will need to modify the `WebsiteSamples\scripts\index.js` file and replace `https://[name].cloudapp.net` with your trusted agent's base URL.
 You will need to modify the `WebsiteSamples\Samples\scripts\sign-in.js' file and replace InviteTargetUri 'toshm@metio.onmicrsoft.com' with your valid user in your own tenant.
-# Questions & troubleshooting
+## Questions & troubleshooting
 
 **Q: I published to my Cloud Service, but get a generic application error page**
 If you see this error message:

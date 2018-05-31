@@ -11,7 +11,7 @@ The Trusted Application QuickStart console app sample demonstrates:
 - Scheduling an AdhocMeeting
 - Retreiving an Anonymous Token and Discover URL for the Adhocmeeting (allows clients to join the meeting anonymously)
 
-# Getting Started
+## Getting Started
 
 **1. Registration**
 

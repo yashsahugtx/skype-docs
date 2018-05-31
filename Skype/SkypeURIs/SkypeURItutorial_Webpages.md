@@ -23,6 +23,7 @@ For example:
 
 However, your web page must determine whether a Skype client is installed, and take the appropriate action if it is not.
 
+<a name="buttons"></a>
 
 ### Skype Buttons
 
@@ -43,6 +44,7 @@ For example:
 
      `SkypeButton_Call_#echo123_01, SkypeButton_Call_#echo123_02`
 
+<a name="skype.ui"></a>
 
 ### Skype.ui JavaScript function
 

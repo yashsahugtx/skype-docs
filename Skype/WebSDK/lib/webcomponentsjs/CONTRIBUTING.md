@@ -2,7 +2,7 @@
 
 Want to contribute to webcomponents.js? Great!
 
-We are more than happy to accept external contributions to the project in the form of [bug reports](../../issues) and pull requests.
+We are more than happy to accept external contributions to the project in the form of bug reports and pull requests.
 
 ## Contributor License Agreement
 

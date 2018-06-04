@@ -17,14 +17,13 @@
         "ROBOTS": "INDEX, FOLLOW",
       "breadcrumb_path": "/skype/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-     "ms.topic": "conceptual",
+      "ms.topic": "conceptual",
 	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
 	   "ms.suite": "office",
 	   "ms.prod" : "skype",
 	   "ms.author": "o365devx",
 	   "author": "o365devx",
-	   "ms.date": "04/27/2018",
-	   "ms.technology": "sdk"
+	   "ms.date": "04/27/2018"
     },
 	 "fileMetadata": {
  	"ms.technology": 

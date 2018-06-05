@@ -1,3 +1,4 @@
+# Skype Web SDK Version Update Notifications
 ## Skype Web SDK Version Update 10/02/17
 
 | Product        | New Version           | Last Updated  |Previous Version

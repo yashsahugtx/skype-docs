@@ -7,7 +7,7 @@
 - [Add the Conversation Control to a webpage](#setup)
 - [Render the Conversation Control on an incoming call](#incoming-call)
 - [Render the Conversation Control on an outgoing call](#outgoing-call)
-- [Render multiple Conversation Controls on a page](#multiple-cc)
+- [Render multiple Conversation Controls on a page](#multi-cc)
 - [Additional resources](#additional-resources)
 
  >**Note**: The Audio and Video components of the conversation control are available as public preview.

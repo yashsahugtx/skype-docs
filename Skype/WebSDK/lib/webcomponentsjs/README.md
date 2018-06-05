@@ -110,7 +110,7 @@ WebComponents.ShadowCSS.shimStyling( shadowRoot, scope );
 
 ... where `shadowRoot` is the shadow root of a DOM element, and `scope` is the name of the scope used to prefix the selectors. This removes all `<style>` elements from the shadow root, rewrites it rules using the given scope and reinserts the style as a document level stylesheet. Note that the `:host` and `:host-context` pseudo classes are also rewritten.
 
-For a full explanation on the implementation and both the possibilities and the limitations of ShadowCSS please view the documentation in the [ShadowCSS source](src/ShadowCSS/ShadowCSS.js).
+For a full explanation on the implementation and both the possibilities and the limitations of ShadowCSS please view the documentation in the ShadowCSS source.
 
 ### Element wrapping / unwrapping limitations <a id="wrapping"></a>
 The Shadow DOM polyfill is implemented by [wrapping](http://webcomponents.org/polyfills/shadow-dom/#wrappers) DOM elements whenever possible. It does this by wrapping methods like `document.querySelector` to return wrapped DOM elements. This has a few caveats:

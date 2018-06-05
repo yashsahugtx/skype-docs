@@ -8,7 +8,7 @@
 The person information that a signed-in user can get for another user is restricted by the privacy relationships between the two users. When a privacy relationship restricts access to person information, the [Person](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.person.html) property for that information is undefined.
 
 
-After the user is signed in, your application can perform the following procedure. The desired person may not be in the user's person list. In that case, see [Search for persons and distribution groups](/SearchForPersonsAndGroups.md) to learn about providing a person search feature.
+After the user is signed in, your application can perform the following procedure. The desired person may not be in the user's person list. In that case, see [Search for persons and distribution groups](SearchForPersonsAndGroups.md) to learn about providing a person search feature.
 
 ### How to: Show a person's information
 

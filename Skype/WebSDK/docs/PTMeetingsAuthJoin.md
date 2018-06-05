@@ -1,4 +1,4 @@
-## Prerequisites
+# Prerequisites
 - Bootstrap Skype Web SDK
 - Sign-In
 

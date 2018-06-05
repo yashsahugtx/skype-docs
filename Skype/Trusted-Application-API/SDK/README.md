@@ -161,7 +161,7 @@ First time creating a pull request?  Learn [about pull requests](https://help.gi
 The images in the **Trusted Application SDK** documentation are .png or .jpg images. They may not render with full fidelity in your browser. If you need to see more detail
 in an image, right-click the image in your browser and download it to your computer. The original full size image is downloaded.
 
-# Next steps
+## Next steps
 
 If you haven't already done so, [install Git](https://git-scm.com/downloads) (as well as [Git Credential Manager](https://java.visualstudio.com/Downloads/gitcredentialmanager/Index) for Linux or Mac OS)
 

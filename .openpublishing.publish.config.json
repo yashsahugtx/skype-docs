@@ -10,6 +10,7 @@
       "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
+
        "Conceptual": "Content",
      "ManagedReference": "Content",
      "RestApi": "Content"
@@ -62,3 +63,4 @@
   },
   "need_generate_pdf": false
 }
+

@@ -15,7 +15,7 @@
     ],
     "globalMetadata": {
         "ROBOTS": "INDEX, FOLLOW",
-      "breadcrumb_path": "/skype/breadcrumb/toc.json",
+      "breadcrumb_path": "/skype-sdk/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "ms.topic": "conceptual",
 	  "uhfHeaderId": "MSDocsHeader-Dev_Office",

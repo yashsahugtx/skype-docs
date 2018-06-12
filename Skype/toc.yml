@@ -1058,8 +1058,8 @@
           - name: SDN Interface Performance Overview
             href: SDN/articles/sdn-interface-performance-overview.md
       - name: Skype for Business SDN Interface Schema Reference
-          href: SDN/articles/skype-for-business-sdn-interface-schema-reference.md
-          items:
+        href: SDN/articles/skype-for-business-sdn-interface-schema-reference.md
+        items:
           - name: Skype for Business SDN Interface 2.2, Schema C
             href: SDN/articles/skype-for-business-sdn-interface-2-2-schema-c.md
             items:

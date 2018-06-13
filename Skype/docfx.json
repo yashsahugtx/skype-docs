@@ -30,7 +30,7 @@
        { 
         "WebSDK/**.md" : "sdk",
 		"UCWA/**.md" : "web-api",
-		"SDN/**" : "sdn"
+		"SDN/**.md" : "sdn"
        }
 	},
     "externalReference": [

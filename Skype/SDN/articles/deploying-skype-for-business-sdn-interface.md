@@ -24,7 +24,7 @@ In this configuration, the size of the pool scales with the message load produce
 Figure 1. Deployment of Skype for Business SDN Interface with a pool of SDN Managers
 
   
-![SDN Manager deployment pool configuration](images/Dn785194.00e512cf-9ccb-47e3-a0ef-857789f15676(Office.16).png "SDN Manager deployment pool configuration")
+![SDN Manager deployment pool configuration](../images/Dn785194.00e512cf-9ccb-47e3-a0ef-857789f15676(Office.16).png "SDN Manager deployment pool configuration")
 
 ## Deploying Skype for Business SDN Interface with a single SDN Manager
 
@@ -43,7 +43,7 @@ To overcome server failures in a single SDN Manager deployment, the SDN Interfac
 Figure 2. Deployment of SDN Interface with primary and secondary SDN managers
 
   
-![Deployment of the primary Dialog Listener component](images/Dn785194.5f75214b-82c7-4fb5-91e2-7a0cc55cd99e(Office.16).png "Deployment of the primary Dialog Listener component")
+![Deployment of the primary Dialog Listener component](../images/Dn785194.5f75214b-82c7-4fb5-91e2-7a0cc55cd99e(Office.16).png "Deployment of the primary Dialog Listener component")
 
 ## Deploying Skype for Business SDN Interface with SDN Manager and Dialog Listener collocated
 
@@ -56,7 +56,7 @@ When the SDN Manager and the Dialog Listeners are installed on several Skype for
 Figure 3. Deployment of the SDN Interface collocated with SDN manager and dialog listener
 
   
-![Deployment configuration of colocated components](images/Dn785194.07b7eb5a-2a4b-4a4c-9460-67c8a6098e7b(Office.16).png "Deployment configuration of colocated components")
+![Deployment configuration of colocated components](../images/Dn785194.07b7eb5a-2a4b-4a4c-9460-67c8a6098e7b(Office.16).png "Deployment configuration of colocated components")
 
 ## Additional resources
 

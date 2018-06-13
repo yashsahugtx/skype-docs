@@ -192,7 +192,7 @@ The USE\_DAPI parameter is used to secure the Redis password contained in the SD
 Figure 1. Skype for Business SDN Manager Setup
 
   
-![Skype for Business SDN Manager REDIS Settings](images/Dn785205.18aa5963-b41b-449e-978f-4c8b91ef2520(Office.16).png "Skype for Business SDN Manager REDIS Settings")
+![Skype for Business SDN Manager REDIS Settings](../images/Dn785205.18aa5963-b41b-449e-978f-4c8b91ef2520(Office.16).png "Skype for Business SDN Manager REDIS Settings")
 
 ## Example unattended installations of the SDN Manager
 

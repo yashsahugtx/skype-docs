@@ -38,12 +38,12 @@ To verify the QoE recording using the Skype for Business Server control panel, s
 Figure 1. Skype for Business Server Control Panel showing QoE activation setting
 
   
-![Lync Server Control Panel showing QoE setting](images/Dn806347.lync_sdni_view_qoe_setting_in_control_pannel(Office.16).png "Lync Server Control Panel showing QoE setting")
+![Lync Server Control Panel showing QoE setting](../images/Dn806347.lync_sdni_view_qoe_setting_in_control_pannel(Office.16).png "Lync Server Control Panel showing QoE setting")
 
 If the QoE column of the specified topology (W15Topology) is checked, the QoE recording is activated. Otherwise, choose the **Edit** menu option and select the **Enable monitoring of QoE data** checkbox for the specified Skype for Business Server topology. We recommend that you also select the **Enable purging QoE data** checkbox and specify a maximum number of days to keep the QoE data before purging.
 
   
-![Lync Server Control Panel editing QoE setting](images/Dn806347.lync_sdni_set_qoe_setting_in_control_pannel(Office.16).png "Lync Server Control Panel editing QoE setting")
+![Lync Server Control Panel editing QoE setting](../images/Dn806347.lync_sdni_set_qoe_setting_in_control_pannel(Office.16).png "Lync Server Control Panel editing QoE setting")
 
 
 > [!NOTE]

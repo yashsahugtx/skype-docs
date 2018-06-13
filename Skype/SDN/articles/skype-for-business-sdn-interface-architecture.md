@@ -30,7 +30,7 @@ At a high level, the Skype for Business SDN Interface infrastructure consists of
 Figure 1. Skype for Business SDN Interface architecture
 
   
-![Diagram showing Skype for Business SDN interface architecture](images/Dn785192.388c0128-bfa1-4a38-9a47-5a1797e4528e(Office.16).png "Diagram showing Skype for Business SDN interface architecture")
+![Diagram showing Skype for Business SDN interface architecture](../images/Dn785192.388c0128-bfa1-4a38-9a47-5a1797e4528e(Office.16).png "Diagram showing Skype for Business SDN interface architecture")
 
 The types of Skype for Business media traffic involving two or more Skype for Business endpoints include audio and video calls and application sharing.
 
@@ -47,7 +47,7 @@ A subscriber can be a network controller which monitors and analyzes network ele
 Figure 2. Detailed Skype for Business SDN Interface architecture
 
   
-![SDN Interface Api Architecture](images/Dn785192.4b1a7938-ca4d-4f4b-8929-5cd5205ca75e(Office.16).png "SDN Interface Api Architecture")
+![SDN Interface Api Architecture](../images/Dn785192.4b1a7938-ca4d-4f4b-8929-5cd5205ca75e(Office.16).png "SDN Interface Api Architecture")
 
 ## Additional resources
 

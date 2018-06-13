@@ -24,7 +24,7 @@ DialogListener.exe is a Skype for Business Server application and uses SPL (MSPL
 
   - Verify that the following entry (or a similar one) is displayed as the cmdlet the output:  
       
-    ![Output of cmdlet execution](images/Dn785218.a1dc6b90-0adf-485c-846a-1e859cea6233(Office.16).png "Output of cmdlet execution")  
+    ![Output of cmdlet execution](../images/Dn785218.a1dc6b90-0adf-485c-846a-1e859cea6233(Office.16).png "Output of cmdlet execution")  
       
     If such an entry is not shown in the output, ensure that you are running in an administrator account that is also member of the *RTC Server Applications* local group before you install Dialog Listener. You may manually configure a registration similar to the one shown.
 

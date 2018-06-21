@@ -73,7 +73,7 @@ This cmdlet registers an instance of your bot with a Skype for Business Online t
 ## Feature Support
 
 - **Messages :**
-Your bot can send plain text, HTML, and emoticons to a user or group. Users can send rich text, HTML, and emoticons to your bot.
+Your bot can send plain text, Markdown, and emoticons to a user or group. Users can send rich text, and emoticons to your bot.  Some Skype for Business clients may not support Markdown or HTML rendering, so bot messages will fallback to text on those clients.
 - **Typing indicator :**
 Your bot can send a typing indicator using the [C# SDK](https://docs.botframework.com/en-us/csharp/builder/sdkreference/), [Node.js SDK](https://docs.botframework.com/en-us/node/builder/chat-reference/modules/_botbuilder_d_.html) or [REST API](https://docs.botframework.com/en-us/restapi/connector/#navtitle) to tell the user that the bot is preparing to respond, for example when processing a request.
 - **Basic format:**

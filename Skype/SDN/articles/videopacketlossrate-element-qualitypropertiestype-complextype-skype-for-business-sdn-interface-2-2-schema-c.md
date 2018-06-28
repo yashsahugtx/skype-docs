@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# VideoPacketLossRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# VideoPacketLossRate element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Average fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for video streams when available. (packets/s)
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# PacketUtilization element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# PacketUtilization element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Number of Real-time Transport Protocol (RTP) packets received in the session. This metric is reported for all available modalities and media types.
 

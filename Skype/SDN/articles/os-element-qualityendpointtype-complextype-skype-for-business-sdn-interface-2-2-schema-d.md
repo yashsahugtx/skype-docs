@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# OS element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# OS element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Operating System used on the endpoint device.
 

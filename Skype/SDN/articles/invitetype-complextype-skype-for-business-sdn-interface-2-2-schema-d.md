@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# InviteType complexType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# InviteType complexType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 **In this article**  

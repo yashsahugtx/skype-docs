@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# MACAddr element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# MACAddr element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 MAC address of the endpoint.
 

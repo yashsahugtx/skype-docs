@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# LinkSpeed element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# LinkSpeed element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Basic bandwidth of the connection.
 

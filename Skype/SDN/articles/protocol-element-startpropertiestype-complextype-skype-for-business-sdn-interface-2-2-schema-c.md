@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Protocol element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Protocol element 
+
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Transmission protocol of the media stream such as TCP or UDP.
 

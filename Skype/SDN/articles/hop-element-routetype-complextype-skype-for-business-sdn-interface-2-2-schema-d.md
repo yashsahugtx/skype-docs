@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Hop element (RouteType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Hop element 
+
+(RouteType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 IP address of one hop (router, gateway, switch, etc) on the path from the source to the destination of the media stream.
 

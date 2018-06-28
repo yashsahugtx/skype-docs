@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Properties element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Properties element 
+
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determine a bad call.
 

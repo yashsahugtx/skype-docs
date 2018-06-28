@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# RecvFrameRateAverage element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# RecvFrameRateAverage element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Average frames per second received for all video streams and computed over the duration of the session. This metric is reported for video streams when available. (frames/s)
 

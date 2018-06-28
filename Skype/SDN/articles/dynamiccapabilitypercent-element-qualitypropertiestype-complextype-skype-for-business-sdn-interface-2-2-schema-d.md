@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# DynamicCapabilityPercent element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# DynamicCapabilityPercent element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Percentage of time that the client is running under capability of less than 70% of expected capability for this type of CPU. Inbound and Outbound are identical because it measures the capability of the client instead of the channel. This metric is reported for video streams when available. (percent)
 

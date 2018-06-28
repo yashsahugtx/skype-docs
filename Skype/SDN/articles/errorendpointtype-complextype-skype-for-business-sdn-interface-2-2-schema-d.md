@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ErrorEndPointType complexType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# ErrorEndPointType complexType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 **In this article**  

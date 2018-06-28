@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Codec element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Codec element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Describes the last codec used for the media.
 

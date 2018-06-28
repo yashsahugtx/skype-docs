@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# StartTime element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# StartTime element
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Denotes the time when the conversation started. It is provided only in QualityUpdate events.
 

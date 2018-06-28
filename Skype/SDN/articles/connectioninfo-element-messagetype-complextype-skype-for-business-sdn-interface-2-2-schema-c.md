@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ConnectionInfo element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# ConnectionInfo element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Connection-related properties regardless of the media stream and end points.
 

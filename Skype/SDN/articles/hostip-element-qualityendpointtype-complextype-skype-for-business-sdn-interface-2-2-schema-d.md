@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# HostIP element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# HostIP element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 IP address of the the media stream source or destination.
 

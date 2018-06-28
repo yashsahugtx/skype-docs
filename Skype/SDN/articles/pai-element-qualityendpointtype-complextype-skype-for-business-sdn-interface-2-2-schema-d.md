@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# PAI element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# PAI element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 P-Asserted Identity.
 

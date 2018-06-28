@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ResponseCode element (ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# ResponseCode element 
+
+(ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 SIP Error code.
 

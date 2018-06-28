@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ReferredBy element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# ReferredBy element 
+
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Content of the REFERRED BY SIP tag.
 

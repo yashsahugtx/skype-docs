@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Properties element (ErrorType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Properties element 
+
+(ErrorType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Properties of the Error.
 

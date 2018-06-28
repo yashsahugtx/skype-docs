@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CorrelationId element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# CorrelationId element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Identifier to correlate two SIP calls where mediation server is involved. Both SIP calls belong to the same conversation.
 

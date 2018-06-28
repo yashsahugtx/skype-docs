@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CaptureDeviceDriver element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# CaptureDeviceDriver element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Device driver name and version of the capture device used to produce the media of this stream
 

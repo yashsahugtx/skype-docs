@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Via element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Via element 
+
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Content of the VIA SIP tags.
 

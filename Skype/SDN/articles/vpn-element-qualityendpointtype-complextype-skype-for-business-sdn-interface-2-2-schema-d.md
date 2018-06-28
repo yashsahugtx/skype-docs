@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# VPN element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# VPN element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Indicates if the user is on VPN (True) or not (False).
 

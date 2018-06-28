@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CaptureDevice element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# CaptureDevice element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 The name of a capture device used to produce the media of this stream. This device is in the FROM endpoint and usually represents a microphone.
 

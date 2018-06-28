@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EchoReturn element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# EchoReturn element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Echo returns reported for audio streams, when available.
 

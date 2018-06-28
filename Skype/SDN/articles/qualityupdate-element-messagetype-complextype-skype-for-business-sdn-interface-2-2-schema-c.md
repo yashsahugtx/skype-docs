@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# QualityUpdate element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# QualityUpdate element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Specifies the event that a call has ended and contains a report of the quality metrics of individual media streams. These quality metrics for a stream may include updates provided by both endpoints which are merged.
 

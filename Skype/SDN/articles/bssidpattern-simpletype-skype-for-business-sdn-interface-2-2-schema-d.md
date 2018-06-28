@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# BSSIDPattern simpleType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# BSSIDPattern simpleType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 ## Type information

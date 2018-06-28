@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# HostPort element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# HostPort element 
+
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Port used on the endpoint's host.
 

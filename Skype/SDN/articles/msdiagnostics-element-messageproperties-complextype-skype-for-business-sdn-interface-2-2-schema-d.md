@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# MSDiagnostics element (MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# MSDiagnostics element 
+
+(MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Skype for Business-specific diagnostics message.
 

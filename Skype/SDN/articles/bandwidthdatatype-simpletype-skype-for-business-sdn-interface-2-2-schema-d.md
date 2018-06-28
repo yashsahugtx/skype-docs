@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# BandwidthDataType simpleType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# BandwidthDataType simpleType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 ## Type information

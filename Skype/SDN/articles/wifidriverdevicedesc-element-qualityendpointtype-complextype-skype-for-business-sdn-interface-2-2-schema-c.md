@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# WifiDriverDeviceDesc element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# WifiDriverDeviceDesc element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Wifi Driver Device description.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# SendListenMOSMin element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# SendListenMOSMin element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Minimum of the SendListenMOS for the stream over the duration of the session. This metric is reported for audio streams when available.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Error element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Error element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 This event is optional. Error event that a SIP dialog has failed. Error events are also sent for SIP calls that are terminated even before a media stream is started or for failed to be updated.
 

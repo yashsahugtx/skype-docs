@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# RelayPort element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# RelayPort element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Port number of the relay.
 

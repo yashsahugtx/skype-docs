@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EPId element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# EPId element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Endpoint Id of the endpoint.
 

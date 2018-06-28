@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ConferenceId element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# ConferenceId element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Identifier to correlate call legs that belong to the same conference.
 

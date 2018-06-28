@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CPUName element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# CPUName element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Name of the CPU.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EndPointType complexType (Skype for Business SDN Interface 2.2, Schema \"C\")
+# EndPointType complexType 
+
+(Skype for Business SDN Interface 2.2, Schema \"C\")
 
 **In this article**  
 Type information  

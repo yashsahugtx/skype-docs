@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# RDPTileProcessingLatencyAverage element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# RDPTileProcessingLatencyAverage element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average processing time for remote desktop protocol (RDP) tiles. A higher total value implies a longer delay in the viewing experience. When available, this metric is only reported for application sharing streams using Skype for Business 2013. (ms)
 

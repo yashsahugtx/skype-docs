@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CSEQ element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# CSEQ element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Call sequence number as part of SIP standard that needs to be used to filter for unrelated error messages. This field is not provided for QualityUpdates.
 

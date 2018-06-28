@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Id element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Id element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Identifier of the endpoint.
 

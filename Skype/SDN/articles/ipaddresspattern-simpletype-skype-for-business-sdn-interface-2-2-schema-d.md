@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ipAddressPattern simpleType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# ipAddressPattern simpleType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 ## Type information

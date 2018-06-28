@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# RenderDevice element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# RenderDevice element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 The name of a render device used to provide the media to for this stream. This device is in the TO endpoint and usually represents a speaker.
 

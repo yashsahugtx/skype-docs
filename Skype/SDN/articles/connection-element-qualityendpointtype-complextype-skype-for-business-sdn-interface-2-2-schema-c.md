@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Connection element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Connection element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Connection type such as "wired" or "wireless".
 

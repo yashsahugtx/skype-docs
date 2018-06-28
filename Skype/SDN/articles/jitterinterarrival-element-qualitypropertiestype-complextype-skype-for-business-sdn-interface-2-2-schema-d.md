@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# JitterInterArrival element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# JitterInterArrival element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities/media types. (ms)
 

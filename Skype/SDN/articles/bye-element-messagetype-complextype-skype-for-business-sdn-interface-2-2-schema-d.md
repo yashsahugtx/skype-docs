@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Bye element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Bye element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Event that a Sip call has ended and all media stream terminated.
 

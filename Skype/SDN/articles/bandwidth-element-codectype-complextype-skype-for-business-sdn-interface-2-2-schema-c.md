@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Bandwidth element (CodecType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Bandwidth element 
+
+(CodecType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Average estimated bandwidth.
 

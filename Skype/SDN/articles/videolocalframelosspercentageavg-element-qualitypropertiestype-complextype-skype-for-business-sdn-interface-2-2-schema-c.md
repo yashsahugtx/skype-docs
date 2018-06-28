@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# VideoLocalFrameLossPercentageAvg element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# VideoLocalFrameLossPercentageAvg element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Average percentage of video frames lost as they are displayed to the user, including frames recovered from network losses. This metric is reported for video streams when available. (percent)
 

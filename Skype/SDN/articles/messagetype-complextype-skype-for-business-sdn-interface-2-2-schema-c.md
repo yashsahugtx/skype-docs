@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# MessageType complexType (Skype for Business SDN Interface 2.2, Schema \"C\")
+# MessageType complexType 
+
+(Skype for Business SDN Interface 2.2, Schema \"C\")
 
 **In this article**  
 Type information  

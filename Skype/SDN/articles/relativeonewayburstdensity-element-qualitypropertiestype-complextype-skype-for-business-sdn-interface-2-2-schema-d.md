@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# RelativeOneWayBurstDensity element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# RelativeOneWayBurstDensity element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Total one-way burst density involving unsteady transmission. An unsteady transmission is one where data flows in random bursts as opposed to a steady stream. This metric measures data flow between the client and the server and is only reported for application sharing streams using Skype for Business 2013.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EndTime element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# EndTime element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Denotes then time when the conversation ended. It is provided only in QualityUpdate events.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# To element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# To element 
+
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Destination of the media stream.
 

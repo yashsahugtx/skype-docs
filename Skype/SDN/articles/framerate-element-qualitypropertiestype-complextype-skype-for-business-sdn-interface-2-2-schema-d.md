@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# FrameRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# FrameRate element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average frame rate (in frames per second). When available, this metric is only reported for application sharing streams and only for Skype for Business 2013. (frames/s)
 

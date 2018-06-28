@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Trunk element (EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Trunk element 
+
+(EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Identifier for the SipTrunk or other SIP device used to connect to the endpoint.
 

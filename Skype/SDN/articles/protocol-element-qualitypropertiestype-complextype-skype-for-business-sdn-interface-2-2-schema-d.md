@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Protocol element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Protocol element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Transmission protocol of the call such as TCP or UDP.
 

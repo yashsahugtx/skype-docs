@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# FrontEnds element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# FrontEnds element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Comma separated list of Skype for Business Front-Ends involved in this call.
 

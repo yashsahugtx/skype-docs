@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# MediationServerLegPosition element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# MediationServerLegPosition element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Indicates whether the call was incoming to a mediation server or outgoing from the medation server. It is provided only in QualityUpdate events.
 

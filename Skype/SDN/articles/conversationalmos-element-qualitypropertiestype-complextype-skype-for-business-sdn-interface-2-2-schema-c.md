@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ConversationalMOS element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# ConversationalMOS element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Conversational clarity index for remote party, as described in \[ITUP.562\] section 6.3. This metric is reported for all available modalities and media types. This field is unused and deprecated for Skype for Business clients 2013 and beyond.
 

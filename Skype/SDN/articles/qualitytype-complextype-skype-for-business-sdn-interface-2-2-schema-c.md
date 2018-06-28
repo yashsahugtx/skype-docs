@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# QualityType complexType (Skype for Business SDN Interface 2.2, Schema \"C\")
+# QualityType complexType 
+
+(Skype for Business SDN Interface 2.2, Schema \"C\")
 
 **In this article**  
 Type information  

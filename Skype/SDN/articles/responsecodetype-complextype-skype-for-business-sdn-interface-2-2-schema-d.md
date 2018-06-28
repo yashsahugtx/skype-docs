@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ResponseCodeType complexType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# ResponseCodeType complexType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 **In this article**  

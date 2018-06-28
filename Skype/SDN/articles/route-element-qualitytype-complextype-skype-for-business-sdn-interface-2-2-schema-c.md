@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Route element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Route element 
+
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business.
 

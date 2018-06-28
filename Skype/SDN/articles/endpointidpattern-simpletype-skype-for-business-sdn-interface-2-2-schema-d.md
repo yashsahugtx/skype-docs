@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EndpointIdPattern simpleType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# EndpointIdPattern simpleType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 ## Type information

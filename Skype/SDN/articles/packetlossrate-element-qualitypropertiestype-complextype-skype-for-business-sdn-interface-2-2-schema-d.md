@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# PacketLossRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# PacketLossRate element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average fraction lost computed over the duration of the session, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities and media types. (percent)
 

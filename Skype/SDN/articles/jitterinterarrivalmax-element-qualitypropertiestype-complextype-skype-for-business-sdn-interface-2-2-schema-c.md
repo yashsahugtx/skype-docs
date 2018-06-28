@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# JitterInterArrivalMax element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# JitterInterArrivalMax element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Maximum inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Relay element (EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Relay element 
+
+(EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 IP Address of the first relay used in the media traffic.
 

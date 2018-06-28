@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Port element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Port element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Port number of the destination or source of the media stream used by this endpoint.
 

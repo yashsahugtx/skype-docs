@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# MediaBypass element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# MediaBypass element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.
 

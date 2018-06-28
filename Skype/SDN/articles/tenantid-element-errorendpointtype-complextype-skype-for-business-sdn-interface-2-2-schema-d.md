@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# TenantId element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# TenantId element 
+
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Identifier for the tenanat that this endpoing belongs to.
 

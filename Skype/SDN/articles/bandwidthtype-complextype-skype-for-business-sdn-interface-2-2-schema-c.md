@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# BandwidthType complexType (Skype for Business SDN Interface 2.2, Schema \"C\")
+# BandwidthType complexType 
+
+(Skype for Business SDN Interface 2.2, Schema \"C\")
 
 **In this article**  
 Type information  

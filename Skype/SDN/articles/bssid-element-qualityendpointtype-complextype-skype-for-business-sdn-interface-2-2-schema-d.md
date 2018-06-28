@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# BSSID element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# BSSID element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Id of an access point for a WiFi/wireless connection.
 

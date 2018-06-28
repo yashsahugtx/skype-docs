@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ResponseCode element (MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# ResponseCode element 
+
+(MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Message describing the error.
 

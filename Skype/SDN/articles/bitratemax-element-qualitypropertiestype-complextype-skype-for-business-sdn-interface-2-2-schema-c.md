@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# BitRateMax element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# BitRateMax element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Maximum bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This metric is reported for video streams when available. (bits/s)
 

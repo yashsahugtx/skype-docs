@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CPUNumberOfCores element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# CPUNumberOfCores element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Number of CPU cores in the endpoint device.
 

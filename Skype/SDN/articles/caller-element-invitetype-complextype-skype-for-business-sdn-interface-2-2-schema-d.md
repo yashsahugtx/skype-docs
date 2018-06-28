@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Caller element (InviteType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Caller element 
+
+(InviteType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Properties of the caller.
 

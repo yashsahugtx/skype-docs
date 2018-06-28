@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Start element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Start element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Event that a media stream is started. Every Start element contains a report about a particular media stream. This event is raised when the call is established, i.e., when the call is picked up and the SIP INVITE is answered with a 200 OK response.
 

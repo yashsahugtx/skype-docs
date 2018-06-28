@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# NetworkDelayEventRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# NetworkDelayEventRatio element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Percentage of sessions the the NetworkDelayEvent event was fired when network latency is severe and impacting the experience by preventing interactive communication
 

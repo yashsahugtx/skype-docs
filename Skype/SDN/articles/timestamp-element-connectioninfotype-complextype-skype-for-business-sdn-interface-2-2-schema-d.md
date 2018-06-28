@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# TimeStamp element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# TimeStamp element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 UTC time when the report is processed.
 

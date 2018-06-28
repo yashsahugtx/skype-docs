@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ProtocolTypes simpleType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# ProtocolTypes simpleType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 ## Type information

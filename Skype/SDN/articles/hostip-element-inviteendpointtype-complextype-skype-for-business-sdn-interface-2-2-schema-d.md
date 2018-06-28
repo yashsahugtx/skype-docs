@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# HostIP element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# HostIP element 
+
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 IP address of the endpoint's host in the local network.
 

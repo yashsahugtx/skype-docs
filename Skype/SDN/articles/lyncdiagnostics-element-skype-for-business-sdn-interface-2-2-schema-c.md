@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# LyncDiagnostics element (Skype for Business SDN Interface 2.2, Schema \"C\")
+# LyncDiagnostics element 
+
+(Skype for Business SDN Interface 2.2, Schema \"C\")
 
 The root element for output from the Skype for Business SDN Manager.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Maximum element (BandwidthType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Maximum element 
+
+(BandwidthType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Estimated upper limit of the bandwidth needed by this stream.
 

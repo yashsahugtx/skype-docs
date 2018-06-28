@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ConferenceURI element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# ConferenceURI element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 (Deprecated - use ConferenceId instead) Sip URI used for the conference. This field is obfuscated unless hidepii is set to false in configuration.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# CallId element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# CallId element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Unique identifier for the SIP call. This field should be used to correlate messages referring to the same call.
 

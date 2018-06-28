@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# AudioTimestampErrorMicMs element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# AudioTimestampErrorMicMs element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Speaking device clock drift rate, relative to CPU clock. Average error of microphone-captured-stream time stamp, in milliseconds, for the last 20 seconds of a call.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Properties element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Properties element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Details of the Error or reason for ending the streams.
 

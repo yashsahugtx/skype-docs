@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ReflexiveIP element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# ReflexiveIP element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 IP used outside of the NAT.
 

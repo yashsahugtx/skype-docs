@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# VideoFrameLossRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# VideoFrameLossRate element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average fraction of frames lost on the video receiver side as computed over the duration of the session. This metric is reported for video streams when available. (frames/s)
 

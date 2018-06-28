@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# DSCPOutbound element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# DSCPOutbound element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 QoS category marking used on send the stream from this endpoint. This field is populated only from Skype for Business clients newer than Skype for Business 2013.
 

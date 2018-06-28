@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Update element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Update element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Event that a media stream previously started has been updated. This event is raised when an update to core parameters of call have changed and the change is established, i.e., when the request is answered with a 200 OK response.
 

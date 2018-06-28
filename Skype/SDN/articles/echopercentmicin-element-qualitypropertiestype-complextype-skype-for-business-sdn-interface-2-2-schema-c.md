@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EchoPercentMicIn element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# EchoPercentMicIn element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation. This metric is reported for audio streams when available.
 

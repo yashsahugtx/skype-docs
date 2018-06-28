@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Ended element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Ended element 
+
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Event that a Sip call has ended and all media stream terminated.
 

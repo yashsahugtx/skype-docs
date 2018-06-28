@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EPType element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# EPType element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Indicates that this endpoint is of the Skype for Business Room System type or not.
 

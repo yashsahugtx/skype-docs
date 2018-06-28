@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Bandwidth element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Bandwidth element 
+
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account.
 

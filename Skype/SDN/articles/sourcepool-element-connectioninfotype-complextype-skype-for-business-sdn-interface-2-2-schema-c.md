@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# SourcePool element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# SourcePool element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Name of the Skype for Business pool this message originated. If a QualityUpdate message is merged and originated from two pools only one is included here. Currently, the FQDN of one sourcepool is provided, expect a comma delimited list in future releases.
 

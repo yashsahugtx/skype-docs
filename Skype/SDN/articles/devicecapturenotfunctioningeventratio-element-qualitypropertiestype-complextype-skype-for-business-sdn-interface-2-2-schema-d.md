@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# DeviceCaptureNotFunctioningEventRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# DeviceCaptureNotFunctioningEventRatio element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Percentage of sessions the DeviceCaptureNotFunctioning event was fired when the capture device currently being used for the session is not functioning correctly and, possibly, preventing one-way audio from working correctly.
 

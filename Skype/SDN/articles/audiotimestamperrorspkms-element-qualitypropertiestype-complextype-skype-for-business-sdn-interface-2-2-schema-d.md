@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# AudioTimestampErrorSpkMs element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# AudioTimestampErrorSpkMs element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average error of speech render stream time stamp, in milliseconds, or the last 20 seconds of the call.
 

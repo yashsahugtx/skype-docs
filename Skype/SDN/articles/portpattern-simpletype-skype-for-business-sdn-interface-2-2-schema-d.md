@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# PortPattern simpleType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# PortPattern simpleType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 ## Type information

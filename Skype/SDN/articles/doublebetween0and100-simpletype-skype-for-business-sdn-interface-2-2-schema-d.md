@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# DoubleBetween0And100 simpleType (Skype for Business SDN Interface 2.2, Schema \"D\")
+# DoubleBetween0And100 simpleType 
+
+(Skype for Business SDN Interface 2.2, Schema \"D\")
 
 
 ## Type information

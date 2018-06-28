@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Contact element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Contact element 
+
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 SIP URI of the user as extracted from the Contact header of the underlying SIP message. This field is obfuscated unless hidepii is set to false in the Dialog Listener configuration file.
 

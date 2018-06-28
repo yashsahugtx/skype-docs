@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Virtualization element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# Virtualization element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Type of virtualization used.
 

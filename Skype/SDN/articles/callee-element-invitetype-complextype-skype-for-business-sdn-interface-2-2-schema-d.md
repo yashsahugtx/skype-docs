@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Callee element (InviteType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Callee element 
+
+(InviteType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Properties of the callee.
 

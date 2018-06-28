@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# UserAgent element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# UserAgent element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Skype for Business client and version.
 

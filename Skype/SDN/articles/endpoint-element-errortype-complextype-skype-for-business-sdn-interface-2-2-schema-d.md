@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# EndPoint element (ErrorType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# EndPoint element 
+
+(ErrorType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Endpoint involved in the ended SIP call.
 

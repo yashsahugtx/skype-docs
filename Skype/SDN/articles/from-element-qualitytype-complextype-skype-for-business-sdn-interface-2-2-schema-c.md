@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# From element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# From element 
+
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 The source of the reported media stream.
 

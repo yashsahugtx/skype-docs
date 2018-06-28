@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Wireless element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Wireless element 
+
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Flag indicating if the endpoint is using a wireless network.
 

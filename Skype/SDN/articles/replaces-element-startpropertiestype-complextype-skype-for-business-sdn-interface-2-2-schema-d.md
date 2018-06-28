@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Replaces element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Replaces element 
+
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Content of the REPLACES SIP tag.
 

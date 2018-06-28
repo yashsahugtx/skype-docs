@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Inside element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Inside element 
+
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 (Deprecated - since Skype for Business 2013, this field is not reliable anymore.) Indicates if the source is registered within the enterprise (True) or not (False).
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# StreamQuality element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# StreamQuality element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Estimated quality of the stream: Good, Poor, Bad
 

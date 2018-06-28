@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# IP element (EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# IP element 
+
+(EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 IP address of the the media stream source or destination.
 

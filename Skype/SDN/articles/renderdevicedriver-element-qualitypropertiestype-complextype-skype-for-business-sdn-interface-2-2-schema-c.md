@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# RenderDeviceDriver element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# RenderDeviceDriver element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Device driver name and version of the render device used to consume the media of this call
 

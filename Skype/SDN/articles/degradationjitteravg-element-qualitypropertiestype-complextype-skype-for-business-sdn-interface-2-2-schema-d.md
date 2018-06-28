@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# DegradationJitterAvg element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# DegradationJitterAvg element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average fraction of the degradation jitter average applies to inter-arrival packet jitter. This metric is reported for audio streams when available.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# Pools element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# Pools element 
+
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Comma separated list of Skype for Business Front-End pool names involved in this call.
 

@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# ReflexivePort element (EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# ReflexivePort element 
+
+(EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Port used on the NAT.
 

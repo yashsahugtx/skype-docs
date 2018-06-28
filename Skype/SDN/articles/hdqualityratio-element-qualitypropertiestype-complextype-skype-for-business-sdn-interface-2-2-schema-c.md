@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# HDQualityRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+# HDQualityRatio element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
 
 Percentage of the duration of a call that is using the HD720 resolution. This metric is reported for video streams when available. (percent)
 

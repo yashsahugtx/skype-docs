@@ -10,7 +10,9 @@ dev_langs:
 - xml
 ---
 
-# DegradationPacketLossAvg element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+# DegradationPacketLossAvg element 
+
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
 
 Average fraction of the DegradationAvg that was caused by packet loss. This metric is reported for audio streams when available.
 

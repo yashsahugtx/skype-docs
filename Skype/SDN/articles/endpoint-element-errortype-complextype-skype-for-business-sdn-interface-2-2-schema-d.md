@@ -130,7 +130,7 @@ Elements and attributes
 <td><p>Identifier of the endpoint.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="incallenabled-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">IncallEnabled</a></p></td>
+<td><p><a href="incallenabled-element-errorendpointtype-complextype-skype-sdn-2-2-d.md">IncallEnabled</a></p></td>
 <td><p>xs:boolean</p></td>
 <td><p>Whether the endpoint (Skype for Business client) is capable to send incall quality update messages. This flag does not indicate whether the client is configured to send incall QoE reports.</p></td>
 </tr>

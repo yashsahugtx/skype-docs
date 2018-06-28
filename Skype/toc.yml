@@ -1157,23 +1157,23 @@
               - name: DeviceHowlingEventCount element
                 href: SDN/articles/devicehowlingeventcount-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: DeviceNearEndToEchoRatioEventRatio element
-                href: SDN/articles/devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: DeviceRenderNotFunctioningEventRatio element
-                href: SDN/articles/devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: DSCPInbound element
-                href: SDN/articles/dscpinbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/dscpinbound-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
               - name: DSCPOutbound element
-                href: SDN/articles/dscpoutbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/dscpoutbound-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md
               - name: DynamicCapabilityPercent element
-                href: SDN/articles/dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: EchoEventCauses element
-                href: SDN/articles/echoeventcauses-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/echoeventcauses-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: EchoPercentMicIn element
-                href: SDN/articles/echopercentmicin-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/echopercentmicin-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: EchoPercentSend element
-                href: SDN/articles/echopercentsend-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/echopercentsend-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: EchoReturn element
-                href: SDN/articles/echoreturn-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/echoreturn-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: Ended element
                 href: SDN/articles/ended-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: EndPoint element (ByeType complexType)
@@ -1195,7 +1195,7 @@
               - name: Error element
                 href: SDN/articles/error-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: FrameRate element
-                href: SDN/articles/framerate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/framerate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: From element (StartOrUpdateType complexType)
                 href: SDN/articles/from-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: From element (QualityType complexType)
@@ -1205,9 +1205,9 @@
               - name: From element (EndedType complexType)
                 href: SDN/articles/from-element-endedtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: HDQualityRatio element
-                href: SDN/articles/hdqualityratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/hdqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: HealerPacketDropRatio element
-                href: SDN/articles/healerpacketdropratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/healerpacketdropratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: Hop element
                 href: SDN/articles/hop-element-routetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: Id element (QualityEndPointType complexType)
@@ -1227,17 +1227,17 @@
               - name: IP element (EndPointType complexType)
                 href: SDN/articles/ip-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: JitterInterArrival element
-                href: SDN/articles/jitterinterarrival-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/jitterinterarrival-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: JitterInterArrivalMax element
-                href: SDN/articles/jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: LinkSpeed element
                 href: SDN/articles/linkspeed-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: LocalFrameLossPercentageAvg element
-                href: SDN/articles/localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: LowFrameRateCallPercent element
-                href: SDN/articles/lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: LowResolutionCallPercent element
-                href: SDN/articles/lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: LyncDiagnostics element
                 href: SDN/articles/lyncdiagnostics-element-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: MACAddr element
@@ -1247,11 +1247,11 @@
               - name: Maximum element
                 href: SDN/articles/maximum-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: MediaBypass element
-                href: SDN/articles/mediabypass-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/mediabypass-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
               - name: MediationServerLegPosition element
-                href: SDN/articles/mediationserverlegposition-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/mediationserverlegposition-element-connectioninfotype-complextype-skype-sdn-2-2-c.md
               - name: MicGlitchRate element
-                href: SDN/articles/micglitchrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/micglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: MSDiagnostics element (ErrorProperties complexType)
                 href: SDN/articles/msdiagnostics-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: MSDiagnostics element (EndedProperties complexType)
@@ -1403,7 +1403,7 @@
               - name: VideoFrameLossRate element
                 href: SDN/articles/videoframelossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: VideoLocalFrameLossPercentageAvg element
-                href: SDN/articles/videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
+                href: SDN/articles/videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md
               - name: VideoPacketLossRate element
                 href: SDN/articles/videopacketlossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md
               - name: Virtualization element
@@ -1558,23 +1558,23 @@
               - name: DeviceHowlingEventCount element
                 href: SDN/articles/devicehowlingeventcount-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: DeviceNearEndToEchoRatioEventRatio element
-                href: SDN/articles/devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: DeviceRenderNotFunctioningEventRatio element
-                href: SDN/articles/devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: DSCPInbound element
-                href: SDN/articles/dscpinbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/dscpinbound-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
               - name: DSCPOutbound element
-                href: SDN/articles/dscpoutbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/dscpoutbound-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
               - name: DynamicCapabilityPercent element
-                href: SDN/articles/dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: EchoEventCauses element
-                href: SDN/articles/echoeventcauses-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/echoeventcauses-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: EchoPercentMicIn element
-                href: SDN/articles/echopercentmicin-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/echopercentmicin-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: EchoPercentSend element
-                href: SDN/articles/echopercentsend-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/echopercentsend-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: EchoReturn element
-                href: SDN/articles/echoreturn-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/echoreturn-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: Ended element
                 href: SDN/articles/ended-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: EndPoint element (ByeType complexType)
@@ -1608,7 +1608,7 @@
               - name: Error element
                 href: SDN/articles/error-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: FrameRate element
-                href: SDN/articles/framerate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/framerate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: From element (StartOrUpdateType complexType)
                 href: SDN/articles/from-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: From element (QualityType complexType)
@@ -1620,9 +1620,9 @@
               - name: FrontEnds element
                 href: SDN/articles/frontends-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: HDQualityRatio element
-                href: SDN/articles/hdqualityratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/hdqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: HealerPacketDropRatio element
-                href: SDN/articles/healerpacketdropratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/healerpacketdropratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: Hop element
                 href: SDN/articles/hop-element-routetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: HostIP element (QualityEndPointType complexType)
@@ -1662,7 +1662,7 @@
               - name: IncallEnabled element (InviteEndPointType complexType)
                 href: SDN/articles/incallenabled-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: IncallEnabled element (ErrorEndPointType complexType)
-                href: SDN/articles/incallenabled-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/incallenabled-element-errorendpointtype-complextype-skype-sdn-2-2-d.md
               - name: InCallQuality element
                 href: SDN/articles/incallquality-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: Inside element
@@ -1680,17 +1680,17 @@
               - name: IP element (ErrorEndPointType complexType)
                 href: SDN/articles/ip-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: JitterInterArrival element
-                href: SDN/articles/jitterinterarrival-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/jitterinterarrival-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: JitterInterArrivalMax element
-                href: SDN/articles/jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: LinkSpeed element
                 href: SDN/articles/linkspeed-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: LocalFrameLossPercentageAvg element
-                href: SDN/articles/localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: LowFrameRateCallPercent element
-                href: SDN/articles/lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: LowResolutionCallPercent element
-                href: SDN/articles/lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: LyncDiagnostics element
                 href: SDN/articles/lyncdiagnostics-element-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: MACAddr element
@@ -1700,11 +1700,11 @@
               - name: Maximum element
                 href: SDN/articles/maximum-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: MediaBypass element
-                href: SDN/articles/mediabypass-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/mediabypass-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
               - name: MediationServerLegPosition element
-                href: SDN/articles/mediationserverlegposition-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/mediationserverlegposition-element-connectioninfotype-complextype-skype-sdn-2-2-d.md
               - name: MicGlitchRate element
-                href: SDN/articles/micglitchrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/micglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: MSDiagnostics element (ErrorProperties complexType)
                 href: SDN/articles/msdiagnostics-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: MSDiagnostics element (EndedProperties complexType)
@@ -1926,7 +1926,7 @@
               - name: VideoFrameLossRate element
                 href: SDN/articles/videoframelossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: VideoLocalFrameLossPercentageAvg element
-                href: SDN/articles/videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md
               - name: VideoPacketLossRate element
                 href: SDN/articles/videopacketlossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: Virtualization element

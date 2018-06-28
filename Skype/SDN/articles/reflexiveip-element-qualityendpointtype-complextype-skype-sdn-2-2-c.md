@@ -1,9 +1,9 @@
 ﻿---
-title: ReflexiveIP element (ByeEndPointType complexType) 
-TOCTitle: ReflexiveIP element (ByeEndPointType complexType)
-ms:assetid: 3cec431c-6a3d-bb5c-a68c-a1b84967d8e0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170969(v=office.16)
-ms:contentKeyID: 65855544
+title: ReflexiveIP element (QualityEndPointType complexType) 
+TOCTitle: ReflexiveIP element (QualityEndPointType complexType)
+ms:assetid: c36505ae-2e7b-848c-eff7-05218b06f482
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404829(v=office.16)
+ms:contentKeyID: 68250742
 ms.date: 08/24/2015
 mtps_version: v=office.16
 dev_langs:
@@ -12,10 +12,9 @@ dev_langs:
 
 # ReflexiveIP element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 IP used outside of the NAT.
-
 
 **In this article**  
 Element information  
@@ -32,7 +31,7 @@ Elements and attributes
 <tbody>
 <tr class="odd">
 <td><p><strong>Element type</strong></p></td>
-<td><p><a href="ipaddresspattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md">ipAddressPattern</a></p></td>
+<td><p>Not defined</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Namespace</strong></p></td>
@@ -40,7 +39,7 @@ Elements and attributes
 </tr>
 <tr class="odd">
 <td><p><strong>Schema file</strong></p></td>
-<td><p>SDNInterface.Schema.D.XSD</p></td>
+<td><p>SDNInterface.Schema.C.XSD</p></td>
 </tr>
 </tbody>
 </table>
@@ -50,7 +49,7 @@ Elements and attributes
 
 ```xml
 
-    <xs:element name="ReflexiveIP"  type="ipAddressPattern" minOccurs="0">
+    <xs:element name="ReflexiveIP"  minOccurs="0">
     
     </xs:element>
   
@@ -75,9 +74,14 @@ Elements and attributes
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="endpoint-element-byetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">EndPoint</a></p></td>
-<td><p><a href="byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">ByeEndPointType</a></p></td>
-<td><p>Endpoint involved in the ended SIP call.</p></td>
+<td><p><a href="from-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">From</a></p></td>
+<td><p><a href="qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">QualityEndPointType</a></p></td>
+<td><p>The source of the reported media stream.</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="to-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">To</a></p></td>
+<td><p><a href="qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">QualityEndPointType</a></p></td>
+<td><p>Destination of the media stream.</p></td>
 </tr>
 </tbody>
 </table>

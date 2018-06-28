@@ -13,9 +13,9 @@ mtps_version: v=office.16
 This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
 
-  - [AppliedBandwidthLimit element](appliedbandwidthlimit-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [AppliedBandwidthLimit element](appliedbandwidthlimit-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [AudioTimestampErrorMicMs element](audiotimestamperrormicms-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [AudioTimestampErrorMicMs element](audiotimestamperrormicms-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [AudioTimestampErrorSpkMs element](audiotimestamperrorspkms-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -25,19 +25,19 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [Bandwidth element](bandwidth-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [BitRateAvg element](bitrateavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [BitRateAvg element](bitrateavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [BitRateMax element](bitratemax-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [BitRateMax element](bitratemax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [BSSID element](bssid-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [BurstDensity element](burstdensity-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [BurstDensity element](burstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [BurstDuration element](burstduration-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [BurstDuration element](burstduration-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [BurstGapDensity element](burstgapdensity-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [BurstGapDensity element](burstgapdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [BurstGapDuration element](burstgapduration-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [BurstGapDuration element](burstgapduration-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [Bye element](bye-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -47,23 +47,23 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [CallId element](callid-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [CaptureDevice element](capturedevice-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [CaptureDevice element](capturedevice-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [CaptureDeviceDriver element](capturedevicedriver-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [CaptureDeviceDriver element](capturedevicedriver-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [Codec element](codec-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
   - [Codec element](codec-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [ConferenceId element](conferenceid-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [ConferenceId element](conferenceid-element-connectioninfotype-complextype-skype-sdn-2-2-d.md)
 
-  - [ConferenceURI element](conferenceuri-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [ConferenceURI element](conferenceuri-element-connectioninfotype-complextype-skype-sdn-2-2-d.md)
 
-  - [Connection element](connection-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [Connection element](connection-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md)
 
   - [ConnectionInfo element](connectioninfo-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [Connectivity element](connectivity-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [Connectivity element](connectivity-element-connectioninfotype-complextype-skype-sdn-2-2-d.md)
 
   - [Contact element](contact-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -75,55 +75,55 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [Contact element](contact-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [ConversationalMOS element](conversationalmos-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [ConversationalMOS element](conversationalmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [ConversationId element](conversationid-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [ConversationId element](conversationid-element-connectioninfotype-complextype-skype-sdn-2-2-d.md)
 
-  - [CorrelationId element](correlationid-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [CorrelationId element](correlationid-element-connectioninfotype-complextype-skype-sdn-2-2-d.md)
 
-  - [CPUInsufficientEventRatio element](cpuinsufficienteventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [CPUInsufficientEventRatio element](cpuinsufficienteventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [CPUName element](cpuname-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [CPUNumberOfCores element](cpunumberofcores-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [CPUNumberOfCores element](cpunumberofcores-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md)
 
-  - [CPUProcessorSpeed element](cpuprocessorspeed-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [CPUProcessorSpeed element](cpuprocessorspeed-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md)
 
   - [CSEQ element](cseq-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [DegradationAvg element](degradationavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DegradationAvg element](degradationavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DegradationJitterAvg element](degradationjitteravg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DegradationJitterAvg element](degradationjitteravg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DegradationMax element](degradationmax-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DegradationMax element](degradationmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DegradationPacketLossAvg element](degradationpacketlossavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DegradationPacketLossAvg element](degradationpacketlossavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DeviceCaptureNotFunctioningEventRatio element](devicecapturenotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DeviceCaptureNotFunctioningEventRatio element](devicecapturenotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DeviceClippingEventRatio element](deviceclippingeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DeviceClippingEventRatio element](deviceclippingeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DeviceEchoEventRatio element](deviceechoeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DeviceEchoEventRatio element](deviceechoeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DeviceHowlingEventCount element](devicehowlingeventcount-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DeviceHowlingEventCount element](devicehowlingeventcount-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DeviceNearEndToEchoRatioEventRatio element](devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DeviceNearEndToEchoRatioEventRatio element](devicenearendtoechoratioeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DeviceRenderNotFunctioningEventRatio element](devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DeviceRenderNotFunctioningEventRatio element](devicerendernotfunctioningeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [DSCPInbound element](dscpinbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DSCPInbound element](dscpinbound-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md)
 
-  - [DSCPOutbound element](dscpoutbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DSCPOutbound element](dscpoutbound-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md)
 
-  - [DynamicCapabilityPercent element](dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [DynamicCapabilityPercent element](dynamiccapabilitypercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [EchoEventCauses element](echoeventcauses-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [EchoEventCauses element](echoeventcauses-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [EchoPercentMicIn element](echopercentmicin-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [EchoPercentMicIn element](echopercentmicin-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [EchoPercentSend element](echopercentsend-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [EchoPercentSend element](echopercentsend-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [EchoReturn element](echoreturn-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [EchoReturn element](echoreturn-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [Ended element](ended-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -157,7 +157,7 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [Error element](error-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [FrameRate element](framerate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [FrameRate element](framerate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [From element](from-element-startorupdatetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -169,9 +169,9 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [FrontEnds element](frontends-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [HDQualityRatio element](hdqualityratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [HDQualityRatio element](hdqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [HealerPacketDropRatio element](healerpacketdropratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [HealerPacketDropRatio element](healerpacketdropratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [Hop element](hop-element-routetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -205,11 +205,11 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [Id element](id-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [IncallEnabled element](incallenabled-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [IncallEnabled element](incallenabled-element-errorendpointtype-complextype-skype-sdn-2-2-d.md)
 
   - [IncallEnabled element](incallenabled-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [IncallEnabled element](incallenabled-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [IncallEnabled element](incallenabled-element-inviteendpointtype-complextype-skype-sdn-2-2-d.md)
 
   - [IncallEnabled element](incallenabled-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -229,17 +229,17 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [IP element](ip-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [JitterInterArrival element](jitterinterarrival-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [JitterInterArrival element](jitterinterarrival-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [JitterInterArrivalMax element](jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [JitterInterArrivalMax element](jitterinterarrivalmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [LinkSpeed element](linkspeed-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [LocalFrameLossPercentageAvg element](localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [LocalFrameLossPercentageAvg element](localframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [LowFrameRateCallPercent element](lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [LowFrameRateCallPercent element](lowframeratecallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [LowResolutionCallPercent element](lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [LowResolutionCallPercent element](lowresolutioncallpercent-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [LyncDiagnostics element](lyncdiagnostics-element-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -249,11 +249,11 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [Maximum element](maximum-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [MediaBypass element](mediabypass-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [MediaBypass element](mediabypass-element-connectioninfotype-complextype-skype-sdn-2-2-d.md)
 
-  - [MediationServerLegPosition element](mediationserverlegposition-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [MediationServerLegPosition element](mediationserverlegposition-element-connectioninfotype-complextype-skype-sdn-2-2-d.md)
 
-  - [MicGlitchRate element](micglitchrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [MicGlitchRate element](micglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [MSDiagnostics element](msdiagnostics-element-endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
@@ -475,7 +475,7 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [VideoFrameLossRate element](videoframelossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 
-  - [VideoLocalFrameLossPercentageAvg element](videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [VideoLocalFrameLossPercentageAvg element](videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [VideoPacketLossRate element](videopacketlossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 

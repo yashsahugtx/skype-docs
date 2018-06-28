@@ -75,7 +75,7 @@ Elements and attributes
 <td><p>Id of an access point for a WiFi/wireless connection.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connection-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">Connection</a></p></td>
+<td><p><a href="connection-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">Connection</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Connection type such as &quot;wired&quot; or &quot;wireless&quot;.</p></td>
 </tr>
@@ -90,22 +90,22 @@ Elements and attributes
 <td><p>Name of the CPU.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="cpunumberofcores-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">CPUNumberOfCores</a></p></td>
+<td><p><a href="cpunumberofcores-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">CPUNumberOfCores</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Number of CPU cores in the endpoint device.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cpuprocessorspeed-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">CPUProcessorSpeed</a></p></td>
+<td><p><a href="cpuprocessorspeed-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">CPUProcessorSpeed</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Processor speed rating.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="dscpinbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">DSCPInbound</a></p></td>
+<td><p><a href="dscpinbound-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">DSCPInbound</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>QoS category marking when the stream is received on this endpoint. This field is populated only from Skype for Business clients newer than Skype for Business 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="dscpoutbound-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">DSCPOutbound</a></p></td>
+<td><p><a href="dscpoutbound-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">DSCPOutbound</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>QoS category marking used on send the stream from this endpoint. This field is populated only from Skype for Business clients newer than Skype for Business 2013.</p></td>
 </tr>

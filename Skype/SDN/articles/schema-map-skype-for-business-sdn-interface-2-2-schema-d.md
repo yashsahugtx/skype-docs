@@ -1,20 +1,16 @@
 ---
-title: Schema map 
+title: Schema map for SDNInterface.Schema.D.xsd
 ms.prod: SKYPE
 ms.assetid: ebeb9ba9-4132-4595-5f6c-2758df99d5cf
+ms.date: 10/08/2015
 ---
 
 
 # Schema map 
+
 This topic shows the schema definition for **SDNInterface.Schema.D.xsd**.
 
-  
-    
-    
-
-
 ```xml
-
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="D">
   <!-- More documentation about the QoE metrics used: http://technet.microsoft.com/en-us/library/gg425961.aspx -->

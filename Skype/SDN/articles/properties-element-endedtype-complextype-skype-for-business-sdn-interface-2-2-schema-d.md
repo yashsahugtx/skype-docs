@@ -1,5 +1,5 @@
 ﻿---
-title: Properties element (EndedType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Properties element (EndedType complexType) 
 TOCTitle: Properties element (EndedType complexType)
 ms:assetid: 7a607432-3307-04e8-04b7-916390c2ca3e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170951(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Properties element 
 
-(EndedType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(EndedType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Properties of the Error.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Hop element (RouteType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Hop element (RouteType complexType) 
 TOCTitle: Hop element
 ms:assetid: 086a46d4-2089-311f-452f-53445f6549ef
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404771(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Hop element 
 
-(RouteType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(RouteType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 IP address of one hop (router, gateway, switch, etc) on the path from the source to the destination of the media stream.
 

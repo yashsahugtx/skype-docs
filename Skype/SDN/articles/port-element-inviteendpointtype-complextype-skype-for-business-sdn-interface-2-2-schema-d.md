@@ -1,5 +1,5 @@
 ﻿---
-title: Port element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Port element (InviteEndPointType complexType) 
 TOCTitle: Port element (InviteEndPointType complexType)
 ms:assetid: 37170cf5-a271-e705-d91c-189e0528eec2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170944(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Port element 
 
-(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Port number of the destination or source of the media stream used by this endpoint.
 

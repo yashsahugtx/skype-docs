@@ -1,5 +1,5 @@
 ﻿---
-title: CaptureDevice element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: CaptureDevice element (QualityPropertiesType complexType) 
 TOCTitle: CaptureDevice element
 ms:assetid: fe6deb21-9236-9b80-7721-7b045080aa7a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404718(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # CaptureDevice element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 The name of a capture device used to produce the media of this stream. This device is in the FROM endpoint and usually represents a microphone.
 

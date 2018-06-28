@@ -1,5 +1,5 @@
 ﻿---
-title: EPId element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EPId element (ErrorEndPointType complexType) 
 TOCTitle: EPId element (ErrorEndPointType complexType)
 ms:assetid: 2d8bfd01-7b6c-cacc-213f-8d992d801d55
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170862(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EPId element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Endpoint Id of the endpoint.
 

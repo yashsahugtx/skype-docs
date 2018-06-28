@@ -1,5 +1,5 @@
 ﻿---
-title: ResponseCode element (MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: ResponseCode element (MessageProperties complexType) 
 TOCTitle: ResponseCode element (MessageProperties complexType)
 ms:assetid: b994718f-0b99-1e2b-acbf-34c2a30625b9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404842(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ResponseCode element 
 
-(MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Message describing the error.
 

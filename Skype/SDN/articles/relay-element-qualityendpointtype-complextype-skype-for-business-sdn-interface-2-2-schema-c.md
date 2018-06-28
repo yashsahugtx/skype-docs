@@ -1,5 +1,5 @@
 ﻿---
-title: Relay element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Relay element (QualityEndPointType complexType) 
 TOCTitle: Relay element (QualityEndPointType complexType)
 ms:assetid: c731cea6-5cad-5fba-3c38-0795d1afcd8d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404836(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Relay element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 IP Address of the first relay used in the media traffic.
 

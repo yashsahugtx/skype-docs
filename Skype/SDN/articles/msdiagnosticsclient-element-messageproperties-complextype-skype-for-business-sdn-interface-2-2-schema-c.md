@@ -1,5 +1,5 @@
 ﻿---
-title: MSDiagnosticsClient element (MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: MSDiagnosticsClient element (MessageProperties complexType) 
 TOCTitle: MSDiagnosticsClient element (MessageProperties complexType)
 ms:assetid: e3872f31-5cba-b61b-2646-71ba197bfa35
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404799(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MSDiagnosticsClient element 
 
-(MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Skype for Business-specific diagnostics message from the client.
 

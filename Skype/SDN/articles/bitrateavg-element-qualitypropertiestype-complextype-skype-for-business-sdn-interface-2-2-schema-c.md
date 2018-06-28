@@ -1,5 +1,5 @@
 ﻿---
-title: BitRateAvg element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: BitRateAvg element (QualityPropertiesType complexType) 
 TOCTitle: BitRateAvg element
 ms:assetid: 65935f6b-1f0f-e4e9-0d68-031d002582df
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404704(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BitRateAvg element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Average bit rate, in bits per second, sent or received for a video stream and computed over the duration of the session. This includes raw video and transport bits. This metric is reported for video streams when available. (bits/s)
 

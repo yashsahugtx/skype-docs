@@ -1,5 +1,5 @@
 ﻿---
-title: TenantId element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: TenantId element (ByeEndPointType complexType) 
 TOCTitle: TenantId element (ByeEndPointType complexType)
 ms:assetid: f70e8304-6f2a-5ba6-aa52-7b05f280a979
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171004(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # TenantId element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Identifier for the tenanat that this endpoing belongs to.
 

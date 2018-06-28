@@ -1,5 +1,5 @@
 ﻿---
-title: QualityUpdate element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: QualityUpdate element (MessageType complexType) 
 TOCTitle: QualityUpdate element
 ms:assetid: 853d90f7-9f35-f2c7-7aa3-64f0121ef4f5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404819(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # QualityUpdate element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Specifies the event that a call has ended and contains a report of the quality metrics of individual media streams. These quality metrics for a stream may include updates provided by both endpoints which are merged.
 

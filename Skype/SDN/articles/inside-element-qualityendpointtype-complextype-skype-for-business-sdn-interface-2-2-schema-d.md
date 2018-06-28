@@ -1,5 +1,5 @@
 ﻿---
-title: Inside element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Inside element (QualityEndPointType complexType) 
 TOCTitle: Inside element
 ms:assetid: 1c8d3553-12fd-6635-609a-1c9f1d994bc1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170899(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Inside element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 (Deprecated - since Skype for Business 2013, this field is not reliable anymore.) Indicates if the source is registered within the enterprise (True) or not (False).
 

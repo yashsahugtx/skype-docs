@@ -1,5 +1,5 @@
 ﻿---
-title: SpoiledTilePercentAverage element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: SpoiledTilePercentAverage element (QualityPropertiesType complexType) 
 TOCTitle: SpoiledTilePercentAverage element
 ms:assetid: 7276321f-18e1-1c58-30d9-a2d381b2cfe0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404851(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # SpoiledTilePercentAverage element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Average percentage of the content that did not reach the viewer but was instead discarded and overwritten by fresh content. When available, this metric is only reported for application sharing streams and only for Skype for Business 2013. (percent)
 

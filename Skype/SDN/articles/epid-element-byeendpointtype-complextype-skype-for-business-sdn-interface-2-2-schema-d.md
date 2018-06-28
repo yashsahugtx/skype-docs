@@ -1,5 +1,5 @@
 ﻿---
-title: EPId element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EPId element (ByeEndPointType complexType) 
 TOCTitle: EPId element (ByeEndPointType complexType)
 ms:assetid: 1f55a4c1-644a-6f94-b3c4-e96b7be56887
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170858(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EPId element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Endpoint Id of the endpoint.
 

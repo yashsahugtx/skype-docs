@@ -1,5 +1,5 @@
 ﻿---
-title: BurstDensity element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: BurstDensity element (QualityPropertiesType complexType) 
 TOCTitle: BurstDensity element
 ms:assetid: 7e9ced1d-5232-3d1a-e36b-08af16380c27
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149434(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BurstDensity element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average burst density, as specified in \[RFC3611\] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available and measures the average density of packet Loss during bursts of losses during the call. This field MUST be populated and MUST be set to zero if no packets have been received.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: DeviceEchoEventRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: DeviceEchoEventRatio element (QualityPropertiesType complexType) 
 TOCTitle: DeviceEchoEventRatio element
 ms:assetid: 53675198-ae22-c8b7-df1f-c9cee2da0e0e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149470(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DeviceEchoEventRatio element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Percentage of sessions the DeviceEchoEvent event was fired when a device or setup is causing echo beyond the compensatory ability of the system.
 

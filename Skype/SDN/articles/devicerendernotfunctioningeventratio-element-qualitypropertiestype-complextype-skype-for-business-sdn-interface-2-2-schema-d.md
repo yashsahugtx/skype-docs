@@ -1,5 +1,5 @@
 ﻿---
-title: DeviceRenderNotFunctioningEventRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: DeviceRenderNotFunctioningEventRatio element (QualityPropertiesType complexType) 
 TOCTitle: DeviceRenderNotFunctioningEventRatio element
 ms:assetid: 3d8ae530-7988-c4ad-61dc-a65d5aae478b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170850(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DeviceRenderNotFunctioningEventRatio element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Percentage of sessions the DeviceRenderNotFunctioning event was fired when the render device currently being used for the session is not functioning correctly and, possibly, causing one-way audio issues.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: IP element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: IP element (ErrorEndPointType complexType) 
 TOCTitle: IP element (ErrorEndPointType complexType)
 ms:assetid: 762f25c4-4872-14ff-445e-b25efa6a1794
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170905(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # IP element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 IP address of the the media stream source or destination.
 

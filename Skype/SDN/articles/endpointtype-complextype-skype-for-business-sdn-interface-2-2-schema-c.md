@@ -1,5 +1,5 @@
 ﻿---
-title: EndPointType complexType (Skype for Business SDN Interface 2.2, Schema "C")
+title: EndPointType complexType 
 TOCTitle: EndPointType complexType
 ms:assetid: dadd849f-7969-80b7-9753-5e70029ab597
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429353(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EndPointType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"C\")
+(Skype for Business SDN Interface 2.2, Schema "C")
 
 **In this article**  
 Type information  

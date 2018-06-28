@@ -1,5 +1,5 @@
 ﻿---
-title: CSEQ element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: CSEQ element (ConnectionInfoType complexType) 
 TOCTitle: CSEQ element
 ms:assetid: 41a5392e-80d7-faa9-74a6-270bb6e23bf5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404736(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # CSEQ element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Call sequence number as part of SIP standard that needs to be used to filter for unrelated error messages. This field is not provided for QualityUpdates.
 

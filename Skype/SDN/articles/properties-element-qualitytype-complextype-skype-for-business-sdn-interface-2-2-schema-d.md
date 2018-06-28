@@ -1,5 +1,5 @@
 ﻿---
-title: Properties element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Properties element (QualityType complexType) 
 TOCTitle: Properties element (QualityType complexType)
 ms:assetid: 3aeffc84-19ff-7840-eafd-06cac4495343
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170948(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Properties element 
 
-(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Properties of the media stream, including a selected set of quality metrics reported and thresholds that are used to determine a bad call.
 

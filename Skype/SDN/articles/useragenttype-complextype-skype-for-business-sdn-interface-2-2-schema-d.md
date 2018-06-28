@@ -1,5 +1,5 @@
 ﻿---
-title: UserAgentType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: UserAgentType complexType 
 TOCTitle: UserAgentType complexType
 ms:assetid: a863d70e-aa89-a82b-7d77-7a2e1df35a92
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171077(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # UserAgentType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

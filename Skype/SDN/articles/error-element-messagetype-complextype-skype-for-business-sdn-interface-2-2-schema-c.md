@@ -1,5 +1,5 @@
 ﻿---
-title: Error element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Error element (MessageType complexType) 
 TOCTitle: Error element
 ms:assetid: b5823ee0-aafa-4094-2ad4-d0c5b480eb50
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404763(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Error element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 This event is optional. Error event that a SIP dialog has failed. Error events are also sent for SIP calls that are terminated even before a media stream is started or for failed to be updated.
 

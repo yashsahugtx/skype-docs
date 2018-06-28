@@ -1,5 +1,5 @@
 ﻿---
-title: EndedProperties complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: EndedProperties complexType 
 TOCTitle: EndedProperties complexType
 ms:assetid: 599553a1-17be-d1cb-ed99-4c614acddb87
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171058(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EndedProperties complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

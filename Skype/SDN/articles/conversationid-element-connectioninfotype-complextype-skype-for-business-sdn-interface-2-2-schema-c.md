@@ -1,5 +1,5 @@
 ﻿---
-title: ConversationId element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: ConversationId element (ConnectionInfoType complexType) 
 TOCTitle: ConversationId element
 ms:assetid: 431cf980-624b-383b-3f70-0771cc30b322
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404730(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConversationId element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Identifier to correlate different SIP calls involved in the same conversation. In some cases Skype for Business uses different SIP calls for different modalities. This identifier permits correlating these SIP calls in the same conversation.
 

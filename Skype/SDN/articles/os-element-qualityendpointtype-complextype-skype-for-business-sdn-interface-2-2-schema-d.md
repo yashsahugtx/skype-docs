@@ -1,5 +1,5 @@
 ﻿---
-title: OS element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: OS element (QualityEndPointType complexType) 
 TOCTitle: OS element
 ms:assetid: 453ce3a9-05f6-5c8a-59bf-0442f720230f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170931(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # OS element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Operating System used on the endpoint device.
 

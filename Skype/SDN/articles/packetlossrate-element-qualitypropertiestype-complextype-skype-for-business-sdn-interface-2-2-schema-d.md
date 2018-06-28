@@ -1,5 +1,5 @@
 ﻿---
-title: PacketLossRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: PacketLossRate element (QualityPropertiesType complexType) 
 TOCTitle: PacketLossRate element
 ms:assetid: 8100f94b-c89d-cc0a-5228-5fee575a4c6b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170933(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # PacketLossRate element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average fraction lost computed over the duration of the session, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities and media types. (percent)
 

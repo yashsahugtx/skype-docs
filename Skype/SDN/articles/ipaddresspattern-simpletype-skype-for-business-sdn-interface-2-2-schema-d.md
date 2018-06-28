@@ -1,5 +1,5 @@
 ﻿---
-title: ipAddressPattern simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ipAddressPattern simpleType 
 TOCTitle: ipAddressPattern simpleType
 ms:assetid: 29c537a2-c6b0-fb6b-c32c-f77b61138a8d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171050(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ipAddressPattern simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

@@ -1,5 +1,5 @@
 ﻿---
-title: JitterInterArrival element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: JitterInterArrival element (QualityPropertiesType complexType) 
 TOCTitle: JitterInterArrival element
 ms:assetid: 2ce581f9-2982-abaa-2295-e33396bdbfa2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404781(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # JitterInterArrival element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Average inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all available modalities/media types. (ms)
 

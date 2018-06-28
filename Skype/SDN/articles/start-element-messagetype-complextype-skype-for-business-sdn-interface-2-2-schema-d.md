@@ -1,5 +1,5 @@
 ﻿---
-title: Start element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Start element (MessageType complexType) 
 TOCTitle: Start element
 ms:assetid: 4b095bc8-9443-27a4-7581-35af289d5c8c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170998(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Start element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Event that a media stream is started. Every Start element contains a report about a particular media stream. This event is raised when the call is established, i.e., when the call is picked up and the SIP INVITE is answered with a 200 OK response.
 

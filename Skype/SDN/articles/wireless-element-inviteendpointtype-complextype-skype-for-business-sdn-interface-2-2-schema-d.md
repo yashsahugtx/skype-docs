@@ -1,5 +1,5 @@
 ﻿---
-title: Wireless element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Wireless element (InviteEndPointType complexType) 
 TOCTitle: Wireless element (InviteEndPointType complexType)
 ms:assetid: 11430716-f9db-4376-c51e-518e21cca8e8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171039(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Wireless element 
 
-(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Flag indicating if the endpoint is using a wireless network.
 

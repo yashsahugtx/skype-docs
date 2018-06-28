@@ -1,5 +1,5 @@
 ﻿---
-title: From element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: From element (QualityType complexType) 
 TOCTitle: From element (QualityType complexType)
 ms:assetid: 426c035c-46a1-3793-ccc3-801556ed0a84
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404766(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # From element 
 
-(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 The source of the reported media stream.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Contact element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Contact element (QualityEndPointType complexType) 
 TOCTitle: Contact element (QualityEndPointType complexType)
 ms:assetid: 686ca518-a697-0cb2-9c3e-4263a2a72e1b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404727(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Contact element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 SIP URI of the user as extracted from the Contact header of the underlying SIP message. This field is obfuscated unless hidepii is set to false in the DialogListener configuration file.
 

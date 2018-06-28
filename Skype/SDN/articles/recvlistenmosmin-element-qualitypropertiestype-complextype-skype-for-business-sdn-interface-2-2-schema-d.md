@@ -1,5 +1,5 @@
 ﻿---
-title: RecvListenMOSMin element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RecvListenMOSMin element (QualityPropertiesType complexType) 
 TOCTitle: RecvListenMOSMin element
 ms:assetid: 2314a370-96c9-db30-62cd-1a7552f47e33
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170961(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RecvListenMOSMin element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Minimum of the RecvListenMOS for the stream during the session. This metric is reported for audio streams when available.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: RecvNoiseLevel element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RecvNoiseLevel element (QualityPropertiesType complexType) 
 TOCTitle: RecvNoiseLevel element
 ms:assetid: fae4e247-001c-00ff-c6c0-444ca428eb6e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170960(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RecvNoiseLevel element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Received noise level in units of dB that is reported for audio streams when available. Average energy level of received audio is classified as noise, mono signal or the left channel of stereo signal. (dB)
 

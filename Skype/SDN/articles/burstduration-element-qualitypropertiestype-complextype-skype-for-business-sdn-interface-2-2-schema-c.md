@@ -1,5 +1,5 @@
 ﻿---
-title: BurstDuration element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: BurstDuration element (QualityPropertiesType complexType) 
 TOCTitle: BurstDuration element
 ms:assetid: 8b297755-1965-0a73-3295-68b3548f9d07
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404711(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BurstDuration element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 The average burst duration, as specified in \[RFC3611\] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. (ms)
 

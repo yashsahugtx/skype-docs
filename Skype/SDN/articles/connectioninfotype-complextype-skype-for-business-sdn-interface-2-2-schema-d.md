@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectionInfoType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ConnectionInfoType complexType 
 TOCTitle: ConnectionInfoType complexType
 ms:assetid: 14be03ce-c13f-9d1a-4c7b-54821e479ba5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171059(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConnectionInfoType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

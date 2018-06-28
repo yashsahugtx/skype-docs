@@ -1,5 +1,5 @@
 ﻿---
-title: CPUInsufficientEventRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: CPUInsufficientEventRatio element (QualityPropertiesType complexType) 
 TOCTitle: CPUInsufficientEventRatio element
 ms:assetid: cb4521ca-6f1e-ea8a-1437-90f45ca0eac1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149462(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # CPUInsufficientEventRatio element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Percentage of sessions where the insufficient CPU event was fired when CPU cycles are insufficient for processing with the current modalities and applications, establish causeing distortions in the audio channel.
 

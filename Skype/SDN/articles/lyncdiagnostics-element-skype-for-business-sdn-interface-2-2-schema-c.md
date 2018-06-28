@@ -1,5 +1,5 @@
 ﻿---
-title: LyncDiagnostics element (Skype for Business SDN Interface 2.2, Schema "C")
+title: LyncDiagnostics element 
 TOCTitle: LyncDiagnostics element
 ms:assetid: 2b7bc3eb-cb1d-d725-4432-6fe913ecf3cf
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404787(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # LyncDiagnostics element 
 
-(Skype for Business SDN Interface 2.2, Schema \"C\")
+(Skype for Business SDN Interface 2.2, Schema "C")
 
 The root element for output from the Skype for Business SDN Manager.
 

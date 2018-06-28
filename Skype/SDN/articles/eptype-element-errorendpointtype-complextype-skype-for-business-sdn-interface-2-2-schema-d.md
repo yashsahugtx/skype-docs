@@ -1,5 +1,5 @@
 ﻿---
-title: EPType element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EPType element (ErrorEndPointType complexType) 
 TOCTitle: EPType element (ErrorEndPointType complexType)
 ms:assetid: caf5c120-3bc7-963b-a85b-b2372c62830d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170865(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EPType element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Indicates that this endpoint is of the Skype for Business Room System type or not.
 

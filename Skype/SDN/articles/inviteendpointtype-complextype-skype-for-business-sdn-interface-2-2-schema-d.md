@@ -1,5 +1,5 @@
 ﻿---
-title: InviteEndPointType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: InviteEndPointType complexType 
 TOCTitle: InviteEndPointType complexType
 ms:assetid: 2de85f59-1413-c6eb-04af-8e6620953ec3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171065(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # InviteEndPointType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

@@ -1,5 +1,5 @@
 ﻿---
-title: SendListenMOSMin element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: SendListenMOSMin element (QualityPropertiesType complexType) 
 TOCTitle: SendListenMOSMin element
 ms:assetid: 65914d29-e009-1d6a-3786-52013829bd4f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170991(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # SendListenMOSMin element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Minimum of the SendListenMOS for the stream over the duration of the session. This metric is reported for audio streams when available.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: AppliedBandwidthLimit element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: AppliedBandwidthLimit element (QualityPropertiesType complexType) 
 TOCTitle: AppliedBandwidthLimit element
 ms:assetid: 0816b0a6-636e-ecd0-e69b-183fb8a95fde
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404699(v=office.16)
@@ -12,14 +12,10 @@ dev_langs:
 
 # AppliedBandwidthLimit element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 This is the actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on). This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+ 
 
 ## Element information
 

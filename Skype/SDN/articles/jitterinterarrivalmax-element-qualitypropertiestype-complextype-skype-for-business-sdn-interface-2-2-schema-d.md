@@ -1,5 +1,5 @@
 ﻿---
-title: JitterInterArrivalMax element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: JitterInterArrivalMax element (QualityPropertiesType complexType) 
 TOCTitle: JitterInterArrivalMax element
 ms:assetid: 8e8096ad-ae59-0daa-98e9-b69707349a92
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170907(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # JitterInterArrivalMax element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Maximum inter-arrival jitter, as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
 

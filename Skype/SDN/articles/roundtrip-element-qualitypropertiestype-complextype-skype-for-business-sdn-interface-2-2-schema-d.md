@@ -1,5 +1,5 @@
 ﻿---
-title: RoundTrip element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RoundTrip element (QualityPropertiesType complexType) 
 TOCTitle: RoundTrip element
 ms:assetid: a2a7cca8-5d43-efca-5e54-201a7a968966
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170988(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RoundTrip element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average network propagation round-trip time as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
 

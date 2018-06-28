@@ -1,5 +1,5 @@
 ﻿---
-title: ConferenceURI element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: ConferenceURI element (ConnectionInfoType complexType) 
 TOCTitle: ConferenceURI element
 ms:assetid: 9df0b395-0489-b03e-2b31-b97da484d7d9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149448(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConferenceURI element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 (Deprecated - use ConferenceId instead) Sip URI used for the conference. This field is obfuscated unless hidepii is set to false in configuration.
 

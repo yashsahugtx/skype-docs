@@ -1,5 +1,5 @@
 ﻿---
-title: Relay element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Relay element (ErrorEndPointType complexType) 
 TOCTitle: Relay element (ErrorEndPointType complexType)
 ms:assetid: 4f79ef2c-3f2b-e34d-6062-5dae1d359905
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170977(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Relay element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 IP Address of the first relay used in the media traffic.
 

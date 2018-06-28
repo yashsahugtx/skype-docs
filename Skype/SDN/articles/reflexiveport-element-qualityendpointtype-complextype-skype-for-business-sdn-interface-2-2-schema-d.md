@@ -1,5 +1,5 @@
 ﻿---
-title: ReflexivePort element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: ReflexivePort element (QualityEndPointType complexType) 
 TOCTitle: ReflexivePort element (QualityEndPointType complexType)
 ms:assetid: d58878e7-e121-0de8-f947-d43c7f14e16c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170968(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ReflexivePort element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Port used on the NAT.
 

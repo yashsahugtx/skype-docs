@@ -1,5 +1,5 @@
 ﻿---
-title: PacketLossRateMax element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: PacketLossRateMax element (QualityPropertiesType complexType) 
 TOCTitle: PacketLossRateMax element
 ms:assetid: 02627ac9-06c8-be10-c5a6-f2089f963c76
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170935(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # PacketLossRateMax element
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Maximum fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for all available modalities/media types. (percent)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: To element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: To element (QualityType complexType) 
 TOCTitle: To element (QualityType complexType)
 ms:assetid: d13327fd-b66f-078b-f740-a139fb7d9fe8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404859(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # To element 
 
-(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Destination of the media stream.
 

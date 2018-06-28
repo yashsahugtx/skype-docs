@@ -1,5 +1,5 @@
 ﻿---
-title: OverallAvgNetworkMOS element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: OverallAvgNetworkMOS element (QualityPropertiesType complexType) 
 TOCTitle: OverallAvgNetworkMOS element
 ms:assetid: 45ba3a59-5205-afc9-f4ea-69fded1c1c30
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170928(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # OverallAvgNetworkMOS element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average of MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, based on the audio codec used, the observed packet loss and inter-arrival packet jitter. This metric is reported for audio streams when available.
 

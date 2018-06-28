@@ -1,5 +1,5 @@
 ﻿---
-title: ReflexiveIP element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: ReflexiveIP element (ByeEndPointType complexType) 
 TOCTitle: ReflexiveIP element (ByeEndPointType complexType)
 ms:assetid: 3cec431c-6a3d-bb5c-a68c-a1b84967d8e0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170969(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ReflexiveIP element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 IP used outside of the NAT.
 

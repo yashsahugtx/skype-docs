@@ -1,5 +1,5 @@
 ﻿---
-title: RouteType complexType (Skype for Business SDN Interface 2.2, Schema "C")
+title: RouteType complexType 
 TOCTitle: RouteType complexType
 ms:assetid: 10df71d4-bf18-bda6-bae6-29a757664fd7
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429362(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RouteType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"C\")
+(Skype for Business SDN Interface 2.2, Schema "C")
 
 **In this article**  
 Type information  

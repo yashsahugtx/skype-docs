@@ -1,5 +1,5 @@
 ﻿---
-title: QualityEndPointType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: QualityEndPointType complexType 
 TOCTitle: QualityEndPointType complexType
 ms:assetid: f61c1680-de97-b31f-b804-b8dce4956f29
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171069(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # QualityEndPointType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

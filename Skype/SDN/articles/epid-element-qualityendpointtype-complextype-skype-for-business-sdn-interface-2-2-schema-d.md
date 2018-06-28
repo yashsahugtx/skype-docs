@@ -1,5 +1,5 @@
 ﻿---
-title: EPId element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EPId element (QualityEndPointType complexType) 
 TOCTitle: EPId element (QualityEndPointType complexType)
 ms:assetid: ec074634-adc3-5952-9376-ccfd2874ace2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170859(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EPId element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Endpoint Id of the endpoint.
 

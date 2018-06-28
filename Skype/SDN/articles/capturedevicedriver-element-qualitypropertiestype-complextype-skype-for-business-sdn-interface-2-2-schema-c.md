@@ -1,5 +1,5 @@
 ﻿---
-title: CaptureDeviceDriver element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: CaptureDeviceDriver element (QualityPropertiesType complexType) 
 TOCTitle: CaptureDeviceDriver element
 ms:assetid: 65df120d-eba2-b8c6-e606-7a378d96f486
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404720(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # CaptureDeviceDriver element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Device driver name and version of the capture device used to produce the media of this stream
 

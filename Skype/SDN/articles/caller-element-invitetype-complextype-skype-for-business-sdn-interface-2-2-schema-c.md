@@ -1,5 +1,5 @@
 ﻿---
-title: Caller element (InviteType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Caller element (InviteType complexType) 
 TOCTitle: Caller element
 ms:assetid: bb690f0a-6983-d676-bd58-10a2e4c414b9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404715(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Caller element 
 
-(InviteType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(InviteType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Properties of the caller.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: HostIP element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: HostIP element (ByeEndPointType complexType) 
 TOCTitle: HostIP element (ByeEndPointType complexType)
 ms:assetid: 6e4a481a-9960-5cf1-afdb-00bbba051c02
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170880(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # HostIP element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 IP address of the endpoint's host in the local network.
 

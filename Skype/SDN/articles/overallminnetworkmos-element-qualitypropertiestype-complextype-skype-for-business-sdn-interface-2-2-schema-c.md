@@ -1,5 +1,5 @@
 ﻿---
-title: OverallMinNetworkMOS element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: OverallMinNetworkMOS element (QualityPropertiesType complexType) 
 TOCTitle: OverallMinNetworkMOS element
 ms:assetid: 54fb52db-c10d-2b39-918b-080f083cfa15
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404806(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # OverallMinNetworkMOS element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Minimum of MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, based on the audio codec used, the observed packet loss and inter-arrival packet jitter. This metric is reported for audio streams when available.
 

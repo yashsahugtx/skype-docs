@@ -1,5 +1,5 @@
 ﻿---
-title: MessageType complexType (Skype for Business SDN Interface 2.2, Schema "C")
+title: MessageType complexType 
 TOCTitle: MessageType complexType
 ms:assetid: 7a2c3f02-9365-ccb8-4745-1d778b31e28e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429358(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MessageType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"C\")
+(Skype for Business SDN Interface 2.2, Schema "C")
 
 **In this article**  
 Type information  

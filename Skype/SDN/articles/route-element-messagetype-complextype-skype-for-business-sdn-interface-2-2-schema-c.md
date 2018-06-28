@@ -1,5 +1,5 @@
 ﻿---
-title: Route element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Route element (MessageType complexType) 
 TOCTitle: Route element (MessageType complexType)
 ms:assetid: 3c183e98-7d93-0576-908a-19a75f522225
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404847(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Route element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business.
 

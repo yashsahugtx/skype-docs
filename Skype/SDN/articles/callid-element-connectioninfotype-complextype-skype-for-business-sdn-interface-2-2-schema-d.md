@@ -1,5 +1,5 @@
 ﻿---
-title: CallId element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: CallId element (ConnectionInfoType complexType) 
 TOCTitle: CallId element
 ms:assetid: 82c8c8cf-0b08-daae-838a-1cc8d0d6fd29
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149440(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # CallId element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Unique identifier for the SIP call. This field should be used to correlate messages referring to the same call.
 

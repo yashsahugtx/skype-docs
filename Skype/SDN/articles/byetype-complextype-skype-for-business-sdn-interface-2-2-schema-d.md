@@ -1,5 +1,5 @@
 ﻿---
-title: ByeType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ByeType complexType 
 TOCTitle: ByeType complexType
 ms:assetid: 64494012-5ccc-428d-8ba5-a87f987fb734
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171056(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ByeType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

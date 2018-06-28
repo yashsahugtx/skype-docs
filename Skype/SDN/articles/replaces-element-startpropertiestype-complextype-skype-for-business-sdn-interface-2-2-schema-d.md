@@ -1,5 +1,5 @@
 ﻿---
-title: Replaces element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Replaces element (StartPropertiesType complexType) 
 TOCTitle: Replaces element
 ms:assetid: 4933dd76-abf7-9b98-1feb-c35184aafdf2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170984(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Replaces element 
 
-(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Content of the REPLACES SIP tag.
 

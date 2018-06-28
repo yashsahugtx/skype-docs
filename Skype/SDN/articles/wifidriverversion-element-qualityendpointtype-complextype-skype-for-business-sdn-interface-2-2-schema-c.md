@@ -1,5 +1,5 @@
 ﻿---
-title: WifiDriverVersion element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: WifiDriverVersion element (QualityEndPointType complexType) 
 TOCTitle: WifiDriverVersion element
 ms:assetid: 23a7fbdd-3d3e-9e06-282d-7e7d24205ce9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429343(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # WifiDriverVersion element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Wifi Driver Version.
 

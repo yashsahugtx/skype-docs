@@ -1,5 +1,5 @@
 ﻿---
-title: DeviceClippingEventRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: DeviceClippingEventRatio element (QualityPropertiesType complexType) 
 TOCTitle: DeviceClippingEventRatio element
 ms:assetid: 5c19d36b-dbbd-442c-4dd3-a7d00e9c8109
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149468(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DeviceClippingEventRatio element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Percentage of sessions the DeviceClipping event was fired when a speaker clips the microphone, causing the remote listener receives clipping-induced distortions. It is important to avoid the microphone clipping.
 

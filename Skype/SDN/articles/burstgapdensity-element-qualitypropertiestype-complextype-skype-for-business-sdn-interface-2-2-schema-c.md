@@ -1,5 +1,5 @@
 ﻿---
-title: BurstGapDensity element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: BurstGapDensity element (QualityPropertiesType complexType) 
 TOCTitle: BurstGapDensity element
 ms:assetid: 9e5ddec0-966a-5eda-fc7b-a3dfb2f8548e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404713(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BurstGapDensity element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Average burst gap density, as specified in \[RFC3611\] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available.
 

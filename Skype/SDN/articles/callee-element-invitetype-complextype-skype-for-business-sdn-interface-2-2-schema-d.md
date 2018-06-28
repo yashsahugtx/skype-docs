@@ -1,5 +1,5 @@
 ﻿---
-title: Callee element (InviteType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Callee element (InviteType complexType) 
 TOCTitle: Callee element
 ms:assetid: 32714871-4bd4-3619-447b-3890c8177ad2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149439(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Callee element 
 
-(InviteType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Properties of the callee.
 

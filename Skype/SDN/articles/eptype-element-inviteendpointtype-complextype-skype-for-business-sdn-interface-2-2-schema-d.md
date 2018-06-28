@@ -1,5 +1,5 @@
 ﻿---
-title: EPType element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EPType element (InviteEndPointType complexType) 
 TOCTitle: EPType element (InviteEndPointType complexType)
 ms:assetid: ae7b00f8-f3b7-d81b-9260-dffcfc9552ff
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170867(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EPType element 
 
-(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Indicates that this endpoint is of the Skype for Business Room System type or not, when the sendmeetingroominfo option is set to True in the Dialog Listener configeration.
 

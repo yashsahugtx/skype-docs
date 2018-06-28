@@ -1,5 +1,5 @@
 ﻿---
-title: VPN element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: VPN element (QualityEndPointType complexType) 
 TOCTitle: VPN element
 ms:assetid: 00ade02c-fd61-c4e8-7ada-fcf1a5f4a4fc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171034(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # VPN element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Indicates if the user is on VPN (True) or not (False).
 

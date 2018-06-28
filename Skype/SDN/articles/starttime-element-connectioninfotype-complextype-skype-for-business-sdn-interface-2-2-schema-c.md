@@ -1,5 +1,5 @@
 ﻿---
-title: StartTime element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: StartTime element (ConnectionInfoType complexType) 
 TOCTitle: StartTime element
 ms:assetid: 52863aeb-ca6e-2940-46ec-652e8064a9e8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404856(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # StartTime element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Denotes the time when the conversation started. It is provided only in QualityUpdate events.
 

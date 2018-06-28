@@ -1,5 +1,5 @@
 ﻿---
-title: RelayPort element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RelayPort element (ErrorEndPointType complexType) 
 TOCTitle: RelayPort element (ErrorEndPointType complexType)
 ms:assetid: 78507156-1b8d-e16b-84f8-8950cf58a091
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170982(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RelayPort element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Port number of the relay.
 

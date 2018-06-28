@@ -1,5 +1,5 @@
 ﻿---
-title: UserAgent element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: UserAgent element (InviteEndPointType complexType) 
 TOCTitle: UserAgent element (InviteEndPointType complexType)
 ms:assetid: 7d15d5b9-2565-f68f-aaef-380e442b7aed
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171026(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # UserAgent element 
 
-(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Skype for Business client and version.
 

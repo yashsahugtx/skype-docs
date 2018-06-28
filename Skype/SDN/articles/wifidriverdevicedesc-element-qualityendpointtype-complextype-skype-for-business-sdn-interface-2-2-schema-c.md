@@ -1,5 +1,5 @@
 ﻿---
-title: WifiDriverDeviceDesc element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: WifiDriverDeviceDesc element (QualityEndPointType complexType) 
 TOCTitle: WifiDriverDeviceDesc element
 ms:assetid: 7ab1a899-5d67-a1d2-faee-77f8a01f04d8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429344(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # WifiDriverDeviceDesc element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Wifi Driver Device description.
 

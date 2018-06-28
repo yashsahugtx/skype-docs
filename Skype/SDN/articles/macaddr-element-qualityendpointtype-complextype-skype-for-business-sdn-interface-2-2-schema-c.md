@@ -1,5 +1,5 @@
 ﻿---
-title: MACAddr element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: MACAddr element (QualityEndPointType complexType) 
 TOCTitle: MACAddr element
 ms:assetid: 9c3736b4-8284-14bb-eb64-06c385190d3b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404788(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MACAddr element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 MAC address of the endpoint.
 

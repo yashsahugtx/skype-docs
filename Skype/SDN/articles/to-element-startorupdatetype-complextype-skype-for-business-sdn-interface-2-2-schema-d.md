@@ -1,5 +1,5 @@
 ﻿---
-title: To element (StartOrUpdateType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: To element (StartOrUpdateType complexType) 
 TOCTitle: To element (StartOrUpdateType complexType)
 ms:assetid: ca1f6a62-3421-9d53-7e1d-aaadb55a37cc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171011(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # To element 
 
-(StartOrUpdateType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(StartOrUpdateType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Destination of the media stream.
 

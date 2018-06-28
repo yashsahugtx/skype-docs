@@ -1,5 +1,5 @@
 ﻿---
-title: Protocol element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Protocol element (StartPropertiesType complexType) 
 TOCTitle: Protocol element (StartPropertiesType complexType)
 ms:assetid: 9bc50ce2-21d8-06f7-7e5d-af432a632761
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404818(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Protocol element 
 
-(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Transmission protocol of the media stream such as TCP or UDP.
 

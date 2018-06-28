@@ -1,5 +1,5 @@
 ﻿---
-title: BSSID element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: BSSID element (QualityEndPointType complexType) 
 TOCTitle: BSSID element
 ms:assetid: b95e0903-780f-601a-cd33-07d113693da8
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404707(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BSSID element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Id of an access point for a WiFi/wireless connection.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: EndPoint element (EndedType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EndPoint element (EndedType complexType) 
 TOCTitle: EndPoint element (EndedType complexType)
 ms:assetid: 249bfd8e-46af-5993-57b4-a82fdb9c4d14
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170855(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EndPoint element 
 
-(EndedType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(EndedType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Endpoint involved in the ended SIP call.
 

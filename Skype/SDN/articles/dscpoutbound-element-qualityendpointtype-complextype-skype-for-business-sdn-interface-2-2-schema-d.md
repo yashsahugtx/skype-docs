@@ -1,5 +1,5 @@
 ﻿---
-title: DSCPOutbound element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: DSCPOutbound element (QualityEndPointType complexType) 
 TOCTitle: DSCPOutbound element
 ms:assetid: 7f6f3e28-a23a-7005-b429-adccc882b3ab
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170846(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DSCPOutbound element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 QoS category marking used on send the stream from this endpoint. This field is populated only from Skype for Business clients newer than Skype for Business 2013.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: LowFrameRateCallPercent element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: LowFrameRateCallPercent element (QualityPropertiesType complexType) 
 TOCTitle: LowFrameRateCallPercent element
 ms:assetid: f6e373a1-0aa2-37a8-a588-5e98f025c57d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404785(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # LowFrameRateCallPercent element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Percentage of time of the call where frame rate is less than 7.5 frames per second. This metric is reported for video streams when available. (percent)
 

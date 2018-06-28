@@ -1,5 +1,5 @@
 ﻿---
-title: BandwidthDataType simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: BandwidthDataType simpleType 
 TOCTitle: BandwidthDataType simpleType
 ms:assetid: 58c03120-8c23-de41-406d-4e5f74129b1b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171043(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BandwidthDataType simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

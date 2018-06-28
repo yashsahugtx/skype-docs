@@ -1,5 +1,5 @@
 ﻿---
-title: StartOrUpdateType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: StartOrUpdateType complexType 
 TOCTitle: StartOrUpdateType complexType
 ms:assetid: 7023ae43-40d9-c4b8-d8eb-530cb383130e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171075(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # StartOrUpdateType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

@@ -1,5 +1,5 @@
 ﻿---
-title: Trunk element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Trunk element (ByeEndPointType complexType) 
 TOCTitle: Trunk element (ByeEndPointType complexType)
 ms:assetid: 0453a404-50e3-0637-a034-434f64a350f7
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171014(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Trunk element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Identifier for the SipTrunk or other SIP device used to connect to the endpoint.
 

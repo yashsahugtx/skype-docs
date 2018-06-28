@@ -1,5 +1,5 @@
 ﻿---
-title: From element (EndedType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: From element (EndedType complexType) 
 TOCTitle: From element (EndedType complexType)
 ms:assetid: 531dbc2f-46b4-0f0d-ca2a-d215a3849db1
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404768(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # From element 
 
-(EndedType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(EndedType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Endpoint involved in the ended SIP call.
 

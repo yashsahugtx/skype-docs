@@ -1,5 +1,5 @@
 ﻿---
-title: RecvListenMOS element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: RecvListenMOS element (QualityPropertiesType complexType) 
 TOCTitle: RecvListenMOS element
 ms:assetid: ba34d158-59ed-d664-54e4-08ecae69d6eb
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404825(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RecvListenMOS element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, for decoded audio received by the reporting entity during the session. This metric is reported for audio streams when available.
 

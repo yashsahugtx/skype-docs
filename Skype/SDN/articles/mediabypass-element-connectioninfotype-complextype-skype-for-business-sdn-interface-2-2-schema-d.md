@@ -1,5 +1,5 @@
 ﻿---
-title: MediaBypass element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: MediaBypass element (ConnectionInfoType complexType) 
 TOCTitle: MediaBypass element
 ms:assetid: 7c1d44fa-8a19-d2b9-a8b0-d0fecd74e4fa
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170916(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MediaBypass element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Denotes media bypass. It is provided only in QualityUpdate message when mediabypass was part of the call.
 

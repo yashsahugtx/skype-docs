@@ -1,5 +1,5 @@
 ﻿---
-title: HealerPacketDropRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: HealerPacketDropRatio element (QualityPropertiesType complexType) 
 TOCTitle: HealerPacketDropRatio element
 ms:assetid: 8664eb21-7ec7-a6af-a64c-90a048d9b679
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170875(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # HealerPacketDropRatio element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Ratio of audio packets dropped by a healer over total number of audio packets received by the healer. This metric is reported for all modalities/media types when available. (percent)
 

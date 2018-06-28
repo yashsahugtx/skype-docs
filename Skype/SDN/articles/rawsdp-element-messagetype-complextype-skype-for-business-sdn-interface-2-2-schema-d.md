@@ -1,5 +1,5 @@
 ﻿---
-title: RawSDP element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RawSDP element (MessageType complexType) 
 TOCTitle: RawSDP element
 ms:assetid: b2fedf2d-7c27-b2fc-534b-bbbb2ffc862c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170954(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RawSDP element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Raw Session Description Protocol (SDP) data that is included as the payload of the underlying SIP messages of the Invite, LRSInvite and StartOrUpdate type, if the sendrawsdp entry is set to True in the DialogListener configuration file.
 

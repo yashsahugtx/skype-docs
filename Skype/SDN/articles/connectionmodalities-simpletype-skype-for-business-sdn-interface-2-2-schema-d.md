@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectionModalities simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ConnectionModalities simpleType 
 TOCTitle: ConnectionModalities simpleType
 ms:assetid: ae0503ec-337a-b6d0-795f-274d4ddb8dc0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171044(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConnectionModalities simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

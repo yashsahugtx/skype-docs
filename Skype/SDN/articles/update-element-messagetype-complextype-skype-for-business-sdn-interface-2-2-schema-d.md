@@ -1,5 +1,5 @@
 ﻿---
-title: Update element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Update element (MessageType complexType) 
 TOCTitle: Update element
 ms:assetid: 38b49ac6-609a-a47c-4f7c-e83fa7d363ab
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171018(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Update element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Event that a media stream previously started has been updated. This event is raised when an update to core parameters of call have changed and the change is established, i.e., when the request is answered with a 200 OK response.
 

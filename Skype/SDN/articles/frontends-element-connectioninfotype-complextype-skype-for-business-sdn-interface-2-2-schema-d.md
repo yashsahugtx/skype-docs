@@ -1,5 +1,5 @@
 ﻿---
-title: FrontEnds element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: FrontEnds element (ConnectionInfoType complexType) 
 TOCTitle: FrontEnds element
 ms:assetid: 2163e364-79c3-154e-cc06-e057ed0682c7
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170873(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # FrontEnds element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Comma separated list of Skype for Business Front-Ends involved in this call.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: BSSIDPattern simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: BSSIDPattern simpleType 
 TOCTitle: BSSIDPattern simpleType
 ms:assetid: 0b7aa4c4-9022-1da0-6fb3-1a9ff8581415
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171042(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BSSIDPattern simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

@@ -1,5 +1,5 @@
 ﻿---
-title: ResponsePhrase element (ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: ResponsePhrase element (ErrorProperties complexType) 
 TOCTitle: ResponsePhrase element
 ms:assetid: 2bf26bda-5530-ae73-af72-4fdb89a7ee83
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404843(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ResponsePhrase element 
 
-(ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 More info related to the error.
 

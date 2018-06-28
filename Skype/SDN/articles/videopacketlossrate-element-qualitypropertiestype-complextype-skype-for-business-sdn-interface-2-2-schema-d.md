@@ -1,5 +1,5 @@
 ﻿---
-title: VideoPacketLossRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: VideoPacketLossRate element (QualityPropertiesType complexType) 
 TOCTitle: VideoPacketLossRate element
 ms:assetid: 9da2725e-b8b2-8860-5468-562e389c5dc3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171031(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # VideoPacketLossRate element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average fraction lost, as specified in \[RFC3550\] section 6.4.1, computed over the duration of the session. This metric is reported for video streams when available. (packets/s)
 

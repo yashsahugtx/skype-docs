@@ -1,5 +1,5 @@
 ﻿---
-title: SourcePool element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: SourcePool element (ConnectionInfoType complexType) 
 TOCTitle: SourcePool element
 ms:assetid: 07174c84-2101-6879-4bc2-0589e3e3be4a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170995(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # SourcePool element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 (Deprecated - use below Pools instead) Name of the Skype for Business pool this message originated. If a QualityUpdate message is merged and originated from two pools only one is included here.
 

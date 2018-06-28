@@ -1,5 +1,5 @@
 ﻿---
-title: EndTime element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EndTime element (ConnectionInfoType complexType) 
 TOCTitle: EndTime element
 ms:assetid: 74b56124-2d3c-a048-a9da-d7248aa5f4b6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170854(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EndTime element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Denotes then time when the conversation ended. It is provided only in QualityUpdate events.
 

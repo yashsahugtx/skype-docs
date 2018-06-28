@@ -1,5 +1,5 @@
 ﻿---
-title: ConversationalMOS element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: ConversationalMOS element (QualityPropertiesType complexType) 
 TOCTitle: ConversationalMOS element
 ms:assetid: 256a91f0-d0e7-fe61-5d3e-de8e7d8ec75f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404729(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConversationalMOS element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Conversational clarity index for remote party, as described in \[ITUP.562\] section 6.3. This metric is reported for all available modalities and media types. This field is unused and deprecated for Skype for Business clients 2013 and beyond.
 

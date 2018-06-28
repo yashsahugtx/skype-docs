@@ -1,5 +1,5 @@
 ﻿---
-title: ErrorProperties complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ErrorProperties complexType 
 TOCTitle: ErrorProperties complexType
 ms:assetid: 42d4e207-b8e1-5eee-7828-d719b0970384
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171062(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ErrorProperties complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

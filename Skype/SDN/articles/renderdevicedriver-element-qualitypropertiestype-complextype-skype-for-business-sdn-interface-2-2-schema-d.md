@@ -1,5 +1,5 @@
 ﻿---
-title: RenderDeviceDriver element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RenderDeviceDriver element (QualityPropertiesType complexType) 
 TOCTitle: RenderDeviceDriver element
 ms:assetid: 5f8e0e61-6955-4734-f819-f5f45690675a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170983(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RenderDeviceDriver element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Device driver name and version of the render device used to consume the media of this call
 

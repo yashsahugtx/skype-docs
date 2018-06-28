@@ -1,5 +1,5 @@
 ﻿---
-title: ConferenceId element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: ConferenceId element (ConnectionInfoType complexType) 
 TOCTitle: ConferenceId element
 ms:assetid: ae7f4c66-3475-fd6a-6c90-484687dad420
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149447(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConferenceId element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Identifier to correlate call legs that belong to the same conference.
 

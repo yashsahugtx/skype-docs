@@ -1,5 +1,5 @@
 ﻿---
-title: Codec element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Codec element (StartPropertiesType complexType) 
 TOCTitle: Codec element (StartPropertiesType complexType)
 ms:assetid: 580d5efd-e174-cc1d-9992-15d996f7cfe3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404719(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Codec element 
 
-(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Codec and estimates for the bandwidth that the codecs will use. This list contains all codecs that are agreed upon by the two endpoints. Both end-points may decide to switch among these codecs at any time (without additional signalling).
 

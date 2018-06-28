@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectionPlatforms simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ConnectionPlatforms simpleType 
 TOCTitle: ConnectionPlatforms simpleType
 ms:assetid: 3ce2b946-41fb-8db7-c4c9-1b4b72799319
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171045(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConnectionPlatforms simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

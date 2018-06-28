@@ -1,5 +1,5 @@
 ﻿---
-title: URI element (EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: URI element (EndPointType complexType) 
 TOCTitle: URI element (EndPointType complexType)
 ms:assetid: bb410e90-f652-b1be-2dc7-7e350698e3b9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429335(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # URI element 
 
-(EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 SIP URI of the user signed in via the endpoint as extracted from the SIP header.. This field is obfuscated unless hidepii is set to false in the DialogListener configuration file.
 

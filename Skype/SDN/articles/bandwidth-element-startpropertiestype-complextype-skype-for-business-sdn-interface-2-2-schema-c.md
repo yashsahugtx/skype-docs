@@ -1,5 +1,5 @@
 ﻿---
-title: Bandwidth element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Bandwidth element (StartPropertiesType complexType) 
 TOCTitle: Bandwidth element (StartPropertiesType complexType)
 ms:assetid: c8eb0297-a57c-0f7e-1d2a-c3c37e8cae5e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404706(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Bandwidth element 
 
-(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account.
 

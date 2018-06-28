@@ -1,5 +1,5 @@
 ﻿---
-title: Connection element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Connection element (QualityEndPointType complexType) 
 TOCTitle: Connection element
 ms:assetid: b0cfd3c9-4455-1e36-5296-cc9c439ec7ca
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149450(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Connection element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Connection type such as "wired" or "wireless".
 

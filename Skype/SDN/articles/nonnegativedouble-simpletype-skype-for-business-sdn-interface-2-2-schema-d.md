@@ -1,5 +1,5 @@
 ﻿---
-title: NonNegativeDouble simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: NonNegativeDouble simpleType 
 TOCTitle: NonNegativeDouble simpleType
 ms:assetid: 2064bd04-273e-df5d-c7b7-9f55c1c62a41
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171049(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # NonNegativeDouble simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

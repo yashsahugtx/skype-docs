@@ -1,5 +1,5 @@
 ﻿---
-title: SpeakerGlitchRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: SpeakerGlitchRate element (QualityPropertiesType complexType) 
 TOCTitle: SpeakerGlitchRate element
 ms:assetid: 1d8c39b6-d1b0-ba96-8c17-7ec4a385be25
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170994(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # SpeakerGlitchRate element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average glitches per five minutes for the loudspeaker rendering. For good quality, this should be less than one per five minutes. This will not be reported by audio/video conferencing servers, mediation servers, or IP phones.
 

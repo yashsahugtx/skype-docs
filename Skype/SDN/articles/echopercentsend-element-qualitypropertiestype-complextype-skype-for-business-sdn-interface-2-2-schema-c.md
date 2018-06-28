@@ -1,5 +1,5 @@
 ﻿---
-title: EchoPercentSend element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: EchoPercentSend element (QualityPropertiesType complexType) 
 TOCTitle: EchoPercentSend element
 ms:assetid: acd3ed18-ec25-9832-9ba5-82cd9206bc76
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404752(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EchoPercentSend element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Percentage of time when echo is detected in the audio from the capture or microphone device after echo cancellation. This metric is reported for audio streams when available.
 

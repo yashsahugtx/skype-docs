@@ -1,5 +1,5 @@
 ﻿---
-title: HostPort element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: HostPort element (ErrorEndPointType complexType) 
 TOCTitle: HostPort element (ErrorEndPointType complexType)
 ms:assetid: 61039d85-3d78-5f52-5ef9-f7346face149
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170887(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # HostPort element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Port used on the endpoint's host.
 

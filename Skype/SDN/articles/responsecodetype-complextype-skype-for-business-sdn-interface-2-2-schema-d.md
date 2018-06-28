@@ -1,5 +1,5 @@
 ﻿---
-title: ResponseCodeType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ResponseCodeType complexType 
 TOCTitle: ResponseCodeType complexType
 ms:assetid: 5e7155e9-7fb2-4e50-e765-e863d1a60596
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171071(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ResponseCodeType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

@@ -1,5 +1,5 @@
 ﻿---
-title: InviteType complexType (Skype for Business SDN Interface 2.2, Schema "C")
+title: InviteType complexType 
 TOCTitle: InviteType complexType
 ms:assetid: faf3beb9-872f-af5d-09d3-dc7c8b26d35f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429355(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # InviteType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"C\")
+(Skype for Business SDN Interface 2.2, Schema "C")
 
 **In this article**  
 Type information  

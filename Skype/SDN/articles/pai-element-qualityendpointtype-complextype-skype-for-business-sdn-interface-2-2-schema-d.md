@@ -1,5 +1,5 @@
 ﻿---
-title: PAI element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: PAI element (QualityEndPointType complexType) 
 TOCTitle: PAI element (QualityEndPointType complexType)
 ms:assetid: 75ec0091-721f-55d2-2cff-70308ccb40a6
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170937(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # PAI element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 P-Asserted Identity.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: ProtocolTypes simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ProtocolTypes simpleType 
 TOCTitle: ProtocolTypes simpleType
 ms:assetid: 45c7a603-1559-14bb-32f5-17a93e5e9b49
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171053(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ProtocolTypes simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

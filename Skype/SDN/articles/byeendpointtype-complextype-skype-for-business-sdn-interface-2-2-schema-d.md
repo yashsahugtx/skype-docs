@@ -1,5 +1,5 @@
 ﻿---
-title: ByeEndPointType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ByeEndPointType complexType 
 TOCTitle: ByeEndPointType complexType
 ms:assetid: 892cbcd0-404e-7f77-aa63-b64437ccbefa
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171055(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ByeEndPointType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

@@ -1,5 +1,5 @@
 ﻿---
-title: TimeStamp element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: TimeStamp element (ConnectionInfoType complexType) 
 TOCTitle: TimeStamp element
 ms:assetid: bb7eaf3d-4b75-e7b9-0ebc-024b7e38a209
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404858(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # TimeStamp element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 UTC time when the report is processed.
 

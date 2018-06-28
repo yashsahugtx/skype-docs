@@ -1,5 +1,5 @@
 ﻿---
-title: Properties element (StartOrUpdateType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Properties element (StartOrUpdateType complexType) 
 TOCTitle: Properties element (StartOrUpdateType complexType)
 ms:assetid: 02bbebb5-4c55-7fe0-59b7-013bd0697c49
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404810(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Properties element 
 
-(StartOrUpdateType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(StartOrUpdateType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Properties of the started or updated media stream.
 

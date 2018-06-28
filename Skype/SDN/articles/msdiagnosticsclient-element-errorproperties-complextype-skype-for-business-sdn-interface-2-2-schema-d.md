@@ -1,5 +1,5 @@
 ﻿---
-title: MSDiagnosticsClient element (ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: MSDiagnosticsClient element (ErrorProperties complexType) 
 TOCTitle: MSDiagnosticsClient element (ErrorProperties complexType)
 ms:assetid: 58f48652-28a2-e42d-3d24-159e7ac68de4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170922(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MSDiagnosticsClient element 
 
-(ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Info about the error related to and reported by the client.
 

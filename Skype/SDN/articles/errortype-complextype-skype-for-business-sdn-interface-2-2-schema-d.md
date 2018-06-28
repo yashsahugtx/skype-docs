@@ -1,5 +1,5 @@
 ﻿---
-title: ErrorType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ErrorType complexType 
 TOCTitle: ErrorType complexType
 ms:assetid: 889a7dba-4d3f-b2bd-9e78-62557a7bb35f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171064(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ErrorType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

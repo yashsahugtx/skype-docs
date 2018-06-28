@@ -1,5 +1,5 @@
 ﻿---
-title: RecvSignalLevel element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RecvSignalLevel element (QualityPropertiesType complexType) 
 TOCTitle: RecvSignalLevel element
 ms:assetid: faec1495-0a59-9bd3-2ecf-f24e2963d293
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170962(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RecvSignalLevel element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Received signal level in units of dB. This metric is reported for audio streams when available. Average energy level of received audio is classified as mono speech, or left channel of stereo speech. (dB)
 

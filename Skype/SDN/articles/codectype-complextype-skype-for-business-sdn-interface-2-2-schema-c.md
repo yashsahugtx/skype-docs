@@ -1,5 +1,5 @@
 ﻿---
-title: CodecType complexType (Skype for Business SDN Interface 2.2, Schema "C")
+title: CodecType complexType 
 TOCTitle: CodecType complexType
 ms:assetid: 061b11a5-2930-6d09-31b0-1a9ed79757d4
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt429350(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # CodecType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"C\")
+(Skype for Business SDN Interface 2.2, Schema "C")
 
 **In this article**  
 Type information  

@@ -1,5 +1,5 @@
 ﻿---
-title: IP element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: IP element (ByeEndPointType complexType) 
 TOCTitle: IP element (ByeEndPointType complexType)
 ms:assetid: 08c9c41e-583b-fcdf-ce5c-be99b23c3540
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170903(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # IP element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 IP address of the the media stream source or destination.
 

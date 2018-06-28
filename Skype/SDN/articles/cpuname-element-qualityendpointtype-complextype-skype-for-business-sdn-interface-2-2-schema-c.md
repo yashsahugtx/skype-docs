@@ -1,5 +1,5 @@
 ﻿---
-title: CPUName element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: CPUName element (QualityEndPointType complexType) 
 TOCTitle: CPUName element
 ms:assetid: 7ad77f85-f8fc-1620-2f11-b35193926311
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404733(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # CPUName element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Name of the CPU.
 

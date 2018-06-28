@@ -1,5 +1,5 @@
 ﻿---
-title: ConnectionInfo element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: ConnectionInfo element (MessageType complexType) 
 TOCTitle: ConnectionInfo element
 ms:assetid: 145a77b2-1939-4d7c-3e12-113646a74947
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404725(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ConnectionInfo element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Connection-related properties regardless of the media stream and end points.
 

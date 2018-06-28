@@ -1,5 +1,5 @@
 ﻿---
-title: Wireless element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Wireless element (ErrorEndPointType complexType) 
 TOCTitle: Wireless element (ErrorEndPointType complexType)
 ms:assetid: 66132279-f8e2-e0fa-0593-0550dcdda4c9
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171040(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Wireless element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Flag indicating if the endpoint is using a wireless network.
 

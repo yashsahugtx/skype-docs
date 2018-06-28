@@ -1,5 +1,5 @@
 ﻿---
-title: SendListenMOS element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: SendListenMOS element (QualityPropertiesType complexType) 
 TOCTitle: SendListenMOS element
 ms:assetid: d9dd3c87-8501-3c0f-9089-20b8e166a5ef
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170992(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # SendListenMOS element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 MOS-LQO wideband, as specified by \[ITUP.800.1\] section 2.1.2, for pre-encoded audio sent by the reporting entity during the session. This metric is reported for audio streams when available.
 

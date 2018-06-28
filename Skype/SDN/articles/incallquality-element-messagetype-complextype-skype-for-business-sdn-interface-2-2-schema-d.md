@@ -1,5 +1,5 @@
 ﻿---
-title: InCallQuality element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: InCallQuality element (MessageType complexType) 
 TOCTitle: InCallQuality element
 ms:assetid: 67b9eaa8-b205-23da-f40f-3e555071e2d0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170898(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # InCallQuality element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Indicates that a significant quality related event occured in the client. Either the quality dropped into another level or improved. There are 3 levels: Good, Poor, Bad. The media stack determines the quality level. Furthermore, this event is also sent when a video stream is deescalated. Even in an issue free network at least one IncallQuality message is sent.
 

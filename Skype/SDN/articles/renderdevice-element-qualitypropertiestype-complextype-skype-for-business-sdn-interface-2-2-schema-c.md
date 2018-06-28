@@ -1,5 +1,5 @@
 ﻿---
-title: RenderDevice element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: RenderDevice element (QualityPropertiesType complexType) 
 TOCTitle: RenderDevice element
 ms:assetid: 745f4b99-35f7-df15-d178-647fdd77c699
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404841(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RenderDevice element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 The name of a render device used to provide the media to for this stream. This device is in the TO endpoint and usually represents a speaker.
 

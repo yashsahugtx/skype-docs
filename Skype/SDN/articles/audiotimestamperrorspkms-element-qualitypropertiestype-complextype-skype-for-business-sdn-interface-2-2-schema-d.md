@@ -1,5 +1,5 @@
 ﻿---
-title: AudioTimestampErrorSpkMs element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: AudioTimestampErrorSpkMs element (QualityPropertiesType complexType) 
 TOCTitle: AudioTimestampErrorSpkMs element
 ms:assetid: 2f2c4114-6946-20bc-e161-3ab83c4722af
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149425(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # AudioTimestampErrorSpkMs element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average error of speech render stream time stamp, in milliseconds, or the last 20 seconds of the call.
 

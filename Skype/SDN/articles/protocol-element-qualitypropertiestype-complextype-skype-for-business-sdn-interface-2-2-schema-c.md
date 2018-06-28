@@ -1,5 +1,5 @@
 ﻿---
-title: Protocol element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Protocol element (QualityPropertiesType complexType) 
 TOCTitle: Protocol element (QualityPropertiesType complexType)
 ms:assetid: 7c2b8c7a-b2f3-8c4e-22bb-cecd6fe1e92d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404817(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Protocol element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Transmission protocol of the call such as TCP or UDP.
 

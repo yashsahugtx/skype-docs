@@ -1,5 +1,5 @@
 ﻿---
-title: BurstGapDuration element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: BurstGapDuration element (QualityPropertiesType complexType) 
 TOCTitle: BurstGapDuration element
 ms:assetid: a9a78900-88ce-d1b8-49ee-92c19270be0e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404712(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # BurstGapDuration element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Average burst gap duration (in microsecond, ms), as specified in \[RFC3611\] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available.
 

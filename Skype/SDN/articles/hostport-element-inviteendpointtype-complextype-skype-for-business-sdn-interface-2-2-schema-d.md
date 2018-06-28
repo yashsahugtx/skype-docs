@@ -1,5 +1,5 @@
 ﻿---
-title: HostPort element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: HostPort element (InviteEndPointType complexType) 
 TOCTitle: HostPort element (InviteEndPointType complexType)
 ms:assetid: bd3b179d-7d85-28a5-a4a3-ebf4804dc828
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170886(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # HostPort element 
 
-(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Port used on the endpoint's host.
 

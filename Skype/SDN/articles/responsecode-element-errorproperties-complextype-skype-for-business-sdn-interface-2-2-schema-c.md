@@ -1,5 +1,5 @@
 ﻿---
-title: ResponseCode element (ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: ResponseCode element (ErrorProperties complexType) 
 TOCTitle: ResponseCode element (ErrorProperties complexType)
 ms:assetid: fe089740-a4c2-959a-3d9c-3e94b69cbe91
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404840(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ResponseCode element 
 
-(ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ErrorProperties complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 SIP Error code.
 

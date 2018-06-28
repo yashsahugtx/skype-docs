@@ -1,5 +1,5 @@
 ﻿---
-title: HostIP element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: HostIP element (QualityEndPointType complexType) 
 TOCTitle: HostIP element (QualityEndPointType complexType)
 ms:assetid: 96c8959c-df01-9e05-c485-8b4c63d0745b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170878(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # HostIP element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 IP address of the the media stream source or destination.
 

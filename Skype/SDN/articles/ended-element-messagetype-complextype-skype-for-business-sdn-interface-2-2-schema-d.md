@@ -1,5 +1,5 @@
 ﻿---
-title: Ended element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Ended element (MessageType complexType) 
 TOCTitle: Ended element
 ms:assetid: 7a1d5315-f062-6fba-8b96-368c8c4fb4ae
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170853(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Ended element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Event that a Sip call has ended and all media stream terminated.
 

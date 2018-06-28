@@ -1,5 +1,5 @@
 ﻿---
-title: DegradationMax element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: DegradationMax element (QualityPropertiesType complexType) 
 TOCTitle: DegradationMax element
 ms:assetid: d125cc87-0dad-f252-89c2-b576b5debbca
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404739(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DegradationMax element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Maximum degradation as the difference between the OverallMin and the maximum possible MOS-LQO for the audio codec used in the session. This metric is reported for audio streams when available.
 

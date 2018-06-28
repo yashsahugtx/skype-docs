@@ -1,5 +1,5 @@
 ﻿---
-title: Pools element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Pools element (ConnectionInfoType complexType) 
 TOCTitle: Pools element
 ms:assetid: df5bbcf3-8eaf-2728-00f3-7aabd0644019
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170941(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Pools element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Comma separated list of Skype for Business Front-End pool names involved in this call.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Via element (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Via element (StartPropertiesType complexType) 
 TOCTitle: Via element
 ms:assetid: 2e38f811-b53b-18a3-1ce5-d74ed889c6d3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171029(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Via element 
 
-(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Content of the VIA SIP tags.
 

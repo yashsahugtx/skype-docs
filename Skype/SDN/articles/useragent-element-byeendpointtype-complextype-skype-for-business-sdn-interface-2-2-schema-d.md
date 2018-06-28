@@ -1,5 +1,5 @@
 ﻿---
-title: UserAgent element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: UserAgent element (ByeEndPointType complexType) 
 TOCTitle: UserAgent element (ByeEndPointType complexType)
 ms:assetid: 4de7467b-94e4-0733-fb24-9feb907b570f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171024(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # UserAgent element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Skype for Business client name and version.
 

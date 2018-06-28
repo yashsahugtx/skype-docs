@@ -1,5 +1,5 @@
 ﻿---
-title: ReflexiveIP element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: ReflexiveIP element (QualityEndPointType complexType) 
 TOCTitle: ReflexiveIP element (QualityEndPointType complexType)
 ms:assetid: c36505ae-2e7b-848c-eff7-05218b06f482
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404829(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ReflexiveIP element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 IP used outside of the NAT.
 

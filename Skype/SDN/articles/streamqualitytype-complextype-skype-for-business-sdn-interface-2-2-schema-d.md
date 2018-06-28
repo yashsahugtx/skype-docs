@@ -1,5 +1,5 @@
 ﻿---
-title: StreamQualityType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: StreamQualityType complexType 
 TOCTitle: StreamQualityType complexType
 ms:assetid: 236f8a1c-9dad-1d72-8861-26f2837522f3
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171076(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # StreamQualityType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

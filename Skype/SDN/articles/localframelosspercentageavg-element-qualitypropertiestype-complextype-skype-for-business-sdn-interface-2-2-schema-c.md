@@ -1,5 +1,5 @@
 ﻿---
-title: LocalFrameLossPercentageAvg element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: LocalFrameLossPercentageAvg element (QualityPropertiesType complexType) 
 TOCTitle: LocalFrameLossPercentageAvg element
 ms:assetid: 1af349ff-e324-8424-1460-7a08ab9b2418
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404784(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # LocalFrameLossPercentageAvg element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 (Deprecated, use VideoLocalFrameLossPercentageAvg instead) Average percentage of video frames lost as they are displayed to the user, including frames recovered from network losses. This metric is reported for video streams when available. (percent)
 

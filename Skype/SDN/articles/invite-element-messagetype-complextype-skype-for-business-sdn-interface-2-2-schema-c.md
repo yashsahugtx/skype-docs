@@ -1,5 +1,5 @@
 ﻿---
-title: Invite element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Invite element (MessageType complexType) 
 TOCTitle: Invite element
 ms:assetid: 4b51e14c-e36f-7ac5-8223-b94c5a54d80e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404776(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Invite element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Event that an endpoint attempts to establish a call. DialogListener will include this element in its output if the sendcallinvites entry is set to True (activated) in the DialogListener configuration file. In addition, DialogListener will also notifies any SIP Invite messages (re-invites), not just the first one. Following this message Earlymedia may be flowing but this element is not intended to report on early media streams.
 

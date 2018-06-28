@@ -1,5 +1,5 @@
 ﻿---
-title: RDPTileProcessingLatencyBurstDensity element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: RDPTileProcessingLatencyBurstDensity element (QualityPropertiesType complexType) 
 TOCTitle: RDPTileProcessingLatencyBurstDensity element
 ms:assetid: 9b35d68d-3ef6-9163-e9ff-de885f609173
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404823(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RDPTileProcessingLatencyBurstDensity element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Burst density in the processing time for remote desktop protocol (RDP) tiles. A "bursty" transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream. This metric is only reported for application sharing streams using Skype for Business 2013.
 

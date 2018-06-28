@@ -1,5 +1,5 @@
 ﻿---
-title: RelativeOneWayAverage element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RelativeOneWayAverage element (QualityPropertiesType complexType) 
 TOCTitle: RelativeOneWayAverage element
 ms:assetid: c2169339-f0d9-8b20-426d-0fabc1b0463c
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170974(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RelativeOneWayAverage element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average amount of one-way latency. Relative one-way latency measures the delay between the client and the server. This metric is only reported for application sharing streams using Skype for Business 2013. (ms)
 

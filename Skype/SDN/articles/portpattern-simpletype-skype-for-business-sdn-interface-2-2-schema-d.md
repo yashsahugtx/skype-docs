@@ -1,5 +1,5 @@
 ﻿---
-title: PortPattern simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: PortPattern simpleType 
 TOCTitle: PortPattern simpleType
 ms:assetid: 48777069-7002-0023-cc09-98381b13305f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171051(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # PortPattern simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

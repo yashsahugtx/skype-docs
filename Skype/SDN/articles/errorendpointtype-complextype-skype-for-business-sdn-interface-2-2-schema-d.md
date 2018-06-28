@@ -1,5 +1,5 @@
 ﻿---
-title: ErrorEndPointType complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: ErrorEndPointType complexType 
 TOCTitle: ErrorEndPointType complexType
 ms:assetid: 63192471-563a-1baa-1a66-a3b41731abda
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171063(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # ErrorEndPointType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

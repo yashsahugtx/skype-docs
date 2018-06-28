@@ -1,5 +1,5 @@
 ﻿---
-title: IncallEnabled element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: IncallEnabled element (InviteEndPointType complexType) 
 TOCTitle: IncallEnabled element (InviteEndPointType complexType)
 ms:assetid: e0821fc0-0360-0696-c148-bbded00770cc
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170896(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # IncallEnabled element 
 
-(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Whether the endpoint (Skype for Business client) is capable to send incall quality update messages. This flag does not indicate whether the client is configured to send incall QoE reports.
 

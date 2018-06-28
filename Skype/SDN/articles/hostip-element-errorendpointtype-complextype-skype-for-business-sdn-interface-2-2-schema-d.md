@@ -1,5 +1,5 @@
 ﻿---
-title: HostIP element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: HostIP element (ErrorEndPointType complexType) 
 TOCTitle: HostIP element (ErrorEndPointType complexType)
 ms:assetid: 57312cc7-b82d-4f38-896a-2352a255cf0a
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170882(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # HostIP element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 IP address of the endpoint's host in the local network.
 

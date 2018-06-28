@@ -1,5 +1,5 @@
 ﻿---
-title: Route element (QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Route element (QualityType complexType) 
 TOCTitle: Route element (QualityType complexType)
 ms:assetid: 998c92ca-3df6-99c0-d47b-0dd6e04af190
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404846(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Route element 
 
-(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Network path of the media stream only provided in Skype for Business 2013 and when the traceRoute feature is activated in Skype for Business.
 

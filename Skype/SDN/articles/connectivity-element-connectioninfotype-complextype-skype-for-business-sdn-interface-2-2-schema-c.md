@@ -1,5 +1,5 @@
 ﻿---
-title: Connectivity element (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Connectivity element (ConnectionInfoType complexType) 
 TOCTitle: Connectivity element
 ms:assetid: 21c70c92-1c97-8a75-5f48-3ef96159d556
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404726(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Connectivity element 
 
-(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 (Obsolete) The inclusion of Relay Ip/port indicates that a particular endpoint uses a media relay (edge server) and if not access the remote address directly. It is provided only in QualityUpdate events.
 

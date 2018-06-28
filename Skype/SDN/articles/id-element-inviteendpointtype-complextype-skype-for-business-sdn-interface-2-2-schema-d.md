@@ -1,5 +1,5 @@
 ﻿---
-title: Id element (InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Id element (InviteEndPointType complexType) 
 TOCTitle: Id element (InviteEndPointType complexType)
 ms:assetid: 9669892f-0678-cac1-0170-0b28e7c9de3d
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170892(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Id element 
 
-(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(InviteEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Identifier of the endpoint.
 

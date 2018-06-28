@@ -1,5 +1,5 @@
 ﻿---
-title: MaxBandwidth element (CodecType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: MaxBandwidth element (CodecType complexType) 
 TOCTitle: MaxBandwidth element
 ms:assetid: 2c37df4e-39d9-abbc-4b1a-4e9098947437
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170914(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MaxBandwidth element 
 
-(CodecType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(CodecType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Upper limit of the estimated bandwidth.
 

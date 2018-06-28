@@ -1,5 +1,5 @@
 ﻿---
-title: EchoPercentMicIn element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: EchoPercentMicIn element (QualityPropertiesType complexType) 
 TOCTitle: EchoPercentMicIn element
 ms:assetid: 3a042531-44a8-a8cf-61f6-5cbb384b642e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170844(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EchoPercentMicIn element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation. This metric is reported for audio streams when available.
 

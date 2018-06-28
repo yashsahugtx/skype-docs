@@ -1,5 +1,5 @@
 ﻿---
-title: RelayPort element (ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: RelayPort element (ByeEndPointType complexType) 
 TOCTitle: RelayPort element (ByeEndPointType complexType)
 ms:assetid: 5e91a05a-fba5-30ad-1db1-ab64e284e589
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170979(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RelayPort element 
 
-(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ByeEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Port number of the relay.
 

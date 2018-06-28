@@ -1,5 +1,5 @@
 ﻿---
-title: DeviceNearEndToEchoRatioEventRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: DeviceNearEndToEchoRatioEventRatio element (QualityPropertiesType complexType) 
 TOCTitle: DeviceNearEndToEchoRatioEventRatio element
 ms:assetid: 53f02a64-558e-169b-0699-d862595bdb22
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404745(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DeviceNearEndToEchoRatioEventRatio element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Percentage of sessions the DeviceNearEndToEcho event was fired when the user speech is too low compared to the echo being captured which impacts the users experience because it limits how easy it is to interrupt a user. The situation can be improved by reducing speaker volume or moving the microphone closer to the speaker.
 

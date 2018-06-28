@@ -1,5 +1,5 @@
 ﻿---
-title: RoundTripMax element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: RoundTripMax element (QualityPropertiesType complexType) 
 TOCTitle: RoundTripMax element
 ms:assetid: ebb4ec4f-6a66-c274-b318-f5ea820b8746
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404844(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # RoundTripMax element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Maximum network propagation round-trip time as specified in \[RFC3550\] section 6.4.1. This metric is reported for all modalities/media types when available. (ms)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: EndpointIdPattern simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: EndpointIdPattern simpleType 
 TOCTitle: EndpointIdPattern simpleType
 ms:assetid: 20c01d5f-044c-24bf-f9f0-a4600db1b6ce
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171047(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # EndpointIdPattern simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

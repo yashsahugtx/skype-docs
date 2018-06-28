@@ -1,5 +1,5 @@
 ﻿---
-title: VGAQualityRatio element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: VGAQualityRatio element (QualityPropertiesType complexType) 
 TOCTitle: VGAQualityRatio element
 ms:assetid: 2d0bb813-a819-f421-5326-c96ec17ba486
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171028(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # VGAQualityRatio element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Percentage of the duration of a call that is using the VGA resolution. This metric is reported for video streams when available. (percent)
 

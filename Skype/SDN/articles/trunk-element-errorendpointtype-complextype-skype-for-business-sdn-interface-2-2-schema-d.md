@@ -1,5 +1,5 @@
 ﻿---
-title: Trunk element (ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: Trunk element (ErrorEndPointType complexType) 
 TOCTitle: Trunk element (ErrorEndPointType complexType)
 ms:assetid: 21d9fb9f-0f0e-3dd6-7c4a-b620d3d769ae
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171016(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Trunk element 
 
-(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(ErrorEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Identifier for the SipTrunk or other SIP device used to connect to the endpoint.
 

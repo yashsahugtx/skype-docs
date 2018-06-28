@@ -1,5 +1,5 @@
 ﻿---
-title: DoubleBetween0And100 simpleType (Skype for Business SDN Interface 2.2, Schema "D")
+title: DoubleBetween0And100 simpleType 
 TOCTitle: DoubleBetween0And100 simpleType
 ms:assetid: 9798d530-04fe-6208-a73f-732c8ffdf5b5
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171048(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DoubleBetween0And100 simpleType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 ## Type information

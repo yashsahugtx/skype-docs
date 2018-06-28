@@ -1,5 +1,5 @@
 ﻿---
-title: Properties element (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Properties element (MessageType complexType) 
 TOCTitle: Properties element (MessageType complexType)
 ms:assetid: 64e8b8be-9078-487d-1470-449b609feb5e
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404816(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Properties element 
 
-(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Details of the Error or reason for ending the streams.
 

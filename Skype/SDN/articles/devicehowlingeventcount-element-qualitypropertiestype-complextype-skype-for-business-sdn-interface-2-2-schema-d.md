@@ -1,5 +1,5 @@
 ﻿---
-title: DeviceHowlingEventCount element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: DeviceHowlingEventCount element (QualityPropertiesType complexType) 
 TOCTitle: DeviceHowlingEventCount element
 ms:assetid: 09ee9cad-554d-56de-0498-1bc8b1d63f53
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt149472(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DeviceHowlingEventCount element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Number of times during a session the DeviceHowlingEvent event was fired when audio feedback loop, caused by multiple endpoints sharing the audio path, is detected.
 

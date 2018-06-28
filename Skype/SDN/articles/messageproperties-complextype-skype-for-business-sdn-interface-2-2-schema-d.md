@@ -1,5 +1,5 @@
 ﻿---
-title: MessageProperties complexType (Skype for Business SDN Interface 2.2, Schema "D")
+title: MessageProperties complexType 
 TOCTitle: MessageProperties complexType
 ms:assetid: f7c0c752-ecdc-55bc-dfe0-06998ec1e06f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt171066(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MessageProperties complexType 
 
-(Skype for Business SDN Interface 2.2, Schema \"D\")
+(Skype for Business SDN Interface 2.2, Schema "D")
 
 
 **In this article**  

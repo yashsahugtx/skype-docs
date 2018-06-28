@@ -1,5 +1,5 @@
 ﻿---
-title: DegradationAvg element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: DegradationAvg element (QualityPropertiesType complexType) 
 TOCTitle: DegradationAvg element
 ms:assetid: 1f13a842-4d92-4ed3-ba12-53bf4e48438f
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404737(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # DegradationAvg element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Difference between the OverallAvg value and the maximum possible MOS-LQO for the audio codec used in the session. This metric is reported for audio streams when available.
 

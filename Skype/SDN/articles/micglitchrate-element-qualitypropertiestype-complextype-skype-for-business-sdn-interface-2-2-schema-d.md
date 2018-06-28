@@ -1,5 +1,5 @@
 ﻿---
-title: MicGlitchRate element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
+title: MicGlitchRate element (QualityPropertiesType complexType) 
 TOCTitle: MicGlitchRate element
 ms:assetid: 8f4bf090-db78-e182-7b55-c7835518fdc2
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt170918(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # MicGlitchRate element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"D\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Average glitches per five minutes for the microphone capture. For good quality this should be less than one per five minutes. This will not be reported by audio/video conferencing servers, mediation servers, or IP phones.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: StreamQuality element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: StreamQuality element (QualityPropertiesType complexType) 
 TOCTitle: StreamQuality element
 ms:assetid: 7fdb2175-c294-5594-37a7-7133500c2318
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404855(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # StreamQuality element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Estimated quality of the stream: Good, Poor, Bad
 

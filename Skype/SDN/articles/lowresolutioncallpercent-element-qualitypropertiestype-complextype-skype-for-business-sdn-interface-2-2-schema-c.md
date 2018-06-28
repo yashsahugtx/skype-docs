@@ -1,5 +1,5 @@
 ﻿---
-title: LowResolutionCallPercent element (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: LowResolutionCallPercent element (QualityPropertiesType complexType) 
 TOCTitle: LowResolutionCallPercent element
 ms:assetid: c8c036e0-6579-f286-0523-84cf39516a4b
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404786(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # LowResolutionCallPercent element 
 
-(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Percentage of time of the call where resolution is low. Threshold is 120 pixels for smaller dimension. This metric is reported for video streams when available. (percent)
 

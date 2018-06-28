@@ -1,5 +1,5 @@
 ﻿---
-title: LinkSpeed element (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: LinkSpeed element (QualityEndPointType complexType) 
 TOCTitle: LinkSpeed element
 ms:assetid: 8226e8b3-be51-055d-ef64-0c4b5bde02c0
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404783(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # LinkSpeed element 
 
-(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Basic bandwidth of the connection.
 

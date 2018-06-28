@@ -1,5 +1,5 @@
 ﻿---
-title: Properties element (ErrorType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
+title: Properties element (ErrorType complexType) 
 TOCTitle: Properties element (ErrorType complexType)
 ms:assetid: b8dc6e6d-114d-55db-a16c-0a41628f0757
 ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Mt404813(v=office.16)
@@ -12,7 +12,7 @@ dev_langs:
 
 # Properties element 
 
-(ErrorType complexType) (Skype for Business SDN Interface 2.2, Schema \"C\")
+(ErrorType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Properties of the Error.
 

@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="StreamQualityType">
         <xs:complexContent>
  

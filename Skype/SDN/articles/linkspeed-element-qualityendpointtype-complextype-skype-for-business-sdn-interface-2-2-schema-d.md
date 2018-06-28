@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="LinkSpeed"  type="xs:double" minOccurs="0">
     

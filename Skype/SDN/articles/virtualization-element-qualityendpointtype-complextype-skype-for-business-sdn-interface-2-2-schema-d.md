@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Virtualization"  type="xs:string" minOccurs="0">
     

@@ -19,7 +19,7 @@ You can edit the SDNManager.exe.config file to change configuration settings for
 
 The following example shows how to edit the \<appSettings\> section in the configuration file:
 
-``` xml
+```xml
 <appSettings>
   <add key="configurationserviceuri" value="http://localhost:9333/Settings"/>
   <add key="configurationcertificate" value=""/>

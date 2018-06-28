@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="ConferenceURI"  type="xs:anyURI" minOccurs="0">
     

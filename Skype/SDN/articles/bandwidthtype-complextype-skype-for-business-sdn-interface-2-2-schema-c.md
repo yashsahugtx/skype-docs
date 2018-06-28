@@ -45,7 +45,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="BandwidthType">
          <xs:attribute name="Multiplexed" type="xs:int" use="optional"/>
   

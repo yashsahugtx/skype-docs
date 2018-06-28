@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Connectivity"  type="ConnectivityModalities" minOccurs="0">
     

@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="EndPoint"  type="EndPointType" minOccurs="0" maxOccurs="2">
     

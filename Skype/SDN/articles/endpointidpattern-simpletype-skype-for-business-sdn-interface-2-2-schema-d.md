@@ -41,7 +41,7 @@ dev_langs:
 
 ## Definition
 
-``` xml
+```xml
     <xs:simpleType  name="EndpointIdPattern">
     
       <xs:restriction base="xs:string">

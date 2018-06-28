@@ -47,7 +47,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Average"  type="xs:long" minOccurs="0">
     

@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="CodecType">
          <xs:attribute name="Name" type="xs:string" use="required"/>
   

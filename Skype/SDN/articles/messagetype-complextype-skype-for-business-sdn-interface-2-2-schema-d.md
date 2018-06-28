@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="MessageType">
          <xs:attribute name="Version" type="ThisVersion" use="required"/>
   

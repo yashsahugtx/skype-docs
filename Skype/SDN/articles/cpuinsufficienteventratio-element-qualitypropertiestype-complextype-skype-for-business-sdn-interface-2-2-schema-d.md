@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="CPUInsufficientEventRatio"  type="DoubleBetween0And100">
     

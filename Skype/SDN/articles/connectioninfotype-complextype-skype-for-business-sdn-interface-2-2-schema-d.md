@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="ConnectionInfoType">
          <xs:attribute name="Originator" type="xs:string" use="optional"/>
   

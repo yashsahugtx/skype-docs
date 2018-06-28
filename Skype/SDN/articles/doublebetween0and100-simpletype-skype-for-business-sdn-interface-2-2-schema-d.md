@@ -41,7 +41,7 @@ dev_langs:
 
 ## Definition
 
-``` xml
+```xml
     <xs:simpleType  name="DoubleBetween0And100">
     
       <xs:restriction base="xs:double">

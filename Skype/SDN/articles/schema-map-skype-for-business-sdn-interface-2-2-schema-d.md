@@ -13,7 +13,7 @@ This topic shows the schema definition for **SDNInterface.Schema.D.xsd**.
     
 
 
-``` xml
+```xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="D">

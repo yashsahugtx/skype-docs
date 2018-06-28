@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="EchoPercentSend"  type="DoubleBetween0And100">
     

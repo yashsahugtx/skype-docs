@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="MACAddr"  type="xs:string" minOccurs="0">
     

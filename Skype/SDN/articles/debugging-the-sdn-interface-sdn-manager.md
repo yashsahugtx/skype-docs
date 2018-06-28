@@ -21,7 +21,7 @@ The Skype for Business SDN Interface provides several advanced features to impro
 
 The SDN Manager supports advanced debugging by using the Windows Communication Foundation (WCF). Instead of detailing how to use or change this, we provide an example as an illustration as follows. For complete information on this subject, see the [WCF documentation](https://msdn.microsoft.com/en-us/library/dd456779\(v=vs.110\).aspx). By uncommenting and customizing the section that follows, which is an excerpt from an SDNManager.exe.config file, you can receive low level debugging logs from the WCF service.
 
-``` xml
+```xml
   <!--<system.diagnostics>
     <trace autoflush="true" indentsize="4">
       <listeners>

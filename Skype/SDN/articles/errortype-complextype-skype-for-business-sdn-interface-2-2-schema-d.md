@@ -46,7 +46,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
       <xs:complexType name="ErrorType">
          <xs:attribute name="Type" type="ConnectionModalities" use="optional"/>
   

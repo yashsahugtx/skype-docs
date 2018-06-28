@@ -43,7 +43,7 @@ The default configuration ensures that at most 10 log files per type are written
 
 The examples illustrated updates to the logging configuration files. The first example shows setting the switchValue to All. The second example shows modifying the logging file path to "c:\\other" for the LNEAppLog logging type.
 
-``` xml
+```xml
 <add switchValue="All" name="Debug">
         <listeners>
              <add name="LNEAppLog" />
@@ -51,7 +51,7 @@ The examples illustrated updates to the logging configuration files. The first e
  </add>
 ```
 
-``` xml
+```xml
 <listeners>
   <add name="LNEAppLog"
      type="…" 

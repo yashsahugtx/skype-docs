@@ -48,7 +48,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="CPUNumberOfCores"  type="xs:int" minOccurs="0">
     

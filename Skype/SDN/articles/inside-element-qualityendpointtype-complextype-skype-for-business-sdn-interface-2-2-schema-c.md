@@ -47,7 +47,7 @@ Elements and attributes
 
 ## Definition
 
-``` xml
+```xml
 
     <xs:element name="Inside"  type="xs:boolean" minOccurs="0">
     

@@ -23,7 +23,7 @@ For example, a Skype for Business service provider or customer finds that confer
 
 The following are examples of SDN Interface messages.
 
-``` xml
+```xml
 <LyncDiagnostics Version="D">
     <ConnectionInfo>
           …

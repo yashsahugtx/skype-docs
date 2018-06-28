@@ -39,7 +39,7 @@ These additional settings that you need to set re execution options, which canno
 
 The following example shows an excerpt of the Dialog Listener configuration file that contains the Dialog Listener execution options:
 
-``` xml
+```xml
 <appSettings>
        <add key="configurationserviceuri" value="http://localhost:9333/Settings" />
        <add key="configurationcertificate" value="" /> <!-- thumbprint of a client certificate to use to authenticate the DL with the SM -->

@@ -13,12 +13,7 @@ dev_langs:
 # BandwidthType complexType 
 
 (Skype for Business SDN Interface 2.2, Schema "D")
-
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+ 
 
 ## Type information
 

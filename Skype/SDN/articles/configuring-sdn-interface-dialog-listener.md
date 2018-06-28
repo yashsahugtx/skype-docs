@@ -59,11 +59,9 @@ The checkdns key value is used to override the configurationserviceuri key. If i
 
 The msplidentifier key value allows you to change the identifier that is used to register with the Skype for Business Server.
 
-## Additional resources
+## See also
 
-  - [Configuring Skype for Business SDN Interface](configuring-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
-
-  - [Setting up a DNS service location record](setting-up-a-dns-service-location-record.md)
+- [Configuring Skype for Business SDN Interface](configuring-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Setting up a DNS service location record](setting-up-a-dns-service-location-record.md)
 

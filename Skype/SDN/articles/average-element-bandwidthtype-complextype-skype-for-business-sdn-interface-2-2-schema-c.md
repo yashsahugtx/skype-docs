@@ -16,10 +16,6 @@ dev_langs:
 
 Estimated average amount of the bandwidth.
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
 
 ## Element information
 

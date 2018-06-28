@@ -6,7 +6,7 @@ ms.assetid: f35cf6b0-1ca8-fdfd-23b0-d5d2a4c21778
 
 # Skype for Business SDN Interface 2.2, Schema C
 
- **Last modified:** October 07, 2015
+
   
     
     

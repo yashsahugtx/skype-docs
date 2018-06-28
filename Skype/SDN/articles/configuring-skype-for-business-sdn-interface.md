@@ -35,9 +35,8 @@ Most configuration settings provided during the setup are stored in each compone
 
   - [Configuring SDN Interface using the command prompt](configuring-sdn-interface-using-the-command-prompt.md)
 
-## Additional resources
+## See also
 
   - [Overview of Skype for Business SDN Interface](overview-of-skype-for-business-sdn-interface.md)
-
   - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

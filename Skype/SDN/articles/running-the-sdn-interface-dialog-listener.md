@@ -21,14 +21,15 @@ In general, the Dialog Listener executes as Windows service. In some case, parti
 
 
 > [!NOTE]
-> <P>When Dialog Listener is installed, the Front End service (RTCSRV) service cannot be controlled via SfB Control Panel. Either the RTCSRV service will not stop, or the DialogListener service will not be started. Changes to the FE server availability should be accomplished via server start/stop/restart.</P>
-> <P>The Windows Services application (services.msc) or SC.exe command line program, can be used as an alternative to the Skype for Business Control Panel.</P>
+> When Dialog Listener is installed, the Front End service (RTCSRV) service cannot be controlled via SfB Control Panel. Either the RTCSRV service will not stop, or the DialogListener service will not be started. Changes to the FE server availability should be accomplished via server start/stop/restart.
+> 
+> The Windows Services application (services.msc) or SC.exe command line program, can be used as an alternative to the Skype for Business Control Panel.
 
 
 
 
 > [!NOTE]
-> <P>Unlike the SDN Manager, you cannot run the service and the command line tool at the same time.</P>
+> Unlike the SDN Manager, you cannot run the service and the command line tool at the same time.
 
 
 

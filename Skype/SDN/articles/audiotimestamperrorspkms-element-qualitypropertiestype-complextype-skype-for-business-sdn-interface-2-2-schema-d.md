@@ -17,11 +17,6 @@ dev_langs:
 Average error of speech render stream time stamp, in milliseconds, or the last 20 seconds of the call.
 
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

@@ -21,8 +21,9 @@ The following table lists installation parameters for an unattended installation
 
 
 > [!NOTE]
-> <P>Using unattended installation is an advanced feature. Not all parameters may be validated or report detailed errors. Use regular an installation and logging to investigate any issues you may experience. - for example, include:</P>
-> <P>msiexec /lv* install.log /i SkypeForBusinessSDNManager.msi &lt;your parameters&gt;</P>
+> Using unattended installation is an advanced feature. Not all parameters may be validated or report detailed errors. Use a regular installation and log on to investigate any issues you may experience. 
+> For example, include:
+> `msiexec /lv* install.log /i SkypeForBusinessSDNManager.msi <your parameters>`.
 
 
 
@@ -183,7 +184,7 @@ myname.redis.cache.windows.net,ssl=true,password=VeryLongKeyCopiedFromPortal</p>
 
 
 > [!NOTE]
-> <P>Most settings provided during the setup can be modified after installation by editing the SDNManager.exe.config file</P>
+> Most settings provided during the setup can be modified after installation by editing the SDNManager.exe.config file.
 
 
 
@@ -259,13 +260,13 @@ Following are unattended installation parameters for the Dialog Listener.
 
 
 > [!NOTE]
-> <P>Most settings provided during the setup can be modified after the installation by editing the DialogListener.exe.config file</P>
+> Most settings provided during the setup can be modified after the installation by editing the DialogListener.exe.config file.
 
 
 
 
 > [!NOTE]
-> <P>When DNS Service Location (SRV) records are used by the Dialog Listener, any configured value for the parameter CONFIGURATIONURI is ignored. Instead, the URI specified in the SRV record is used.</P>
+> When DNS Service Location (SRV) records are used by the Dialog Listener, any configured value for the parameter CONFIGURATIONURI is ignored. Instead, the URI specified in the SRV record is used.
 
 
 
@@ -283,13 +284,12 @@ To do an unattended uninstall, do the following:
 
 
 > [!NOTE]
-> <P>The product code for the Dialog Listener has changed since the previous release.</P>
+> The product code for the Dialog Listener has changed since the previous release.
 
 
 
-## Additional resources
+## See also
 
-  - [Installing the SDN Manager](installing-the-sdn-manager.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Installing the SDN Manager](installing-the-sdn-manager.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

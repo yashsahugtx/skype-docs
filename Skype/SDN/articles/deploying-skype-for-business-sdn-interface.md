@@ -36,7 +36,7 @@ To overcome server failures in a single SDN Manager deployment, the SDN Interfac
 
 
 > [!NOTE]
-> <P>In the event of fail over, the secondary computer is promoted to the new primary node. Restoring the second node will automatically make it the secondary node, and the new primary node will stay in place until it fails over.</P>
+> In the event of fail over, the secondary computer is promoted to the new primary node. Restoring the second node will automatically make it the secondary node, and the new primary node will stay in place until it fails over.
 
 
 
@@ -58,9 +58,8 @@ Figure 3. Deployment of the SDN Interface collocated with SDN manager and dialog
   
 ![Deployment configuration of colocated components](../images/Dn785194.07b7eb5a-2a4b-4a4c-9460-67c8a6098e7b(Office.16).png "Deployment configuration of colocated components")
 
-## Additional resources
+## See also
 
-  - [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

@@ -16,10 +16,7 @@ dev_langs:
 
 Speaking device clock drift rate, relative to CPU clock. Average error of microphone-captured-stream time stamp, in milliseconds, for the last 20 seconds of a call.
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+ 
 
 ## Element information
 

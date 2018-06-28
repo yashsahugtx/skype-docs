@@ -6,12 +6,12 @@ ms.assetid: 4f5c2ee2-2184-486b-bc63-5a30589cca8a
 
 # In-call QoE algorithm and throttling
 Learn about the algorithm that manages the number of InCallQoE messages so that they don't overload the network.
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015 
+ **Applies to**: Lync Server 2013 | Skype for Business 2015 
  
 This section describes the algorithm used for throttling InCallQoE messages sent by a client regardless of the network conditions.
   
@@ -55,9 +55,8 @@ Even without any quality issues, the client will send an InCallUpdate message af
     
   
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
-
 
 -  [Configuring InCallQoE Messages](configuring-incallqoe-messages.md)
     

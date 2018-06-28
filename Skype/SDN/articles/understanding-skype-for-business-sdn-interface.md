@@ -23,7 +23,7 @@ The Skype for Business SDN Interface is distributed as a downloadable installati
 
 
 > [!IMPORTANT]
-> <P>The Skype for Business SDN Interface version 3.0 adds significant new functionality, as well as changes to the message format. It also fixes bugs in the previous release but provides backward compatibility so that its message format and semantics are fully compatible with the Lync SDN Interface 2.1.1.</P>
+> The Skype for Business SDN Interface version 3.0 adds significant new functionality, as well as changes to the message format. It also fixes bugs in the previous release but provides backward compatibility so that its message format and semantics are fully compatible with the Lync SDN Interface 2.1.1.
 
 
 
@@ -33,7 +33,7 @@ In Skype for Business SDN Interface, the call and quality data is defined by the
 
 
 > [!NOTE]
-> <P>With release 3.0, the presence of some fields provided to a Subscriber (primarily Wi-Fi quality metrics) can be suppressed – See Subscriber setting ‘SchemaExtension’.</P>
+> With release 3.0, the presence of some fields provided to a Subscriber (primarily Wi-Fi quality metrics) can be suppressed; see Subscriber setting ‘SchemaExtension’.
 
 
 
@@ -49,9 +49,8 @@ In Skype for Business SDN Interface, the call and quality data is defined by the
 
   - [In-call QoE algorithm and throttling](in-call-qoe-algorithm-and-throttling.md)
 
-## Additional resources
+## See also
 
-  - [Overview of Skype for Business SDN Interface](overview-of-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Overview of Skype for Business SDN Interface](overview-of-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

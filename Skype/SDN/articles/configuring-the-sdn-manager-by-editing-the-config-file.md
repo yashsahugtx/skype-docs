@@ -49,13 +49,12 @@ Similarly, the RedisConnectString, RedisPassword, and **usedapi** key values are
 
 
 > [!IMPORTANT]
-> <P>Changes to the configuration file will take effect only after restarting the service.</P>
+> Changes to the configuration file will take effect only after restarting the service.
 
 
 
-## Additional resources
+## See also
 
   - [Configuring Skype for Business SDN Interface](configuring-skype-for-business-sdn-interface.md)
-
   - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

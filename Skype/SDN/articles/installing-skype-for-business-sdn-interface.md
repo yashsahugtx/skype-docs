@@ -27,9 +27,8 @@ We recommend that you run **SkypeforBusinessSDNManager.msi** before you run the 
 
   - [Unattended installation of SDN Manager and Dialog Listener](unattended-installation-of-sdn-manager-and-dialog-listener.md)
 
-## Additional resources
+## See also
 
-  - [Overview of Skype for Business SDN Interface](overview-of-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Overview of Skype for Business SDN Interface](overview-of-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

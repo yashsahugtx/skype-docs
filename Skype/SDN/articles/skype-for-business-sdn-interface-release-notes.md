@@ -95,7 +95,7 @@ The following bugs have been fixed in SDN 3.0:
 
   - Due to changes in how we store state for calls, during an upgrade, some failures may be reported for ongoing calls during the upgrade.
 
-## Additional resources
+## See also
 
   - [Skype for Business SDN Interface schema reference](https://msdn.microsoft.com/en-us/library/dn965442\(v=office.16\))
 

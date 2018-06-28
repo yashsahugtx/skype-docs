@@ -31,9 +31,8 @@ Typically, the SDN Manager installation determines all the necessary configurati
 
 You can also configure SDN Manager to maintain logging information to assist with debugging. For information about setting or updating the logging configuration, see [Configuring SDN Interface logging options](configuring-sdn-interface-logging-options.md).
 
-## Additional resources
+## See also
 
-  - [Configuring Skype for Business SDN Interface](configuring-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Configuring Skype for Business SDN Interface](configuring-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

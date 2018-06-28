@@ -37,7 +37,7 @@ The default configuration ensures that at most 10 log files per type are written
 
 
 > [!NOTE]
-> <P>Modifying the log settings in the config files does NOT require a restart of the service. These changes are picked up automatically by the Enterprise Logging functionality.</P>
+> Modifying the log settings in the config files does NOT require a restart of the service. These changes are picked up automatically by the Enterprise Logging functionality.
 
 
 
@@ -158,13 +158,12 @@ The SDN Manager default configuration supports the following types of logging:
 
 
 > [!WARNING]
-> <P>Both the DialogListener.log and SDNManager.log files do not contain person-identifiable information, even in debug mode; however, the other log files might contain un-obfuscated user aliases, names and telephone numbers. Activate these logs with caution.</P>
+> Both the DialogListener.log and SDNManager.log files do not contain person-identifiable information, even in debug mode; however, the other log files might contain un-obfuscated user aliases, names and telephone numbers. Activate these logs with caution.
 
 
 
-## Additional resources
+## See also
 
-  - [Configuring Skype for Business SDN Interface](configuring-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Configuring Skype for Business SDN Interface](configuring-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

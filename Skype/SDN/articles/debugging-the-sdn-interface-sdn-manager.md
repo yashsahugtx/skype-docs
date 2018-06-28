@@ -97,7 +97,7 @@ You can configure the subscriber to use the log service by setting the submitUri
 
 
 > [!NOTE]
-> <P>You can also view the last megabyte of messages received by browsing to http://localhost:9333/Log/GetStuffHere.</P>
+> You can also view the last megabyte of messages received by browsing to `http://localhost:9333/Log/GetStuffHere`.
 
 
 

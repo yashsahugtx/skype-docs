@@ -49,9 +49,8 @@ Figure 2. Detailed Skype for Business SDN Interface architecture
   
 ![SDN Interface Api Architecture](../images/Dn785192.4b1a7938-ca4d-4f4b-8929-5cd5205ca75e(Office.16).png "SDN Interface Api Architecture")
 
-## Additional resources
+## See also
 
-  - [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

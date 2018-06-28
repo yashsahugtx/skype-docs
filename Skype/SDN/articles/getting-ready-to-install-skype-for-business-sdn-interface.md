@@ -39,7 +39,7 @@ To ensure that the Software Defined Network (SDN) Interface components are succe
 
 
 > [!NOTE]
-> <P>You should install SDN Manager on a separate application server to maximize the performance of the Skype for Business Server front end.</P>
+> You should install SDN Manager on a separate application server to maximize the performance of the Skype for Business Server front end.
 
 
 
@@ -55,9 +55,8 @@ To ensure that the Software Defined Network (SDN) Interface components are succe
 
   - [Activating QoE recording in Skype for Business Server](activating-qoe-recording-in-skype-for-business-server.md)
 
-## Additional resources
+## See also
 
-  - [Installing Skype for Business SDN Interface](installing-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Installing Skype for Business SDN Interface](installing-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

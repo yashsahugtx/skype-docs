@@ -25,9 +25,8 @@ Following are new and improved features of the Microsoft Skype for Business SDN 
 
   - [In-call QoE algorithm and throttling](in-call-qoe-algorithm-and-throttling.md)
 
-## Additional resources
+## See also
 
-  - [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

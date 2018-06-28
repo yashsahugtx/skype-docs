@@ -90,15 +90,14 @@ The **From** and **To** sections contain information related to the endpoints wi
 
 
 > [!NOTE]
-> <P>SDN Interface does not report the ports used for the RTCP traffic.</P>
+> SDN Interface does not report the ports used for the RTCP traffic.
 
 
 
 For more information about SDN Manager-generated Skype for Business SDN Interface data, see [Skype for Business SDN Interface reference](https://msdn.microsoft.com/en-us/library/dn912673\(v=office.16\)).
 
-## Additional resources
+## See also
 
-  - [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Understanding Skype for Business SDN Interface](understanding-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

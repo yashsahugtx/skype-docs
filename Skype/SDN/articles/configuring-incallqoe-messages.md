@@ -6,12 +6,12 @@ ms.assetid: b96a25eb-c900-4942-9384-2fbca6f84b05
 
 # Configuring InCallQoE Messages
 Learn how to configure in-call quality reporting for Skype for Business Server. 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 InCallQoE updates contain quality metrics and are sent during the call. The metrics within the quality update reports are trailing weighted averages since the beginning of the call. They are supported by Windows desktop W16 Skype for Business client (as of the writing on this note). These are different from midcall quality updates that are supported by certain web based clients. 
   
@@ -97,15 +97,14 @@ If you are running Lync Server 2013 while using the Lync 2013 client, you must m
   
 
 > [!NOTE]
-> Both  *InCallQoSPeriodInSec*  and *InCallQoSIntervalSeconds*  control the frequency of receiving InCallQuality reports from the client. When manually configuring the in-call quality reporting , use *InCallQoSPeriodInSec*  . When using Powershell, use *InCallQoSIntervalSeconds*  .
+> Both  *InCallQoSPeriodInSec*  and *InCallQoSIntervalSeconds*  control the frequency of receiving InCallQuality reports from the client. When manually configuring the in-call quality reporting , use *InCallQoSPeriodInSec*. When using PowerShell, use *InCallQoSIntervalSeconds*.
   
     
     
 
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
-
 
 -  [In-call QoE algorithm and throttling](in-call-qoe-algorithm-and-throttling.md)
     

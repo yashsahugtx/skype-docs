@@ -36,7 +36,7 @@ In general, you run the SDN Manager as a Windows service. In some cases, especia
     
 
     > [!NOTE]
-    > <P>You can control the service using the windows net or sc commands, for example, sc start "Skype for Business SDN Manager".</P>
+    > You can control the service using the windows net or sc commands, for example, sc start "Skype for Business SDN Manager".
 
 
 
@@ -46,6 +46,6 @@ Start SDNManager.exe without any parameter and it will start the SDN Manager ser
 
 
 > [!NOTE]
-> <P>If you specify any command line parameter, SDN Manager will not start as a service but instead attempts to execute specified command line arguments in an active SDN Manager instance or pool.</P>
+> If you specify any command line parameter, SDN Manager will not start as a service but instead attempts to execute specified command line arguments in an active SDN Manager instance or pool.
 
 

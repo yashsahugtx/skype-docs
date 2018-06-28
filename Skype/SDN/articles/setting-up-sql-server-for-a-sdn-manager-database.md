@@ -19,9 +19,8 @@ To minimize hardware investments, and after evaluating available performance res
 
 The installer creates and configures a new database or joins a new SDN Manager installation with an existing database.
 
-## Additional resources
+## See also
 
-  - [Getting ready to install Skype for Business SDN Interface](getting-ready-to-install-skype-for-business-sdn-interface.md)
-
-  - [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
+- [Getting ready to install Skype for Business SDN Interface](getting-ready-to-install-skype-for-business-sdn-interface.md)
+- [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
 

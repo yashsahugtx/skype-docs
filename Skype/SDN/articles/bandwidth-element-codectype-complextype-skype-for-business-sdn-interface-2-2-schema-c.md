@@ -15,11 +15,7 @@ dev_langs:
 (CodecType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
 Average estimated bandwidth.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+ 
 
 ## Element information
 

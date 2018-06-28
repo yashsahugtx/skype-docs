@@ -45,8 +45,7 @@ If the QoE column of the specified topology (W15Topology) is checked, the QoE re
   
 ![Lync Server Control Panel editing QoE setting](../images/Dn806347.lync_sdni_set_qoe_setting_in_control_pannel(Office.16).png "Lync Server Control Panel editing QoE setting")
 
-
 > [!NOTE]
-> <P>Some of the parameters might not be available in the control panel. To view and set such advanced features, use the Windows PowerShell commands. For more information about the Windows PowerShell commands, see <A href="configuring-sdn-interface-using-the-command-prompt.md">Configuring SDN Interface using the command prompt</A>.</P>
+> Some of the parameters might not be available in the control panel. To view and set such advanced features, use the Windows PowerShell commands. For more information about the Windows PowerShell commands, see [Configuring SDN Interface using the command prompt](configuring-sdn-interface-using-the-command-prompt.md).
 
 

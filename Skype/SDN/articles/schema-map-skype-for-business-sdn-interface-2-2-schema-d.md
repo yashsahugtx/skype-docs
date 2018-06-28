@@ -7,7 +7,7 @@ ms.assetid: ebeb9ba9-4132-4595-5f6c-2758df99d5cf
 
 # Schema map 
 This topic shows the schema definition for **SDNInterface.Schema.D.xsd**.
- **Last modified:** October 08, 2015
+
   
     
     

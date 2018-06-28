@@ -6,18 +6,12 @@ ms.assetid: b3547a3c-77b4-4cdf-942a-c77d051e535b
 
 
 # Skype for Business SDN Interface Schema Reference
-Reference documentation for the Software Defined Network (SDN) Interface XML schemas, both Schema "C" and Schema "D."
- **Last modified:** November 25, 2016
-  
-    
-    
 
- * **Applies to:** Skype for Business 2015* 
-The Skype for Business 2015SDN Interface is supported by two XSD schemas:
-  
-    
-    
+**Applies to**: Skype for Business 2015 
 
+Reference documentation for the Software Defined Network (SDN) Interface XML schemas, both Schema "C" and Schema "D".
+
+The Skype for Business 2015 SDN Interface is supported by two XSD schemas:
 
 - SDNInterface.Schema.C.xsd
     
@@ -34,24 +28,15 @@ These four schema shall be referred to as the "C", "D", "C_3.0", and "D_3.0" sch
 
 ## In this section
 
-
--  [Skype for Business SDN Interface 2.2, Schema C](https://msdn.microsoft.com/en-us/library/office/mt404709(v=office.16).aspx)
-    
-  
+-  [Skype for Business SDN Interface 2.2, Schema C](https://msdn.microsoft.com/en-us/library/office/mt404709(v=office.16).aspx) 
 -  [Skype for Business SDN Interface 2.2, Schema D](https://msdn.microsoft.com/en-us/library/office/mt429384(v=office.16).aspx)
     
-  
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
-
--  [Overview of Skype for Business SDN Interface](overview.md)
-    
-  
--  [Skype for Business Software Defined Networking (SDN) Interface](skype-for-business-sdn-interface.md)
-    
-  
+-  [Overview of Skype for Business SDN Interface](overview.md) 
+-  [Skype for Business Software Defined Networking (SDN) Interface](skype-for-business-sdn-interface.md) 
 -  [Skype for Business Software Defined Networking (SDN) Interface 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=54685)
     
   

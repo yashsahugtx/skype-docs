@@ -15,12 +15,7 @@ dev_langs:
 (BandwidthType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Estimated average amount of the bandwidth.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+ 
 
 ## Element information
 

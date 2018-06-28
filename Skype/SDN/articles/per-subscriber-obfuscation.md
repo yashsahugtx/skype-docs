@@ -29,6 +29,6 @@ SipObfuscator tool has been updated to accept a parameter to supply the subscrib
 
 
 > [!NOTE]
-> <P>The Subscriber obfuscationseed setting is ignored when Manager setting ‘hidepii’ is ‘false’.</P>
+> The Subscriber obfuscationseed setting is ignored when Manager setting ‘hidepii’ is ‘false’.
 
 

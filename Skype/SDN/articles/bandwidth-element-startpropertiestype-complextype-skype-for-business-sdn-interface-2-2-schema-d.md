@@ -15,12 +15,7 @@ dev_langs:
 (StartPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
 Describes the maximum and average amount of bandwidth needed by this stream. It takes the possible codecs and stream multiplexing into account.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+ 
 
 ## Element information
 

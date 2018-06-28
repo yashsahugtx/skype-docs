@@ -171,12 +171,12 @@ Elements and attributes
 <td><p>Port number of the destination or source of the media stream used by this endpoint.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="reflexiveip-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">ReflexiveIP</a></p></td>
+<td><p><a href="reflexiveip-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md">ReflexiveIP</a></p></td>
 <td><p><a href="ipaddresspattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md">ipAddressPattern</a></p></td>
 <td><p>IP used outside of the NAT.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="reflexiveport-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">ReflexivePort</a></p></td>
+<td><p><a href="reflexiveport-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md">ReflexivePort</a></p></td>
 <td><p><a href="portpattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md">PortPattern</a></p></td>
 <td><p>Port used on the NAT.</p></td>
 </tr>
@@ -206,7 +206,7 @@ Elements and attributes
 <td><p>Skype for Business client and version.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="virtualization-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">Virtualization</a></p></td>
+<td><p><a href="virtualization-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md">Virtualization</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Type of virtualization used.</p></td>
 </tr>
@@ -221,7 +221,7 @@ Elements and attributes
 <td><p>Wifi Driver Device description.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="wifidriverversion-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">WifiDriverVersion</a></p></td>
+<td><p><a href="wifidriverversion-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md">WifiDriverVersion</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Wifi Driver Version.</p></td>
 </tr>

@@ -104,12 +104,12 @@ Elements and attributes
 <td><p>More info related to the error.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="msdiagnosticsclient-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">MSDiagnosticsClient</a></p></td>
+<td><p><a href="msdiagnosticsclient-element-errorproperties-complextype-skype-sdn-2-2-c.md">MSDiagnosticsClient</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Info about the error related to and reported by the client.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="msdiagnosticspublic-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">MSDiagnosticsPublic</a></p></td>
+<td><p><a href="msdiagnosticspublic-element-errorproperties-complextype-skype-sdn-2-2-c.md">MSDiagnosticsPublic</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Public info about the error.</p></td>
 </tr>
@@ -119,7 +119,7 @@ Elements and attributes
 <td><p>SIP Error code.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="responsephrase-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">ResponsePhrase</a></p></td>
+<td><p><a href="responsephrase-element-errorproperties-complextype-skype-sdn-2-2-c.md">ResponsePhrase</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>More info related to the error.</p></td>
 </tr>

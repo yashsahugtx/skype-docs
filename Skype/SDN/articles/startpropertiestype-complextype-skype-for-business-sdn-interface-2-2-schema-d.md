@@ -86,7 +86,7 @@ Elements and attributes
 <td><p>Transmission protocol of the media stream such as TCP or UDP.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="referredby-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">ReferredBy</a></p></td>
+<td><p><a href="referredby-element-startpropertiestype-complextype-skype-sdn-2-2-d.md">ReferredBy</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Content of the REFERRED BY SIP tag.</p></td>
 </tr>

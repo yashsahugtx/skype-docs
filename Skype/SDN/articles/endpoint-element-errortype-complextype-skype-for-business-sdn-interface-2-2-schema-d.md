@@ -155,7 +155,7 @@ Elements and attributes
 <td><p>IP used outside of the NAT.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="reflexiveport-element-errorendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">ReflexivePort</a></p></td>
+<td><p><a href="reflexiveport-element-errorendpointtype-complextype-skype-sdn-2-2-d.md">ReflexivePort</a></p></td>
 <td><p><a href="portpattern-simpletype-skype-for-business-sdn-interface-2-2-schema-d.md">PortPattern</a></p></td>
 <td><p>Port useed on the NAT.</p></td>
 </tr>

@@ -200,33 +200,33 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 
   - [MSDiagnostics element](msdiagnostics-element-endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [MSDiagnostics element](msdiagnostics-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [MSDiagnostics element](msdiagnostics-element-messageproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [MSDiagnosticsClient element](msdiagnosticsclient-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [MSDiagnosticsClient element](msdiagnosticsclient-element-errorproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [MSDiagnosticsClient element](msdiagnosticsclient-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [MSDiagnosticsClient element](msdiagnosticsclient-element-messageproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [MSDiagnosticsClient element](msdiagnosticsclient-element-endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [MSDiagnosticsClient element](msdiagnosticsclient-element-endedproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [MSDiagnosticsPublic element](msdiagnosticspublic-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [MSDiagnosticsPublic element](msdiagnosticspublic-element-errorproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [MSDiagnosticsPublic element](msdiagnosticspublic-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [MSDiagnosticsPublic element](msdiagnosticspublic-element-messageproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [MSDiagnosticsPublic element](msdiagnosticspublic-element-endedproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [MSDiagnosticsPublic element](msdiagnosticspublic-element-endedproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [NetworkDelayEventRatio element](networkdelayeventratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [NetworkDelayEventRatio element](networkdelayeventratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [OS element](os-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [OverallAvgNetworkMOS element](overallavgnetworkmos-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [OverallAvgNetworkMOS element](overallavgnetworkmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [OverallMinNetworkMOS element](overallminnetworkmos-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [OverallMinNetworkMOS element](overallminnetworkmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [PacketLossRate element](packetlossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [PacketLossRate element](packetlossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [PacketLossRateMax element](packetlossratemax-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [PacketLossRateMax element](packetlossratemax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [PacketUtilization element](packetutilization-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [PacketUtilization element](packetutilization-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [Port element](port-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
@@ -242,41 +242,41 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 
   - [Properties element](properties-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [Protocol element](protocol-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [Protocol element](protocol-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [Protocol element](protocol-element-startpropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
   - [QualityUpdate element](qualityupdate-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [RatioConcealedSamplesAvg element](ratioconcealedsamplesavg-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RatioConcealedSamplesAvg element](ratioconcealedsamplesavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [RawSDP element](rawsdp-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [RDPTileProcessingLatencyAverage element](rdptileprocessinglatencyaverage-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RDPTileProcessingLatencyAverage element](rdptileprocessinglatencyaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RDPTileProcessingLatencyBurstDensity element](rdptileprocessinglatencyburstdensity-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RDPTileProcessingLatencyBurstDensity element](rdptileprocessinglatencyburstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RecvFrameRateAverage element](recvframerateaverage-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RecvFrameRateAverage element](recvframerateaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RecvListenMOS element](recvlistenmos-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RecvListenMOS element](recvlistenmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RecvListenMOSMin element](recvlistenmosmin-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RecvListenMOSMin element](recvlistenmosmin-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RecvNoiseLevel element](recvnoiselevel-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RecvNoiseLevel element](recvnoiselevel-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RecvSignalLevel element](recvsignallevel-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RecvSignalLevel element](recvsignallevel-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [ReflexiveIP element](reflexiveip-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [ReflexiveIP element](reflexiveip-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [ReflexiveIP element](reflexiveip-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md)
 
-  - [ReflexivePort element](reflexiveport-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [ReflexivePort element](reflexiveport-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md)
 
   - [ReflexivePort element](reflexiveport-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [RelativeOneWayAverage element](relativeonewayaverage-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RelativeOneWayAverage element](relativeonewayaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RelativeOneWayBurstDensity element](relativeonewayburstdensity-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RelativeOneWayBurstDensity element](relativeonewayburstdensity-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [Relay element](relay-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
@@ -286,41 +286,41 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 
   - [RelayPort element](relayport-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [RenderDevice element](renderdevice-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RenderDevice element](renderdevice-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RenderDeviceDriver element](renderdevicedriver-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RenderDeviceDriver element](renderdevicedriver-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [ResponseCode element](responsecode-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [ResponseCode element](responsecode-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [ResponseCode element](responsecode-element-messageproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [ResponsePhrase element](responsephrase-element-errorproperties-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [ResponsePhrase element](responsephrase-element-errorproperties-complextype-skype-sdn-2-2-c.md)
 
-  - [RoundTrip element](roundtrip-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RoundTrip element](roundtrip-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [RoundTripMax element](roundtripmax-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [RoundTripMax element](roundtripmax-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [Route element](route-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
   - [Route element](route-element-qualitytype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [SendListenMOS element](sendlistenmos-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [SendListenMOS element](sendlistenmos-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [SendListenMOSMin element](sendlistenmosmin-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [SendListenMOSMin element](sendlistenmosmin-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [SourcePool element](sourcepool-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [SpeakerGlitchRate element](speakerglitchrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [SpeakerGlitchRate element](speakerglitchrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [SpoiledTilePercentAverage element](spoiledtilepercentaverage-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [SpoiledTilePercentAverage element](spoiledtilepercentaverage-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [SpoiledTilePercentTotal element](spoiledtilepercenttotal-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [SpoiledTilePercentTotal element](spoiledtilepercenttotal-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [Start element](start-element-messagetype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
   - [StartTime element](starttime-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [StreamQuality element](streamquality-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [StreamQuality element](streamquality-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [TimeStamp element](timestamp-element-connectioninfotype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
@@ -342,19 +342,19 @@ This topic lists the elements in the SDNInterface.Schema.C.xsd XML schema.
 
   - [UserAgent element](useragent-element-endpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [VGAQualityRatio element](vgaqualityratio-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [VGAQualityRatio element](vgaqualityratio-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [VideoFrameLossRate element](videoframelossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [VideoFrameLossRate element](videoframelossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
   - [VideoLocalFrameLossPercentageAvg element](videolocalframelosspercentageavg-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [VideoPacketLossRate element](videopacketlossrate-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [VideoPacketLossRate element](videopacketlossrate-element-qualitypropertiestype-complextype-skype-sdn-2-2-c.md)
 
-  - [Virtualization element](virtualization-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [Virtualization element](virtualization-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md)
 
   - [VPN element](vpn-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
 
-  - [WifiDriverDeviceDesc element](wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [WifiDriverDeviceDesc element](wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md)
 
-  - [WifiDriverVersion element](wifidriverversion-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md)
+  - [WifiDriverVersion element](wifidriverversion-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md)
 

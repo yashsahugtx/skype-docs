@@ -155,12 +155,12 @@ Elements and attributes
 <td><p>Port number of the destination or source of the media stream used by this endpoint.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="reflexiveip-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">ReflexiveIP</a></p></td>
+<td><p><a href="reflexiveip-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">ReflexiveIP</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>IP used outside of the NAT.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="reflexiveport-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">ReflexivePort</a></p></td>
+<td><p><a href="reflexiveport-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">ReflexivePort</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Port used on the NAT.</p></td>
 </tr>
@@ -185,7 +185,7 @@ Elements and attributes
 <td><p>Skype for Business client and version.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="virtualization-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">Virtualization</a></p></td>
+<td><p><a href="virtualization-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">Virtualization</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Type of virtualization used.</p></td>
 </tr>
@@ -195,12 +195,12 @@ Elements and attributes
 <td><p>Indicates if the user is on VPN (True) or not (False).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">WifiDriverDeviceDesc</a></p></td>
+<td><p><a href="wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">WifiDriverDeviceDesc</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Wifi Driver Device description.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="wifidriverversion-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-c.md">WifiDriverVersion</a></p></td>
+<td><p><a href="wifidriverversion-element-qualityendpointtype-complextype-skype-sdn-2-2-c.md">WifiDriverVersion</a></p></td>
 <td><p>Not defined</p></td>
 <td><p>Wifi Driver Version.</p></td>
 </tr>

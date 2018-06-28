@@ -71,22 +71,22 @@ Elements and attributes
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="msdiagnostics-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">MSDiagnostics</a></p></td>
+<td><p><a href="msdiagnostics-element-messageproperties-complextype-skype-sdn-2-2-d.md">MSDiagnostics</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Skype for Business-specific diagnostics message.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="msdiagnosticsclient-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">MSDiagnosticsClient</a></p></td>
+<td><p><a href="msdiagnosticsclient-element-messageproperties-complextype-skype-sdn-2-2-d.md">MSDiagnosticsClient</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Skype for Business-specific diagnostics message from the client.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="msdiagnosticspublic-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">MSDiagnosticsPublic</a></p></td>
+<td><p><a href="msdiagnosticspublic-element-messageproperties-complextype-skype-sdn-2-2-d.md">MSDiagnosticsPublic</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Skype for Business-specific public diagnostics message.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="responsecode-element-messageproperties-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">ResponseCode</a></p></td>
+<td><p><a href="responsecode-element-messageproperties-complextype-skype-sdn-2-2-d.md">ResponseCode</a></p></td>
 <td><p><a href="responsecodetype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">ResponseCodeType</a></p></td>
 <td><p>Message describing the error.</p></td>
 </tr>

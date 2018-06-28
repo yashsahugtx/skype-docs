@@ -81,7 +81,7 @@ Elements and attributes
 <td><p>Speaking device clock drift rate, relative to CPU clock. Average error of microphone-captured-stream time stamp, in milliseconds, for the last 20 seconds of a call.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="audiotimestamperrorspkms-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">AudioTimestampErrorSpkMs</a></p></td>
+<td><p><a href="audiotimestamperrorspkms-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md">AudioTimestampErrorSpkMs</a></p></td>
 <td><p>xs:double</p></td>
 <td><p>Average error of speech render stream time stamp, in milliseconds, or the last 20 seconds of the call.</p></td>
 </tr>

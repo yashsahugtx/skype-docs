@@ -1660,7 +1660,7 @@
               - name: IncallEnabled element (ByeEndPointType complexType)
                 href: SDN/articles/incallenabled-element-byeendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: IncallEnabled element (InviteEndPointType complexType)
-                href: SDN/articles/incallenabled-element-inviteendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/incallenabled-element-inviteendpointtype-complextype-skype-sdn-2-2-d.md
               - name: IncallEnabled element (ErrorEndPointType complexType)
                 href: SDN/articles/incallenabled-element-errorendpointtype-complextype-skype-sdn-2-2-d.md
               - name: InCallQuality element
@@ -1934,7 +1934,7 @@
               - name: VPN element
                 href: SDN/articles/vpn-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
               - name: WifiDriverDeviceDesc element
-                href: SDN/articles/wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
+                href: SDN/articles/wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
               - name: WifiDriverVersion element
                 href: SDN/articles/wifidriverversion-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md
               - name: Wireless element (EndPointType complexType)

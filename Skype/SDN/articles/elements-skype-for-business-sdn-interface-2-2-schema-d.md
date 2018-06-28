@@ -17,7 +17,7 @@ This topic lists the elements in the SDNInterface.Schema.D.xsd XML schema.
 
   - [AudioTimestampErrorMicMs element](audiotimestamperrormicms-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
-  - [AudioTimestampErrorSpkMs element](audiotimestamperrorspkms-element-qualitypropertiestype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
+  - [AudioTimestampErrorSpkMs element](audiotimestamperrorspkms-element-qualitypropertiestype-complextype-skype-sdn-2-2-d.md)
 
   - [Average element](average-element-bandwidthtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md)
 

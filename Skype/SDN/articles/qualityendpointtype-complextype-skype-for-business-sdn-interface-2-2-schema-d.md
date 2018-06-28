@@ -216,7 +216,7 @@ Elements and attributes
 <td><p>Indicates if the user is on VPN (True) or not (False).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md">WifiDriverDeviceDesc</a></p></td>
+<td><p><a href="wifidriverdevicedesc-element-qualityendpointtype-complextype-skype-sdn-2-2-d.md">WifiDriverDeviceDesc</a></p></td>
 <td><p>xs:string</p></td>
 <td><p>Wifi Driver Device description.</p></td>
 </tr>

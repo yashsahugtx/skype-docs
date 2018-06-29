@@ -6,23 +6,17 @@ ms.assetid: 2cc9aa1a-a180-4887-8e87-93450ab57106
 
 
 # Skype for Business Software Defined Networking (SDN) Interface
+
+**Applies to**: Lync Server 2013 | Skype for Business 2015
+
 The Microsoft Skype for Business SDN Interface provides an interface for network management systems to access network diagnostic data in order to monitor network traffic and optimize the quality of service.
 
-  
-    
-    
-
- **Applies to**: Lync Server 2013 | Skype for Business 2015
- 
 This documentation explains what the Software Defined Network (SDN) Interface does and how to install and configure it to work with one or more known network management systems and ITPro tools.
-  
-    
-    
 
 This documentation contains the following:
+
 -  [Overview of Skype for Business SDN Interface](overview.md)
     
-  
 
 ## See also
 

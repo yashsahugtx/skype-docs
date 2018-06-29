@@ -28,8 +28,9 @@
 	 "fileMetadata": {
  	"ms.technology": 
        { 
-         "WebSDK/**.md" : "sdk",
-		 "UCWA/**.md" : "web-api"
+        "WebSDK/**.md" : "sdk",
+		"UCWA/**.md" : "web-api",
+		"SDN/**.md" : "sdn"
        }
 	},
     "externalReference": [

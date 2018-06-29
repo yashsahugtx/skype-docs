@@ -1,18 +1,15 @@
 ---
-title: Schema map (Skype for Business SDN Interface 2.2, Schema C)
+title: Schema map (Skype for Business SDN Interface 2.2, Schema "C")
 ms.assetid: 74a95f25-c585-5b08-4d14-e3152a7207b9
+ms.date: 10/08/2015
 ---
 
 
-# Schema map (Skype for Business SDN Interface 2.2, Schema C)
+# Schema map (Skype for Business SDN Interface 2.2, Schema "C")
+
 This topic shows the schema definition for **SDNInterface.Schema.C.xsd**.
- **Last modified:** October 08, 2015
-  
-    
-    
 
-
-```xsd
+```xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="C">

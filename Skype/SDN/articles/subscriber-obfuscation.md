@@ -1,6 +1,6 @@
 ---
 title: Per Subscriber Obfuscation
-ms.prod: SKYPE
+ 
 ms.assetid: d7fee767-9dbb-4ec0-9d20-3de741e79079
 ---
 

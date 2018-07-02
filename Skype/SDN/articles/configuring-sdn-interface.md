@@ -1,6 +1,6 @@
 ---
 title: Configuring Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: cf0ca8f3-bcaf-4dba-814f-4b8a5163fa7d
 ---
 

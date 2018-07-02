@@ -1,6 +1,6 @@
 ---
 title: SDN Manager command-line example
-ms.prod: SKYPE
+ 
 ms.assetid: 7a7c63ad-4f64-46a1-9e2c-2dd51f261aeb
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Skype for Business SDN Interface architecture
-ms.prod: SKYPE
+ 
 ms.assetid: c84231e4-5d96-4f1c-8747-a9a56d4794d9
 ---
 

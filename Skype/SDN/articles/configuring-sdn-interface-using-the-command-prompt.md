@@ -1,6 +1,6 @@
 ---
 title: Configuring SDN Interface using the command prompt
-ms.prod: SKYPE
+ 
 ms.assetid: b411b6d6-4597-416f-8a68-292527d3f226
 ---
 

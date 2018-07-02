@@ -1,6 +1,6 @@
 ---
 title: Uninstalling the SDN Interface components
-ms.prod: SKYPE
+ 
 ms.assetid: 54465ebc-dbf3-4788-9326-bb1cd34427fd
 ---
 

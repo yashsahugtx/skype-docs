@@ -1,6 +1,6 @@
 ---
 title: Installing security certificates
-ms.prod: SKYPE
+ 
 ms.assetid: 840474e7-94ee-4ea1-8bf4-64a168adfeea
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Setting up SQL Server for a SDN manager database
-ms.prod: SKYPE
+ 
 ms.assetid: 2b38badb-b30d-4003-8d18-c84c150feb91
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Skype for Business Software Defined Networking (SDN) Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 2cc9aa1a-a180-4887-8e87-93450ab57106
 ---
 

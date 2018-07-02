@@ -1,6 +1,6 @@
 ---
 title: Configuring the SDN manager by editing the config file
-ms.prod: SKYPE
+ 
 ms.assetid: 717466aa-c6b2-42ab-8492-8d2f4bed7765
 ---
 

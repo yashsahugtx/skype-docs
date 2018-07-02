@@ -1,6 +1,6 @@
 ---
 title: Dialog Listener configuration file example
-ms.prod: SKYPE
+ 
 ms.assetid: 6c325272-f444-4b8e-a9ac-80ebec5e2bff
 ---
 

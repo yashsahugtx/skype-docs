@@ -1,6 +1,6 @@
 ---
 title: SDN Interface Bandwidth Estimates
-ms.prod: SKYPE
+ 
 ms.assetid: 35458e8f-29ee-4bc5-b2bc-51bbe390b8d5
 ---
 

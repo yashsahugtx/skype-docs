@@ -1,6 +1,6 @@
 ---
 title: Setting up a DNS service location record
-ms.prod: SKYPE
+ 
 ms.assetid: 1dee6627-bd71-46e9-adb8-f2166fd8a97e
 ---
 

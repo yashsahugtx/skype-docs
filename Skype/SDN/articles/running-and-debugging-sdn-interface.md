@@ -1,6 +1,6 @@
 ---
 title: Running and debugging Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 42f84254-82de-4ca9-81b2-902ac1addabb
 ---
 

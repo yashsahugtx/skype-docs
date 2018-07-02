@@ -1,6 +1,6 @@
 ---
 title: SDN Interface Performance Overview
-ms.prod: SKYPE
+ 
 ms.assetid: 2ba10414-fcc4-40be-b87e-dc52f517c626
 ---
 

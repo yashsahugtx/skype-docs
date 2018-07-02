@@ -1,6 +1,6 @@
 ---
 title: Unattended installation of SDN Manager and Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: f2eba9a3-9888-4a1b-b689-567a83ebcb90
 ---
 

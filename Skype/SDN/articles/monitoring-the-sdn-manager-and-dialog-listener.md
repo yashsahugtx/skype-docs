@@ -1,6 +1,6 @@
 ---
 title: Monitoring the SDN Manager and Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: 80c3b67f-aa1c-4c06-a175-cdd0208db0a3
 ---
 

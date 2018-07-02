@@ -1,6 +1,6 @@
 ---
 title: Running the SDN Interface Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: f405de17-b1be-419e-a301-4055a4dfdaad
 ---
 

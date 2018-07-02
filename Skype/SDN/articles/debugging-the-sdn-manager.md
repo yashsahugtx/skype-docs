@@ -1,6 +1,6 @@
 ---
 title: Debugging the SDN Interface SDN Manager
-ms.prod: SKYPE
+ 
 ms.assetid: 5567fd7c-4567-47c4-8aa2-456564fcd087
 ---
 

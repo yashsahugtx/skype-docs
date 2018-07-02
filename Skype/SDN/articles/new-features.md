@@ -1,6 +1,6 @@
 ---
 title: New features in Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: a0ef6ad8-c0a2-425f-b236-dc4907efa22b
 ---
 

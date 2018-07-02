@@ -1,6 +1,6 @@
 ---
 title: Installing the Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: d3e65c58-3248-4a7d-a7d9-01526c0dcca8
 ---
 

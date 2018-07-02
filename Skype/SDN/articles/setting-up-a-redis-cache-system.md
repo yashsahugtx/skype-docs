@@ -1,6 +1,6 @@
 ---
 title: Setting up a Redis cache system
-ms.prod: SKYPE
+ 
 ms.assetid: 6266c208-25a0-4f59-a66d-990cfda79052
 ---
 

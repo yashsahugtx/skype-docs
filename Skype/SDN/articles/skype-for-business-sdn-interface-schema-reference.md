@@ -1,6 +1,6 @@
 ---
 title: Skype for Business SDN Interface Schema Reference
-ms.prod: SKYPE
+ 
 ms.assetid: b3547a3c-77b4-4cdf-942a-c77d051e535b
 ms.date: 11/25/2016
 ---

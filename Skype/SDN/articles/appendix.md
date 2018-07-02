@@ -1,6 +1,6 @@
 ---
 title: Appendix to Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 96830fcf-2a72-4a2a-8b3b-b523e0e8f4cd
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Understanding Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 4c97bce1-4b8b-4c13-8ec6-99eed59d88fc
 ---
 

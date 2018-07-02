@@ -1,6 +1,6 @@
 ---
 title: Configuring SDN Interface logging options
-ms.prod: SKYPE
+ 
 ms.assetid: 0f604c7d-87a3-4526-b67c-25648c8427e7
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Installing the trusted root certificate
-ms.prod: SKYPE
+ 
 ms.assetid: c96be8c9-4498-4cfa-82c4-44e1e396ec3f
 ---
 

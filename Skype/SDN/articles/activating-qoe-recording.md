@@ -1,6 +1,6 @@
 ---
 title: Activating QoE recording in Skype for Business Server
-ms.prod: SKYPE
+ 
 ms.assetid: 32254d29-c4be-4d1d-80c1-3ec766f2b6f4
 ---
 

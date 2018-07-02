@@ -1,6 +1,6 @@
 ---
 title: Installing the SDN Manager
-ms.prod: SKYPE
+ 
 ms.assetid: 94f85cd3-3ac4-4b61-96cf-5dccb93a4a02
 ---
 

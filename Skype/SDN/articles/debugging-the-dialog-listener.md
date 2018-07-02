@@ -1,6 +1,6 @@
 ---
 title: Debugging the SDN Interface Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: 0dade195-3eee-4b8d-8510-33bd78927442
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Using SIP Obfuscator for the SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: d71f5c20-627e-43ed-8127-53e0d1c193ad
 ---
 

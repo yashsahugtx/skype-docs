@@ -1,6 +1,6 @@
 ---
 title: Running the SDN Interface SDN Manager
-ms.prod: SKYPE
+ 
 ms.assetid: 41743ca0-f297-4e11-8bd3-27bab2f4baee
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Overview of Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 5cd64da2-e0bb-4558-9ccb-6e8fa01663fd
 ---
 

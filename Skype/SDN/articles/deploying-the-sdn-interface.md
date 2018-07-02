@@ -1,6 +1,6 @@
 ---
 title: Deploying Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 28293ebc-d1f4-4715-b7cd-276055e48015
 ---
 

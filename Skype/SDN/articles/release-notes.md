@@ -1,6 +1,6 @@
 ---
 title: Skype for Business SDN Interface Release Notes
-ms.prod: SKYPE
+ 
 ms.assetid: 726f613b-4639-4433-85db-50a572778ab8
 ---
 

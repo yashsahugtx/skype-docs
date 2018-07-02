@@ -1,6 +1,6 @@
 ---
 title: SDN Manager and Dialog Listener performance counters
-ms.prod: SKYPE
+ 
 ms.assetid: 66a0c1f3-32a4-4e59-9646-824f28d332d0
 ---
 

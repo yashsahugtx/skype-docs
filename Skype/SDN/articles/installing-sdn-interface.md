@@ -1,6 +1,6 @@
 ---
 title: Installing Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 69aa312c-0abb-438c-8588-0d756ba09a6d
 ---
 

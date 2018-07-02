@@ -1,6 +1,6 @@
 ---
 title: Configuring SDN Interface SDN Manager
-ms.prod: SKYPE
+ 
 ms.assetid: bf193e5f-86cd-4080-8a94-3a47c9d81f08
 ---
 

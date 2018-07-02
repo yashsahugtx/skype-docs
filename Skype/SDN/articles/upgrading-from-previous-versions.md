@@ -1,6 +1,6 @@
 ---
 title: Upgrading from previous version of the SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 8d3c28fa-dabe-4a52-9882-a6663ced5217
 ---
 

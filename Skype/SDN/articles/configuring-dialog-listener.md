@@ -1,6 +1,6 @@
 ---
 title: Configuring SDN Interface Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: e66f9787-ab6b-4a77-8895-0ae39a3a5ee1
 ---
 

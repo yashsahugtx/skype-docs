@@ -1,18 +1,18 @@
 ---
 title: Using the Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 542be3ea-3144-4e21-b320-c479cb0397bd
 ---
 
 
 # Using the Skype for Business SDN Interface
 
- **Last modified:** February 24, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 Skype for Business service providers and customers can use the Skype for Business SDN Interface to obtain call and quality data about the states of audio, video and app-sharing streams produced by Lync and Skype for Business clients on the network. The SDN Interface relies on the Dialog Listener component to capture call and quality data and then dispatches the captured data to the SDN Manager to process the raw data. The processed and aggregated data is then sent to subscribers, (for example, network management system, network controllers, or IT administration tools), which can in turn correlate the data with their own observations from the network, readjust policies, or reallocate network resources dynamically to improve the service quality. 
   
@@ -113,12 +113,9 @@ For more information about SDN Manager-generated Skype for Business SDN Interfac
     
     
 
-## Additional resources
+## See also
 
-
--  [Understanding Skype for Business SDN Interface](understanding-sdn-interface.md)
-    
-  
+-  [Understanding Skype for Business SDN Interface](understanding-sdn-interface.md)  
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

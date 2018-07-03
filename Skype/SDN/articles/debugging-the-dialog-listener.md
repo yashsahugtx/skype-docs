@@ -1,18 +1,18 @@
 ---
 title: Debugging the SDN Interface Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: 0dade195-3eee-4b8d-8510-33bd78927442
 ---
 
 
 # Debugging the SDN Interface Dialog Listener
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
   
     

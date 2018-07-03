@@ -1,18 +1,18 @@
 ---
 title: Installing the trusted root certificate
-ms.prod: SKYPE
+ 
 ms.assetid: c96be8c9-4498-4cfa-82c4-44e1e396ec3f
 ---
 
 
 # Installing the trusted root certificate
 
- **Last modified:** January 28, 2016
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
  
 Installing a trusted root certificate is necessary only if you are notified that the certificate of authority is not trusted on any machine. This can occur when you use a private or custom certificate server instead of acquiring certificates from an established public certificate of authority.
   
@@ -74,13 +74,10 @@ Upon completing the wizard, you next want to add the certificate snap-ins using 
     
   
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
-
 -  [Overview of Skype for Business SDN Interface](overview.md)
-    
-  
 -  [Appendix to Skype for Business SDN Interface](appendix.md)
     
   

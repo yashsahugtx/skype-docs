@@ -1,18 +1,18 @@
 ---
 title: Uninstalling the SDN Interface components
-ms.prod: SKYPE
+ 
 ms.assetid: 54465ebc-dbf3-4788-9326-bb1cd34427fd
 ---
 
 
 # Uninstalling the SDN Interface components
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 This section describes how to uninstall Skype for Business SDN Interface components, the Dialog Listener and the SDN Manager services. 
   
@@ -68,7 +68,8 @@ Example:  `Service:registrar:pool1.contoso.com/Diagnostics`. You can follow the 
     
 
 > [!NOTE]
-> Removing the registration will deactivate all Dialog Listener instances on any front-ends deployed in this pool. > Uninstalling all Dialog Listener instances in a pool won't unregister the SDN Interface application. You must to do this manually. 
+> Removing the registration will deactivate all Dialog Listener instances on any front-ends deployed in this pool. 
+> Uninstalling all Dialog Listener instances in a pool won't unregister the SDN Interface application. You must to do this manually. 
   
     
     

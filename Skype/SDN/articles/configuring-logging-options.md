@@ -1,18 +1,18 @@
 ---
 title: Configuring SDN Interface logging options
-ms.prod: SKYPE
+ 
 ms.assetid: 0f604c7d-87a3-4526-b67c-25648c8427e7
 ---
 
 
 # Configuring SDN Interface logging options
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 Skype for Business SDN Interface version 2.2 and later uses the logging infrastructure of the  [Enterprise Libraries 5.0](https://msdn.microsoft.com/en-us/library/ff632023.aspx). You can inspect and modify the configuration file by using the Microsoft Enterprise Library Configuration Tool. For a complete documentation on the options and capabilities of the logging infrastructure, see  [Configuring the Logging Application Block](https://msdn.microsoft.com/en-us/library/ff664723%28v=pandp.50%29.aspx). 
   
@@ -135,12 +135,9 @@ The SDN Manager default configuration supports the following types of logging:
     
 
 
-## Additional resources
+## See also
 
-
--  [Configuring Skype for Business SDN Interface](configuring-sdn-interface.md)
-    
-  
+-  [Configuring Skype for Business SDN Interface](configuring-sdn-interface.md) 
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

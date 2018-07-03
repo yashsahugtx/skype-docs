@@ -1,18 +1,18 @@
 ---
 title: Dialog Listener configuration file example
-ms.prod: SKYPE
+ 
 ms.assetid: 6c325272-f444-4b8e-a9ac-80ebec5e2bff
 ---
 
 
 # Dialog Listener configuration file example
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2010 | Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2010 | Lync Server 2013 | Skype for Business 2015
 
 The following code sample is an example of the Dialog Listener configuration file. 
   

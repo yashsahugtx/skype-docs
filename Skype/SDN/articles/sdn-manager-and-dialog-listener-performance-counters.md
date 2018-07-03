@@ -1,18 +1,18 @@
 ---
 title: SDN Manager and Dialog Listener performance counters
-ms.prod: SKYPE
+ 
 ms.assetid: 66a0c1f3-32a4-4e59-9646-824f28d332d0
 ---
 
 
 # SDN Manager and Dialog Listener performance counters
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 The SDN Manager and Dialog Listener provide performance counters that you can access using Perfmon. The performance counters are described in the following table and may be accessed using  [Perfmon](https://technet.microsoft.com/en-us/library/bb490957.aspx). 
 

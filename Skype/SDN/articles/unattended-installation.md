@@ -1,6 +1,6 @@
 ---
 title: Unattended installation of SDN Manager and Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: f2eba9a3-9888-4a1b-b689-567a83ebcb90
 ---
 
@@ -8,12 +8,7 @@ ms.assetid: f2eba9a3-9888-4a1b-b689-567a83ebcb90
 
 # Unattended installation of SDN Manager and Dialog Listener
 
- **Last modified:** February 24, 2017
-  
-    
-    
-
- * **Applies to:** Lync Server 2010 | Lync Server 2013 | Skype for Business 2015
+**Applies to**: Lync Server 2010 | Lync Server 2013 | Skype for Business 2015
 
 In production, you often have to install the SDN Manager and Dialog Listener using installation scripts, and therefore in an unattended mode. This article describes the parameters that are used for an unattended installation. 
   
@@ -21,36 +16,24 @@ In production, you often have to install the SDN Manager and Dialog Listener usi
 <a name="bk_addresources"> </a>
 
 The following table lists installation parameters for an unattended installation of the SDN Manager. 
-  
-    
-    
 
 > [!NOTE]
-> Using unattended installation is an advanced feature. Not all parameters may be validated or report detailed errors. Use regular an installation and logging to investigate any issues you may experience. - for example, include: >  `msiexec /lv* install.log /i SkypeForBusinessSDNManager.msi <your parameters>`
+> Using unattended installation is an advanced feature. Not all parameters may be validated or report detailed errors. Use a regular installation and log on to investigate any issues you may experience. 
+> For example, include:
+> `msiexec /lv* install.log /i SkypeForBusinessSDNManager.msi <your parameters>`
   
-    
-    
-
 Follow the guidelines for an unattended install: 
-  
-    
-    
 
-- DOMAIN and COMPUTERNAME are required for creating SQL Login and User objects for the local machine. 
-    
+- DOMAIN and COMPUTERNAME are required for creating SQL Login and User objects for the local machine.    
   
 - USE_SQL_AUTH=1 is necessary to declare that sql credentials need to be generated (0 is default). 
-    
-  
+     
 - SQLUSER and SQLPASSWORD are required if USE_SQL_AUTH=1, otherwise ignored. 
     
-  
 - SQLPASSWORD needs to follow SQL password length and complexity rules. 
     
-  
 - DATABASE_SERVER is required, and cannot be 'localhost'. 
     
-  
 - DATABASE_NAME can be defaulted (Default ='SDNManager22'). 
     
   
@@ -95,15 +78,10 @@ Follow the guidelines for an unattended install:
    
 
 > [!NOTE]
-> Most settings provided during the setup can be modified after installation by editing the SDNManager.exe.config file 
+> Most settings provided during the setup can be modified after installation by editing the SDNManager.exe.config file. 
   
-    
-    
-
 The USE_DAPI parameter is used to secure the Redis password contained in the SDNManager.exe.config file with DPAPI encryption, and corresponds to the checkbox in figure 1: 
   
-    
-    
 
 **Figure 1. Skype for Business SDN Manager Setup**
     
@@ -113,21 +91,13 @@ The USE_DAPI parameter is used to secure the Redis password contained in the SDN
 ## Example unattended installations of the SDN Manager
 <a name="bk_addresources"> </a>
 
- **Database install**
-  
-    
-    
+**Database install** 
 
 ```powershell
 msiexec /i SkypeForBusinessSDNManager.msi /quiet  /lv* install.log LOGPATH=c:\\LogDir TOPOLOGY=2 DATABASE_SERVER=mysqlserver DEBUGLOGGING=All SETUPDB=1 SQL_ADMIN_USER=sa SQL_ADMIN_PASSWORD=mypwd SQLUSER=simpleuser SQLPASSWORD=simplepassword DOMAIN=contoso COMPUTERNAME=thiscomputername USE_SQL_AUTH=1 DATABASE_NAME=sdndb
 ```
 
- **REDIS install**
-  
-    
-    
-
-
+**REDIS install**
 
 ```powershell
 msiexec /i SkypeForBusinessSDNManager.msi /quiet  /lv* install.log LOGPATH=c:\\LogDir TOPOLOGY=3 REDIS_CONNECTSTRING=redis.contoso.com,ssl=true REDIS_PASSWORD=myredispwd 
@@ -138,10 +108,6 @@ msiexec /i SkypeForBusinessSDNManager.msi /quiet  /lv* install.log LOGPATH=c:\\L
 <a name="bk_addresources"> </a>
 
 Following are unattended installation parameters for the Dialog Listener. 
-  
-    
-    
-
 
 |**Parameter**|**Description**|
 |:-----|:-----|
@@ -157,21 +123,12 @@ Following are unattended installation parameters for the Dialog Listener.
    
 
 > [!NOTE]
-> Most settings provided during the setup can be modified after the installation by editing the DialogListener.exe.config file 
-  
-    
-    
-
+> Most settings provided during the setup can be modified after the installation by editing the DialogListener.exe.config file. 
 
 > [!NOTE]
 > When DNS Service Location (SRV) records are used by the Dialog Listener, any configured value for the parameter CONFIGURATIONURI is ignored. Instead, the URI specified in the SRV record is used. 
-  
-    
-    
 
 An installation using the SKIPREGISTRATION=1 option offers an interesting alternative installation. This script executed has three major purposes: Perform the registration of Skype for Business SDN Interface with Skype for Business, so that it forwards request and response messages to the Dialog Listener service, attempt to activate sending of Incall Quality messages (if available), and to start the service itself. 
-  
-    
     
 The registration and activation are only required once for the entire pool and the Dialog Listener Windows service can be started manually as well as using several other options. As the script also uses some lengthy verifications whether the Skype for Business Server is ready and set up correctly, this step could be skipped, speeding up deployment and specifically upgrade processes for experienced administrators. 
   
@@ -182,16 +139,12 @@ The registration and activation are only required once for the entire pool and t
 <a name="bk_addresources"> </a>
 
 To do an unattended uninstall, do the following: 
-  
-    
-    
 
 - **For SDN Manager**: In the command line, type `C:\\Windows\\System32\\msiexec.exe /X{60A580F2-7B7A-4665-9696-07BE5D9AF15F}`
     
   
 - **For Dialog Listener**: In the command line, type `C:\\Windows\\System32\\msiexec.exe /X{640967B9-CD8D-455F-BAB1-463EBFC51C38}`
     
-  
 
 > [!NOTE]
 > The product code for the Dialog Listener has changed since the previous release. 
@@ -200,13 +153,10 @@ To do an unattended uninstall, do the following:
     
 
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
-
--  [Installing the SDN Manager](installing-the-sdn-manager.md)
-    
-  
+-  [Installing the SDN Manager](installing-the-sdn-manager.md) 
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

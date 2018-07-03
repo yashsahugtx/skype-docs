@@ -1,14 +1,14 @@
 ---
 title: Skype for Business SDN Interface architecture
-ms.prod: SKYPE
+ 
 ms.assetid: c84231e4-5d96-4f1c-8747-a9a56d4794d9
 ---
 
 
 # Skype for Business SDN Interface architecture
 
- **Last modified:** February 22, 2017
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
  
 Conceptually, the Skype for Business SDN Interface consists of the following components:
   
@@ -90,12 +90,9 @@ A subscriber can be a network controller which monitors and analyzes network ele
     
     
 
-## Additional resources
+## See also
 
-
--  [Understanding Skype for Business SDN Interface](understanding-sdn-interface.md)
-    
-  
+-  [Understanding Skype for Business SDN Interface](understanding-sdn-interface.md) 
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

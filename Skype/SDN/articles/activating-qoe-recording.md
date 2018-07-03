@@ -1,18 +1,18 @@
 ---
 title: Activating QoE recording in Skype for Business Server
-ms.prod: SKYPE
+ 
 ms.assetid: 32254d29-c4be-4d1d-80c1-3ec766f2b6f4
 ---
 
 
 # Activating QoE recording in Skype for Business Server
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 If Quality of Experience (QoE) recording has not been activated in the Skype for Business monitoring server, you must activate it before installing the Skype for Business SDN Interface. You can verify and activate the QoE recording in one of the two ways: 
   
@@ -93,11 +93,8 @@ If the QoE column of the specified topology (W15Topology) is checked, the QoE re
 ![Lync Server Control Panel editing QoE setting](../images/lync_sdni_set_qoe_setting_in_control_pannel.PNG)
   
     
-    
-
-    
 > [!NOTE]
-> Some of the parameters might not be available in the control panel. To view and set such advanced features, use the Windows PowerShell commands. For more information about the Windows PowerShell commands, see  [Configuring SDN Interface using the command prompt](configuring-sdn-interface-using-the-command-prompt.md). 
+> Some of the parameters might not be available in the control panel. To view and set such advanced features, use the Windows PowerShell commands. For more information about the Windows PowerShell commands, see [Configuring SDN Interface using the command prompt](configuring-sdn-interface-using-the-command-prompt.md).
   
     
     

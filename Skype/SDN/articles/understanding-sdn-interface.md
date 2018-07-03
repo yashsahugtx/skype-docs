@@ -1,18 +1,18 @@
 ---
 title: Understanding Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 4c97bce1-4b8b-4c13-8ec6-99eed59d88fc
 ---
 
 
 # Understanding Skype for Business SDN Interface
 
- **Last modified:** February 22, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
  
 In any given Skype for Business Server deployment, poor network performance can adversely affect the end user experience. Many factors can cause low performance or media quality. Exposing these is often difficult, as well as time and resource intensive. 
   
@@ -42,7 +42,7 @@ In Skype for Business SDN Interface, the call and quality data is defined by the
     
 
 > [!NOTE]
-> With release 3.0, the presence of some fields provided to a Subscriber (primarily Wi-Fi quality metrics) can be suppressed - See Subscriber setting 'SchemaExtension'. 
+> With release 3.0, the presence of some fields provided to a Subscriber (primarily Wi-Fi quality metrics) can be suppressed; see Subscriber setting 'SchemaExtension'. 
   
     
     
@@ -67,12 +67,9 @@ In Skype for Business SDN Interface, the call and quality data is defined by the
     
   
 
-## Additional resources
+## See also
 
-
--  [Overview of Skype for Business SDN Interface](overview.md)
-    
-  
+-  [Overview of Skype for Business SDN Interface](overview.md)  
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

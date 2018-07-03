@@ -1,18 +1,18 @@
 ---
 title: Setting up a DNS service location record
-ms.prod: SKYPE
+ 
 ms.assetid: 1dee6627-bd71-46e9-adb8-f2166fd8a97e
 ---
 
 
 # Setting up a DNS service location record
 
- **Last modified:** February 24, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 You can configure the Skype for BusinessDialog Listener to query DNS for the location of the single host or pool of SDN Manager service, if the DNS service location record was created properly. This article explains how to create the service location records. You must have domain administrator privileges to do this. 
   
@@ -64,10 +64,9 @@ You can configure the Skype for BusinessDialog Listener to query DNS for the loc
     
    > [!NOTE]
    > If both the HTTP and HTTPS protocols are specified, the HTTP service location record is ignored until the HTTPS record is deleted. 
+
 After the service location discovery is configured, the following behavior will occur: 
   
-    
-    
 If the HTTPS protocol is set, the Dialog Listener looks for the **_sdninternal** service address for that protocol. Otherwise, the Dialog Listener attempts to retrieve the address of an SDN Manager service using the HTTP protocol. It then creates a service URL with the service name ("Settings") appended at the end. Here is an example of a resulting URL: `https://SdnPool.contoso.com:9332/Settings`. 
   
     
@@ -81,12 +80,9 @@ You can enable Dialog Listeners to use the service location record to discover t
 ```
 
 
-## Additional resources
+## See also
 
-
--  [Getting ready to install Skype for Business SDN Interface](getting-ready-to-install-sdn-interface.md)
-    
-  
+-  [Getting ready to install Skype for Business SDN Interface](getting-ready-to-install-sdn-interface.md)  
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

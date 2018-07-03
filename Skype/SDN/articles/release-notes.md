@@ -1,18 +1,18 @@
 ---
 title: Skype for Business SDN Interface Release Notes
-ms.prod: SKYPE
+ 
 ms.assetid: 726f613b-4639-4433-85db-50a572778ab8
 ---
 
 
 # Skype for Business SDN Interface Release Notes
 
- **Last modified:** February 27, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 The Microsoft Skype for Business SDN Interface provides an interface for network controllers or network management systems to receive call and quality data to monitor and analyze network traffic in order to optimize the Skype for Business media stream quality. 
   
@@ -140,7 +140,7 @@ MSI (s) (18!10) [14:02:27:364]: Product: Microsoft Skype for Business SDN Manage
     
   
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 

@@ -1,18 +1,18 @@
 ---
 title: Installing Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 69aa312c-0abb-438c-8588-0d756ba09a6d
 ---
 
 
 # Installing Skype for Business SDN Interface
 
- **Last modified:** August 17, 2015
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
  
 You install Microsoft Skype for Business SDN Interface by running two installation packages. One is for the SDN Manager and the other is for the Dialog Listener. The two packages are **SkypeforBusinessSDNManager.msi** and **SkypeforBusinessDialogListener.msi**.
   
@@ -36,12 +36,9 @@ We recommend that you run **SkypeforBusinessSDNManager.msi** before you run the 
     
   
 
-## Additional resources
-
+## See also
 
 -  [Overview of Skype for Business SDN Interface](overview.md)
-    
-  
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

@@ -1,18 +1,18 @@
 ---
 title: Getting ready to install Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: c5b5083a-a25e-4409-a496-2616bb2b15a2
 ---
 
 
 # Getting ready to install Skype for Business SDN Interface
 
- **Last modified:** February 27, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015 
+ **Applies to**: Lync Server 2013 | Skype for Business 2015 
 
 To ensure that the Software Defined Network (SDN) Interface components are successfully installed and started, do the following before you run the installation packages: 
   
@@ -80,12 +80,9 @@ To ensure that the Software Defined Network (SDN) Interface components are succe
     
   
 
-## Additional resources
-
+## See also
 
 -  [Installing Skype for Business SDN Interface](installing-sdn-interface.md)
-    
-  
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

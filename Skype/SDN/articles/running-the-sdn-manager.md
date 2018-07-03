@@ -1,18 +1,18 @@
 ---
 title: Running the SDN Interface SDN Manager
-ms.prod: SKYPE
+ 
 ms.assetid: 41743ca0-f297-4e11-8bd3-27bab2f4baee
 ---
 
 
 # Running the SDN Interface SDN Manager
 
- **Last modified:** June 11, 2015
+ 
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 This section describes how to run Skype for Business SDN Manager as a Windows service and as a console application. 
   
@@ -38,7 +38,7 @@ The SDN Manager setup wizard will install, configure, and start SDN Manager serv
 
     
 > [!NOTE]
-  You can control the service using the windows **net** or **sc** commands, for example, `sc start "Skype for Business SDN Manager"`. 
+> You can control the service using the windows **net** or **sc** commands, for example, `sc start "Skype for Business SDN Manager"`. 
 
 ## Running the SDN Manager as console application
 

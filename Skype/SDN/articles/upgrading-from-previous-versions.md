@@ -1,18 +1,18 @@
 ---
 title: Upgrading from previous version of the SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 8d3c28fa-dabe-4a52-9882-a6663ced5217
 ---
 
 
 # Upgrading from previous version of the SDN Interface
 
- **Last modified:** February 24, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 This topic covers upgrading Skype for Business SDN Interface from earlier versions to version 3.0. 
   
@@ -84,7 +84,7 @@ When upgrading from version 2.2 to 3.0, follow the instructions below without dr
   
 
 > [!NOTE]
-> The removal and re-adding of the subscribers and listeners is only needed if your deployment has an Redis database. It is not required for deployments using an SQL database. If the deployment consists of a single SdnManager then upgrade process will results in loss of events from the Dialog Listener during the time of the upgrade. There may be loss of events (signaling or quality update events not reported to subscribers) during the time that it takes to remove and add the subscribers after the SdnManager uninstall/install. During the Dialog Listener uninstall/reinstall, only events originating from the other Listeners will be reported.  There may also be a loss of events during the time that it takes to remove and add the Listener settings. 
+> The removal and re-adding of the subscribers and listeners is only needed if your deployment has an Redis database. It is not required for deployments using an SQL database. If the deployment consists of a single SdnManager, the upgrade process will results in loss of events from the Dialog Listener during the time of the upgrade. There may be loss of events (signaling or quality update events not reported to subscribers) during the time that it takes to remove and add the subscribers after the SdnManager uninstall/install. During the Dialog Listener uninstall/reinstall, only events originating from the other Listeners will be reported.  There may also be a loss of events during the time that it takes to remove and add the Listener settings. 
   
     
     
@@ -97,12 +97,9 @@ When moving from version 2.1.1 or prior to 3.0 you must uninstall and reinstall 
     
     
 
-## Additional resources
+## See also
 
-
--  [Installing the SDN Manager](installing-the-sdn-manager.md)
-    
-  
+-  [Installing the SDN Manager](installing-the-sdn-manager.md) 
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

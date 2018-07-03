@@ -6,12 +6,12 @@ ms.assetid: 00f474ba-ffbe-4a3d-969f-2993a382df56
 
 # PowerShell Provisioning
 Learn to use Skype SDN Interface Powershell commands. 
- **Last modified:** February 24, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 ## PowerShell Provisioning
 

@@ -6,12 +6,12 @@ ms.assetid: d4fda314-3096-4a7a-a5aa-9ee10271efe5
 
 # Schema Extensions
 Learn about schema D for Skype for Business SDN Interface. 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 ## Schema Extensions
 

@@ -1,18 +1,18 @@
 ---
 title: Deploying Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 28293ebc-d1f4-4715-b7cd-276055e48015
 ---
 
 
 # Deploying Skype for Business SDN Interface
 
- **Last modified:** February 22, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 Microsoft Skype for Business SDN Interface supports different deployment scenarios with noteworthy differences and trade-offs. Regardless of the deployment topology you choose, always install the Dialog Listener components on all the Skype for Business Server front ends; these front ends can be Lync Server versions 2010 or later, including Skype for Business Server 2015. 
   
@@ -136,13 +136,10 @@ When the SDN Manager and the Dialog Listeners are installed on several Skype for
     
     
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
-
--  [Understanding Skype for Business SDN Interface](understanding-sdn-interface.md)
-    
-  
+-  [Understanding Skype for Business SDN Interface](understanding-sdn-interface.md) 
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

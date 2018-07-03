@@ -1,18 +1,18 @@
 ---
 title: Running the SDN Interface Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: f405de17-b1be-419e-a301-4055a4dfdaad
 ---
 
 
 # Running the SDN Interface Dialog Listener
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 This section describes how to run the Dialog Listener as a Windows service and console application. 
   
@@ -22,10 +22,9 @@ This section describes how to run the Dialog Listener as a Windows service and c
 The Dialog Listener setup wizards install, configure, and start the Dialog Listener as a Windows service. With the default configuration, the service is set to start automatically. You can restart it after the configuration is changed or when the service fails. You can use the Windows Services panel to verify the service and reconfigure it. The Windows Services panel lets you change the credentials that you use to run the service. These credentials are used to access the Skype for Business, as long as the service is run from an account that is in the  *RTC Server Applications*  group and granted the logon as service rights in the local Group Policy.In general, the Dialog Listener executes as Windows service. In some case, particularly for debugging and for replay, you can run the Dialog Listener as a console application from the command prompt. 
 
 > [!NOTE]
-> When Dialog Listener is installed, the Front End service (RTCSRV) service cannot be controlled via SfB Control Panel. Either the RTCSRV service will not stop, or the DialogListener service will not be started. Changes to the FE server availability should be accomplished via server start/stop/restart. > The Windows Services application (services.msc) or SC.exe command line program, can be used as an alternative to the Skype for Business Control Panel. 
-  
-    
-    
+> When Dialog Listener is installed, the Front End service (RTCSRV) service cannot be controlled via SfB Control Panel. Either the RTCSRV service will not stop, or the DialogListener service will not be started. Changes to the FE server availability should be accomplished via server start/stop/restart. 
+> 
+> The Windows Services application (services.msc) or SC.exe command line program can be used as an alternative to the Skype for Business Control Panel. 
 
 
 > [!NOTE]

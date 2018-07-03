@@ -1,18 +1,18 @@
 ---
 title: Installing security certificates
-ms.prod: SKYPE
+ 
 ms.assetid: 840474e7-94ee-4ea1-8bf4-64a168adfeea
 ---
 
 
 # Installing security certificates
 
- **Last modified:** August 17, 2015
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
 
 To ensure secure message transport and client authentication, the Skype for Business SDN Interface components support mutual transport layer security (TLS). But for this to work, you must request certificates from an appropriate certification authority. These certificates are needed for the SDN Manager, the Dialog Listener, and for subscribers. You might also have to install a root certificate of the certification authority (CA), if it is not trusted. 
   
@@ -34,7 +34,7 @@ To ensure secure message transport and client authentication, the Skype for Busi
   
 
 > [!NOTE]
-> You can verify that the SSL and client authentication works independently of Skype for Business SDN Interface by using a general purpose test tool, such as wfetch.exe 
+> You can verify that the SSL and client authentication works independently of Skype for Business SDN Interface by using a general purpose test tool, such as wfetch.exe. 
   
     
     
@@ -253,13 +253,10 @@ After installing the certificate, you must provision the Dialog Listener to use 
     
     
 
-## Additional resources
+## See also
 <a name="requestCertificate"> </a>
 
-
 -  [Getting ready to install Skype for Business SDN Interface](getting-ready-to-install-sdn-interface.md)
-    
-  
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

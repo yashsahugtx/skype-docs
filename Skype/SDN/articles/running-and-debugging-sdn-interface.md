@@ -1,18 +1,18 @@
 ---
 title: Running and debugging Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: 42f84254-82de-4ca9-81b2-902ac1addabb
 ---
 
 
 # Running and debugging Skype for Business SDN Interface
 
- **Last modified:** January 28, 2016
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
  
 This section describes how to run, log, and debug the Skype for Business SDN Interface.
   

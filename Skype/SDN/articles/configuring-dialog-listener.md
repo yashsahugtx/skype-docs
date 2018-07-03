@@ -1,18 +1,18 @@
 ---
 title: Configuring SDN Interface Dialog Listener
-ms.prod: SKYPE
+ 
 ms.assetid: e66f9787-ab6b-4a77-8895-0ae39a3a5ee1
 ---
 
 
 # Configuring SDN Interface Dialog Listener
 
- **Last modified:** February 23, 2017
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
  
 In general, the Skype for Business Dialog Listener component obtains its configuration settings using two mechanisms: 
   
@@ -90,16 +90,11 @@ The **msplidentifier** key value allows you to change the identifier that is use
     
     
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
-
 -  [Configuring Skype for Business SDN Interface](configuring-sdn-interface.md)
-    
-  
--  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
-    
-  
+-  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md) 
 -  [Setting up a DNS service location record](setting-up-a-dns-service-location-record.md)
     
   

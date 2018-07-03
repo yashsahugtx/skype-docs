@@ -1,18 +1,18 @@
 ---
 title: Configuring Skype for Business SDN Interface
-ms.prod: SKYPE
+ 
 ms.assetid: cf0ca8f3-bcaf-4dba-814f-4b8a5163fa7d
 ---
 
 
 # Configuring Skype for Business SDN Interface
 
- **Last modified:** January 28, 2016
+
   
     
     
 
- * **Applies to:** Lync Server 2013 | Skype for Business 2015
+ **Applies to**: Lync Server 2013 | Skype for Business 2015
  
 Skype for Business SDN Interface 2.2 and later supports three methods for configuring its components:
   
@@ -49,12 +49,9 @@ Skype for Business SDN Interface 2.2 and later supports three methods for config
     
   
 
-## Additional resources
+## See also
 
-
--  [Overview of Skype for Business SDN Interface](overview.md)
-    
-  
+-  [Overview of Skype for Business SDN Interface](overview.md) 
 -  [Skype for Business SDN Interface Schema Reference](skype-for-business-sdn-interface-schema-reference.md)
     
   

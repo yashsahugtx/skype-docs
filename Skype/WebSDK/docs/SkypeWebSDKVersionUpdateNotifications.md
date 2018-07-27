@@ -21,8 +21,8 @@
 | Conversation Control Production | 1.101.19 | 9/6/17 | 1.99.7
 | Skype Web SDK Production| 0.4.631 | 9/6/17 | 0.4.596 |
 
-**Changes made in the new public preview build:**
-* Revised verbose logging mode
+**Bug fixed in Web SDK:**
+* Removed "displayName" from queryString in contactHref property of json returned from UCWA when searching a contact.
 
 ## Skype Web SDK Version Update 9/06/17
 

@@ -32,12 +32,12 @@ conversation.state.changed(function (newValue, reason, oldValue) {
 
 **Possible call states:**
 
-|||
-|--------------|------------------------------------------|
-| *Created* | ...When conversation was created
-| *Connecting*    | ...When establishing a connection           |
-| *Connected* | ...When the call was successfully connected |
-| *Disconnected* | ...When the conversation got disconnected |
+|State           |Description|
+|:-------------- |:----------------------------------------------------|
+| *Created*      | ...When conversation was created                    |
+| *Connecting*   | ...When establishing a connection                   |
+| *Connected*    | ...When the conversation was successfully connected |
+| *Disconnected* | ...When the conversation got disconnected           |
 
 ## Self Participant Call state
 The `state` property on the `phoneAudioService` allows us to observe the call state.

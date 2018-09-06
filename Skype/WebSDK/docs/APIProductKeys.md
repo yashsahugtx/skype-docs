@@ -3,22 +3,14 @@
 
  _**Applies to:** Skype for Business, Skype for Business Online_
 
- **In this article**  
-[Product keys](#product-keys)  
-[Feature support matrix](#feature-support-matrix)  
-[Supported Browsers](#supported-browsers)  
-[Supported Server Versions](#supported-server-versions)
-
-
 
 This section lists the API product keys and the supported capabilities that are available for your production use application. With each successive release of the Skype Web SDK, additional features are supported. Use the support matrix table in this article to find the appropriate product key to use for the features you implement in your app. 
 
 ## Product keys
 <a name="sectionSection0"> </a>
 
-|||
+|Release|Product keys|
 |:-----|:-----|
-|**Release**|**Product keys**|
 |Public Preview (PP)|API Key: 'a42fcebd-5b43-4b89-a065-74450fb91255' <br/> UI Key: '9c967f6b-a846-4df2-b43d-5167e47d81e1' |
 |General Availability (GA)|API Key: '595a1aeb-e6dc-4e5b-be96-bb38adc83da1' <br/> UI Key: '08c97289-7d57-404f-bd97-a6047403e370'|
 
@@ -29,11 +21,9 @@ This section lists the API product keys and the supported capabilities that are 
 <a name="sectionSection1"> </a>
 
 The following table is a mapping of Features to the API version that they are supported in.
-tst
 
-||||
+|Feature|Public Preview|General Availability|
 |:-----|:-----|:-----|
-|**Feature**|**Public Preview**|**General Availability**|
 |Sign in, Sign out. |X |X|
 |View Signed in user’s information. |X|X|
 |Update Note and Presence for the signed in user. |X|X|

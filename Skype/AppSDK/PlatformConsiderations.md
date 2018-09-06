@@ -54,7 +54,7 @@ All of the SDK’s interfaces must be used only from the application main thread
 
 The SDK is currently supported on following versions.
 
-|||
+|Version|Number|
 |:-----|:-----|
 |MIN_SDK_VERSION|17 (JELLY_BEAN)|
 |TARGET_SDK_VERSION|22 (L)|

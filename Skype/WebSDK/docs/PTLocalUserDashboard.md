@@ -26,9 +26,8 @@ app.personsAndGroupsManager.mePerson.status.set('Online').then(function () {
 <a href="http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.meperson.html" target="">MePerson</a> properties which can be set
 
 
-|||
+|Property|Description|
 |:-----|:-----|
-|**Property**|**Description**|
 |location|Gets or sets the location of the signed in user.|
 |note.text|Gets or sets the personal note of the signed in user.|
 |status|Gets or sets the availability of the signed in user.|
@@ -39,9 +38,8 @@ app.personsAndGroupsManager.mePerson.status.set('Online').then(function () {
 <a href="http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.meperson.html" target="">MePerson</a> properties which are read-only
 
 
-|||
+|Property|Description|
 |:-----|:-----|
-|**Property**|**Description**|
 |department|Gets the work department of the signed in user.|
 |email|Gets the primary email address of the signed in user.|
 |emails|Gets the email addresses associated with the signed in user.|

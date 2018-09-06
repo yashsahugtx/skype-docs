@@ -38,12 +38,12 @@ conversation.state.changed(function (newValue, reason, oldValue) {
 
 **Possible Conversation States:**
 
-|||
-|--------------|------------------------------------------|
-| *Created* | ...When conversation was created
-| *Connecting*    | ...When establishing a connection           |
-| *Connected* | ...When the call was successfully connected |
-| *Disconnected* | ...When the conversation got disconnected |
+|State           |Description|
+|:-------------- |:----------------------------------------------------|
+| *Created*      | ...When conversation was created                    |
+| *Connecting*   | ...When establishing a connection                   |
+| *Connected*    | ...When the conversation was successfully connected |
+| *Disconnected* | ...When the conversation got disconnected           |
 
 ## Audio Modality State
 The `conversation.selfParticipant.audio` property represents audio modality in the conversation. 

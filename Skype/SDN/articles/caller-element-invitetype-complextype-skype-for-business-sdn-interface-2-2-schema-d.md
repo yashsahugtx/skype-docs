@@ -16,12 +16,6 @@ dev_langs:
 
 Properties of the caller.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

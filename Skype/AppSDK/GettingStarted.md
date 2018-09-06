@@ -193,7 +193,7 @@ will call the service application to get these resources before joining a meetin
 * [Use the App SDK and the Trusted Application API to join an Online meeting - Android](HowToJoinOnlineMeeting_Android.md)
 * [Use the SDK to join a meeting with an iOS device](HowToJoinMeeting_iOS.md)
 
-## Additional resources
+## See also
 Here are some more resources to help you build apps with the **Skype for Business App SDK**
 
 * [App SDK samples](Samples.md) 

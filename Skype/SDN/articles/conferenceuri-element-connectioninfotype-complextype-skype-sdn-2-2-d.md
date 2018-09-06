@@ -16,12 +16,6 @@ dev_langs:
 
 (Deprecated - use ConferenceId instead) Sip URI used for the conference. This field is obfuscated unless hidepii is set to false in configuration.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

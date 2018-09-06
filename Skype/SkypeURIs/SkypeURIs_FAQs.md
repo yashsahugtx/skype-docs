@@ -105,7 +105,7 @@ The best way to integrate Skype into your Windows Store App is to use [Skype URI
 cross-platform links that you can use to initiate Skype calls and chats in Skype clients.
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

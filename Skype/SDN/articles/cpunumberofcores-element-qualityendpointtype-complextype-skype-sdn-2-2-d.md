@@ -14,13 +14,7 @@ dev_langs:
 
 (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
-Number of CPU cores in the endpoint device.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Number of CPU cores in the endpoint device. 
 
 ## Element information
 

@@ -23,7 +23,7 @@ For more on web links, see [Web links](WebLinks.md).
 
 |**Name**|**Description**|
 |:-----|:-----|
-|accessLevels|The allowed values for access level, such as SameEnterprise or Everyone.In a Locked online meeting, only the organizer and pre-set leaders are allowed to join the online meeting.All other participants who attempt to join the online meeting are placed in the lobby.Leaders can use this capability to prepare their online meeting while their attendees wait in the lobby.Note that scheduling locked online meetings is supported by Microsoft Lync Server 2010 or later.An administrator can also prevent specific users from using the AccessLevel.Everyone access level when thoseusers schedule online meetings.|
+|accessLevels|The allowed values for access level, such as SameEnterprise or Everyone.In a Locked online meeting, only the organizer and pre-set leaders are allowed to join the online meeting.All other participants who attempt to join the online meeting are placed in the lobby.Leaders can use this capability to prepare their online meeting while their attendees wait in the lobby. Note that scheduling locked online meetings is supported by Microsoft Lync Server 2010 or later.An administrator can also prevent specific users from using the AccessLevel.Everyone access level when thoseusers schedule online meetings.|
 |automaticLeaderAssignments|The allowed values for automatic leader assignment, such as Disabled or SameEnterprise.Automatic promotion specifies which users are automatically promoted to the leaderrole as they join the online meeting.|
 |eligibleOnlineMeetingRels|The allowed values for the scheduling template that is used to create meetings.|
 |entryExitAnnouncements|The allowed values for entry/exit announcements.|

@@ -16,12 +16,6 @@ dev_langs:
 
 Connection type such as "wired" or "wireless".
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

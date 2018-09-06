@@ -141,9 +141,8 @@ The following is a sample event response in JSON format.
 <a name="sectionSection3"> </a>
 
 
-
-
- **Note** To receive event data in XML format, you must include the following header in your request:
+> [!NOTE] 
+> To receive event data in XML format, you must include the following header in your request:
 
 
 ```

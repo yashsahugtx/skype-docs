@@ -45,7 +45,8 @@ person.activity.subscribe();
     
 2. Call  **status.get** method to trigger a call to UCWA to fetch the person's presence. In this case, the code is getting a reference to the **status** [Property](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.property.html) and the **get** function is called on the property reference.
 
->**Note**: Doing a get on the **status** forces a server call. However, this is the preferred method of fetching presence
+> [!NOTE] 
+> Doing a get on the **status** forces a server call. However, this is the preferred method of fetching presence
 in on-demand scenarios (eg. opening contact card) rather than subscribing to every person's status.
 
 ```js
@@ -57,7 +58,7 @@ person.status.get.then(function (status) {
 ```
 
 
-## Additional resources
+## See also
 
 
 - [Listening for and generating presence events](PresenceEvents.md)  

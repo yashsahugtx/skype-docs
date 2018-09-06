@@ -14,7 +14,8 @@ The components are:
   - `term = 1*ALPHA`
   - `condition = 1*ALPHA`
 
->Note: If required parameters are missing or have invalid values, a 400 (bad request error) will be returned. Any additional/unknown parameters will be ignored.
+> [!NOTE] 
+> If required parameters are missing or have invalid values, a 400 (bad request error) will be returned. Any additional/unknown parameters will be ignored.
 
 ## Operations
 

@@ -87,5 +87,6 @@ Your link to the Skype app must follow these [branding guidelines](https://msdn.
 You should make sure that the  **Skype Names** that you are using are configured to allow incoming calls and messages from anyone. To change your privacy settings, install **Skype** on a **Windows** computer or Mac. Read about how to change your settings from [Skype for Windows](https://support.skype.com/en/faq/fa140/how-do-i-manage-my-privacy-settings-in-skype-for-windows-desktop) and [Skype for Mac](https://support.skype.com/en/faq/FA10988/how-do-i-manage-my-privacy-settings-in-skype-for-mac-os-x). Depending on the modality you selected, you're likely to have to change your privacy settings to allow either IMs or video from anyone. 
 
 
- >**Note:**  By default, Skype is setup not to allow instant messages from people that aren't in your Skype contacts list. If you're using the SDK for instant messaging, we strongly advise you to change your privacy settings.
+> [!NOTE] 
+> By default, Skype is setup not to allow instant messages from people that aren't in your Skype contacts list. If you're using the SDK for instant messaging, we strongly advise you to change your privacy settings.
 

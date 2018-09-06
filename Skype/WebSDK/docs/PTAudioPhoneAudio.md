@@ -32,12 +32,12 @@ conversation.state.changed(function (newValue, reason, oldValue) {
 
 **Possible call states:**
 
-|||
-|--------------|------------------------------------------|
-| *Created* | ...When conversation was created
-| *Connecting*    | ...When establishing a connection           |
-| *Connected* | ...When the call was successfully connected |
-| *Disconnected* | ...When the conversation got disconnected |
+|State           |Description|
+|:-------------- |:----------------------------------------------------|
+| *Created*      | ...When conversation was created                    |
+| *Connecting*   | ...When establishing a connection                   |
+| *Connected*    | ...When the conversation was successfully connected |
+| *Disconnected* | ...When the conversation got disconnected           |
 
 ## Self Participant Call state
 The `state` property on the `phoneAudioService` allows us to observe the call state.
@@ -49,7 +49,8 @@ conversation.phoneAudioService.state.when('Connected', function () {
 });
 ```
 
-**Note:** `.when(value, callback)` Lets you subscribe to an observable and only triggers the callback when the observable changes its value to the value specified.
+> [!NOTE] 
+> `.when(value, callback)` Lets you subscribe to an observable and only triggers the callback when the observable changes its value to the value specified.
 For Example: `state.when('Connected', callback)` will execute the `callback` when the value of state changes to "Connected".
 
 ## Participants in Conversation

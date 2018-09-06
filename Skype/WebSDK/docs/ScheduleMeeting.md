@@ -9,7 +9,8 @@ Scheduling an online meeting involves creating a client-side model of a future o
 Once your code POSTs the model, a user can join the meeting. If you have provisioned the meeting with a list of attendees, you must make the joinUri or OnlineMeetingUri available
 to the attendees so that they can join. 
 
->Note: The scheduled meeting is a Skype-only meeting. It is not visible in or available to join from a user's Outlook calendar.
+> [!NOTE] 
+> The scheduled meeting is a Skype-only meeting. It is not visible in or available to join from a user's Outlook calendar.
 
 
 ## Meeting properties
@@ -33,13 +34,15 @@ This is still a client side operation and returns a model containing observable 
   ```
 
 2. Set properties of the meeting if required. All parameters are optional.
-  >Note:  Meeting property values can only be set or updated before the meeting model is POSTed to the UCWA server endpoint. 
+
+   > [!NOTE] 
+   > Meeting property values can only be set or updated before the meeting model is POSTed to the UCWA server endpoint. 
   Set any desired properties before you get the onlineMeetingUri and join the meeting.
 
-  ```js
-  meeting.subject('Planning meeting');
-  meeting.expirationTime(new Date + 24 * 3600 * 5);
-  ```
+   ```js
+    meeting.subject('Planning meeting');
+    meeting.expirationTime(new Date + 24 * 3600 * 5);
+   ```
 
 3. Call the [get()](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.scheduledmeeting.html#onlinemeetinguri) method on the [onlineMeetingUri](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.scheduledmeeting.html#onlinemeetinguri) 
 to create the meeting on the server.

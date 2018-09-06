@@ -12,12 +12,7 @@ dev_langs:
 
 # ByeType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema "C")
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+(Skype for Business SDN Interface 2.2, Schema "C") 
 
 ## Type information
 

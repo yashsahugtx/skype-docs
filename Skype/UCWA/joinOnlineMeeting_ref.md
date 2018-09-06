@@ -20,7 +20,7 @@ For more on web links, see [Web links](WebLinks.md).
 ## Resource description
 <a name = "sectionSection1"> </a>
 
-joinOnlineMeeting enables an application to join an already scheduled online meeting using theassigned meeting URI. Use [myOnlineMeetings](myOnlineMeetings_ref.md) to schedule, retrieve, or update an online meeting.Note that if no onlineMeetingUri is supplied, the user will join a newly created [onlineMeeting](onlineMeeting_ref.md).
+joinOnlineMeeting enables an application to join an already scheduled online meeting using theassigned meeting URI. Use [myOnlineMeetings](myOnlineMeetings_ref.md) to schedule, retrieve, or update an online meeting. Note that if no onlineMeetingUri is supplied, the user will join a newly created [onlineMeeting](onlineMeeting_ref.md).
 
 ### Properties
 

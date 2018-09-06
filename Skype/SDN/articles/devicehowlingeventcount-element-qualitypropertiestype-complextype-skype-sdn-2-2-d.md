@@ -14,13 +14,7 @@ dev_langs:
 
 (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
-Number of times during a session the DeviceHowlingEvent event was fired when audio feedback loop, caused by multiple endpoints sharing the audio path, is detected.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Number of times during a session the DeviceHowlingEvent event was fired when audio feedback loop, caused by multiple endpoints sharing the audio path, is detected. 
 
 ## Element information
 

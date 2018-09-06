@@ -19,7 +19,7 @@ application.personsAndGroupsManager.all.groups.add(group).then(function () {
 }).then(reset);
 ```
 
-## Additional resources
+## See also
 
 - <a href="https://msdn.microsoft.com/skype/websdk/docs/ListenForAvailability" target="">Get a person and listen for availability</a>
 

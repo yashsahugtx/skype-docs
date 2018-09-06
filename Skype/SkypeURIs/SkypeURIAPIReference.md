@@ -204,7 +204,7 @@ the existing conversation name or names and title string.
 * Android recognizes the initial participant only; multi chats are not supported.
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

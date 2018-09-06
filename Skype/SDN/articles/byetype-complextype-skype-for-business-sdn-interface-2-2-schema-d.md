@@ -14,12 +14,6 @@ dev_langs:
 
 (Skype for Business SDN Interface 2.2, Schema "D")
 
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
-
 ## Type information
 
 <table>

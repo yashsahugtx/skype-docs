@@ -16,11 +16,6 @@ dev_langs:
 
 Describes the last codec used for the media.
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

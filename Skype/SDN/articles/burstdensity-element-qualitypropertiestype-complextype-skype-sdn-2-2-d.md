@@ -16,12 +16,6 @@ dev_langs:
 
 Average burst density, as specified in \[RFC3611\] section 4.7.2, is computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available and measures the average density of packet Loss during bursts of losses during the call. This field MUST be populated and MUST be set to zero if no packets have been received.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

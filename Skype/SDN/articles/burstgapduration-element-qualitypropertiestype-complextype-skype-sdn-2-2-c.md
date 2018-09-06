@@ -14,12 +14,7 @@ dev_langs:
 
 (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-Average burst gap duration (in microsecond, ms), as specified in \[RFC3611\] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Average burst gap duration (in microsecond, ms), as specified in \[RFC3611\] section 4.7.2, computed with a Gmin=16 for the received RTP packets. This metric is reported for audio streams when available. 
 
 ## Element information
 

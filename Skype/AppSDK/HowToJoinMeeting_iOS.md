@@ -1,18 +1,19 @@
 # Use the SDK to join a meeting with an iOS device
 
 This article shows an iOS developer how to join the **Skype for Business meeting** using a [**meeting URL**](https://msdn.microsoft.com/en-us/skype/appsdk/getmeetingurl) and enable core **Skype for Business App SDK** features like Text chat, Audio/Video chat in your app. 
+
 Android developers should read [Use the SDK to join a meeting with an Android device](HowToJoinMeeting_Android.md). 
 
->[!NOTE]
-If the anonymous meeting your app joins is hosted in a **Skype for Business Online** service and 
-your app is not enabled for Skype for Business preview features, then your app must get a **discovery Url** and an **anonymous meeting token** to join. A meeting Url does not give you 
-meeting access in this scenario. Read [Use the App SDK and the Trusted Application API to join an Online meeting - iOS](HowToJoinOnlineMeeting_iOS.md)
+> [!NOTE] 
+> If the anonymous meeting your app joins is hosted in a **Skype for Business Online** service and your app is not enabled for Skype for Business preview features, then your app must get a **discovery Url** and an **anonymous meeting token** to join. A meeting Url does not give you meeting access in this scenario. Read [Use the App SDK and the Trusted Application API to join an Online meeting - iOS](HowToJoinOnlineMeeting_iOS.md)
 
 
- No **Skype for Business** credentials are used to join the meeting.
+No **Skype for Business** credentials are used to join the meeting.
 
 ## Prerequisites
+
  **Objective C**
+
  - **Import the SDK header file**: import the required header files.
 
       ```objective-c
@@ -31,51 +32,61 @@ meeting access in this scenario. Read [Use the App SDK and the Trusted Applicati
             #import "SfBConversationHelper.h"
 ```
  
-  >Note: Be sure to read [Getting started with Skype App SDK development](GettingStarted.md) to learn how to configure your iOS project 
-for the **Skype for Business** App SDK.  In particular, the following steps assume you have added the _ConversationHelper_ class
- to your source to let you complete the scenario with a minimum of code. 
+> [!NOTE] 
+> Be sure to read [Getting started with Skype App SDK development](GettingStarted.md) to learn how to configure your iOS project for the **Skype for Business** App SDK.  In particular, the following steps assume you have added the _ConversationHelper_ class to your source to let you complete the scenario with a minimum of code. 
 
 ## How to get started
+
 1. In your code, initialize the **App SDK** application :
 
   **Objective C**
+
     ```Objectivec 
      SfBApplication *sfb = SfBApplication.sharedApplication;
     ```
   **Swift**
+
    ```swift 
     let sfb:SfBApplication? = SfBApplication.sharedApplication()
    ```
 2. You can handle application level Skype configurations like requireWifiForAudio, maxVideoChannels, requireWifiForVideo, setActiveCamera, get available cameras list  and other types of information that can impact the Skype session, for example, by default, video service will be disabled while not on Wi-Fi network. To allow video call on any network connection, we can configure requireWifiForVideo as follow:
 
   **Objective C**
+
    ```Objectivec 
     sfb.configurationManager.requireWifiForVideo = NO;
    ```
   **Swift**
+
    ```swift 
    sfb.configurationManager.requireWifiForVideo = false
    ```
  
-  > Note: Please refer [SfBApplication](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBApplication.html),  [SfBConfigurationManager](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBConfigurationManager.html),  [SfBVideoService](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBVideoService.html), [SfBDevicesManager]    (https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBDevicesManager.html) and other classes in [SkypeForBusiness] (https://ucwa.skype.com/reference/appSDK/IOS/) framework to handle application level Skype configurations.
+   > [!NOTE] 
+   > Please refer [SfBApplication](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBApplication.html),  [SfBConfigurationManager](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBConfigurationManager.html),  [SfBVideoService](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBVideoService.html), [SfBDevicesManager]    (https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBDevicesManager.html) and other classes in [SkypeForBusiness] (https://ucwa.skype.com/reference/appSDK/IOS/) framework to handle application level Skype configurations.
 
 3. Start joining the meeting by calling [_Application.joinMeetingAnonymously(String displayName, URI meetingUri)_](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBApplication.html#//api/name/joinMeetingAnonymousWithUri:displayName:error:). This function returns the new conversation instance that represents the meeting.  
 
  **Objective C**
+
   ```Objectivec 
    SfBConversation *conversation = [sfb joinMeetingAnonymousWithUri:[NSURL URLWithString:meetingURLString]
                                         displayName:meetingDisplayName 
                                         error:&error];
   ```
  **Swift**
+
   ```Swift
    let conversation: SfBConversation  = try sfb.joinMeetingAnonymousWithUri(NSURL(string:meetingURLString)!, displayName:  meetingDisplayName)
   ```
-  > Note: all of the SDK’s interfaces must be used only from the application main thread (main run loop).  Notifications are  delivered in the same thread as well.  As a result, no synchronization around the SDK’s interfaces is required.  The SDK,  however, may create threads for internal purposes.      
+
+   > [!NOTE] 
+   > All of the SDK’s interfaces must be used only from the application main thread (main run loop).  Notifications are  delivered in the same thread as well.  As a result, no synchronization around the SDK’s interfaces is required.  The SDK,  however, may create threads for internal purposes.      
 
 4. Initialize the conversation helper with the conversation instance obtained in the previous step and delegate object that should receive callbacks from this conversation helper.  This will automatically start incoming and outgoing video. The delegate class must conform to _SfBConversationHelperDelegate_ protocol.
   
   **Objective C**
+
   ```Objectivec 
        if (conversation) {
        _conversationHelper = [[SfBConversationHelper alloc] initWithConversation:conversation
@@ -89,6 +100,7 @@ for the **Skype for Business** App SDK.  In particular, the following steps assu
   ```      
   
   **Swift**
+
   ```Swift
    self.conversationHelper = SfBConversationHelper(conversation: conversation,
                                                             delegate: self,
@@ -97,15 +109,16 @@ for the **Skype for Business** App SDK.  In particular, the following steps assu
                                                             incomingVideoLayer: self.participantVideoView.layer as! CAEAGLLayer,
                                                             userInfo: [DisplayNameInfo:meetingDisplayName])
   ```
+
 5. Show video codec license
 
-    As per the license terms, before you start video for the first time after install, you **must** prompt the user to accept the Microsoft end-user license (also included in the SDK).  
+   As per the license terms, before you start video for the first time after install, you **must** prompt the user to accept the Microsoft end-user license (also included in the SDK).  
     
-    This code snippet shows the use of the new Skype App SDK **"setEndUserAcceptedVideoLicense"** api. This is required to proceed with features that potentially use video codecs.
-    Until this method is called, any attempt to use those features will fail.
-    Once the api has been called, the user is considered in acceptance of the third party video codec license that we use to support video.  Subsequent meetings do not require the license acceptance.  
+   This code snippet shows the use of the new Skype App SDK **"setEndUserAcceptedVideoLicense"** api. This is required to proceed with features that potentially use video codecs.
 
-    [!code-Swift [sample](VideoLicense_iOS.md)]
+   Until this method is called, any attempt to use those features will fail. Once the api has been called, the user is considered in acceptance of the third party video codec license that we use to support video.  Subsequent meetings do not require the license acceptance.  
+
+   [!code-Swift [sample](VideoLicense_iOS.md)]
     
 
 6. Implement SfBConversationHelperDelegate methods to handle video service state changes.
@@ -137,7 +150,8 @@ for the **Skype for Business** App SDK.  In particular, the following steps assu
     }
   ```   
     
- **Swift**
+  **Swift**
+
   ```swift
     // When it's ready, start the video service and show the outgoing video view.
     func conversationHelper(conversationHelper: SfBConversationHelper, videoService: SfBVideoService, didChangeCanStart canStart: Bool) {     
@@ -191,62 +205,66 @@ for the **Skype for Business** App SDK.  In particular, the following steps assu
 
   ```
      
-7. To end the video meeting, monitor _canLeave_ property of a conversation to prevent leaving prematurely.
+7. To end the video meeting, monitor the _canLeave_ property of a conversation to prevent leaving prematurely.
 
-    **Objective C**
-      ```Objectivec 
-       //Add observer to _canLeave_ property
-   if (conversation) {
-          [conversation addObserver:self forKeyPath:@"canLeave" options:NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionNew context:nil];
-   }
+   **Objective C**
 
-      // Monitor canLeave property of a conversation to prevent leaving prematurely
-
-        - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
-
-         if ([keyPath isEqualToString:@"canLeave"]) {
-          self.endCallButton.enabled = _conversationHelper.conversation.canLeave;
-       }
-      }
-
-      // Use SfBConversation class leave function to leave the conversation.
-      NSError *error = nil;
-      [_conversationHelper.conversation leave:&error];
-
-      if (error) {
-          [self handleError:error];
-      }
-      else {
-          [_conversationHelper.conversation removeObserver:self forKeyPath:@"canLeave"];
-      }
-     ```
-   **Swift**
-     ```swift
-     // Add observer to _canLeave_ property
-        conversation.addObserver(self, forKeyPath: "canLeave", options: [.Initial, .New] , context: nil)
-        
-    // Monitor canLeave property of a conversation to prevent leaving prematurely
-    
-        override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
-        if (keyPath == "canLeave") {
-            self.endCallButton.enabled = (self.conversationHelper?.conversation.canLeave)!
-         }
+   ```Objectivec 
+        //Add observer to _canLeave_ property
+    if (conversation) {
+            [conversation addObserver:self forKeyPath:@"canLeave" options:NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionNew context:nil];
     }
-    
-    // Use SfBConversation class leave function to leave the conversation.
-        do{
-            try self.conversationHelper?.conversation.leave()
-            self.conversationHelper?.conversation.removeObserver(self, forKeyPath: "canLeave")
+
+        // Monitor canLeave property of a conversation to prevent leaving prematurely
+
+            - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
+
+            if ([keyPath isEqualToString:@"canLeave"]) {
+            self.endCallButton.enabled = _conversationHelper.conversation.canLeave;
+        }
+        }
+
+        // Use SfBConversation class leave function to leave the conversation.
+        NSError *error = nil;
+        [_conversationHelper.conversation leave:&error];
+
+        if (error) {
+            [self handleError:error];
+        }
+        else {
+            [_conversationHelper.conversation removeObserver:self forKeyPath:@"canLeave"];
         }
    ```
 
-## Error Handling
+   **Swift**
+
+   ```swift
+        // Add observer to _canLeave_ property
+            conversation.addObserver(self, forKeyPath: "canLeave", options: [.Initial, .New] , context: nil)
+            
+        // Monitor canLeave property of a conversation to prevent leaving prematurely
+        
+            override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+            if (keyPath == "canLeave") {
+                self.endCallButton.enabled = (self.conversationHelper?.conversation.canLeave)!
+            }
+        }
+        
+        // Use SfBConversation class leave function to leave the conversation.
+            do{
+                try self.conversationHelper?.conversation.leave()
+                self.conversationHelper?.conversation.removeObserver(self, forKeyPath: "canLeave")
+            }
+   ```
+
+## Error handling
 
 [SkypeForBusiness](https://ucwa.skype.com/reference/appSDK/IOS/) SDK API has both [_SfBApplication_](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBApplication.html) and [_SfBConversation_](https://ucwa.skype.com/reference/appSDK/IOS/Classes/SfBConversation.html) level delegate method for handling possible errors or exceptions. The _SfBApplication_ alertDelegate handles global level concerns, while the _SfBConversation_ alertDelegate handles alerts specific to the conversation instance.
 
 The delegate method _didReceiveAlert_ is called when new alert appears in the context where alertDelegate is attached.
 
 
-## Text Chat 
+## Text chat 
 
- >Note: ChatHandler is the helper class that can be used to integrate Skype text chat feature into your application. It can be integrated in similar manner to SfBConversationHelper. Please refer [iOS sample apps](https://github.com/OfficeDev/skype-ios-app-sdk-samples) for further details.
+> [!NOTE] 
+> ChatHandler is the helper class that can be used to integrate Skype text chat feature into your application. It can be integrated in similar manner to SfBConversationHelper. For more information, see [iOS sample apps](https://github.com/OfficeDev/skype-ios-app-sdk-samples).

@@ -13,7 +13,8 @@
 
 This section shows how to develop a Skype Web SDK client application for Skype for Business Online. As a prerequisite, you will need to have a tenant on Office 365 with a user who is assigned a Skype for Business license. You will also need to set up a tenant in Azure Active Directory if you don't have one already. You can get to the Azure portal from the Admin Centers section of your Office 365 Admin Portal.
 
- >**Note**:  This topic does not apply to on-premises or hybrid server scenarios; only to online scenarios.
+> [!NOTE] 
+> This topic does not apply to on-premises or hybrid server scenarios; only to online scenarios.
 
 
 ## App registration
@@ -46,10 +47,14 @@ Sign in to the Azure Management Portal, then do the following:
 6. The value of  **App ID URI** is a unique identifier for Azure AD to identify your application. You can use `http://{your_subdomain}/skypewebsample`, where  `{your_subdomain}` is the subdomain of the tenant you specified while signing up for your Skype for Business Web App (website) on Azure. Click the check mark to provision your application. For example, a tenant with name skypesample.onmicrosoft.com could use an App ID URI of `http://app.skypesample.onmicrosoft.com`.
 
 7. Select the **Configure** tab and set **Application is Multi-Tenant** to true if you would like to allow users from other tenants to sign in to the application hosted on your tenant. For a single tenant application leave this at false.
-    >Note: In a multi-tenant scenario a global admin from the other tenant has to first sign in and consent to allowing users from that tenant to use your application.
+
+   > [!NOTE] 
+   > In a multi-tenant scenario a global admin from the other tenant has to first sign in and consent to allowing users from that tenant to use your application.
 
 8. Specify one or more reply urls that your application may use. The reply url is typically what you provide to both Azure AD (when the user is initally redirected to enter credentials) and the `signInManager.signIn` method as the value of the redirect_uri parameter. Wild cards are allowed. For example, if your web application is hosted at `https://mycompany.onmicrosoft.com/myapp/signin/index.html` you could potentially provide a reply url like `"https://mycompany.onmicrosoft.com/myapp/*"`.
-    >Note: During development it is a common practice to host your application on `http://localhost` and provide `http://localhost/*` as a reply url. Apart from this being a security issue (anyone can host a website on `http://localhost` and authenticate against your application if they know your client_id) this approach does not work for Internet Explorer because of how security zones work on Internet Explorer. `http://localhost` is in your local computer's trusted zone while Azure AD (login.microsoftonline.com) is in the Internet zone, and there is no cookie sharing between these zones. Hence, even if a user signs in on the Azure AD login page, the browser does not carry forward the necessary cookies on subsequent authentication requests to Azure AD from the SDK. 
+    
+   > [!NOTE] 
+   > During development it is a common practice to host your application on `http://localhost` and provide `http://localhost/*` as a reply url. Apart from this being a security issue (anyone can host a website on `http://localhost` and authenticate against your application if they know your client_id) this approach does not work for Internet Explorer because of how security zones work on Internet Explorer. `http://localhost` is in your local computer's trusted zone while Azure AD (login.microsoftonline.com) is in the Internet zone, and there is no cookie sharing between these zones. Hence, even if a user signs in on the Azure AD login page, the browser does not carry forward the necessary cookies on subsequent authentication requests to Azure AD from the SDK. 
     
 9. Select the  **Configure** tab, scroll down to the **Permissions** to other applications section, and click the **Add application** button.
     
@@ -105,7 +110,8 @@ app.signInManager.signIn({
 ```
 
 
- >**Note**: If `redirect_uri` is not specified, the SDK picks a random one. This doesn't work in Internet Explorer because when it sends a GET to it and gets back a 404, it does an extra redirect to `res://ieframe.dll/http_404.htm` and drops the access token from the original URL. If `redirect_uri` points to a folder, implying the `index.html` file under it, then IE will also drop the access token from the original URL.
+> [!NOTE] 
+> If `redirect_uri` is not specified, the SDK picks a random one. This doesn't work in Internet Explorer because when it sends a GET to it and gets back a 404, it does an extra redirect to `res://ieframe.dll/http_404.htm` and drops the access token from the original URL. If `redirect_uri` points to a folder, implying the `index.html` file under it, then IE will also drop the access token from the original URL.
 
 
 ### Authenticate a user with Office 365 Online
@@ -164,7 +170,8 @@ Skype.initialize({
 
 The apiKey value in the previous example is valid for the preview SDK. At general availability, these values will change.
 
->**Note:** If you are unable to troubleshoot an issue with the SDK and need to submit a troubleshooting request, make sure to include the **correlationIds.sessionId** parameter when initializing the SDK as above, and the **version** parameter when calling **signInManager.signIn** of the form **{your-app-name}/{version-number}** (see below). The **sessionId** parameter should be generated by your client code and should be unique-per-session, so that if you want to ask what went wrong during a particular session, you can provide us the unique session ID and version to allow us to locate records specific to your session in our telemetry. For more information, see [How can I submit an error report?](troubleshooting/gatheringLogs/GatherLogs.md).
+> [!NOTE] 
+> If you are unable to troubleshoot an issue with the SDK and need to submit a troubleshooting request, make sure to include the **correlationIds.sessionId** parameter when initializing the SDK as above, and the **version** parameter when calling **signInManager.signIn** of the form **{your-app-name}/{version-number}** (see below). The **sessionId** parameter should be generated by your client code and should be unique-per-session, so that if you want to ask what went wrong during a particular session, you can provide us the unique session ID and version to allow us to locate records specific to your session in our telemetry. For more information, see [How can I submit an error report?](troubleshooting/gatheringLogs/GatherLogs.md).
 
 When you have the application object, you sign a user into Skype for Business Online with code like the following example.
 
@@ -179,7 +186,8 @@ app.signInManager.signIn({
 });
 ```
 
->**Note**:  The specified redirect page must exist on the site.
+> [!NOTE] 
+> The specified redirect page must exist on the site.
 
 You may see sign in issues with IE, if you have tried using multiple AAD identities. Please use the following steps to resolve that issue:
 
@@ -194,7 +202,8 @@ The tenant administrator consent flow is important in two scenarios:
 1. Users from your tenant want to sign in to a multi-tenant application hosted on a different tenant.
 2. Some properties of the multi-tenant application have changed requiring the tenant administrator to consent once again. 
 
->**Note**:  Update the  **client Id** and **redirect Uri** for your app.
+> [!NOTE] 
+> Update the  **client Id** and **redirect Uri** for your app.
 
 ```js
 https://login.microsoftonline.com/common/oauth2/authorize?response_type=id_token

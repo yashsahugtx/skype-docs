@@ -116,7 +116,7 @@ This sample is given only as an illustration of event syntax. The semantic conte
 
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
-|localParticipant|High|conversation|Indicates that the user has been updated.</p><p>This event is raised when the user's capabilities as a participant have changed.Note that this is the only updated event for localParticipant.For example, if the user is was demoted from leader to attendee, the [enableAudienceMuteLock](enableAudienceMuteLock_ref.md) capability is no longer present.</p>|
+|localParticipant|High|conversation|Indicates that the user has been updated.</p><p>This event is raised when the user's capabilities as a participant have changed. Note that this is the only updated event for localParticipant.For example, if the user is was demoted from leader to attendee, the [enableAudienceMuteLock](enableAudienceMuteLock_ref.md) capability is no longer present.</p>|
 Sample of returned event data.
 This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
 {

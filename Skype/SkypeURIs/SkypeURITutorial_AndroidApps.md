@@ -92,7 +92,7 @@ public void goToMarket(Context myContext) {
 ```
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

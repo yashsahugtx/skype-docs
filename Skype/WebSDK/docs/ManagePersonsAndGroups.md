@@ -31,7 +31,8 @@ Basic functionalities related to persons include:
 - Removing a person from a group
     
 
->**Note**  It is allowed to add or remove a person to or from user-defined groups or special groups, such as the default group (Other Contacts) and the pinned group (Favorites). However, such operations are not allowed on distribution groups or privacy-related groups.
+> [!NOTE] 
+> It is allowed to add or remove a person to or from user-defined groups or special groups, such as the default group (Other Contacts) and the pinned group (Favorites). However, such operations are not allowed on distribution groups or privacy-related groups.
 
 All of these operations involve sending a request to the server and dealing with the response. The server will emit related events when the operation is completed. Usually such events will be received later than the response. It is important for the client to listen to these events and treat them as final indications of successful operations and to update the UI component accordingly.
 
@@ -44,32 +45,34 @@ With a  **Client** object that is already signed in:
 1. Create a new **Group** object. 
     
 
-  ```js
-  var g = client.personsAndGroupsManager.createGroup();
-  ```
+   ```js
+    var g = client.personsAndGroupsManager.createGroup();
+   ```
 
 
- >**Note**  At this point the group has not been created on the server so operations, such as adding a person to the group, are not enabled until **groups.add** is called.
+   > [!NOTE] 
+   > At this point the group has not been created on the server so operations, such as adding a person to the group, are not enabled until **groups.add** is called.
 
 2. Set the group name.
     
 
-  ```js
-  g.name('Group Name');
-  ```
+   ```js
+    g.name('Group Name');
+   ```
 
 3. Add the group. (You can optionally check if this operation is enabled.)
     
 
-  ```js
-if(client.personsAndGroupsManager.all.groups.add.enabled())
-	client.personsAndGroupsManager.all.groups.add(g).then(
-		createGroupSuccess, createGroupFail);
+   ```js
+  if(client.personsAndGroupsManager.all.groups.add.enabled())
+    client.personsAndGroupsManager.all.groups.add(g).then(
+      createGroupSuccess, createGroupFail);
 
-  ```
+   ```
 
 
- >**Note**   The **add** API can also be used to add a distribution group to the groups list. You can do this by searching for a distribution group, and passing the **Group** object found to the **add** method.
+   > [!NOTE] 
+   > The **add** API can also be used to add a distribution group to the groups list. You can do this by searching for a distribution group, and passing the **Group** object found to the **add** method.
 
 4. The three operations above will add a group to the group list of a client. However, it is also important for the client to handle events and API callbacks to keep the UI components in sync with server updates.
     
@@ -148,7 +151,8 @@ With a  **client** object that is already signed in:
    ```
 
 
- >**Note**  The client might observe different behaviors regarding renaming groups, depending on the Contact Store configurations on the server side.
+> [!NOTE] 
+> The client might observe different behaviors regarding renaming groups, depending on the Contact Store configurations on the server side.
 
 
 ## Delete a Group

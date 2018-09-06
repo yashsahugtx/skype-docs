@@ -16,11 +16,6 @@ dev_langs:
 
 Identifier to correlate call legs that belong to the same conference.
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

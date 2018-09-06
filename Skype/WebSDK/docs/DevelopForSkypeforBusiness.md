@@ -208,6 +208,6 @@ The user is supposed to be logged in at the OAuth provider beforehand. The SDK u
 
 The discovery process can be customized as described above.
 
-## Additional resources
+## See also
 
 - [Retrieve the API entry point and sign the user in](GetAPIEntrySignIn.md)

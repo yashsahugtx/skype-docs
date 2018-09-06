@@ -1,7 +1,8 @@
 
 # Developing **Trusted Application API** applications for Skype for Business Online
 
->Note: The Trusted Application API is in Developer Preview and not licensed for production usage.  As part of Microsoft’s [intellgent communications vision](https://aka.ms/intelligentcommunicationsblog), we’re building extensible communications capabilities into Teams.  For more Teams Developer information, check out [https://aka.ms/TeamsDeveloper](https://aka.ms/TeamsDeveloper)
+> [!NOTE] 
+> The Trusted Application API is in Developer Preview and not licensed for production usage.  As part of Microsoft’s [intellgent communications vision](https://aka.ms/intelligentcommunicationsblog), we’re building extensible communications capabilities into Teams.  For more Teams Developer information, check out [https://aka.ms/TeamsDeveloper](https://aka.ms/TeamsDeveloper)
 
 Learn how to develop **Trusted Application API** service applications.
 
@@ -34,7 +35,8 @@ for details.
 It is the act of finding the **Trusted Application API**s home server using the discovery endpoint. This enables you to 
 connect to the API and use the exposed capabilities.
   
->Note: For **Service applications**, please refer [Discovery for Service Applications](./DiscoveryForServiceApplications.md)
+> [!NOTE] 
+> For **Service applications**, please refer [Discovery for Service Applications](./DiscoveryForServiceApplications.md)
 
 ### Authentication using client credentials
 

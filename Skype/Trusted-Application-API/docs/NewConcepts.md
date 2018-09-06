@@ -55,7 +55,8 @@ This link is available on the [**service:messagingInvitation**](https://ucwa.sky
 
 When the API has to bridge communications between a peer to peer call and a conference, the Service Application creates a conversation bridge entity to connect the conference with the peer to peer call.  To let SfB Online users send messages to the peer to peer call leg, a Service Application adds the users as bridged participants to the conversation bridge. 
 
->Note: If users are not bridged, the peer to peer call leg will not be able to see messages from those users. 
+> [!NOTE] 
+> If users are not bridged, the peer to peer call leg will not be able to see messages from those users. 
 
 There are scenarios where it useful to avoid bridging certain conversation participants. For example, in a contact center supervisor scenario, your app should not bridge the supervisor, so a customer does not see the supervisor's messages
 

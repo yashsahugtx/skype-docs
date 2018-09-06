@@ -16,12 +16,6 @@ dev_langs:
 
 Processor speed rating.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

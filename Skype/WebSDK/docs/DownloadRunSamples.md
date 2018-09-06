@@ -1,14 +1,7 @@
 
 # Downloading and running the Skype Web SDK samples
 
-
-
  _**Applies to:** Skype for Business 2015_
-
- **In this article**  
-[Downloading and setting up the samples](#sectionSection0)  
-[Samples in the download package](#sectionSection1)  
-[Additional Resources](#bk_addresources)
 
 
 The Microsoft Skype Web SDK includes a set of web application samples that allow you to run and observe the features of the SDK, such as sign-in, sending instant messages, searching for contacts and distribution groups, using audio/video, and so on.
@@ -45,14 +38,14 @@ You can run the Microsoft Skype Web SDK samples against your private Skype for B
 The Microsoft Skype Web SDK samples are available on github at [Skype Web SDK Samples](https://github.com/OfficeDev/skype-docs/tree/master/Skype/WebSDK).
 
 
- >**Note**  To enable audio/video functionality, clients must install the Skype for Business Web App Plug-in. It is available for Windows and Mac computers from the following download locations:
+> [!NOTE] 
+> To enable audio/video functionality, clients must install the Skype for Business Web App Plug-in. It is available for Windows and Mac computers from the following download locations:
  - [Windows Download](https://swx.cdn.skype.com/s4b-plugin/16.2.0.67/SkypeMeetingsApp.msi)
  - [Mac Download](https://swx.cdn.skype.com/s4b-plugin/16.2.0.67/SkypeForBusinessPlugin.pkg)
 
 
-|||
+|Sample|Description|
 |:-----|:-----|
-|**Sample**|**Description**|
 |Authentication|Demonstrates the different modes of authentication. Allows the user to sign in using any of these modes, as well as to sign out.|
 |Local User|Demonstrates the different operations one can perform on the currently signed in user. Allows the user to change note, location, and presence state.|
 |Contacts|Demonstrates the different operations one can perform on the contacts of the currently signed in user. Allows the user to search for contacts and distribution groups.|

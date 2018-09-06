@@ -14,12 +14,7 @@ dev_langs:
 
 (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-Connection type such as "wired" or "wireless".
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Connection type such as "wired" or "wireless".  
 
 ## Element information
 

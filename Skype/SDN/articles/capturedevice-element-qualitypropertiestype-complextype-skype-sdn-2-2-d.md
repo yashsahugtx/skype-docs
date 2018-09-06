@@ -16,12 +16,6 @@ dev_langs:
 
 The name of a capture device used to produce the media of this stream. This device is in the FROM endpoint and usually represents a microphone.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

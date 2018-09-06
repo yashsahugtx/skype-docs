@@ -28,9 +28,9 @@ When the listener is triggered, we can assign a DOM node as the container for th
 1. To render the video of the other participants in the conversation we add another listener that notifies us when
 a participant joins the conversation.
 
-    > [!Important]
-    > Group video for **Google Chrome** is rendered using a different API.
-    > Please see [Group in Google Chrome](PTVideoGroupGoogleChrome.md) for more details.
+   > [!IMPORTANT] 
+   > Group video for **Google Chrome** is rendered using a different API.
+   > Please see [Group in Google Chrome](PTVideoGroupGoogleChrome.md) for more details.
 
     ```js
     conversation.participants.added(function (person) {

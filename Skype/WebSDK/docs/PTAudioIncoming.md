@@ -51,12 +51,12 @@ conversation.state.changed(function (newValue, reason, oldValue) {
 
 **Possible Conversation States:**
 
-|||
-|--------------|------------------------------------------|
-| *Created* | ...When conversation was created
-| *Connecting*    | ...When establishing a connection           |
-| *Connected* | ...When the conversation was successfully connected |
-| *Disconnected* | ...When the conversation got disconnected |
+|State           |Description|
+|:-------------- |:----------------------------------------------------|
+| *Created*      | ...When conversation was created                    |
+| *Connecting*   | ...When establishing a connection                   |
+| *Connected*    | ...When the conversation was successfully connected |
+| *Disconnected* | ...When the conversation got disconnected           |
 
 ## Participants in Conversation
 In case the invitation is accepted we should subscribe to the `participants` collection on the `conversation` object to be notified when new participants enter the conversation.

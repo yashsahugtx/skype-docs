@@ -27,7 +27,8 @@ UCWA 2.0 always runs in the home pool of the authenticated user. For joining a m
 Autodiscovery is used by all Skype for Business client applications and is based on the protocol described in [ [MS-OCDISCWS]: Lync Autodiscover Web Service Protocol Specification](http://msdn.microsoft.com/en-us/library/hh623245%28v=office.12%29.aspx). The autodiscovery flow requires the deployment and configuration of the Skype for Business Server 2015 Autodiscover service. For more information, see [Autodiscover service requirements](http://technet.microsoft.com/en-us/library/hh690012%28v=ocs.15%29.aspx). 
 
 
- >Note: In coexistence mode (Lync 2010 and Skype for Business 2015), to support custom UCWA 2.0 application development, you must point the Autodiscover CNAME (Lyncdiscover.<domain> and LyncDiscoverinternal.<domain>) to a Skype for Business Server 2015 pool.
+> [!NOTE] 
+> In coexistence mode (Lync 2010 and Skype for Business 2015), to support custom UCWA 2.0 application development, you must point the Autodiscover CNAME (Lyncdiscover.<domain> and LyncDiscoverinternal.<domain>) to a Skype for Business Server 2015 pool.
 
 
 ### Authenticated user flow
@@ -85,21 +86,22 @@ HTTPS GET LyncDiscover.<domain>
 
 5. For some online scenarios, the Skype for Business Autodiscover service might return a 200 OK response with a "redirect" link in the body. The client should validate the response before following the redirect link. 
  
-  >Note: If you have a pure Skype for Business Server 2015 topology, the redirect scenario will not occur. A redirect can occur in hybrid topologies (On-Premises to Online). The current version, UCWA 2.0, does not support online scenarios.
+   > [!NOTE] 
+   > If you have a pure Skype for Business Server 2015 topology, the redirect scenario will not occur. A redirect can occur in hybrid topologies (On-Premises to Online). The current version, UCWA 2.0, does not support online scenarios.
 
-  The following is an example redirect response.
+   The following is an example redirect response.
  
-  ```
-  HTTP/1.1 200 OK 
-  Content-Type: application/json
- {
-  "_links":{
-  "redirect":{
-  "href":"https://contoso.com/Autodiscover/AutodiscoverService.svc/root"
-  }
-  }
- }
- ```
+   ```
+      HTTP/1.1 200 OK 
+      Content-Type: application/json
+    {
+      "_links":{
+      "redirect":{
+      "href":"https://contoso.com/Autodiscover/AutodiscoverService.svc/root"
+      }
+      }
+    }
+   ```
 
 6. The security check step consists of making sure that the client is not spoofed. A detailed illustration follows this list.
  

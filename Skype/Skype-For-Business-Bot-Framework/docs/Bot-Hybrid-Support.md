@@ -1,4 +1,4 @@
-# Skype for Business Bot - Hybrid environment support
+# Skype for Business Bot - hybrid environment support
 
 Skype for Business bots can be connected to the Skype for Business Server users if hybrid connectivity has been deployed in the environment. 
 

@@ -14,12 +14,7 @@ dev_langs:
 
 (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-The name of a capture device used to produce the media of this stream. This device is in the FROM endpoint and usually represents a microphone.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+The name of a capture device used to produce the media of this stream. This device is in the FROM endpoint and usually represents a microphone. 
 
 ## Element information
 

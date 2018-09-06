@@ -17,7 +17,8 @@ For more information see: [Connecting to Skype for Business Online by using Wind
 
 ## Managing Trusted Application Endpoint With PowerShell
 
->Note: For assigning a PSTN phone number to a Trusted Endpoint, you will need to follow the steps below acquire a service number that will be assigned to Trusted Application Endpoint. **Assigning a phone number is optional.  If assigning a phone number to your endpoint, acquiring a service number should be completed before running the Powershell cmdlets.  See details below**.
+> [!NOTE] 
+> For assigning a PSTN phone number to a Trusted Endpoint, you will need to follow the steps below acquire a service number that will be assigned to Trusted Application Endpoint. **Assigning a phone number is optional.  If assigning a phone number to your endpoint, acquiring a service number should be completed before running the Powershell cmdlets.  See details below**.
 
  1. Follow the documentation to connect to the [Skype for Business PowerShell cmdlets](https://technet.microsoft.com/en-us/library/dn362831.aspx)
  The following cmdlets can be used to setup trusted application endpoints:
@@ -53,7 +54,9 @@ For more information see: [Connecting to Skype for Business Online by using Wind
 | ---------------|:---------|:------:| -------------------------------------------------:|
 | Uri            | Required | String | The SipUri for the Endpoint. SIP Uri must be lowercase.        |
 
->Note: For PSTN, Assign the **service numbers** to the trusted application endpoint using _New-CsOnlineApplicationEndpoint PhoneNumber_ parameter. PhoneNumber is not required.
+
+> [!NOTE] 
+> For PSTN, Assign the **service numbers** to the trusted application endpoint using _New-CsOnlineApplicationEndpoint PhoneNumber_ parameter. PhoneNumber is not required.
  
 ## Detailed Explanation of Parameters
 

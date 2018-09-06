@@ -20,7 +20,7 @@ For more on web links, see [Web links](WebLinks.md).
 ## Resource description
 <a name = "sectionSection1"> </a>
 
-The application can use this resource to keep track of a user's contacts and groups via the event channel.Updates include the addition, removal, or modification of [group](group_ref.md)s or [contact](contact_ref.md)s.Additionally, an update on the event channel will inform the application that the subscription is about to expire.The application can then choose to refresh the subscription.Note that, unlike [presenceSubscription](presenceSubscription_ref.md), this resource does not subscribe to [presence](presence_ref.md), [note](note_ref.md), or [location](location_ref.md).
+The application can use this resource to keep track of a user's contacts and groups via the event channel.Updates include the addition, removal, or modification of [group](group_ref.md)s or [contact](contact_ref.md)s.Additionally, an update on the event channel will inform the application that the subscription is about to expire.The application can then choose to refresh the subscription. Note that, unlike [presenceSubscription](presenceSubscription_ref.md), this resource does not subscribe to [presence](presence_ref.md), [note](note_ref.md), or [location](location_ref.md).
 
 ### Properties
 

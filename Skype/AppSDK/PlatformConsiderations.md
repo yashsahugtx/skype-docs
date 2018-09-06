@@ -26,7 +26,8 @@ The properties of many objects change dynamically due to network events or other
 
 Collection properties are NSArray’s of some type. They also implement KVO and notifications are sent whenever objects are added or removed from that collection. 
 
->**Note**: To listen to these notifications you add an observer to the parent object and not to the NSArray property itself.
+> [!NOTE] 
+> To listen to these notifications you add an observer to the parent object and not to the NSArray property itself.
 
 Some collections are “lazy”. They don’t hold fully initialized contents all the time. Instead when you get an item from such a collection, it transparently gets created (if not cached). You should avoid keeping references to collections’ items unless a corresponding UI view is visible.
 
@@ -53,7 +54,7 @@ All of the SDK’s interfaces must be used only from the application main thread
 
 The SDK is currently supported on following versions.
 
-|||
+|Version|Number|
 |:-----|:-----|
 |MIN_SDK_VERSION|17 (JELLY_BEAN)|
 |TARGET_SDK_VERSION|22 (L)|

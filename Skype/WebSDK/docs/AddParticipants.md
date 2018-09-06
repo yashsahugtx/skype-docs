@@ -29,5 +29,6 @@ Additional Persons can be added to a conversation to escalate that conversation 
   ```
 
 
->**Note:** If the participant rejects the invitation, the participant will still be in the **conversation.participants** collection with a 'rejected' state. When this occurs, you should remove the participant and clean up any associated user interface.
+> [!NOTE] 
+> If the participant rejects the invitation, the participant will still be in the **conversation.participants** collection with a 'rejected' state. When this occurs, you should remove the participant and clean up any associated user interface.
     

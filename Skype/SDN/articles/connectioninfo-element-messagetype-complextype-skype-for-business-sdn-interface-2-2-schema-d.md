@@ -14,13 +14,7 @@ dev_langs:
 
 (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
-Connection-related properties regardless of the media stream and end points.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Connection-related properties regardless of the media stream and end points. 
 
 ## Element information
 

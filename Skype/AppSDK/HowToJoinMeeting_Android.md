@@ -20,7 +20,9 @@ Be sure to read [Getting started with Skype App SDK development](GettingStarted.
    AnonymousSession mAnonymousSession = null;
    Conversation mConversation = null;
    ```
-   >Note: Be sure to select the Application object in the _com.microsoft.office.sfb.appsdk_ package!
+
+   > [!NOTE] 
+   > Be sure to select the Application object in the _com.microsoft.office.sfb.appsdk_ package!
    
 1. Enable platform preview features and set wifi required for audio/video
    ```java
@@ -39,7 +41,9 @@ Be sure to read [Getting started with Skype App SDK development](GettingStarted.
                                     R.string.userDisplayName), meetingURI);
    
    ```
-   > Note: all of the SDK’s interfaces must be used only from the application main thread (main run loop).  Notifications are delivered in the same thread as well.  As a result, no synchronization around the SDK’s interfaces is required.  The SDK, however, may create threads for internal purposes.      
+  
+   > [!NOTE] 
+   > All of the SDK’s interfaces must be used only from the application main thread (main run loop). Notifications are delivered in the same thread as well. As a result, no synchronization around the SDK’s interfaces is required. The SDK, however, may create threads for internal purposes.      
 
 1. Get the [**Conversation**](https://ucwa.skype.com/reference/appSDK/Android/com/microsoft/office/sfb/appsdk/Conversation.html) object that encapsulates the meeting from the [**AnonymousSession**](https://ucwa.skype.com/reference/appSDK/Android/com/microsoft/office/sfb/appsdk/AnonymousSession.html) object by calling _getConversation()_ on the anonymous session.  
    ```java
@@ -126,14 +130,15 @@ Be sure to read [Getting started with Skype App SDK development](GettingStarted.
                  mParticipantVideoSurfaceView,
                  this);
    ```
-   >Note: The [ConversationHelper class](./ConversationHelperCodeList.md) makes it possible to start a video conversation and
-   handle related events on the conversation, participants, and video streams with fewer lines of application code. You may not want to use the **ConversationHelper** if your 
-   application scenario has requirements that are not covered in this how to article. In that case, take the **ConversationHelper** as a starting point and modify or 
-   extend it to suite your requirements.
+
+   > [!NOTE] 
+   > The [ConversationHelper class](ConversationHelperCodeList.md) makes it possible to start a video conversation and
+   handle related events on the conversation, participants, and video streams with fewer lines of application code. You may not want to use the **ConversationHelper** if your application scenario has requirements that are not covered in this how to article. In that case, take the **ConversationHelper** as a starting point and modify or extend it to suite your requirements.
 
 1. Start the incoming and outgoing meeting video.
 
-   >Note: as per the license terms, before you start video for the first time after install, you must prompt the user to accept the Microsoft end-user license (also included in the SDK). Please refer step 5 - Show video codec license for the sample code.
+   > [!NOTE] 
+   > As per the license terms, before you start video for the first time after install, you must prompt the user to accept the Microsoft end-user license (also included in the SDK). Please refer step 5 - Show video codec license for the sample code.
 
    ```java
          //Start up the incoming and outgoing video
@@ -149,7 +154,9 @@ Be sure to read [Getting started with Skype App SDK development](GettingStarted.
    ```
 
 ---
+
 ## Sample code
+
 The code steps shown in this topic are put together in a sample that we've published on GitHub. You can find Android and iOS samples for joining a meeting anonymously by navigating the links in the [Sample applications for the Skype for Business App SDK](./Samples.md) article. 
 
 You can look at the complete conversation helper class code listing in [The ConversationHelper class](./ConversationHelperCodeList.md). 

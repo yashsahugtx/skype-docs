@@ -14,12 +14,7 @@ dev_langs:
 
 (MessageType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-Event that a Sip call has ended and all media stream terminated.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Event that a Sip call has ended and all media stream terminated. 
 
 ## Element information
 

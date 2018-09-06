@@ -69,7 +69,8 @@ m
 ![Code adding Skype URI to initiate audio call](images/SkypeUriJavaScriptCallouts.png)
 
 
- >**Note:**  The JavaScript objects and functions contained in  `skype-uri.js` are covered by the Apache License, 
+> [!NOTE] 
+> The JavaScript objects and functions contained in  `skype-uri.js` are covered by the Apache License, 
  Version 2.0, which you can view at [http://www.apache.org/licenses/](http://www.apache.org/licenses/).
 
 
@@ -213,7 +214,7 @@ mobile device, laptop, or desktop. You might also consider including a link to t
 the platform-specific Skype client's [download page](http://www.skype.com/go/download) download page on skype.com.
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

@@ -53,7 +53,7 @@ to navigate to the Skype client's entry.
 ![Windows 8 notification highlighting store link](images/skypeUri_Win8StoreHighlight.png)
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

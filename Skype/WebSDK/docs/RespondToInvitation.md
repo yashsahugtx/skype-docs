@@ -133,7 +133,7 @@ conversationsManager.conversations.added(function (conversation) {
 ```
 
 
-## Additional resources
+## See also
 
 - [Send and receive text in a conversation](SendReceiveText.md)
 - [Add participants to a conversation](AddParticipants.md)

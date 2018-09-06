@@ -1,3 +1,8 @@
+---
+redirect_url: https://docs.microsoft.com/en-us/skype-sdk/skypedeveloperplatform
+ROBOTS: NOINDEX,NOFOLLOW
+---
+
 # [Skype](index.md)
 
 ## [Skype Developer platform](SkypeDeveloperPlatform.md)

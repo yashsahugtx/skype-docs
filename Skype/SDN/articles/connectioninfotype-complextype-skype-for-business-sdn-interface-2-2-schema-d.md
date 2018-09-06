@@ -12,13 +12,7 @@ dev_langs:
 
 # ConnectionInfoType complexType 
 
-(Skype for Business SDN Interface 2.2, Schema "D")
-
-
-**In this article**  
-Type information  
-Definition  
-Elements and attributes  
+(Skype for Business SDN Interface 2.2, Schema "D") 
 
 ## Type information
 

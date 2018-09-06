@@ -16,12 +16,6 @@ dev_langs:
 
 Unique identifier for the SIP call. This field should be used to correlate messages referring to the same call.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

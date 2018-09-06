@@ -14,12 +14,7 @@ dev_langs:
 
 (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-Processor speed rating.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Processor speed rating. 
 
 ## Element information
 

@@ -14,13 +14,7 @@ dev_langs:
 
 (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
-Describes the last codec used for the media.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Describes the last codec used for the media. 
 
 ## Element information
 

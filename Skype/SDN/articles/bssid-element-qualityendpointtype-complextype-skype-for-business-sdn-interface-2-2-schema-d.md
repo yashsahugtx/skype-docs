@@ -14,13 +14,7 @@ dev_langs:
 
 (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
-Id of an access point for a WiFi/wireless connection.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Id of an access point for a WiFi/wireless connection. 
 
 ## Element information
 

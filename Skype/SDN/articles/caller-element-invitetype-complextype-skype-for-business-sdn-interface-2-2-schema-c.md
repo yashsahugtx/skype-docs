@@ -14,12 +14,7 @@ dev_langs:
 
 (InviteType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-Properties of the caller.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Properties of the caller. 
 
 ## Element information
 

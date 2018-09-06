@@ -16,12 +16,6 @@ dev_langs:
 
 Properties of the callee.
 
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

@@ -16,11 +16,6 @@ dev_langs:
 
 Number of CPU cores in the endpoint device.
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

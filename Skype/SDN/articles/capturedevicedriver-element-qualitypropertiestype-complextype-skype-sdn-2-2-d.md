@@ -14,13 +14,7 @@ dev_langs:
 
 (QualityPropertiesType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
-Device driver name and version of the capture device used to produce the media of this stream
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Device driver name and version of the capture device used to produce the media of this stream 
 
 ## Element information
 

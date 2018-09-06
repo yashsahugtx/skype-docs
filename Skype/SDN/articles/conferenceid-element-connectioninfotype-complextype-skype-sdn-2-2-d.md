@@ -14,13 +14,7 @@ dev_langs:
 
 (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "D")
 
-Identifier to correlate call legs that belong to the same conference.
-
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Identifier to correlate call legs that belong to the same conference. 
 
 ## Element information
 

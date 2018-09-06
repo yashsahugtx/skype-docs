@@ -14,12 +14,7 @@ dev_langs:
 
 (QualityEndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-Name of the CPU.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Name of the CPU. 
 
 ## Element information
 

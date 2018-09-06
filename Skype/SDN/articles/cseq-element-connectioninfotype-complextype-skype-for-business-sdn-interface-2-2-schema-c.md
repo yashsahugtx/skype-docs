@@ -14,12 +14,7 @@ dev_langs:
 
 (ConnectionInfoType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-Call sequence number as part of SIP standard that needs to be used to filter for unrelated error messages. This field is not provided for QualityUpdates.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+Call sequence number as part of SIP standard that needs to be used to filter for unrelated error messages. This field is not provided for QualityUpdates. 
 
 ## Element information
 

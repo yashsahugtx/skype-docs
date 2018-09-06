@@ -14,12 +14,7 @@ dev_langs:
 
 (EndPointType complexType) (Skype for Business SDN Interface 2.2, Schema "C")
 
-SIP URI of the user as extracted from the Contact header of the underlying SIP message. This field is obfuscated unless hidepii is set to false in the DialogListener configuration file.
-
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
+SIP URI of the user as extracted from the Contact header of the underlying SIP message. This field is obfuscated unless hidepii is set to false in the DialogListener configuration file. 
 
 ## Element information
 

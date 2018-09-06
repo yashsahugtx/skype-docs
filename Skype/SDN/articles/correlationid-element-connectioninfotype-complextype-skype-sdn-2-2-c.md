@@ -16,11 +16,6 @@ dev_langs:
 
 Identifier to correlate two SIP calls where mediation server is involved. Both SIP calls belong to the same conversation.
 
-**In this article**  
-Element information  
-Definition  
-Elements and attributes  
-
 ## Element information
 
 <table>

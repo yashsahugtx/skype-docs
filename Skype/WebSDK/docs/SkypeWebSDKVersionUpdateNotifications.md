@@ -1,19 +1,20 @@
-# Skype Web SDK Version Update Notifications
+# Skype Web SDK version update notifications
+
 ## Skype Web SDK Version Update 07/27/18
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.101.19 | 9/6/17 | 1.99.7
 | Skype Web SDK Preview    | 0.4.631 | 9/6/17 | 0.4.614
 | Conversation Control Production | 1.101.19 | 9/6/17 | 1.99.7
 | Skype Web SDK Production| 0.4.940 | 07/27/18 | 0.4.872 |
 
- **Bug fixed in Web SDK:**
-* Removed "displayName" from queryString in contactHref property of json returned from UCWA when searching a  contact.
+**Bug fixed in Web SDK:**
+* Removed "displayName" from queryString in contactHref property of json returned from UCWA when searching a contact.
 
 ## Skype Web SDK Version Update 10/02/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.101.19 | 9/6/17 | 1.99.7
 | Skype Web SDK Preview    | 0.4.631 | 9/6/17 | 0.4.614
@@ -25,7 +26,7 @@
 
 ## Skype Web SDK Version Update 9/06/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.99.7 | 8/4/17 | 1.97.4
 | Skype Web SDK Preview    | 0.4.607 | 8/21/17 | 0.4.596
@@ -37,7 +38,7 @@
 
 ## Skype Web SDK Version Update 8/21/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.99.7 | 8/4/17 | 1.97.4
 | Skype Web SDK Preview    | 0.4.596 | 8/4/17 | 0.4.584
@@ -51,7 +52,7 @@
 
 ## Skype Web SDK Version Update 8/4/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.97.4 | 8/11/17 | 1.95.24
 | Skype Web SDK Preview    | 0.4.584 | 8/11/17 | 0.4.554
@@ -64,7 +65,7 @@
 
 ## Skype Web SDK Version Update 6/19/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.93.21 | 6/19/17 | 1.92.29
 | Skype Web SDK Preview    | 0.4.525 | 6/19/17 | 0.4.514
@@ -76,7 +77,7 @@
 
 ## Skype Web SDK Version Update 5/29/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.92.29 | 6/5/17 | 1.91.33
 | Skype Web SDK Preview    | 0.4.514 | 6/5/17 | 0.4.502
@@ -89,7 +90,7 @@
 
 ## Skype Web SDK Version Update 5/29/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | unchanged | 5/22/17 | 1.91.33
 | Skype Web SDK Preview    | unchanged | 5/22/17 | 0.4.499
@@ -102,7 +103,7 @@ None
 
 ## Skype Web SDK Version Update 5/22/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.91.33 | 5/22/17 | 1.90.16
 | Skype Web SDK Preview    | 0.4.499 | 5/22/17 | 0.4.481
@@ -115,7 +116,7 @@ None
 
 ## Skype Web SDK Version Update 5/8/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.90.16 | 5/8/17 | 1.89.16
 | Skype Web SDK Preview    | 0.4.481 | 5/8/17 | 0.4.474
@@ -131,7 +132,7 @@ None
 
 ## Skype Web SDK Version Update 5/1/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.89.16 | 5/1/17 | 1.88.30
 | Skype Web SDK Preview    | 0.4.474 | 5/1/17 | 0.4.470
@@ -145,7 +146,7 @@ None
 
 ## Skype Web SDK Version Update 4/25/17
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.88.30 | 4/25/17 | 1.87.47
 | Skype Web SDK Preview    | 0.4.470 | 4/25/17 | 0.4.464
@@ -446,7 +447,7 @@ telemetry fix, but no major changes.
 ---
 ## Skype Web SDK Version Update 11/22/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.70.4 | 11/22/16 | 1.69.15
 | Skype Web SDK Preview    | 0.4.356 |  11/22/16 | 0.4.341
@@ -473,7 +474,7 @@ and a security fix.
 ---
 ## Skype Web SDK Version Update 11/8/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.67.37 | 11/8/16 |1.65.51
 | Skype Web SDK Preview    | 0.4.341 |  11/8/16| 0.4.327
@@ -496,7 +497,7 @@ sometimes resulted in an Audio/Video invitation instead.
 ---
 ## Skype Web SDK Version Update 11/1/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | Unchanged | 10/25/16 |1.65.51
 | Skype Web SDK Preview    | Unchanged |  10/25/16| 0.4.327
@@ -512,7 +513,7 @@ None
 ---
 ## Skype Web SDK Version Update 10/25/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.65.51 | 10/25/16 |1.63.51
 | Skype Web SDK Preview    | 0.4.327 |  10/25/16| 0.4.312
@@ -535,7 +536,7 @@ improvements to AV call reliability in Microsoft Edge, and a fix to correctly ha
 ---
 ## Skype Web SDK Version Update 10/19/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | Unchanged | 10/12/16 |1.63.51
 | Skype Web SDK Preview    | Unchanged  |  10/12/16| 0.4.312
@@ -551,7 +552,7 @@ No new preview release
 ---
 ## Skype Web SDK Version Update 10/12/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.63.51 | 10/12/16 |1.62.45
 | Skype Web SDK Preview    | 0.4.312  |  10/12/16| 0.4.306
@@ -567,7 +568,7 @@ The latest preview release includes several small reliability improvements and f
 ---
 ## Skype Web SDK Version Update 10/4/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.62.45 | 10/4/16 |1.61.68 
 | Skype Web SDK Preview    | 0.4.306  |  10/4/16| 0.4.300
@@ -588,7 +589,7 @@ and a fix for joining conferences anonymously in an ‘on prem’ topology.
 ---
 ## Skype Web SDK Version Update 9/27/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.61.68 | 9/27/16 |1.60.72 
 | Skype Web SDK Preview    | 0.4.300  |  9/27/16| 0.4.293
@@ -609,7 +610,7 @@ multi-tab apps may not resume correctly, preview support for call transfer, and 
 ---
 ## Skype Web SDK Version Update 9/20/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.60.72 | 9/20/16 |1.59.79
 | Skype Web SDK Preview    | 0.4.293  |  9/20/16| 0.4.288
@@ -626,7 +627,7 @@ The latest release includes preview support for phone audio calling (PSTN) and i
 ---
 ## Skype Web SDK Version Update 9/13/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.59.79 | 9/13/16 |1.58.81
 | Skype Web SDK Preview    | 0.4.288  |  9/13/16| 0.4.281
@@ -644,7 +645,7 @@ The latest release includes a critical fix to telemetry for the standalone SDK a
 ---
 ## Skype Web SDK Version Update 9/6/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.58.81 | 9/6/16 |1.57.70
 | Skype Web SDK Preview    | 0.4.281      |  9/6/16| 0.4.275
@@ -663,7 +664,7 @@ The latest release includes improvements to group video calling in Chrome, the i
 ---
 ## Skype Web SDK Version Update 8/30/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.57.70 | 8/30/16 |1.56.78
 | Skype Web SDK Preview    | 0.4.275      |  8/30/16| 0.4.269
@@ -680,7 +681,7 @@ The latest release includes improvements to application telemetry and a fix for 
 ---
 ## Skype Web SDK Version Update 8/23/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.56.78 | 8/23/16 |1.55.101
 | Skype Web SDK Preview    | 0.4.269      |  8/23/16| 0.4.262
@@ -698,7 +699,7 @@ The latest release includes improvements to video calls in Edge, allows AV calls
 ---
 ## Skype Web SDK Version Update 8/16/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.55.101 | 8/16/16 |1.54.107
 | Skype Web SDK Preview    | 0.4.262      |  8/16/16|0.4.256
@@ -715,7 +716,7 @@ The latest release includes fixes for activity items and improvements to video c
 ---
 ## Skype Web SDK Version Update 8/9/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.54.107 | 8/9/16 |1.53.59
 | Skype Web SDK Preview    | 0.4.256      |  8/9/16|0.4.250
@@ -734,7 +735,7 @@ This release includes improvements to video calls in Edge including support for 
 ---
 ## Skype Web SDK Version Update 8/2/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.53.59 | 8/2/16 |1.52.79
 | Skype Web SDK Preview    | 0.4.250      |  8/2/16|0.4.245
@@ -752,7 +753,7 @@ The latest release includes changes to ensure that chat and video modalities are
 ---
 ## Skype Web SDK Version Update 7/27/16
 
-| Product        | New Version           | Last Updated  |Previous Version
+| Product        | New version           | Last updated  |Previous version
 | ------------- |:-------------:| :-----:|:----------:|
 | Conversation Control Preview     | 1.52.79 | 7/27/16 |1.51.69
 | Skype Web SDK Preview    | 0.4.245      |  7/27/16|0.4.239

@@ -72,7 +72,8 @@ A presence subscription on a person is a request on the Skype for Business Serve
 
 You can cancel a presence subscription for a given person at any time. Normally presence subscriptions are cancelled when a subscribed person is no longer shown on your UI. Cancelling unneeded presence subscriptions can lead to better application performance.
 
->**Note**: A presence fetch is also possible using the **get** method on the persons's **status** property. This is a more lightweight operation than creating a subscription, but it will
+> [!NOTE] 
+> A presence fetch is also possible using the **get** method on the persons's **status** property. This is a more lightweight operation than creating a subscription, but it will
 retrieve the person's latest presence at that particular point in time only (no persistent notifications).  
 
 

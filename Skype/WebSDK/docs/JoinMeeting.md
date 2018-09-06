@@ -51,6 +51,6 @@ conversation.videoService.start().then(function() {
   ```
 
 
-## Additional resources
+## See also
 
 - [Join a meeting anonymously](AnonymousMeetingJoin.md)

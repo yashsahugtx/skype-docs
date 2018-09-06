@@ -18,7 +18,7 @@ persons.get().then(function (contacts) {
 });
 ```
 
-## Additional resources
+## See also
 
 - <a href="https://msdn.microsoft.com/skype/websdk/docs/ListenForAvailability" target="">Get a person and listen for availability</a>
 

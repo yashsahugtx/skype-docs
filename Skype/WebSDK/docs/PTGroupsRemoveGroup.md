@@ -27,7 +27,7 @@ application.personsAndGroupsManager.all.groups.remove(group).then(function () {
 });
 ```
 
-## Additional resources
+## See also
 
 - <a href="https://msdn.microsoft.com/skype/websdk/docs/ListenForAvailability" target="">Get a person and listen for availability</a>
 

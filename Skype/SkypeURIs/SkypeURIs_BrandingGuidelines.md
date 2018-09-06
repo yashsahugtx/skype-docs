@@ -148,7 +148,7 @@ Do not alter the Skype Brand Elements in any way.
 |Add effects, such as drop shadows.|![Do not use effects such as shadows on Skype icons](images/skypeUriBrandingEffects.png)|
 |Rename the Skype action.|![Do not rename Skype actions](images/skypeUriBrandingName.png)|
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

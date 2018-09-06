@@ -150,7 +150,7 @@ app.conversationsManager.conversations.added(function(conversation) {
 });
 ```
     
-## Additional resources
+## See also
 
 
 - [Start a conversation](StartConversation.md)

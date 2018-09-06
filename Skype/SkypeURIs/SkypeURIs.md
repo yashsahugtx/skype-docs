@@ -178,7 +178,7 @@ Please contact [Skype Developer Support](mailto:SkypeDev@Microsoft.com?subject=S
 * [Skype URI tutorial: iOS apps](SkypeURITutorial_iOSApps.md)
 
 
-## Additional resources
+## See also
 
 * [Office development](http://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
 

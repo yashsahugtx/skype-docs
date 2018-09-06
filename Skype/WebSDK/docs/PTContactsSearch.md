@@ -29,7 +29,8 @@ The following procedure assumes that a user has signed in before searching for p
     
 4. Call the  **forEach** method of the array of results. For each result, **Person** object is the result.result.
     
->**Note**:  The maximum number of results for a person search query is 50. 
+> [!NOTE] 
+> The maximum number of results for a person search query is 50. 
 
   ```js
 var personSearchQuery = application.personsAndGroupsManager.createPersonSearchQuery();
@@ -78,7 +79,7 @@ groupSearchQuery.getMore().then(null, function (results) {
 
   ```
 
-## Additional resources
+## See also
 
 - <a href="https://msdn.microsoft.com/skype/websdk/docs/ListenForAvailability" target="">Get a person and listen for availability</a>
 

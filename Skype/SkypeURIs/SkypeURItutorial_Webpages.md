@@ -214,7 +214,7 @@ mobile device, laptop, or desktop. You might also consider including a link to t
 the platform-specific Skype client's [download page](http://www.skype.com/go/download) download page on skype.com.
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

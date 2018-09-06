@@ -44,7 +44,7 @@ You may wonder why we don't want you to use other CSS properties, such as  **dis
 Detaching the video container DOM element removes the element and can cause the video plug-in to be unloaded. 
 
 
-## Additional resources
+## See also
 
 
 [ParticipantVideo](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.participantvideo.html)

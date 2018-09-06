@@ -9,10 +9,10 @@ The [Application](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/i
 
 The [SignInManager.SignIn](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.signinmanager.html#signin) method and the [SignInManager.SignOut](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.signinmanager.html#signout) method are asynchronous and return a [Promise](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.promise.html) object. Use the **Promise#then** method to set operation success or failure callbacks.
 
-
- >**Note**: To enable audio/video functionality for IE 11 and Safari you need to install the Skype for Business Web App Plug-in. It is available for Windows and Mac computers:  
- - [Windows Download](https://swx.cdn.skype.com/s4b-plugin/16.2.0.67/SkypeMeetingsApp.msi)
- - [Mac Download](https://swx.cdn.skype.com/s4b-plugin/16.2.0.67/SkypeForBusinessPlugin.pkg)
+> [!NOTE] 
+> To enable audio/video functionality for IE 11 and Safari you need to install the Skype for Business Web App Plug-in. It is available for Windows and Mac computers:  
+> - [Windows Download](https://swx.cdn.skype.com/s4b-plugin/16.2.0.67/SkypeMeetingsApp.msi)
+> - [Mac Download](https://swx.cdn.skype.com/s4b-plugin/16.2.0.67/SkypeForBusinessPlugin.pkg)
 
 ### Get the SDK entry point and sign in a user
 
@@ -21,7 +21,8 @@ Add a reference to the bootstrapper to your HTML file.
 
 BY USING THE SOFTWARE LOCATED HERE: [https://swx.cdn.skype.com](https://swx.cdn.skype.com), YOU ACCEPT THE _[Microsoft Software License Terms](TermsOfService.md)_ IF YOU DO NOT ACCEPT THEM, DO NOT USE THE SOFTWARE.
 
->**Note**: These license terms apply to the use of the content from the domain swx.cdn.skype.com.
+> [!NOTE] 
+> These license terms apply to the use of the content from the domain swx.cdn.skype.com.
 
 ```html
 <script src="https://swx.cdn.skype.com/shared/v/1.2.15/SkypeBootstrap.min.js"></script>

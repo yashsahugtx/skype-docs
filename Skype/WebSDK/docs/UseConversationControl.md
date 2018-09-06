@@ -3,20 +3,11 @@
 
  _**Applies to:** Skype for Business 2015_
 
- **In this article**  
-- [Add the Conversation Control to a webpage](#setup)
-- [Render the Conversation Control on an incoming call](#incoming-call)
-- [Render the Conversation Control on an outgoing call](#outgoing-call)
-- [Render multiple Conversation Controls on a page](#multi-cc)
-- [Additional resources](#additional-resources)
+> [!NOTE] 
+> The Audio and Video components of the conversation control are available as public preview.
 
- >**Note**: The Audio and Video components of the conversation control are available as public preview.
-
-The Skype Web SDK <a href="//msdn.microsoft.com/skype/websdk/docs/conversationcontrol" target="">Conversation Control</a> object contains the logic and
-presentation layer that encapsulates IM and A/V conversations in one object. Use it when you want Skype
-Web SDK to draw the conversation UI for you. It can be implemented in your webpage with as few as three
-Skype Web SDK API calls. If you want the control to activate on incoming conversation invitations,
-you will need to add an event handler for changes in the self participant chat channel.
+The Skype Web SDK <a href="//msdn.microsoft.com/skype/websdk/docs/conversationcontrol" target="">Conversation Control</a> object contains the logic and presentation layer that encapsulates IM and A/V conversations in one object. Use it when you want Skype Web SDK to draw the conversation UI for you. It can be implemented in your webpage with as few as three
+Skype Web SDK API calls. If you want the control to activate on incoming conversation invitations, you will need to add an event handler for changes in the self participant chat channel.
 
 To learn about the capabilities of the Conversation Control for each version of the SDK, see
 <a href="https://msdn.microsoft.com/skype/websdk/docs/APIProductKeys" target="">Skype Web SDK Production Use Capabilities</a>.
@@ -33,42 +24,44 @@ This topic takes you through the steps to add a <a href="//msdn.microsoft.com/sk
 your app will let a user sign in to Skype for Business on premise, initiate a new IM conversation with one or more people, and accept invitations to 
 join an IM conversation.
 
----
+
 <a name="setup"> </a>
+
 ## Add the Conversation Control to a webpage
 
 The below sections walk through the process to initialize the Skype Web SDK API endpoint, add state change event logic for conversation invitations, and a button click 
 event handler for starting a new IM conversation.
 
----
+
 ## Initialize the Skype Web SDK API endpoint.
 
 - Declare a structure to hold the API keys
     
->**Important**  The API key values shown in this example are the literal values that you must use in your application. If you use any other strings, 
-your application will not initialize the API endpoint.Change the value of the `version` key to uniquely identify your app. See <a href="https://msdn.microsoft.com/skype/websdk/docs/APIProductKeys" target="">Skype Web SDK Production Use Capabilities</a> for a list of supported API keys.
+    > [!IMPORTANT] 
+    > The API key values shown in this example are the literal values that you must use in your application. If you use any other strings, your application will not initialize the API endpoint.Change the value of the `version` key to uniquely identify your app. See <a href="https://msdn.microsoft.com/skype/websdk/docs/APIProductKeys" target="">Skype Web SDK Production Use Capabilities</a> for a list of supported API keys.
 
-``` js
-var config = {
-    version: '<my App>/1.0.0', 
-    apiKey: 'a42fcebd-5b43-4b89-a065-74450fb91255', // SDK 
-    apiKeyCC: '9c967f6b-a846-4df2-b43d-5167e47d81e1' // SDK+CC 
-};
+    ``` js
+    var config = {
+        version: '<my App>/1.0.0', 
+        apiKey: 'a42fcebd-5b43-4b89-a065-74450fb91255', // SDK 
+        apiKeyCC: '9c967f6b-a846-4df2-b43d-5167e47d81e1' // SDK+CC 
+    };
 
-```
+    ```
 
 - Initialize the API endpoint and get the  **UIApplicationInstance** that provides the <a href="//msdn.microsoft.com/skype/websdk/docs/conversationcontrol" target="">Conversation Control</a>.
 
 
-``` js
-Skype.initialize({ apiKey: config.apiKeyCC }, function (api) {
-    app = api.UIApplicationInstance;
-    //...
-});
-```
+    ``` js
+    Skype.initialize({ apiKey: config.apiKeyCC }, function (api) {
+        app = api.UIApplicationInstance;
+        //...
+    });
+    ```
 
----
+
 <a name='incoming-call'> </a>
+
 ## Render Conversation Control on incoming call
 
 Inside of the callback function passed into the  **initialize** method, add a callback to be invoked when a conversation is added to the 
@@ -86,7 +79,8 @@ Inside of the previous callback method, add a callback to detect when one of the
 When the state of the channel is changed to `'Notified'`, an invitation to has been received. To show the <a href="//msdn.microsoft.com/skype/websdk/docs/conversationcontrol" target="">Conversation Control</a>, 
 call the  **renderConversation** method of the `api` object passed as a parameter to the callback of the **initialize** function.
 
->note: There is a known issue where adding modalities other than 'Chat' to the 'modalities' array in the second argument
+> [!NOTE] 
+> There is a known issue where adding modalities other than 'Chat' to the 'modalities' array in the second argument
 of **renderConversation** causes the Conversation Control to fail to be rendered. Audio and video can still be started later
 so it is advised to only pass the array `['Chat']` as the value of the modalities property on the object passed as the
 second argument of **renderConversation**.
@@ -137,8 +131,9 @@ app.conversationsManager.conversations.added(function (conversation) {
 });       
 ```
 
----
+
 <a name="outgoing-call"> </a>
+
 ## Render Conversation Control on outgoing call
 
 The following sample shows you how to render a Conversation Control to represent an outgoing
@@ -223,8 +218,9 @@ listeners.push(conversation.state.changed(function (newValue, reason, oldValue) 
 }));
 ```
 
----
+
 <a name="multi-cc"> </a>
+
 ## Render multiple Conversation Controls on a page
 
 Rendering multiple Conversation Controls in the same HTML page is very simple, and follows
@@ -253,9 +249,10 @@ api.renderConversation(div, {
 );
 ```
 
----
+
 <a name="additional-resources"> </a>
-## Additional resources
+
+## See also
 
 - <a href="//msdn.microsoft.com/skype/websdk/docs/conversationcontrol" target="">Conversation Control</a>
 

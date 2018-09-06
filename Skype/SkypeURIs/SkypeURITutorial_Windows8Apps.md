@@ -116,7 +116,7 @@ associated with the  **skype:** scheme. Click the Store icon to navigate to the 
 ![Windows 8 noticification highlighting store link](images/skypeUri_Win8StoreHighlight.png)
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

@@ -70,8 +70,8 @@ In JSON, embedded resources are stored in an object in a property named "_embedd
 
 There can be as many levels of embedding as needed; however, in most cases UCWA 2.0 usually embeds resources only one or two levels deep.
 
-
- **Note** Changes in embedded resources do not affect the computation of the ETag for the containing resource, as they are technically separate resources, not part of the containing resource.
+> [!NOTE] 
+> Changes in embedded resources do not affect the computation of the ETag for the containing resource, as they are technically separate resources, not part of the containing resource.
 
 
 ## XML representation

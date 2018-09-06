@@ -22,7 +22,8 @@ Here are some ways you can contribute to this documentation:
 
 Use GitHub to contribute to this documentation without having to clone the repo to your desktop. This is the easiest way to create a pull request in this repository. Use this method to make a minor change that doesn't involve code changes. 
 
-**Note**: Using this method allows you to contribute to one article at a time.
+> [!NOTE] 
+> Using this method allows you to contribute to one article at a time.
 
 ### To contribute using GitHub
 
@@ -71,7 +72,8 @@ Pull requests are typically reviewed within 10 business days.
 
 ## Use GitHub, Git, and this repository
 
-**Note**: Most of the information in this section can be found in [GitHub Help] articles.  If you're familiar with Git and GitHub, skip to the **Contribute and edit content** section for the specifics of the code/content flow of this repository.
+> [!NOTE] 
+> Most of the information in this section can be found in [GitHub Help] articles.  If you're familiar with Git and GitHub, skip to the **Contribute and edit content** section for the specifics of the code/content flow of this repository.
 
 ### To set up your fork of the repository
 
@@ -107,7 +109,8 @@ To make the contribution process as seamless as possible, follow these steps.
 3. Submit a pull request to the main repository.
 4. Delete the branch.
 
-**Important** Limit each branch to a single concept/article to streamline the work flow and reduce the chance of merge conflicts. Content appropriate for a new branch includes:
+> [!IMPORTANT] 
+> Limit each branch to a single concept/article to streamline the work flow and reduce the chance of merge conflicts. Content appropriate for a new branch includes:
 
 * A new article.
 * Spelling and grammar edits.

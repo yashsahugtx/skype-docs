@@ -45,7 +45,7 @@ should use **openURL** with the argument value: `http://itunes.com/apps/skype/sk
 for iPhone/iPad install page.
 
 
-## Additional resources
+## See also
 
 
 * [Skype URIs](SkypeURIs.md)

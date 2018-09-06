@@ -1,130 +1,164 @@
 # Contribute to Skype Web SDK Documentation
 
-Thank you for your interest in Skype developer documentation!
+Thank you for your interest in our documentation!
 
 * [Ways to contribute](#ways-to-contribute)
-* [Before we can accept your pull request](#before-we-can-accept-your-pull-request)
-* [Repository organization](#repository-organization)
-* [Use GitHub, Git, and this repository](#use-github-git-and-this-repository)
-* [How to format your topics](#how-to-format-your-topics)
-* [Standard Markdown](#standard-markdown)
+* [Contribute using GitHub](#contribute-using-github)
+* [Contribute using Git](#contribute-using-git)
+* [How to use Markdown to format your topic](#how-to-use-markdown-to-format-your-topic)
+* [FAQ](#faq)
 * [More resources](#more-resources)
 
 ## Ways to contribute
 
-You can contribute to [Skype Web SDK developer documentation](https://msdn.microsoft.com/en-us/library/office/dn708619(v=office.16).aspx) in a few different ways:
+Here are some ways you can contribute to this documentation:
 
-* Contribute to articles via the [public Skype developer docs repo](https://github.com/OfficeDev/skype-docs)
-* Report documentation bugs via [GitHub Issues](https://github.com/OfficeDev/skype-docs/issues)
-* Add documentation requests to the [Office/SharePoint developer UserVoice](http://officespdev.uservoice.com)
+* To make small changes to an article, [Contribute using GitHub](#contribute-using-github).
+* To make large changes, or changes that involve code, [Contribute using Git](#contribute-using-git).
+* Report documentation bugs via GitHub Issues.
+* Request new documentation at the [Office Developer Platform UserVoice](http://officespdev.uservoice.com) site.
 
-## Before we can accept your pull request
+## Contribute using GitHub
 
-### Minor corrections
+Use GitHub to contribute to this documentation without having to clone the repo to your desktop. This is the easiest way to create a pull request in this repository. Use this method to make a minor change that doesn't involve code changes. 
 
-Minor corrections or clarifications you submit for documentation and code examples in this repository do not require a Contribution License Agreement (CLA). Submissions are taken in the form of pull requests. We will do our best to review pull requests within ten business days.
+**Note** Using this method allows you to contribute to one article at a time.
+
+### To contribute using GitHub
+
+1. Find the article you want to contribute to on GitHub. 
+
+   If the article is in MSDN, choose the **suggest and submit changes** link in the **Contribute to this content** section and you'll be taken to the same article on GitHub.
+   
+2. Once you are on the article in GitHub, sign in to GitHub (get a free account [Join GitHub](https://github.com/join).
+
+3. Choose the **pencil icon** (edit the file in your fork of this project) and make your changes in the **<>Edit file** window. 
+
+4. Scroll to the bottom and enter a description.
+
+5. Choose **Propose file change** > **Create pull request**.
+
+You now have successfully submitted a pull request. Pull requests are typically reviewed within 10 business days. 
 
 
-### Larger submissions
+## Contribute using Git
 
-If you submit new or significant changes to documentation and code examples, you need to send a signed Contribution License Agreement (CLA) before we can accept your pull request if you are in one of these groups:
+Use Git to contribute substantive changes, such as:
 
-* Members of the Microsoft Open Technologies group.
-* Contributors who don't work for Microsoft.
+* Contributing code.
+* Contributing changes that affect meaning.
+* Contributing large changes to text.
+* Adding new topics.
 
-As a community member, **you must sign the Contribution License Agreement (CLA) before you can contribute large submissions to this project**, but you only need complete and submit the documentation once. Please carefully review the document; you may also need to have your employer sign the document.
+### To contribute using Git
 
-Signing the Contribution License Agreement (CLA) does not grant you rights to commit to the main repository, but it does mean that the Skype Developer and Office Developer Content Publishing teams will be able to review and consider your contributions and you will get credit if we do.
+1. If you don't have a GitHub account, set one up at [GitHub](https://github.com/join).
 
-You can download the Contribution License Agreement (CLA) [here](https://github.com/OfficeDev/office-content/raw/master/Contribution%20License%20Agreement.pdf). Please fill out the form and email it to [officedev@microsoft.com](mailto:officedev@microsoft.com).
+2. After you have an account, install Git on your computer. Follow the steps in [Setting up Git Tutorial](https://help.github.com/articles/set-up-git/).
 
-Once we receive and process your CLA, we will do our best to review your pull request(s) within ten business days.
+3. To submit a pull request using Git, follow the steps in [Use GitHub, Git, and this repository](#use-github-git-and-this-repository).
 
-## Repository organization
+4. You will be asked to sign the Contributor's License Agreement if you are:
 
-The content in the skype-docs repository is grouped  by topic. The README.md file at the root of the topic directory specifies the structure of the articles within the topic.
+    * A member of the Microsoft Open Technologies group.
+    * A contributor who doesn't work for Microsoft.
+
+As a community member, you must sign the Contribution License Agreement (CLA) before you can contribute large submissions to a project. You only need to complete and submit the documentation once. Carefully review the document. You may be required to have your employer sign the document.
+
+Signing the CLA does not grant you rights to commit to the main repository, but it does mean that the Office Developer and Office Developer Content Publishing teams will be able to review and approve your contributions. You will be credited for your submissions.
+
+Pull requests are typically reviewed within 10 business days.
 
 ## Use GitHub, Git, and this repository
 
-**Note:** Most of the information in this section can be found in [GitHub Help] [] articles.  If you are familiar with Git and GitHub, skip to the "Contribut and edit content" section for the particulars of the code/content flow of this repository.
+**Note:** Most of the information in this section can be found in [GitHub Help] articles.  If you're familiar with Git and GitHub, skip to the **Contribute and edit content** section for the specifics of the code/content flow of this repository.
 
-### Setting up your fork of the repository
+### To set up your fork of the repository
 
-1. The first step to contributing to this project is setting up a GitHub account. If you have not done so already go to [GitHub Home] [] and do so now.
-2. Now that you have an account, you also need a copy of Git on your computer. Follow the instructions in the [Setting up Git Tutorial] [Set Up Git].
-3. Now that machine is set up with Git, you need a fork of this repository. Go to the top of the page and click the **Fork** button. You now have your own fork of this repository.
-4. The last step involves copying your fork to your local machine. To do this go open GitBash. On the command prompt enter:
+1.	Set up a GitHub account so you can contribute to this project. If you haven't done this, go to [GitHub](https://github.com/join) and do it now.
 
-   `git clone https://github.com/{your user name}/skype-docs.git`
+2.	Install Git on your computer. Follow the steps in the [Setting up Git Tutorial] [Set Up Git].
 
-   Next create a reference to the root repository by entering these commands:
+3.	Create your own fork of this repository. To do this, at the top of the page,  choose the **Fork** button.
 
-   ```
-	cd skype-docs
-	git remote add upstream https://github.com/OfficeDev/skype-docs.git
-	git fetch upstream
-   ```
-Congratulations you have now set up your repository.  The above steps will not need to be repeated again.
+4.	Copy your fork to your computer. To do this, open Git Bash. At the command prompt enter:
+
+        `git clone https://github.com/<your user name>/<repo name>.git`
+
+    Next, create a reference to the root repository by entering these commands:
+
+        `cd <repo name>`
+        
+        `git remote add upstream https://github.com/OfficeDev/<repo name>.git`
+        
+        `git fetch upstream`
+
+Congratulations! You've now set up your repository. You won't need to repeat these steps again.
+
 
 ### Contribute and edit content
 
-In order for the contribution process to be as seamless as possible, the following procedure has been established.
+To make the contribution process as seamless as possible, follow these steps.
 
-1. Create a new branch
-2. Add new content or edit existing content
-3. Submit a pull request to the main repository
-4. Delete the branch
+#### To contribute and edit content
 
-Each branch should be limited to a single concept/article both to streamline work flow and reduce the possibility of merge conflicts.  The following efforts are of the appropriate scope for a new branch:
+1. Create a new branch.
+2. Add new content or edit existing content.
+3. Submit a pull request to the main repository.
+4. Delete the branch.
 
-* A new article (and associated images)
-* Spelling and grammar edits on an article.
-* Applying a single formatting change across a large set of articles (e.g. new copyright footer).
+**Important** Limit each branch to a single concept/article to streamline the work flow and reduce the chance of merge conflicts. Content appropriate for a new branch includes:
 
-#### Create a new branch
+* A new article.
+* Spelling and grammar edits.
+* Applying a single formatting change across a large set of articles (for example, applying a new copyright footer).
 
-1.	Open GitBash
-2.	Type `git pull upstream master:<new branch name>` in the prompt. This will create a new branch locally copied from the latest Azure master branch. **Note:** For internal contributors, replace `master` in the command with the branch for the publishing date you are targeting.
-3.	Type `git push origin <new branch name>` in the prompt. This will alert GitHub to the new branch. You should now be able to see the new branch in your fork of the repository on GitHub.
-4.	Type `git checkout <new branch name>` to switch to your new branch.
+#### To create a new branch
+
+1.	Open Git Bash.
+2.	At the Git Bash command prompt, type `git pull upstream master:<new branch name>`. This creates a new branch locally that is copied from the latest OfficeDev master branch.
+3.	At the Git Bash command prompt, type `git push origin <new branch name>`. This alerts GitHub to the new branch. You should now see the new branch in your fork of the repository on GitHub.
+4.	At the Git Bash command prompt, type `git checkout <new branch name>` to switch to your new branch.
 
 #### Add new content or edit existing content
 
-You can now navigate to the repository on your local machine using Windows Explorer. The repository files are in `C:\Users\<yourusername>\skype-docs`.
+You navigate to the repository on your computer by using File Explorer. The repository files are in `C:\Users\<yourusername>\<repo name>`.
 
-If you are editing files, open them in an editor of your choice and start modifying them.  If you want to create a new file, use the editor of your choice and save the new file in the appropriate location in your local copy of the repository.  While working, make sure to save your work frequently.
+To edit files, open them in an editor of your choice and modify them. To create a new file, use the editor of your choice and save the new file in the appropriate location in your local copy of the repository. While working, save your work frequently.
 
-The files in `C:\Users\<yourusername>\skype-docs` are a working copy of the new branch that you created in your local repository. Changing anything in this folder does not affect the local repository until you commit a change. To commit a change to the local repository, type the following commands in GitBash:
+The files in `C:\Users\<yourusername>\<repo name>` are a working copy of the new branch that you created in your local repository. Changing anything in this folder doesn't affect the local repository until you commit a change. To commit a change to the local repository, type the following commands in GitBash:
 
-`git add .`
+  `git add .`
     
-`git commit -v -a -m "<Describe the changes made in this commit>"`
+  `git commit -v -a -m "<Describe the changes made in this commit>"`
 
-The `add` command adds your changes to a staging area in preparation for committing them to the repository. The period after the `add` command specifies that you want to stage all of the files that you have added or modified, checking subfolders recursively. (If you don't want to commit all of the changes, you can add specific files. You can also undo a commit. For help, type `git add -help` or `git status`.)
+The `add` command adds your changes to a staging area in preparation for committing them to the repository. The period after the `add` command specifies that you want to stage all of the files that you added or modified, checking subfolders recursively. (If you don't want to commit all of the changes, you can add specific files. You can also undo a commit. For help, type `git add -help` or `git status`.)
 
-The `commit` command applies the staged changes to the repository. `-m` means you are providing the commit comment in the command line. If you aren't targeting a specific date for publishing, you can say "for publishing ASAP".  The -v  and -a switches can be omitted. The -v switch is for verbose output from the command, and -a does what you already did with the add command.) 
+The `commit` command applies the staged changes to the repository. The switch `-m` means you are providing the commit comment in the command line. The -v and -a switches can be omitted. The -v switch is for verbose output from the command, and -a does what you already did with the add command.
 
-You can commit multiple times while you are doing your work, or you can wait and commit only once when you're done.
+You can commit multiple times while you are doing your work, or you can commit once when you're done.
 
 #### Submit a pull request to the main repository
 
-When you are done with your work and are ready to have it merged into the central repository follow these steps.
+When you're finished with your work and are ready to have it merged into the main repository, follow these steps.
 
-1.	In GitBash type `git push origin <new branch name>` in the command prompt.  In your local repository, `origin` refers to your GitHub repository that you cloned the local repository from. This command pushes the current state of your new branch, including all commits made in the previous steps, to your GitHub fork.
+#### To submit a pull request to the main repository
+
+1.	In the Git Bash command prompt, type `git push origin <new branch name>`. In your local repository, `origin` refers to your GitHub repository that you cloned the local repository from. This command pushes the current state of your new branch, including all commits made in the previous steps, to your GitHub fork.
 2.	On the GitHub site, navigate in your fork to the new branch.
-3.	Click the **Pull Request** button at the top of the page.
-4.	Ensure that the Base branch is `OfficeDev/skype-docs@master` and the Head branch is `<your username>/skype-docs@<branch name>`
-5.	Click the **Update Commit Range** button.
-6.	Give your pull request a Title, and describe all the changes being made.  If your bug fixes a UserVoice item or GitHub issue make sure to reference them in the description.
-7.	Submit the Pull Request.
+3.	Choose the **Pull Request** button at the top of the page.
+4.	Verify the Base branch is `OfficeDev/<repo name>@master` and the Head branch is `<your username>/<repo name>@<branch name>`.
+5.	Choose the **Update Commit Range** button.
+6.	Add a title to your pull request, and describe all the changes you're making.
+7.	Submit the pull request.
 
-One of the site administrators will now process your pull request.  Your pull request will surface on the OfficeDev/skype-docs site under Issues.  When the Pull Request is accepted, the issue will be resolved.
+One of the site administrators will process your pull request. Your pull request will surface on the OfficeDev/<repo name> site under Issues. When the pull request is accepted, the issue will be resolved.
 
 #### Create a new branch after merge
 
-After a branch has been successfully merged (i.e. your pull request has been accepted), do not continue working in the local branch that was successfully merged upstream. This can lead to merge conflicts if you submit another pull request. Instead, if you want to do another update, create a new local branch from the successfully merged upstream branch.
+After a branch is successfully merged (that is, your pull request is accepted), don't continue working in that local branch. This can lead to merge conflicts if you submit another pull request. To do another update, create a new local branch from the successfully merged upstream branch, and then delete your initial local branch.
 
-For example, suppose your local branch X was successfully merged into the OfficeDev/skype-docs master branch and you want to make further updates to the content that was merged. Create a new local branch, X2, from the OfficeDev/Office-Content master branch. To do this, open GitBash and execute the following commands:
+For example, if your local branch X was successfully merged into the OfficeDev/microsoft-graph-docs master branch and you want to make additional updates to the content that was merged. Create a new local branch, X2, from the OfficeDev/microsoft-graph-docs master branch. To do this, open GitBash and execute the following commands:
 
 ```
 	cd skype-docs
@@ -132,81 +166,62 @@ For example, suppose your local branch X was successfully merged into the Office
 	git push origin X2
 ```
 
-You now have local copies (in a new local branch) of the work that you submitted in branch X. The X2 branch also contains all the work other writers have merged, so if your work depends on others' work (e.g. shared images), it will be available in the new branch. You can verify that your previous work (and others' work) is in the branch by checking out the new branch...
+You now have local copies (in a new local branch) of the work that you submitted in branch X. The X2 branch also contains all the work other writers have merged, so if your work depends on others' work (for example, shared images), it is available in the new branch. You can verify that your previous work (and others' work) is in the branch by checking out the new branch...
 
-`git checkout X2`
+  `git checkout X2`
 
-...and verifying the content. (The `checkout` command updates the files in `C:\Users\<yourusername>\skype-docs` to the current state of the X2 branch.) Once you have checked out the new branch, you can make updates to the content and commit them as usual. However, to avoid working in the merged branch (X) by mistake, it is best to delete it (see the following "Delete a Branch" section).
+...and verifying the content. (The `checkout` command updates the files in `C:\Users\<yourusername>\microsoft-graph-docs` to the current state of the X2 branch.) Once you check out the new branch, you can make updates to the content and commit them as usual. However, to avoid working in the merged branch (X) by mistake, it's best to delete it (see the following **Delete a branch** section).
 
 #### Delete a branch
 
-Once your changes have been successfully merged into the central repository you can delete the branch you used, as you will no longer need it.  Any further work requires a new branch.  To delete your branch follow these steps:
+Once your changes are successfully merged into the main repository, delete the branch you used because you no longer need it. Any additional work should be done in a new branch.  
 
-1.	In GitBash type `git checkout master` in the command prompt.  This ensures that you aren't in the branch to be deleted (which isn't allowed).
-2.	Next, type `git branch -d <branch name>` in the command prompt.  This will delete the branch on your local machine only if it has been successfully merged to the upstream repository. (You can override this behavior with the `–D` flag, but first be sure you want to do this.)
-3.	Finally, type `git push origin :<branch name>` in the command prompt (a space before the colon and no space after it).  This will delete the branch on your github fork.  
+#### To delete a branch
 
-Congratulations, you have successfully contributed to the project.
+1.	In the Git Bash command prompt, type `git checkout master`. This ensures that you aren't in the branch to be deleted (which isn't allowed).
+2.	Next, at the command prompt, type `git branch -d <branch name>`. This deletes the branch on your computer only if it has been successfully merged to the upstream repository. (You can override this behavior with the `–D` flag, but first be sure you want to do this.)
+3.	Finally, type `git push origin :<branch name>` at the command prompt (a space before the colon and no space after it).  This will delete the branch on your github fork.  
 
-## How to format your topics
+Congratulations, you have successfully contributed to the project!
+
+## How to use Markdown to format your topic
 
 ### Standard markdown
 
-All of the articles in this repository use Markdown.  While a complete introduction (and listing of all the syntax) can be found here [Markdown Home] [], the relevant basics will be covered here.
+All of the articles in this repository use Markdown. A complete introduction (and listing of all the syntax) can be found at [Markdown Home](http://daringfireball.net/projects/markdown/).
+ 
+## FAQ
 
-If you are looking for a good editor, try [Visual Studio Code](https://code.visualstudio.com/).
+### How do I get a GitHub account?
 
+Fill out the form at [Join GitHub](https://github.com/join) to open a free GitHub account. 
 
-### Markdown basics
+### Where do I get a Contributor's License Agreement? 
 
-Below is a list of the most common markdown syntax.
+You will automatically be sent a notice that you need to sign the Contributor's License Agreement (CLA) if your pull request requires one. 
 
-- **Line breaks vs. paragraphs:** In Markdown there is no HTML `<br />` element. Instead, a new paragraph is designated by an empty line between two blocks of text.
-- **Italics:** The HTML `<i>some text</i>` is written `*some text*`
-- **Bold:** The HTML `<strong>some text</strong>` element is written `**some text**`
-- **Headings:** HTML headings are designated by an number of `#` characters at the start of the line.  The number of `#` characters corresponds to the hierarchical level of the heading (for example, `#` = h1 and `###` = h3).
-- **Numbered lists:** To make an numbered (ordered) list start the line with `1. `.  If you want multiple elements within a single list element, format your list as follows:
-		
-   - Notice that this line is tabbed over after the '.'
-		
-     Now notice that there is a line break between the two paragraphs in the list element, and that the indentation here matches the indentation of the line above.
+As a community member, **you must sign the Contribution License Agreement (CLA) before you can contribute large submissions to this project**. You only need complete and submit the documentation once. Carefully review the document. You may be required to have your employer sign the document.
 
-- ***Bulleted lists:** Bulleted (unordered) lists are almost identical to ordered lists except that the `1. ` is replaced with either `* `, `- `, or `+ `.  Multiple element lists work the same way as with ordered lists.
-- **Links:** The base syntax for a link is `[visible link text](link url)`.
+### What happens with my contributions?
 
-   Links can also have references, which will be discussed in the "Link and Image References" section below.
+When you submit your changes, via a pull request, our team will be notified and will review your pull request. You will receive notifications about your pull request from GitHub; you may also be notified by someone from our team if we need more information. If your pull request is approved, we'll update the documentation. We reserve the right to edit your submission for legal, style, clarity, or other issues.
 
-- **Images:** The base syntax for an image is `![alt text for the image](image url)`.
+### Can I become an approver for this repository's GitHub pull requests?
 
-   Images can also have references, which will be discussed in the "Link and Image References" section below.
+Currently, we are not allowing external contributors to approve pull requests in this repository.
 
-- **In-line HTML:** Finally, markdown allows for the inclusion of HTML inline:  `<i>italic</i>` is correctly rendered by Markdown as <i>italic</i>.
+### How soon will I get a response about my change request?
 
-### Link and image references
-
-Markdown has a really nice feature that allows a user to insert a reference instead of a URL for images and links. The syntax for using this feature is:
-
-- The image below is from [Google][googleweb]
-	
-   ![Google's logo][logo]
-	
-   [googleweb]: http://www.google.com
-   [logo]: https://www.google.com/images/srpr/logo3w.png
-
-By using references grouped at the bottom of your file, you can easily find, edit, and reuse link and image URLs. 
-
+Pull requests are typically reviewed within 10 business days.
 
 ## More resources
 
-- For more information on Markdown go to [their site][Markdown Home].
-- For more information on advanced Markdown formatting, go to [GitHub - working with advanced formatting](https://help.github.com/articles/working-with-advanced-formatting/)
-- For more information on table formatting in Markdown, go to [GitHub - Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
-- For more information on using Git and GitHub first check out the [GitHub Help Section] [GitHub Help] and if necessary contact the site administrators.
+* To learn more about Markdown, go to the Git creator's site [Daring Fireball].
+* To learn more about using Git and GitHub, first check out the [GitHub Help section] [GitHub Help].
 
-- [GitHub Home]: http://github.com
-- [GitHub Help]: http://help.github.com/
-- [Set Up Git]: http://help.github.com/win-set-up-git/
-- [Markdown Home]: http://daringfireball.net/projects/markdown/
-- [Markdown Pad]: http://markdownpad.com/
-- [Azure/Azure-Content issues]: https://github.com/Azure/azure-content/issues
+[GitHub Home]: http://github.com
+[GitHub Help]: http://help.github.com/
+[Set Up Git]: http://help.github.com/win-set-up-git/
+[Markdown Home]: http://daringfireball.net/projects/markdown/
+[Daring Fireball]: http://daringfireball.net/
 

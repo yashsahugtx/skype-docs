@@ -18,38 +18,39 @@ You can contribute to **Skype App SDK developer documentation** in a few differe
 
 The content in the Skype-docs repository is grouped  by topic. The README.md file at the root of the topic directory specifies the structure of the articles within the topic.
 
-##Articles in this repository
-###Skype App SDK
+## Articles in this repository
+### Skype App SDK
 
 - [Skype App SDK Conceptual Content](https://github.com/OfficeDev/skype-docs/blob/master/UCWeb_16Con.md)
 
-##Before we can accept your pull request
+## FAQ
 
-###Minor corrections
+### How do I get a GitHub account?
 
-Minor corrections or clarifications you submit for documentation and code examples in this repository do not require a Contribution License Agreement (CLA). Submissions are taken in the form of pull requests. We will do our best to review pull requests within ten business days.
+Fill out the form at [Join GitHub](https://github.com/join) to open a free GitHub account. 
 
+### Where do I get a Contributor's License Agreement? 
 
-###Larger submissions
+You will automatically be sent a notice that you need to sign the Contributor's License Agreement (CLA) if your pull request requires one. 
 
-If you submit new or significant changes to documentation and code examples, you need to send a signed Contribution License Agreement (CLA) before we can accept your pull request if you are in one of these groups:
+As a community member, **you must sign the Contribution License Agreement (CLA) before you can contribute large submissions to this project**. You only need complete and submit the documentation once. Carefully review the document. You may be required to have your employer sign the document.
 
-* Members of the Microsoft Open Technologies group.
-* Contributors who don't work for Microsoft.
+### What happens with my contributions?
 
-As a community member, **you must sign the Contribution License Agreement (CLA) before you can contribute large submissions to this project**, but you only need complete and submit the documentation once. Please carefully review the document; you may also need to have your employer sign the document.
+When you submit your changes, via a pull request, our team will be notified and will review your pull request. You will receive notifications about your pull request from GitHub; you may also be notified by someone from our team if we need more information. If your pull request is approved, we'll update the documentation. We reserve the right to edit your submission for legal, style, clarity, or other issues.
 
-Signing the Contribution License Agreement (CLA) does not grant you rights to commit to the main repository, but it does mean that the Office Developer and Content Publishing teams will be able to review and consider your contributions and you will get credit if we do.
+### Can I become an approver for this repository's GitHub pull requests?
 
-You can download the Contribution License Agreement (CLA) [here](https://github.com/OfficeDev/office-content/raw/master/Contribution%20License%20Agreement.pdf). Please fill out the form and email it to [officedev@microsoft.com](mailto:officedev@microsoft.com).
+Currently, we are not allowing external contributors to approve pull requests in this repository.
 
-Once we receive and process your CLA, we will do our best to review your pull request(s) within ten business days.
+### How soon will I get a response about my change request?
+
+Pull requests are typically reviewed within 10 business days.
 
 ## Guidance for contributors
 For more guidance on contributing to Office developer documentation, see [CONTRIBUTING.md](https://github.com/OfficeDev/skype-docs/blob/master/CONTRIBUTING.md) in this repo. 
 
-
-##Copyright
+## Copyright
 Copyright (c) 2016 Microsoft Corporation. All rights reserved.
 
 

@@ -7,17 +7,9 @@ ms.assetid: 4f5c2ee2-2184-486b-bc63-5a30589cca8a
 # In-call QoE algorithm and throttling
 Learn about the algorithm that manages the number of InCallQoE messages so that they don't overload the network.
 
-  
-    
-    
-
- **Applies to**: Lync Server 2013 | Skype for Business 2015 
+**Applies to**: Lync Server 2013 | Skype for Business 2015 
  
 This section describes the algorithm used for throttling InCallQoE messages sent by a client regardless of the network conditions.
-  
-    
-    
-
 
 ## In-call QoE algorithm and throttling
 
@@ -38,9 +30,6 @@ To prevent this, a throttling algorithm has been implemented, to ensure that InC
     
     
 Even without any quality issues, the client will send an InCallUpdate message after the first throttling period, which in the above example is set to 35 sec (the InCalQoSIntervalSeconds is set to 35 sec). InCallQoE updates will be sent when any one of the following conditions are true: 
-  
-    
-    
 
 - After the first "InCallQoSPeriodInSec" has passed
     
@@ -49,16 +38,11 @@ Even without any quality issues, the client will send an InCallUpdate message af
     
   
 - After 35 seconds has passed since the previous quality update and a call quality change event was raised during this period 
-    
-  
--  [Configuring InCallQoE Messages](configuring-incallqoe-messages.md)
-    
-  
+   
 
 ## See also
-<a name="bk_addresources"> </a>
 
--  [Configuring InCallQoE Messages](configuring-incallqoe-messages.md)
+- [Configuring InCallQoE Messages](configuring-incallqoe-messages.md)
     
   
 

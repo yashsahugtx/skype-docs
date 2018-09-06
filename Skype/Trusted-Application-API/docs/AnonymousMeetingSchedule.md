@@ -11,7 +11,9 @@ Here we will discuss a few ways to schedule an Anonymous meeting and get meeting
     ![alt text](./images/CallFlowsUcwaMeetingSchedule.png "image")
 
 3.  Schedule meeting with the **Trusted Application API**
-       > Note: Please read [Developing **Trusted Application API** applications for Skype for Business Online
+    
+    > [!NOTE] 
+    > Please read [Developing **Trusted Application API** applications for Skype for Business Online
 ](./DevelopingApplicationsforSFBOnline.md) for detailed workflow.
 
     1. **Discovery**

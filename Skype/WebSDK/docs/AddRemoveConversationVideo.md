@@ -43,7 +43,8 @@ You may also set the video window container prior to starting the videoService.
   ```
 
 
->**Note:** Setting the video container more than one time for the same video stream will cause problems with video playback.
+> [!NOTE] 
+> Setting the video container more than one time for the same video stream will cause problems with video playback.
     
 
 ## Remove video from a conversation

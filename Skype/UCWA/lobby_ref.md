@@ -137,7 +137,7 @@ This sample is given only as an illustration of event syntax. The semantic conte
 
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
-|participant|High|conversation|Indicates that a [participant](participant_ref.md) was removed from the lobby.</p><p>For example, the [participant](participant_ref.md) was admitted to or left the [onlineMeeting](onlineMeeting_ref.md).Note that if the [participant](participant_ref.md) leaves the [onlineMeeting](onlineMeeting_ref.md), a deleted event will be fired by this [participant](participant_ref.md) to indicate the application can release any cached information regarding this [participant](participant_ref.md).</p>|
+|participant|High|conversation|Indicates that a [participant](participant_ref.md) was removed from the lobby.</p><p>For example, the [participant](participant_ref.md) was admitted to or left the [onlineMeeting](onlineMeeting_ref.md). Note that if the [participant](participant_ref.md) leaves the [onlineMeeting](onlineMeeting_ref.md), a deleted event will be fired by this [participant](participant_ref.md) to indicate the application can release any cached information regarding this [participant](participant_ref.md).</p>|
 Sample of returned event data.
 This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
 {

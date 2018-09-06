@@ -52,7 +52,8 @@ The following is an abbreviated representation of the [application](application_
 ```
 
 
->Note: A resource can change when other related resources and capabilities become dynamically available. Such changes are communicated by means of an event channel as described [Event channel details](EventChannelDetails.md) in this documentation. When the client learns that a resource has been updated, it can reacquire the resource to learn about the new capabilities and related resources.
+> [!NOTE] 
+> A resource can change when other related resources and capabilities become dynamically available. Such changes are communicated by means of an event channel as described [Event channel details](EventChannelDetails.md) in this documentation. When the client learns that a resource has been updated, it can reacquire the resource to learn about the new capabilities and related resources.
 
 ## Rel attribute
 

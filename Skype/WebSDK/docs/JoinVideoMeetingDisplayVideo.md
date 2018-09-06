@@ -38,7 +38,8 @@ channel2.stream.source.sink.container.set(document.getElementById('renderWindow2
   ```
 
 
->**Note:** Setting the video container more than one time for the same video stream will cause problems with video playback.
+> [!NOTE] 
+> Setting the video container more than one time for the same video stream will cause problems with video playback.
     
 
 ### Removing video streams from the conference

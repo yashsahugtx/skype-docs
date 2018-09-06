@@ -12,7 +12,7 @@ You can contribute to **Skype App SDK developer documentation** in a few differe
 * Report documentation bugs via [GitHub Issues](https://github.com/OfficeDev/office-content/issues)
 * Add documentation requests to the [Office/SharePoint developer UserVoice](http://officespdev.uservoice.com)
 
->**Note:** We're only taking documentation contributions from authors within Microsoft presently. We will open the repository for the Skype App SDK Conceptual content to non-microsoft contributors soon.
+**Note**: We're only taking documentation contributions from authors within Microsoft presently. We will open the repository for the Skype App SDK Conceptual content to non-microsoft contributors soon.
 
 ## Repository organization
 

@@ -2,9 +2,8 @@
 # Developing UCWA applications for Skype for Business Online
  Learn how to develop UCWA 2.0 online web applications.
 
-
-
- >Note: This topic does not apply to on-premises or hybrid server scenarios; only online scenarios.
+> [!NOTE] 
+> This topic does not apply to on-premises or hybrid server scenarios; only online scenarios.
 
 
 UCWA uses Azure Active Directory (Azure AD) to provide authentication services that your application can use to obtain rights to access the service APIs. To accomplish this, your application needs to perform the following steps:

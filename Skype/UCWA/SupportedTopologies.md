@@ -10,7 +10,8 @@ Only users homed on a Skype for Business Server 2015 pool can take advantage of 
 Features such as Contacts, HD Photos, Voicemail and meetings are dependent on the version of Exchange Server; in this case, the features require Exchange Server 2013.
 For more information about how to leverage Microsoft Exchange Server 2013 integration, see [Planning for Exchange Server Integration](https://technet.microsoft.com/en-us/library/jj721919.aspx).
 
- >Note: Microsoft Exchange Server 2013 integration leverages server-to-server authentication. Server-to-server authentication between an on-premises server and a Office 365 component is not supported in this Skype for Business Server 2015 release. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Skype for Business Server 2015 and Microsoft Exchange Online.
+> [!NOTE] 
+> Microsoft Exchange Server 2013 integration leverages server-to-server authentication. Server-to-server authentication between an on-premises server and a Office 365 component is not supported in this Skype for Business Server 2015 release. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Skype for Business Server 2015 and Microsoft Exchange Online.
 
 
 ## Skype for Business Server 2015 On-Premises
@@ -24,5 +25,6 @@ The following table summarizes the features that are supported in several Skype 
 |Unified Contacts and Groups|No|Yes|No|Yes|
 |HD Photos|No|Yes|No|Yes|
 
- >Note: Server-to-server authentication between an on-premises server and an Office 365 component is not supported in Skype for Business Server 2015. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Skype for Business Server 2015 and Microsoft Exchange Online.
+> [!NOTE] 
+> Server-to-server authentication between an on-premises server and an Office 365 component is not supported in Skype for Business Server 2015. Among other things, this means that you cannot set up server-to-server authentication between an on-premises installation of Skype for Business Server 2015 and Microsoft Exchange Online.
 

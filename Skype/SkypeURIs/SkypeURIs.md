@@ -75,7 +75,8 @@ your apps, emails, and webpages, see the following:
 * [Skype URI tutorial: iOS apps](SkypeURITutorial_iOSApps.md)
 
 
->**Note:**  Your use of Skype URIs implies access to and use of Skype software, as governed by Skype's 
+> [!NOTE] 
+> Your use of Skype URIs implies access to and use of Skype software, as governed by Skype's 
 [Terms of Use](http://www.skype.com/go/tou/).
 
 

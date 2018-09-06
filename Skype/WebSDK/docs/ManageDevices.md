@@ -72,7 +72,7 @@ for(var i = 0; i < client.devicesManager.speakers.size(); i++) {
 ## Selected Devices
 <a name="sectionSection2"> </a>
 
-The devicesManager object has a reference to each currently selected device: selectedCamera, selectedMicrophone, and selectedSpeaker. Each reference can be changed with their respective set() function. (Note: this function will appear enabled but will have no effect if the device is already in use.) The client can subscribe to changes to the selected devices by calling their respective changed() functions.
+The devicesManager object has a reference to each currently selected device: selectedCamera, selectedMicrophone, and selectedSpeaker. Each reference can be changed with their respective set() function. (Note that this function will appear enabled but will have no effect if the device is already in use.) The client can subscribe to changes to the selected devices by calling their respective changed() functions.
 
 
 ```js

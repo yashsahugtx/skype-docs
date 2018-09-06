@@ -20,7 +20,7 @@ For more on web links, see [Web links](WebLinks.md).
 ## Resource description
 <a name = "sectionSection1"> </a>
 
-Policies include information such as whether emoticons are allowed in messages or photos are enabled for [contact](contact_ref.md)s in the user's organization.Note that policies are set by the admin; they cannot be changed by the user.
+Policies include information such as whether emoticons are allowed in messages or photos are enabled for [contact](contact_ref.md)s in the user's organization. Note that policies are set by the admin; they cannot be changed by the user.
 
 ### Properties
 
@@ -31,15 +31,15 @@ Policies include information such as whether emoticons are allowed in messages o
 |allowDeviceContactsSync|This mobile policy parameter allows mobile apps to sync device contacts.|
 |audioOnlyOnWifi|The audioOnlyOnWifi policy.|
 |callLogArchiving|Whether the admin has enabled client-side call logging by default.If disabled, the user should not be given the choice to enable call logging.|
-|customerExperienceImprovementProgram|Whether Skype for Business mobile users can participate and publish data to Microsoft's Customer Experience Improvement Program.If customerExperienceImprovementProgram is enabled, the user can participate and publish data to Microsoft's Customer Experience Improvement Program.Note that this should not require a change in application behavior.|
-|emergencyDialMask|An alternate number for emergency services.If emergencyDialMask is set to 555 and the emergencyDialString is set to 911, entering 555 will cause 911 to be dialed.Note that entering 911 will also cause 911 to be dialed in this scenario.|
-|emergencyDialString|The emergency services number that will be dialed if the number in emergencyDialMask is entered.If emergencyDialMask is set to 555 and the emergencyDialString is set to 911, entering 555 will cause 911 to be dialed.Note that entering 911 will also cause 911 to be dialed in this scenario.|
+|customerExperienceImprovementProgram|Whether Skype for Business mobile users can participate and publish data to Microsoft's Customer Experience Improvement Program.If customerExperienceImprovementProgram is enabled, the user can participate and publish data to Microsoft's Customer Experience Improvement Program. Note that this should not require a change in application behavior.|
+|emergencyDialMask|An alternate number for emergency services.If emergencyDialMask is set to 555 and the emergencyDialString is set to 911, entering 555 will cause 911 to be dialed. Note that entering 911 will also cause 911 to be dialed in this scenario.|
+|emergencyDialString|The emergency services number that will be dialed if the number in emergencyDialMask is entered.If emergencyDialMask is set to 555 and the emergencyDialString is set to 911, entering 555 will cause 911 to be dialed. Note that entering 911 will also cause 911 to be dialed in this scenario.|
 |emergencyNumbers|A string of semicolon (;) separated emergency dial string and dialmask(s) combinations.If client supports this field then this takes preecedence over theemergencyDialString and value specified in EmergencyDialString isignored|
 |emergencyServiceDisclaimer|Text entered by the administrator for the client to display anemergency services disclaimer if it could not fetch a location fromthe Location Information Service.This could happen in two cases:a. LisInternal Url is not availableb. Location could not be retrieved from LISNote: This will be honored only if the Location Required is set todisclaimer|
 |emoticons|Whether the admin has enabled emoticons for the messaging modality.If disabled, emoticons will be turned into their text equivalents before delivery.|
 |encryptAppData|This mobile policy parameter allows mobile apps to encrypt data.|
 |clientExchangeConnectivity|This mobile policy parameter allows the mobile user to connect to Exchange from their mobile device.When ExchangeConnectivity is disabled, mobile users will not have the option to connect to Exchange from their client on the mobile device.The default value is True, meaning that mobile users cannot connect to Exchange from their client on the mobile device.Disabled|
-|exchangeUnifiedMessaging|Whether the user is enabled for Microsoft Exchange Unified Messaging.If exchangeUnifiedMessaging is enabled, the user's contacts and voicemail are stored in Exchange rather than in Skype for Business.Note that this should not require a change in application behavior.|
+|exchangeUnifiedMessaging|Whether the user is enabled for Microsoft Exchange Unified Messaging.If exchangeUnifiedMessaging is enabled, the user's contacts and voicemail are stored in Exchange rather than in Skype for Business. Note that this should not require a change in application behavior.|
 |helpEnvironment|The helpenvironment parameter is an opaque string that the client may use to deterermine which help to displaySet to Office365g for Gallatin. Not set otherwise.Office365g|
 |htmlMessaging|Whether the admin has enabled HTML messages for the messaging modality.If enabled, the application can choose to pass HTML to [sendMessage](sendMessage_ref.md).|
 |locationRefreshInterval|Specifies the time interval in hours on expiry of which client shouldrefresh the location information from LIS|

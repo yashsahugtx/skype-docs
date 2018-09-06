@@ -6,7 +6,8 @@ Learn how to incorporate Skype communication functionality into your iOS apps.
 
  _**Applies to:** Skype_
 
- >**Note:**  With the recent redesign of the Skype for iOS client, URIs are not currently supported on the Skype for iOS 5. _x_ branch.
+> [!NOTE] 
+> With the recent redesign of the Skype for iOS client, URIs are not currently supported on the Skype for iOS 5. _x_ branch.
 
 
 ## Use Skype URIs in your iOS apps

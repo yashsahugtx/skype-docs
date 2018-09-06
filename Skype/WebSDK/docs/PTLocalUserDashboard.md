@@ -32,7 +32,9 @@ app.personsAndGroupsManager.mePerson.status.set('Online').then(function () {
 |location|Gets or sets the location of the signed in user.|
 |note.text|Gets or sets the personal note of the signed in user.|
 |status|Gets or sets the availability of the signed in user.|
->**Note:** When the above values contain special characters such as <, >, and they will be padded with zero width whitespace. This can cause equality operations to fail unexpectedly. One option for handling this situation is to filter out these special values so they are not used.
+
+> [!NOTE] 
+> When the above values contain special characters such as <, >, and they will be padded with zero width whitespace. This can cause equality operations to fail unexpectedly. One option for handling this situation is to filter out these special values so they are not used.
 
 <a href="http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.meperson.html" target="">MePerson</a> properties which are read-only
 

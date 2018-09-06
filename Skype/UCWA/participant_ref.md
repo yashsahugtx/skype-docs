@@ -121,7 +121,7 @@ This sample is given only as an illustration of event syntax. The semantic conte
 
 |**Resource**|**Priority**|**Sender**|**Reason**|
 |:-----|:-----|:-----|:-----|
-|participant|High|conversation|Indicates that the [participant](participant_ref.md) has been updated. The application can choose to retrieve the updated information.</p><p>The application will receive this event when the user's capabilities to admit, promote, or demote a participant have changed.Note that this is the only updated event for a participant.For example, when the user is a leader, the user will lose the capability to admit the participant after the participant is movedfrom being in the lobby to being an attendee.</p>|
+|participant|High|conversation|Indicates that the [participant](participant_ref.md) has been updated. The application can choose to retrieve the updated information.</p><p>The application will receive this event when the user's capabilities to admit, promote, or demote a participant have changed. Note that this is the only updated event for a participant.For example, when the user is a leader, the user will lose the capability to admit the participant after the participant is movedfrom being in the lobby to being an attendee.</p>|
 Sample of returned event data.
 This sample is given only as an illustration of event syntax. The semantic content is not guaranteed to correspond to a valid scenario.
 {

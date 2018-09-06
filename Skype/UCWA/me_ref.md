@@ -20,7 +20,7 @@ For more on web links, see [Web links](WebLinks.md).
 ## Resource description
 <a name = "sectionSection1"> </a>
 
-The me resource will be updated whenever the application becomes ready for incoming calls and leaves lurker mode ([makeMeAvailable](makeMeAvailable_ref.md)).Note that me will not be updated if any of its properties, such as emailAddresses or title, change while the application is active.
+The me resource will be updated whenever the application becomes ready for incoming calls and leaves lurker mode ([makeMeAvailable](makeMeAvailable_ref.md)). Note that me will not be updated if any of its properties, such as emailAddresses or title, change while the application is active.
 
 ### Properties
 

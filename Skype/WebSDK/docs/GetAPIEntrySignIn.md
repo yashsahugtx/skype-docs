@@ -63,7 +63,8 @@ app.signInManager.signIn ({
 });
 ```
 
->**Note:** If sign in fails or you call **signOut**, you must create a new [Application](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.application.html) object and make the new sign in attempt with that object. The original application object will not be able to attempt a new sign in operation.
+> [!NOTE] 
+> If sign in fails or you call **signOut**, you must create a new [Application](http://officedev.github.io/skype-docs/Skype/WebSDK/model/api/interfaces/jcafe.application.html) object and make the new sign in attempt with that object. The original application object will not be able to attempt a new sign in operation.
 
 The following example uses the password grant authentication to sign a user in with a username and password.
 

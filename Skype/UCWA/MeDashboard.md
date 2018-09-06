@@ -80,7 +80,8 @@ For example, if no activity is reported for a certain period (specifically inact
 
 ![How user activity or inactivity can influence application lifetime](images/UCWA15Con_DashboardTopology.png)
 
->Note: Availability in this case is only the availability of the user from the current application, and not overall availability. The user could be active on another application.
+> [!NOTE] 
+> Availability in this case is only the availability of the user from the current application, and not overall availability. The user could be active on another application.
 
 If the application is unused (no use of **reportMyActivity**) and the user is not participating in calls, the application is terminated on the server. Additionally, if the server does not receive a new event channel request 15 minutes after the previous request was released, it assumes the client has lost connectivity and terminates the application.
 

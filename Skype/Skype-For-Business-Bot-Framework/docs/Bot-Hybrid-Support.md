@@ -17,7 +17,7 @@ Hybrid connectivity between Skype for Business Server and Skype for Business Onl
 
 After you have successfully deployed the hybrid environment, follow these steps to build and enable a Skype for Business bot:
 
-1. Create the bot using the [Microsoft Bot Framework](https://dev.botframework.com/). See [Creating a Skype for Business bot](overview.md#creating-a-skype-for-business-bot) section for details. 
+1. Create the bot using the [Microsoft Bot Framework](https://dev.botframework.com/). See [Creating a Skype for Business bot](overview.md) section for details. 
 
 2. Launch the [Connecting your bot to Skype for Business Online](https://skypeappregistration.azurewebsites.net/bot/29415286-5a43-4a00-9dc5-bcbc2ce1f59e) page and follow all the instructions to add your bot to Skype for Business Online. You will be required to sign in as a Tenant Administrator of the Skype for Business Online environment and run the **New-CsOnlineApplicationEndpoint** PowerShell cmdlet.
 

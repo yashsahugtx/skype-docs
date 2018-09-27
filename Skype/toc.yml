@@ -2021,9 +2021,8 @@
               - name: UserAgentType complexType
                 href: SDN/articles/useragenttype-complextype-skype-for-business-sdn-interface-2-2-schema-d.md
   - name: Lync
-    href: https://msdn.microsoft.com/en-us/library/office/dn820099.aspx
     items:
     - name: Lync 2013
-      href: https://msdn.microsoft.com/en-us/library/office/jj162980.aspx
+      href: https://docs.microsoft.com/lync/lync-2013
     - name: Lync 2010
-      href: https://msdn.microsoft.com/en-us/library/office/hh467893.aspx
+      href: https://docs.microsoft.com/previous-versions/office/developer/lync-2010/hh467893(v=office.14)

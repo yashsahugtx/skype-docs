@@ -10,12 +10,11 @@
       "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
-
-       "Conceptual": "Content",
-     "ManagedReference": "Content",
-     "RestApi": "Content"
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
       },
-	   "build_entry_point": "docs",
+      "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
     }
@@ -28,7 +27,8 @@
   "branches_to_filter": [
     ""
   ],
-  "git_repository_url_open_to_public_contributors": "",
+  "git_repository_url_open_to_public_contributors": "https://github.com/OfficeDev/skype-docs/blob/master/Skype/index.md",
+  "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
@@ -50,17 +50,12 @@
       "Publish",
       "Pdf"
     ],
-	    "master": [
+    "master": [
       "Publish",
       "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
-  "targets": {
-    "pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  },
+  "targets": {},
   "need_generate_pdf": false
 }
-

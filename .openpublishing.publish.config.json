@@ -27,7 +27,7 @@
   "branches_to_filter": [
     ""
   ],
-  "git_repository_url_open_to_public_contributors": "https://github.com/OfficeDev/skype-docs/blob/master/Skype/index.md",
+  "git_repository_url_open_to_public_contributors": "https://github.com/OfficeDev/skype-docs",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
   "contribution_branch_mappings": {},

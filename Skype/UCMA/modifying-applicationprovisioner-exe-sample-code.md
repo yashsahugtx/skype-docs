@@ -13,7 +13,7 @@ dev_langs:
 # Modifying ApplicationProvisioner.exe sample code
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The ApplicationProvisioner.exe sample code that shipped with UCMA 2.0 SDK can be used to provision UCMA 2.0 applications, but you must make one modification to the code and then rebuild the application.
 

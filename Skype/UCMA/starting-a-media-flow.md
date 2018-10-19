@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Starting a media flow
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The media flow for a call provides the media that an application consumes.
 

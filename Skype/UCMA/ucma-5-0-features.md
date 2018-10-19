@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # UCMA 5.0 features
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section discusses the most important features of Microsoft Unified Communications Managed API 5.0.
 

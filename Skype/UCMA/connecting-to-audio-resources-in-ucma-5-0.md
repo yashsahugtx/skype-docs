@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Connecting to audio resources in UCMA 5.0
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A hosting .NET application uses the **SetAudioVideoCall()** method to bind an instance of the [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.16\)) with an [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.16\)) object.
 

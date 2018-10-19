@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Extending the MediaProvider class
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A call (represented in the UCMA 5.0 as a [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.16\)) subclass) serves as a SIP signaling control, while a [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.16\)) subclass is the media counterpart that is responsible for SDP negotiation, as described in RFC 3264, An Offer/Answer Model with the Session Description Protocol (SDP). A **MediaProvider** subclass also is responsible for creating and managing a media flow, which can be implemented in a [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.16\)) subclass. A **MediaFlow** subclass implementation must provide the protocol implementation of the actual media exchange and customized behavior for exchanging media of a specific type. For more information, see [Extending the MediaFlow class](extending-the-mediaflow-class.md).
 

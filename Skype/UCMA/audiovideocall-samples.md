@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # AudioVideoCall samples
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The topics in this section describe scenarios that illustrate **AudioVideoCall** and **AudioVideoFlow** objects. The samples are included in .
 

@@ -13,7 +13,7 @@ dev_langs:
 # Adding an instant messaging or audio/video call
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The steps required for adding an instant message call or audio-video call are similar, but the Skype for Business Server 2015 and components that are involved are different. This topic describes the actions that must be taken for each type of call, and describes the differences at the component level of each call type.
 

@@ -13,7 +13,7 @@ mtps_version: v=office.16
 
 **Last modified:** April 09, 2015
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 enables developers to build applications that leverage the full power of the platform. Applications built on UCMA 5.0 incorporate unified communications concepts such as presence, call, conversation, and conference.
 

@@ -13,7 +13,7 @@ dev_langs:
 # Using an AudioVideoFlowTemplate
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) class has no public constructors, but instead relies on settings in an [AudioVideoFlowTemplate](https://msdn.microsoft.com/en-us/library/hh349157\(v=office.16\)) instance to initialize or modify an **AudioVideoFlow** instance.
 

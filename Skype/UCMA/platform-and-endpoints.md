@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Platform and endpoints
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.16\)) class provides connection management, message dispatching, and other services to endpoints. An application creates an instance of the **CollaborationPlatform** class to take advantage of the Microsoft Unified Communications Managed API 5.0 infrastructure. An application developer can use one of the constructors in this class to create a server platform, from which an application server can be created. Another constructor can be used to create an auto-provisioned application server platform, and a third constructor in this class can be used to create a client platform, on which a number of user endpoints can be created.
 

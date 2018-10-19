@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # SIP URIs
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A Session Initiation Protocol (SIP) uniform resource identifier (URI) identifies a communications resource, and contains enough information to initiate and continue a communication session with the resource identified in the URI.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Asynchronous pattern
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 is designed for middle-tier applications, for which performance is one of the most important goals. To provide this performance and to be consistent with the previous releases,UCMA 5.0 supports the **BeginXxx**/**EndXxx** pattern to implement asynchronous operations. The application programmer is expected to be familiar with this usage pattern. For more information, see [Asynchronous Programming Overview](http://msdn.microsoft.com/en-us/library/ms228963.aspx).
 

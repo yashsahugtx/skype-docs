@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Shutdown and termination
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following discusses general behavior when components in UCMA 5.0 are terminated, as well as behavior that is expected in applications written using UCMA 5.0:
 

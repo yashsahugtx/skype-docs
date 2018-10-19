@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Informational performance counters
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The counters listed in this topic are for informational purposes only. They are included in performance monitoring logs but not in Microsoft Operations Manager (MOM) packs. No action is required by Administrators.
 

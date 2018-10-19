@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Diagram of a VoiceXML call
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following diagram shows a simplified representation of a VoiceXML call in Microsoft Unified Communications Managed API 5.0.
 

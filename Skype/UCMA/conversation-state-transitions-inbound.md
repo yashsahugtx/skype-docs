@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Conversation state transitions - inbound
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.16\)) state transitions for inbound calls are shown in the following illustration.
 

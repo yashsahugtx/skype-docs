@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Media handling - InstantMessage
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section provides conceptual details about handling media in instant message calls in relation to the [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.16\)), [InstantMessagingMcuSession](https://msdn.microsoft.com/en-us/library/hh382004\(v=office.16\)), and [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.16\)) classes.
 

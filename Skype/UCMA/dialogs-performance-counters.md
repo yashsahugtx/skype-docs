@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Dialogs performance counters
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 DefaultScale for all Dialogs performance counters is 0, which means that the scaling factor is 1. The Windows Performance tool lists this object as LC:SipEps - 00 - Sip Dialogs.
 

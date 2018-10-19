@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Signaling layer
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section provides information about the signaling layer, a layer that underlies the collaboration layer. The signaling layer carries out such tasks as making connections to hosts, dispatching dialog requests, providing a control channel enabling one endpoint to invite another endpoint to engage in some activity, and others. The signaling layer encapsulates low-level Session Initiation Protocol (SIP) functionalities.
 

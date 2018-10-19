@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # Managed SIP stack performance counters
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-About the managed SIP stack performance counters  
-Installing and configuring the managed SIP stack performance counters  
-Accessing the managed SIP stack performance counters  
-In this section  
+
 
 This section summarizes the managed SIP stack performance counters that are available with UcmaRedist.msi (Skype for Business Server, Unified Communications Managed API 5.0 Redist).
 

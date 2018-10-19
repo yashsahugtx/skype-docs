@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # User impersonation
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 In Microsoft Unified Communications Managed API 5.0 an application (specifically, an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) instance) can impersonate another user.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Advanced concepts and best practices
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The topics in this section describe how to extend the Microsoft Unified Communications Managed API 5.0 platform to accommodate calls, flows, and media providers for media types other than the *message* (Instant Message) and *audio* media types. The section also includes best practices for developers of UCMA 5.0-based applications.
 

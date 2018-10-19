@@ -14,11 +14,6 @@ dev_langs:
 # Creating a generic bot
 
 
-**In this article**  
-Create message handlers  
-Add the bot to your host environment  
-Handle feedback events  
-Test your bot  
 
 You can create a generic bot in four steps.
 

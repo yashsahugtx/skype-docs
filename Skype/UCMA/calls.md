@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Calls
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A call is a communication session between two endpoints: a local endpoint and a remote endpoint. UCMA 5.0 represents the call concept by the [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.16\)) abstract class, and provides non-abstract classes that implement three specific types of calls:
 

@@ -13,7 +13,7 @@ dev_langs:
 # Trusted conferencing user model usage
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This topic provides the details of using the trusted conferencing user model in an application.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Uninstalling UCMA 5.0 SDK
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This topic describes how to uninstall Microsoft Unified Communications Managed API 5.0 SDK and its associated runtime. For information on installing this SDK, see [Installing UCMA 5.0 SDK](installing-ucma-5-0-sdk.md).
 

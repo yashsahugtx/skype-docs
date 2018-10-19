@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Transactions performance counters
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 DefaultScale for all Transactions performance counters is 0, which means that the scaling factor is 1. The Windows Performance tool refers to this object as LC:SipEps - 01 - SipEps Transactions.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Contacts and groups
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A contact is a presentity whose presence information is tracked. A contact registers its status, location, and other attributes with the Skype for Business Server 2015 computer. Contacts can be organized into user-defined groups. In Microsoft Unified Communications Managed API 5.0, contacts and groups are supported only by [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.16\)) objects. The [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh383122\(v=office.16\)) property on a **UserEndpoint** instance provides access to a [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh381099\(v=office.16\)) instance, which an application can use to add or remove groups, or update groups by adding or removing contacts. Contacts can be associated with one or more groups. The **ContactGroupServices** class provides methods to subscribe or unsubscribe to a user’s contacts or groups, as well as to refresh the subscription. To update an instance of a contact or a group, an application supplies an existing contact or group instance to the **ContactGroupServices** API, modifies the specific fields of interest, and then publishes the new item.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Endpoint services
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The endpoint (an [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) or [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.16\)) instance) plays a central role in Microsoft Unified Communications Managed API 5.0 because of the access it provides to the communication and collaboration infrastructure.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Presence, contacts, and groups
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Presence plays an important role in the Microsoft Unified Communications Managed API 5.0 for effective communication. It allows a user to know beforehand about the availability of the remote user and to communicate using a given mode and the best mode of communication. Additionally, Skype for Business Server 2015 provides an enhanced presence infrastructure that allows the user to share information such as contact information, working hours, and meeting times.
 

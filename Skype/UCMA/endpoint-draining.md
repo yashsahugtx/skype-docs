@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Endpoint draining
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 In Microsoft Unified Communications Managed API 5.0 and , methods on the [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) class can be used to *drain* existing calls (gracefully decline incoming calls by routing them to another application instance): [BeginDrain(AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh348822\(v=office.16\)) and [EndDrain(IAsyncResult)](https://msdn.microsoft.com/en-us/library/hh383086\(v=office.16\)). These methods cause all incoming calls to be automatically routed to another application instance, provided that this other application instance is available and is not draining. If the targeted application instance is unavailable or is draining, the incoming calls will be declined.
 

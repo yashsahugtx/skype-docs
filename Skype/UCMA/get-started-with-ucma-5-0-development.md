@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Get started with UCMA 5.0 development
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The topics in this section list the software and hardware software requirements of Microsoft Unified Communications Managed API 5.0 SDK and describe the installation and uninstallation of this SDK.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Conference features
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The topics in this section summarize the most important new or changed conferencing features in Microsoft Unified Communications Managed API 5.0. These features can be divided into three broad areas:
 

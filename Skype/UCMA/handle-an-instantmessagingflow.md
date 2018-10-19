@@ -13,12 +13,8 @@ dev_langs:
 # Handle an InstantMessagingFlow
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-InstantMessagingFlowTemplate  
-Composing notifications  
-Creating and manipulating an IM media flow  
 
 [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.16\)) instances represent an instant messaging (IM) media flow. The **InstantMessagingFlow** class is derived from the [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.16\)) base class and provides methods to send and receive IM messages, delivery notifications, and typing notifications.
 

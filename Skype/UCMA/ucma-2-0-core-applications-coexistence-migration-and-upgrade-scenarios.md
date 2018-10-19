@@ -11,14 +11,8 @@ mtps_version: v=office.16
 # UCMA 2.0 Core applications: Coexistence, migration, and upgrade scenarios
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Scenario 1—Coexistence of a UCMA 2.0 application with multiple Communications Server versions  
-Scenario 2—Upgrading a UCMA 2.0 application to UCMA 3.0 after coexistence  
-Scenario 3—In-place migration of a UCMA 2.0 application  
-Scenario 4—Direct deployment of UCMA 2.0 application against pure Lync Server 2010  
-Scenario 5—Upgrading a UCMA 2.0 application to UCMA 3.0 after in-place migration or direct deployment of UCMA 2.0 application  
 
 The following sections present the steps needed for UCMA 2.0 application coexistence, migration, and upgrade scenarios. Because external trusted applications are represented as trusted service entries, there are no additional steps needed if an administrator has followed the steps for migrating trusted service entries as described in Migration from Communications Server 2007 R2 to Lync Server 2010.
 

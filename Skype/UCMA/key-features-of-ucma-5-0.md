@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # Key features of UCMA 5.0
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Modality-extensible communication framework  
-Offline conference scheduling and management  
-Presence publishing and presence subscription  
-Contacts and groups  
+
 
 Developers can use the key features listed in this topic to create multimodal and multiparty communication and collaboration applications with Enhanced Presence capabilities.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Personas
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Many of the more important architectural components of Microsoft Unified Communications Managed API 5.0 are associated with one or more personas, terms that describe ownership, participation, and other attributes of human participants or applications that take part in a UCMA 5.0 application. The following table describes the personas used in UCMA 5.0.
 

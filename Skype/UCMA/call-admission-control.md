@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Call admission control
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 For IP-based real-time applications on wide-area network links between sites, bandwidth is a finite resource, which makes the appropriate provisioning of such links crucial for a Skype for Business Server 2015 administrator. To serve this need, UCMA 5.0 provides the ability to manage bandwidth in a wide-area network (WAN). This ability addresses bandwidth utilization in unified communications scenarios, and provides an infrastructure that allows policy decisions (whether or not sessions can be established) to be made when setting up real-time sessions.
 

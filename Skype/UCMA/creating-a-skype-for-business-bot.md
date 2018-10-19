@@ -15,10 +15,6 @@ dev_langs:
 # Creating a Skype for Business bot
 
 
-**In this article**  
-Create a trusted application and a trusted application endpoint for the UC bot  
-Instantiate the UCBotHost environment  
-Deploy the UC bot using a Windows Service  
 
 To create a bot that runs in Skype for Business, complete the steps in the following procedure.
 

@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # AVFlow-ApplyChanges (QuickStart)
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+
 
 Sample location: %ProgramFiles%\\Microsoft UCMA 5.0\\SDK\\Core\\Sample Applications\\QuickStarts\\AudioVideoCall\\AVFlow-ApplyChanges
 

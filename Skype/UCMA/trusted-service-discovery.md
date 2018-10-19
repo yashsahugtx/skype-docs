@@ -13,7 +13,7 @@ dev_langs:
 # Trusted service discovery
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 An important feature of Microsoft Unified Communications Managed API 5.0 is the ability to create distributed and trusted custom Communications-Enabled business applications that can discover and then exchange information with one another at runtime, regardless of the deployment specifics. As an example, this ability to discover a remote trusted service and subsequently establish an inter-system communication channel allows a developer to create a distributed system consisting of four distinct services:
 

@@ -11,15 +11,8 @@ mtps_version: v=office.16
 # General application activation
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Create a pool of trusted application computers  
-Trusted application pools and DNS load balancing  
-Create a certificate for the computers in a trusted application pool  
-Add a trusted service port for the application  
-Create Active Directory contact objects (optional)  
-Create Active Directory user objects for the application (optional)  
 
 All trusted applications require entries in the Skype for Business Server 2015 topology document that specify the computers on which the application runs, as well as the trusted service ports required by the trusted applications. In addition, to communicate with Skype for Business Server 2015, an application computer also requires a machine certificate, because Skype for Business Server 2015 supports only Mutual Transport Layer Security (MTLS) with trusted servers. Optionally, an application can be associated with one or more trusted application endpoints that are bound to SIP URIs in the same way that a user is associated with a SIP URI.
 

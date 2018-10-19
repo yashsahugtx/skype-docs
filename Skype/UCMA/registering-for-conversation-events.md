@@ -13,7 +13,7 @@ dev_langs:
 # Registering for conversation events
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Conversations expose several events that can be useful to an application, and may represent a good handle for the application developer to invoke business logic, or adjust a user interface. For example, the [StateChanged](https://msdn.microsoft.com/en-us/library/hh365987\(v=office.16\)) event is raised when the state of the conversation changes, and the [PropertiesChanged](https://msdn.microsoft.com/en-us/library/hh384248\(v=office.16\)) event is raised when a property of the conversation such as [Subject](https://msdn.microsoft.com/en-us/library/hh349381\(v=office.16\)) or [Id](https://msdn.microsoft.com/en-us/library/hh366404\(v=office.16\)) changes.
 

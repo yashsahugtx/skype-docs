@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Error handling and diagnostics
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The topics in this section provide information about Microsoft Unified Communications Managed API 5.0 exceptions, error diagnostics and error reporting. The following illustration shows the exceptions provided in UCMA 5.0 as well as the [UnhandledExceptionManager](https://msdn.microsoft.com/en-us/library/hh348981\(v=office.16\)) class.
 

@@ -13,7 +13,7 @@ dev_langs:
 # Recorder
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A [Recorder](https://msdn.microsoft.com/en-us/library/hh381624\(v=office.16\)) is an entity that can receive audio media that comes from an [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) instance and record it to a file. Depending on the state of the attached **AudioVideoFlow** instance, a **Recorder** can automatically start or stop.
 

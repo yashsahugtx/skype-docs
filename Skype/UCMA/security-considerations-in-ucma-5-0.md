@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Security considerations in UCMA 5.0
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 ## Security notes
 

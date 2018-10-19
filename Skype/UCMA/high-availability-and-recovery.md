@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # High availability and recovery
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section provides conceptual details about high service availability and recovery from errors and service disruptions.
 

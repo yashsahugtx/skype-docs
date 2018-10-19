@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Reference topologies
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The ideal Skype for Business Server 2015 communications software topology depends on the organization’s size, the workloads that will be deployed, and preferences for high availability versus cost of investment.
 

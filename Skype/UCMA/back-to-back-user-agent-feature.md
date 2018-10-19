@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Back-to-back user agent (feature)
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The back-to-back user agent concept is essential for call center/helpdesk applications. The back-to-back user agent acts as a bridge between an incoming customer call and one or more call center agents. The most important features of this concept, as implemented in UCMA 5.0 are the following:
 

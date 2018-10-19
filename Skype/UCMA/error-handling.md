@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Error handling
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A developer who implements a subclass of the [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.16\)) class must be aware of the exceptions that Microsoft Unified Communications Managed API (UCMA) expects.
 

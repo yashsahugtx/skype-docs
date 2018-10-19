@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # RemotePresenceView
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-RemotePresenceView capabilities  
-Context data  
-Presence query  
-RemotePresenceView state transitions  
+
 
 A presence view is a unified way to request presence information for a set of presentities. The [RemotePresenceView](https://msdn.microsoft.com/en-us/library/hh381152\(v=office.16\)) class provides an implementation of this capability.
 

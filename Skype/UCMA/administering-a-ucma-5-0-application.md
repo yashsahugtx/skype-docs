@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Administering a UCMA 5.0 application
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The topics in this section discuss administration of a UCMA 5.0 SDK application.
 

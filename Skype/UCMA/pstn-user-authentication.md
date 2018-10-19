@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # PSTN user authentication
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 applications add the ability to authenticate a user to the Skype for Business Server 2015/ servers by means of a Skype for Business Server 2015 user personal identification number (PIN), or by authenticating a user separately, and then using server trust to take actions on behalf of that user.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Subscribing to presence
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A communication application often must watch the presence of other users to make smart decisions when routing a call. Here are few examples:
 

@@ -13,7 +13,7 @@ dev_langs:
 # Adjusting application performance
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Because codecs have varying performance characteristics, UCMA 5.0 SDK exposes the UseHighPerformance property, which enables developers to choose between better server performance or better audio quality for their applications. **UseHighPerformance** is a property on the AudioChannelTemplate class in the Microsoft.Rtc.Collaboration.AudioVideo namespace.
 

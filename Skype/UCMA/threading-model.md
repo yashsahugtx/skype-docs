@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Threading model
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 is designed be multi-thread safe. Some objects that are used to configure settings or options or that are used to contain data passed into an API are exceptions.
 

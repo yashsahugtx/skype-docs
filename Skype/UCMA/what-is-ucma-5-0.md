@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # What is UCMA 5.0
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 is used primarily to build middle-tier applications that work with .
 

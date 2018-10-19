@@ -11,15 +11,9 @@ mtps_version: v=office.16
 # LocalOwnerPresence
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Presence publication  
-Presence categories provided by UCMA 4.0  
-Presence subscription and notification handling  
-Relationship level management  
-Managing watchers  
-LocalOwnerPresence state transitions  
+ 
 
 The [LocalOwnerPresence](https://msdn.microsoft.com/en-us/library/hh382370\(v=office.16\)) class has members that a presentity can use to publish its presence information to Skype for Business Server 2015.
 

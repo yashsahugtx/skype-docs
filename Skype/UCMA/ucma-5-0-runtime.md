@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # UCMA 5.0 Runtime
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-UCMA 5.0 Runtime requirements  
-Installing UCMA 5.0 Runtime and related components  
-Uninstalling UCMA 5.0 Runtime and bootstrapper prerequisites installer  
-UCMA 5.0 Runtime detection  
+ 
 
 An administrator who is preparing to install a third-party UCMA-enabled application on a deployment computer must download and install UcmaRuntimeSetup.exe. Installing Microsoft Unified Communications Managed API 5.0 Runtime provides all of the UCMA-related functionality needed by a UCMA-enabled application.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Call state transitions
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 ## Call transitions—outbound calls
 

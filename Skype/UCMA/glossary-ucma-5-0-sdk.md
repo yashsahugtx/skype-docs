@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Glossary (UCMA 5.0 SDK)
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 <table>
 <colgroup>

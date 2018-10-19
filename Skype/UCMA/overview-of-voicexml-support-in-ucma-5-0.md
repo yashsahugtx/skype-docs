@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Overview of VoiceXML support in UCMA 5.0
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 VoiceXML support in the Microsoft Unified Communications Managed API 5.0 consists of a VoiceXML runtime and the .NET namespace [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml](https://msdn.microsoft.com/en-us/library/gg452705\(v=office.16\)).
 

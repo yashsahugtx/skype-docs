@@ -13,7 +13,7 @@ dev_langs:
 # SpeechSynthesisConnector
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A [SpeechSynthesisConnector](https://msdn.microsoft.com/en-us/library/hh349773\(v=office.16\)) instance provides a **Stream** interface to feed audio data to an attached [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) instance. The **Stream** can be given to a **SpeechSynthesizer** object (in the **Microsoft.Speech.Synthesis** namespace) as an output destination, in order to play text-to-speech (TTS) over the wire.
 

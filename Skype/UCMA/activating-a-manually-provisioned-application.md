@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Activating a manually-provisioned application
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Like auto-provisioned applications, manually-provisioned applications also require a Skype for Business Server 2015 topology and Active Directory contact object settings, but do not take advantage of UCMA auto-provisioning. Unlike auto-provisioned applications, manually-provisioned applications do not require a local Central Management Store replica, but instead provision the Microsoft Unified Communications Managed API (UCMA) platform and application endpoints using offline configuration. There is no need to install and enable Central Management Store replication on the computers running UCMA-based applications.
 

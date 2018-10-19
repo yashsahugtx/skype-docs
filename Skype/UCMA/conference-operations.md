@@ -11,14 +11,9 @@ mtps_version: v=office.16
 # Conference operations
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Mute-all mode  
-Conference termination countdown  
-Entry and exit announcements  
-Conference recording  
-Scheduling templates  
+  
 
 This topic describes the settings that can be modified on a conference, either at the time the conference is scheduled, or during an active conference.
 

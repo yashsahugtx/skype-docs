@@ -11,12 +11,9 @@ mtps_version: v=office.16
 # Alert notification system
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Key components of the alert notification system  
-Typical call flow  
-Related features  
+
 
 Microsoft Unified Communications Managed API 5.0 allows a user to be notified of changing conditions to be able to react in real time.
 

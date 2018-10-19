@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Call admission control usage scenarios
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Bandwidth management can be applied in a number of scenarios. The following list presents several of the scenarios that occur most often.
 

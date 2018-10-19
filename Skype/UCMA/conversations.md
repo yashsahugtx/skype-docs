@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Conversations
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A conversation is a concept that represents communication between a local participant and one or more remote participants, which can be either real people or applications. A conversation can be thought of as two-dimensional, with the number of media modalities representing one dimension, and the number of participants representing the other. In Microsoft Unified Communications Managed API 5.0 a conversation is represented by the [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.16\)) class.
 

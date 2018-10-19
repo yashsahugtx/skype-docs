@@ -13,13 +13,9 @@ dev_langs:
 # Transferring a call
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Attended transfer  
-Supervised transfer  
-Unattended transfer  
-Customizing call transfer behaviors  
+  
 
 This topic discusses attended, supervised, and unattended call transfers for a two-party audio/video conversation.
 

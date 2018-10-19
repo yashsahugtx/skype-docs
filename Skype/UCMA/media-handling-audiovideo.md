@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Media handling - AudioVideo
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section provides conceptual details about handling media in audio/video calls in relation to the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.16\)), [AudioVideoMcuSession](https://msdn.microsoft.com/en-us/library/hh385298\(v=office.16\)), and [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) classes.
 

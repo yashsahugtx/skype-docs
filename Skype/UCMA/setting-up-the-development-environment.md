@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Setting up the development environment
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following software must be installed on your development computer.
 

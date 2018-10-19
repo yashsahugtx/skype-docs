@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Presence - self and remote
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Entities in a Skype for Business 2015 subsystem can have up to eight active endpoints at a given time (Multiple Points of Presence) that can each publish presence information and subscribe to the presence of others.
 

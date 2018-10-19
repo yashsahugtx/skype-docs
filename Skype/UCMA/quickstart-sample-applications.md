@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # QuickStart sample applications
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The Quick Start samples are included in UCMA 5.0 SDK. Each QuickStart sample focuses on an aspect of UCMA 5.0 application programming. The samples are located in the %ProgramFiles%\\Microsoft UCMA 5.0\\Core\\Sample Applications\\ QuickStarts folder.
 

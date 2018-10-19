@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Reference topology with limited high availability
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The reference topology with limited high availability is for an organization that wants to deploy Skype for Business Server 2015 communications software functionality at a minimum cost. Typically, the specific topology shown in the following diagram is recommended for organizations with 5,000 or fewer users, although you can support additional users by adding additional Standard Edition servers.
 

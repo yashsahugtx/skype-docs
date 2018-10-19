@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Reference topology with high availability and multiple data center
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The reference topology for multiple data centers is for any size of organization with more than one central site. The exact topology in the following diagram is for an organization of 70,000 users, with 40,000 users at Central Site A and 30,000 at Central Site B. The type of topology shown in this diagram can accommodate organizations with any number of users.
 

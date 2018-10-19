@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # PSTN gateway and IP-PBX interoperability
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 For IP-based real-time applications that must communicate with a PSTN network on one side and a unified communications network on the other side, Microsoft Unified Communications Managed API 5.0 provides an application the ability to interoperate with SIP PSTN gateways and IP-PBXs with the unified communications network.
 

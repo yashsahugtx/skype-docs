@@ -11,14 +11,8 @@ mtps_version: v=office.16
 # High availability and failover in UCMA 5.0
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-SipEndpoint class  
-LocalEndpointStateChangedEventArgs class  
-SipSubscription class  
-LocalOwnerPresence and ContactGroupServices classes  
-RemotePresence class  
 
 This topic discusses the APIs in Microsoft Unified Communications Managed API 5.0 that are associated with High Availability and Failover.
 

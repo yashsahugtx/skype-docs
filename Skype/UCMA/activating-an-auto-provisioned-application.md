@@ -11,12 +11,8 @@ mtps_version: v=office.16
 # Activating an auto-provisioned application
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Install the Central Management Store replication service  
-Enable Central Management store replication  
-Set the certificate  
 
 Trusted applications can be provisioned at run time in two distinct ways: by auto-provisioning, which requires a local Central Management Store replica, or by manual provisioning, which does not require a local Central Management Store replica. The recommended way to provision a UCMA-based application is auto-provisioning. With this style of provisioning, applications can auto-discover, auto-provision, monitor, and react to settings that are relevant in an Skype for Business Server 2015 environment.
 

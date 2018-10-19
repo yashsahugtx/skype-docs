@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Publishing presence
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 permits automatic presence publications for UCMA 5.0 endpoints during endpoint establishment. This applies to the [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) and [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.16\)) types.
 

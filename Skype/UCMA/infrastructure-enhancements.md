@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Infrastructure enhancements
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section provides high-level information about infrastructure features in Microsoft Unified Communications Managed API 5.0.
 

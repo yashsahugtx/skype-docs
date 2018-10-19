@@ -13,7 +13,7 @@ dev_langs:
 # Sending page-mode messages synchronously
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following code example shows how to send a simple text message synchronously in page mode. It is assumed that the endpoint is properly created and registered, if it is registration-based. In this example, the message is sent using a call to the [SendMessage(MessageType, RealTimeAddress, ContentType, \[\])](https://msdn.microsoft.com/en-us/library/hh349067\(v=office.16\)) method on the endpoint.
 

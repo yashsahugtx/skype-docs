@@ -13,7 +13,7 @@ dev_langs:
 # RealTimeAddress and SipUriParser classes
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The UCMA platform exposes two classes to handle URI processing: the [RealTimeAddress](https://msdn.microsoft.com/en-us/library/hh348792\(v=office.16\)) class and the [SipUriParser](https://msdn.microsoft.com/en-us/library/hh384267\(v=office.16\)) class. The **RealTimeAddress** class is primarily used for passing a valid URI to methods that accept a URI as a string or **RealTimeAddress** instance. Some API in the platform may also expose properties using the **RealTimeAddress** class. This **RealTimeAddress** class supports processing of both tel URIs and sip URIs.
 

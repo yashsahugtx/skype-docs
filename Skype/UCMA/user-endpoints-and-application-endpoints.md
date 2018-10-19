@@ -13,13 +13,8 @@ dev_langs:
 # User endpoints and application endpoints
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-ApplicationEndpoint  
-UserEndpoint  
-Registration recovery  
-Endpoint state transitions  
 
 The [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) class is an endpoint type that is principally used by server applications, and that provides communication and collaboration services for end users.
 

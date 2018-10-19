@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Activating a UCMA 5.0 trusted application
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A UCMA trusted application is an application based on Microsoft Unified Communications Managed API 5.0 that is trusted by Skype for Business Server 2015. This trust relationship is summarized in the following list:
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # MCU call establishment and handling
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The audio-video MCU does not support multiple points of conference, but does permit a given endpoint to join the audio-video MCU under more than one identity. To overcome the lack of support for multiple points of conference, the platform creates each new call under a fictitious identity. This topic discusses how the platform establishes these calls.
 

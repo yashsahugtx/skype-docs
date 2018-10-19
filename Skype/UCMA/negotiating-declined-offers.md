@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Negotiating declined offers
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This topic describes a scenario that can occur in offer/answer negotiation. The first scenario describes how an endpoint should handle an initial outgoing multipart/mime SDP offer that is declined by a remote endpoint. The second scenario describes how an endpoint should decline an incoming SDP offer that it cannot accept and how it should handle an outgoing SDP offer that is declined by the remote endpoint.
 

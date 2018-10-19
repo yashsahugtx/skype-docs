@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Telephony call controls
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 provides for basic telephony call control actions, including forwarding, acceptance/decline, and message sending. With UCMA 5.0, an application can place calls to unified communications-enabled endpoints and PSTN targets, transfer calls between itself and other entities, and route calls to agent hunting pools.
 

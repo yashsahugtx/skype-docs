@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # InstantMessagingFlow
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 An [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.16\)) instance represents an instant messaging connection with a single remote participant.
 

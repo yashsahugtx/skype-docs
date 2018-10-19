@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Media stack performance counters
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Media stack performance counters are shipped with Skype for Business Server. They are not available on clients.
 

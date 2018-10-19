@@ -11,15 +11,9 @@ mtps_version: v=office.16
 # UCMA 5.0 business scenarios
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Contact center  
-Standalone IVR application  
-Voice companion  
-Alert notification system  
-Other scenarios  
-In this section  
+
 
 Microsoft Unified Communications Managed API 5.0 can be used to create a number of different types of application. In this topic, four of the most important application types are presented.
 

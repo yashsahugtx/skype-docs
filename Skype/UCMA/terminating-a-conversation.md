@@ -13,7 +13,7 @@ dev_langs:
 # Terminating a conversation
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The recommended way for an application can terminate a conversation is as follows, by calling one of the [BeginTerminate()](https://msdn.microsoft.com/en-us/library/hh349607\(v=office.16\)) overloaded methods on the [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.16\)) instance.
 

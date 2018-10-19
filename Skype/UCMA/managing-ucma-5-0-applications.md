@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Managing UCMA 5.0 applications
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section provides the details of application management: Microsoft Unified Communications Managed API 5.0 Runtime; general administration tasks and information; application activation and provisioning; application logging; managing application migration from one version of UCMA to another and coexistence in topologies that include different Microsoft Lync Server and Skype for Business Server versions.
 

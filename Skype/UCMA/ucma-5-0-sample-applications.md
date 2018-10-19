@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # UCMA 5.0 sample applications
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following topics describe the sample applications that are shipped with .
 

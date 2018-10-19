@@ -13,13 +13,9 @@ dev_langs:
 # Trusted conferencing user audio routes
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Silent monitoring  
-Private audio channel  
-Supervisor barge-in  
-Adding to and removing from the default mix  
+
 
 This topic describes a number of operations that can be performed after a trusted conferencing user has joined a conference.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Standalone IVR application
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 can be used to create an application that works directly against SIP-PSTN gateways (that are based on RFC 3261) and IP-PBXs to deliver a UCMA-only basic IVR application.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # UCMA 5.0 exception model
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 follows the standard .NET Framework exception model for reporting exceptions. Both the standard exception classes in the .NET Framework and custom exception classes specific to UCMA 5.0 are used. UCMA 5.0 applications should catch exceptions thrown by UCMA 5.0 methods. In addition we recommend that applications validate the data they pass to the API to avoid exceptions derived from **ArgumentException** from being thrown in released products.
 

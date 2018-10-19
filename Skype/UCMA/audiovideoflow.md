@@ -13,13 +13,9 @@ dev_langs:
 # AudioVideoFlow
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-AudioVideoFlow properties  
-AudioVideoFlow methods  
-Negotiation between local and remote endpoints  
-AudioVideoFlow state transitions  
+
 
 An [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) instance represents a media connection with a single remote participant.
 

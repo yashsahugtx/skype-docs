@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Conference invitation state transitions
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 State transitions for the [ConferenceInvitation](https://msdn.microsoft.com/en-us/library/hh349823\(v=office.16\)) class are described in this topic, both for inbound invitations as well as outbound invitations.
 

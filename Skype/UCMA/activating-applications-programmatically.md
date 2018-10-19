@@ -13,7 +13,7 @@ dev_langs:
 # Activating applications programmatically
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Activating a Microsoft Unified Communications Managed API 5.0 application against Skype for Business Server 2015 typically involves setting a trust relationship between the application and Skype for Business Server 2015, and setting up routing-specific configurations. PowerShell-based programmable activation enables application developers to easily integrate the details of UCMA 5.0 activation into their overall application activation.
 

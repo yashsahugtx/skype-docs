@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Trusted applications
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A typical Microsoft Unified Communications Managed API 5.0 application is trusted by Skype for Business Server 2015.
 

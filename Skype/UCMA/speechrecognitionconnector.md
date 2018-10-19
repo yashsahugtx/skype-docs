@@ -13,7 +13,7 @@ dev_langs:
 # SpeechRecognitionConnector
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh383253\(v=office.16\)) instance can transfer audio data from a **SpeechRecognitionEngine** instance (in the **Microsoft.Speech** namespace) to an [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) instance that is attached to the **SpeechRecognitionConnector** instance.
 

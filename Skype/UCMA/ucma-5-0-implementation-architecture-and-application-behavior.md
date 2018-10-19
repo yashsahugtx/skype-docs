@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # UCMA 5.0 implementation architecture and application behavior
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 This section is intended for application developers who use Microsoft Unified Communications Managed API 5.0, and discusses general platform behavior that is expected across various components. The topics in this section discuss guidelines that developers can use to properly create application code and identify code defects when correct behavior is not observed. These guidelines have been followed in the development of UCMA 5.0, with the goal of improving the quality of the platform by ensuring a consistent behavior across various components. These guidelines are also intended to make it easier for an application developer to implement the desired functionality, knowing that the platform guarantees a specific set of behaviors.
 

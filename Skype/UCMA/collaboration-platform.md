@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # Collaboration platform
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Connection management  
-Managing trust with Skype for Business Server  
-Extensible communication framework  
-Auto-provisioning  
+ 
 
 The collaboration platform, an instance of the [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.16\)) class, provides capabilities for managing connections to and from the platform, guarantees a trust relationship with Skype for Business Server 2015 for server-mode **CollaborationPlatform** instances, and provides a mechanism whereby developers can extend the capabilities of the platform beyond the built-in media types that are supported in Microsoft Unified Communications Managed API 5.0.
 

@@ -13,7 +13,7 @@ dev_langs:
 # Impersonating a user
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The local participant address is automatically inferred from the endpoint that is specified. If the application is trusted by Skype for Business Server 2015, the application can impersonate another user. This is normally required to offer services on behalf of a specific user who initiated the call to the application. For example, a help-desk application might want to impersonate the user who calls in for help when it directs the call to an agent who can help the user.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # InstantMessagingCall
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 An [InstantMessagingCall](https://msdn.microsoft.com/en-us/library/hh161841\(v=office.16\)) object represents an SDP-based instant messaging (IM) session between a local participant and a remote participant. An **InstantMessagingCall** object cannot exist on its own; it must be associated with a [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.16\)) object.
 

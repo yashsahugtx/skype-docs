@@ -11,11 +11,7 @@ mtps_version: v=office.16
 # ConversationContextChannel (QuickStart)
 
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+
 
 Sample name: ConversationContextChannel
 

@@ -13,7 +13,7 @@ dev_langs:
 # Creating an outgoing two-party conversation
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Applications can create a conversation by specifying an endpoint or by specifying an endpoint and settings for the conversation.
 

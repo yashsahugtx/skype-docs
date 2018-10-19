@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Media guidelines
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following describes guidelines and tips for developers of applications that work with audio media:
 

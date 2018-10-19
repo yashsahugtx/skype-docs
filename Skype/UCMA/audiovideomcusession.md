@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # AudioVideoMcuSession
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [AudioVideoMcuSession](https://msdn.microsoft.com/en-us/library/hh385298\(v=office.16\)) class represents the audio/video specific implementation of the media-agnostic [McuSession](https://msdn.microsoft.com/en-us/library/hh384975\(v=office.16\)) class. The class encapsulates operations and events relevant to the Audio-Video Multipoint Control Unit (MCU).
 

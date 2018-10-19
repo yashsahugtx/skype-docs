@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Deactivation best practices
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 An application can be deactivated by following the steps in the following procedure.
 

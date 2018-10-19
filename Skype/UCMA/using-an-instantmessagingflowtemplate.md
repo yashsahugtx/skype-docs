@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Using an InstantMessagingFlowTemplate
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [InstantMessagingSettings](https://msdn.microsoft.com/en-us/library/hh382884\(v=office.16\)) property provides access to global configuration settings for instant message (IM) flows using an [InstantMessagingFlowTemplate](https://msdn.microsoft.com/en-us/library/hh384311\(v=office.16\)) object.
 

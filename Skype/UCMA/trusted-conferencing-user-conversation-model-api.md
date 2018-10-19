@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Trusted conferencing user conversation model API
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The Trusted Conferencing User (TCU) model was implemented in by the addition of several new types together with the addition of several new properties and overloaded methods on existing types. This topic provides the details of these changes.
 

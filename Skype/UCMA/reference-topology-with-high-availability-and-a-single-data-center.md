@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Reference topology with high availability and a single data center
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The reference topology with high availability and a single data center is designed for a small-to-medium size organization with one central site. The exact topology in the following diagram is for an organization of 15,000 users. Typically, the type of topology shown in the following diagram is recommended for organizations with 5,000 to 30,000 users, but it can support over 30,000 users.
 

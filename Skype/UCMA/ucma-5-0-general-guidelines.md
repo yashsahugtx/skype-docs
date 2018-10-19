@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # UCMA 5.0 general guidelines
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following describes general guidelines and tips for all developers of applications built using Microsoft Unified Communications Managed API 5.0:
 

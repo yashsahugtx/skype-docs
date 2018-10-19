@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Call forking with early media
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 An outgoing call can be forked to multiple endpoints. When an outgoing call is forked, the caller receives multiple provisional responses with response code 183 (Session Progress). A 183 response can contain an SDP body to establish an early dialog. In this case the [SetAnswer(OfferAnswerContext, SdpOffer, SdpAnswer)](https://msdn.microsoft.com/en-us/library/hh382509\(v=office.16\)) method is invoked on the [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.16\)) for each response. The [CallDialogContext](https://msdn.microsoft.com/en-us/library/hh383382\(v=office.16\)) property represents the dialog context for the response.
 

@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Platform behaviors (methods and properties)
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The following describes general UCMA 5.0 platform behavior:
 

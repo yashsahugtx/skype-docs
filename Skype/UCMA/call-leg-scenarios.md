@@ -13,13 +13,9 @@ dev_langs:
 # Call leg scenarios
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Incoming-idle scenario  
-Connecting incoming-idle call legs - two-party call  
-Connecting incoming-idle call legs - conference call  
-Click-to-call scenario  
+ 
 
 The [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.16\)) class can be used in two scenarios:
 

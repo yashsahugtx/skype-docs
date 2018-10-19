@@ -13,7 +13,7 @@ dev_langs:
 # Parsing and constructing SDP documents
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Use the **Sdp** class in the UCMA 5.0 to parse and construct session descriptions to be carried in a Session Initiation Protocol (SIP) request or response. These session descriptions are defined by the Session Description Protocol (SDP). For more information about SDP, see the [SDP: Session Description Protocol](http://go.microsoft.com/fwlink/?linkid=83129) RFC.
 

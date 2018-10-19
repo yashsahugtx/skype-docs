@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # VoiceXML browser
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.16\)) class in Microsoft Unified Communications Managed API 5.0 is derived from the **Browser** class in the **Microsoft.Speech.VoiceXml** namespace. [Browser](https://msdn.microsoft.com/en-us/library/gg452712\(v=office.16\)) has access to all the public members of the **Browser** class in the **Microsoft.Speech.VoiceXml** namespace, as well as all the enumerated types, EventArgs classes, and interpretation result classes of the **Microsoft.Speech.VoiceXml.Common** namespace.
 

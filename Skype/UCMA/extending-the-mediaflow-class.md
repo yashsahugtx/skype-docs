@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Extending the MediaFlow class
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [MediaFlow](https://msdn.microsoft.com/en-us/library/hh366262\(v=office.16\)) abstract class represents a generic flow concept for objects that send or receive media. A nonabstract subclass represents the flow of a specific media type. Microsoft Unified Communications Managed API 5.0 provides two **MediaFlow** subclasses: [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) and [InstantMessagingFlow](https://msdn.microsoft.com/en-us/library/hh383312\(v=office.16\)). These classes represent flows whose media type is, respectively, audio/video and message.
 

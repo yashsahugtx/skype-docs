@@ -11,16 +11,8 @@ mtps_version: v=office.16
 # Voice Companion (sample)
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Description  
-Available voice services  
-Setting up the application  
-Program design  
-Architecture  
-Known issues  
-Disclaimer  
 
 Sample name: VoiceCompanion
 

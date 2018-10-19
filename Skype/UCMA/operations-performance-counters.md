@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Operations performance counters
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Operations performance counters are monitored by Microsoft Operations Manager (MOM) packs that check for specific threshold values. For counters with threshold values, alarms are activated after the values are crossed. For security-related counters, the counter values should be analyzed to ensure that a malicious user has not compromised the system.
 

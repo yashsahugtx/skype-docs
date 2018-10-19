@@ -11,15 +11,9 @@ mtps_version: v=office.16
 # Incoming message dispatching
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Owner URI  
-Endpoint URI for a user endpoint  
-Endpoint URI for an application endpoint  
-Targeting a message to a user or application  
-Targeting a message to a specific endpoint  
-Message dispatching by the collaboration platform  
+
 
 This topic describes two endpoint properties, **OwnerUri** and **EndpointUri**, and how a Mutual TLS server platform uses them when it dispatches incoming messages to the appropriate endpoint.
 

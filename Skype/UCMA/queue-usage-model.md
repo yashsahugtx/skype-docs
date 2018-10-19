@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Queue usage model
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 serializes work items for raising events and invoking method callbacks into queues. The following information describes how UCMA 5.0 uses these queues and provides guidelines for how applications should use them:
 

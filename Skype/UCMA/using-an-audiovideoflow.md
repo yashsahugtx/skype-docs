@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Using an AudioVideoFlow
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)), [AudioControl](https://msdn.microsoft.com/en-us/library/hh161771\(v=office.16\)), and [AudioChannel](https://msdn.microsoft.com/en-us/library/hh349872\(v=office.16\)) classes can be thought of as having the logical relationship shown in the following illustration. The [Audio](https://msdn.microsoft.com/en-us/library/hh161753\(v=office.16\)) property on an **AudioVideoFlow** instance provides access to the **AudioControl** instance, and the [GetChannels()](https://msdn.microsoft.com/en-us/library/hh383889\(v=office.16\)) method on the **AudioControl** instance returns a read-only **IDictionary** that can be used to find an **AudioChannel** instance by its label.
 

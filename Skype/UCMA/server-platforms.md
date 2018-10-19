@@ -13,14 +13,9 @@ dev_langs:
 # Server platforms
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Server platform characteristics  
-Types of provisioning data  
-Manual provisioning  
-Auto-provisioning  
-Auto-provisioning details  
+ 
 
 When a [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.16\)) instance is created, it can be created as a client platform, a server platform, or as a provisioned application server platform. Each of the three **CollaborationPlatform** constructors can be used to create one type of platform.
 

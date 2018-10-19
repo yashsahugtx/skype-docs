@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Audio devices
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The topics in this section describe the audio devices that are available in Microsoft Unified Communications Managed API 5.0: [Player](https://msdn.microsoft.com/en-us/library/hh349780\(v=office.16\)), [Recorder](https://msdn.microsoft.com/en-us/library/hh381624\(v=office.16\)), [ToneController](https://msdn.microsoft.com/en-us/library/hh349643\(v=office.16\)), [SpeechRecognitionConnector](https://msdn.microsoft.com/en-us/library/hh383253\(v=office.16\)), and [SpeechSynthesisConnector](https://msdn.microsoft.com/en-us/library/hh349773\(v=office.16\)). These devices, respectively, can be used to play recorded audio, record audio, send and receive telephone dial tones, convert speech to text, or convert text to speech.
 

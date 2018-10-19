@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Trusted conferencing user
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The trusted conferencing user (TCU) feature makes it easier to develop applications with conferencing "bots" that provide services to other users in a conference. Trusted users are considered presenters by default and appear hidden to users in the roster.
 

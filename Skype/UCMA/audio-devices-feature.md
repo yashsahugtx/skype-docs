@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Audio devices (feature)
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 provides the following integrated audio devices:
 

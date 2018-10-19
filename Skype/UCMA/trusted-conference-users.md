@@ -11,15 +11,9 @@ mtps_version: v=office.16
 # Trusted conference users
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Conference "join as Trusted User"  
-Conferencing commands on behalf of other participants  
-Scalable and multi-channel  
-Audio route management  
-Default audio routing  
-Common use cases  
+
 
 The Trusted Conferencing User model can be used to enable advanced telephony scenarios. At a high level, the Trusted Conferencing User model is a programming model that gives application writers a way to seamlessly enhance the communication experience of one or more participants engaged in a conversation.
 

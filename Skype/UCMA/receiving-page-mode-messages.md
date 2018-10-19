@@ -13,7 +13,7 @@ dev_langs:
 # Receiving page-mode messages
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Subscribing to the event amounts to registering for notification when a [MessageReceived](https://msdn.microsoft.com/en-us/library/hh350010\(v=office.16\)) event is raised, and implementing a handler for this event. The following is a simple code example that illustrates this process.
 

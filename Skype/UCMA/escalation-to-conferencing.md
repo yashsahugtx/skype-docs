@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Escalation to conferencing
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 For more information, see [Escalating a two-party conversation to a conference](escalating-a-two-party-conversation-to-a-conference.md).
 

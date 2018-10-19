@@ -11,13 +11,8 @@ mtps_version: v=office.16
 # SpeechSynthesisConnector (QuickStart)
 
 
-_**Applies to:** Skype for Business 2015_
-
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+**Applies to**: Skype for Business 2015
+ 
 
 Sample name: BasicCallHandling
 

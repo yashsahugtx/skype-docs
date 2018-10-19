@@ -13,14 +13,9 @@ dev_langs:
 # Conversation context channel
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Registering an application extension for a conversation context channel  
-Conversation context channel data traffic and limitations  
-Typical conversation context channel scenario  
-Using the ConversationContextChannel class  
-ConversationContextChannel state transitions  
+
 
 The [ConversationContextChannel](https://msdn.microsoft.com/en-us/library/hh161849\(v=office.16\)) class enables a UCMA 5.0 endpoint to launch and interact with a Conversation Extension window in Skype for Business 2015.
 

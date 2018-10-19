@@ -13,7 +13,7 @@ dev_langs:
 # Receiving a conference invitation
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 At the SIP level, a [Call](https://msdn.microsoft.com/en-us/library/hh384235\(v=office.16\)) is represented as a SIP INVITE with Session Description Protocol (SDP) that contains information about the media types that are included in the call, together with other information that helps negotiate a connection between the sender and recipient of the INVITE.
 

@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # SubscribePresenceView (QuickStart)
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Description  
-Features  
-Prerequisites  
-Running the sample  
+
 
 Sample name: SubscribePresenceView
 

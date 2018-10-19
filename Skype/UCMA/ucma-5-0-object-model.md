@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # UCMA 5.0 object model
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 The major components that appear in a Microsoft Unified Communications Managed API 5.0 application are [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.16\)) (of which two implementations are [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) and [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.16\))), [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.16\)), and [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.16\)). A **CollaborationPlatform** instance can manage multiple **LocalEndpoint** instances, and each **LocalEndpoint** instance can have multiple **Conversation** instances.
 

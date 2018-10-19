@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Diagnostics and error reporting
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Developers who are working with Microsoft Unified Communications Managed API 5.0 can quickly and efficiently discover, diagnose, and resolve any failures that occur within the platform or application, and that can result in failure or call termination.
 

@@ -11,13 +11,9 @@ mtps_version: v=office.16
 # Connection manager
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-General features  
-Connection pool  
-Client connection manager  
-Server connection manager  
+
 
 The primary functionality of a connection manager is to manage incoming and outgoing connections. An instance of a class that inherits from the abstract [RealTimeConnectionManager](https://msdn.microsoft.com/en-us/library/hh382456\(v=office.16\)) class can be used to manage outbound connections. A [RealTimeServerConnectionManager](https://msdn.microsoft.com/en-us/library/hh383452\(v=office.16\)) implementation (the [RealTimeServerTcpConnectionManager](https://msdn.microsoft.com/en-us/library/hh382485\(v=office.16\)) class or the [RealTimeServerTlsConnectionManager](https://msdn.microsoft.com/en-us/library/hh382910\(v=office.16\)) class) must be used to manage incoming connections.
 

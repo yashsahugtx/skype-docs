@@ -13,13 +13,9 @@ dev_langs:
 # ContactGroupServices
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
-**In this article**  
-Subscribing to contacts and groups  
-Creating and deleting contacts  
-Managing contacts and groups  
-ContactGroupServices state transitions  
+
 
 A contact is a unified communication entity that is identified by a SIP URI. One or more contacts can be assembled into logical collections called groups. When a group is created, it is assigned a group ID, which is a server-assigned integer. The Contacts and Groups API in Microsoft Unified Communications Managed API 5.0 is available only for [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.16\)) objects.
 

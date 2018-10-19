@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Calls, flows, conversations, and MCU sessions
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 During a conversation, data is communicated across one of two types of channels that represent the concepts of *call* and *media flow*.
 

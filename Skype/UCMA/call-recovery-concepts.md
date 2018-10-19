@@ -13,7 +13,7 @@ dev_langs:
 # Call recovery concepts
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 If the SIP route between endpoints has failed, the Skype for Business Server 2015 computer causes all new incoming messages to fail (surfaced to the application as a **FailureResponseException** with a SIP 430 error code) until the route is healed. When this happens, the application can either terminate the call or wait for recovery. If the application chooses to wait for recovery, it should implement timers to ensure that the call does not wait indefinitely. The application should also subscribe to the **RouteSetStatusChanged** event on the call so that it is notified of route events. When the route is healed (see [Call recovery usage](call-recovery-usage.md)), the application can resend the messages.
 

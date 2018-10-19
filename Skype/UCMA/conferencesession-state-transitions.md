@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # ConferenceSession state transitions
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 A conference represents an online meeting place for participants to discuss topics of interest, using one or more media types, such as instant messages or audio-video. A two-party conversation can be escalated to a conference. In Microsoft Unified Communications Managed API (UCMA), the [ConferenceSession](https://msdn.microsoft.com/en-us/library/hh349315\(v=office.16\)) class implements the signaling functionality of a Centralized Conference Control Protocol (C3P) conference signaling session.
 

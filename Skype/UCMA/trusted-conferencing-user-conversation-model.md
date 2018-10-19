@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Trusted conferencing user conversation model
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Using the Trusted Conferencing User model, an application can create multiple [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901\(v=office.16\)) instances in the context of a single [Conversation](https://msdn.microsoft.com/en-us/library/hh349224\(v=office.16\)) instance. This call structure allows for a closer alignment with the problem domain. An application not using this model must manage one conversation for each user, all of whom communicate with the same conference. The TCU model reduces management overhead for the application by having it manage only one conversation for each conference, resulting in fewer objects to manage.
 

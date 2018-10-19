@@ -10,8 +10,7 @@ mtps_version: v=office.16
 
 # UCMA 5.0 details
 
-
-_**Applies to:** Lync 2013 | Lync Server 2013 | Skype for Business 2015_
+**Applies to**: Lync 2013 | Lync Server 2013 | Skype for Business 2015
 
 This section provides conceptual details of Microsoft Unified Communications Managed API 5.0. The following illustration provides a high-level view of the architecture.
 

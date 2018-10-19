@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Using Skype for Business Server 2015 Logging Tool
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 An important part of the process of developing a UCMA 5.0 application is the ability to trace the protocol stack. To do this, you will enable tracing. By viewing the contents of the protocol stack during or after the execution of your code, you can familiarize yourself with the topology of UCMA 5.0.
 

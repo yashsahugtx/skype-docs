@@ -12,13 +12,9 @@ dev_langs:
 
 # Tasks of the host .NET application
 
+**Applies to**: Lync 2013 | Lync Server 2013 | Skype for Business 2015
 
-_**Applies to:** Lync 2013 | Lync Server 2013 | Skype for Business 2015_
 
-**In this article**  
-Launching the browser  
-Example of .NET application tasks  
-Remarks  
 
 The host .NET application that you create performs tasks before, during, and after a VoiceXML session to support automated processing of calls.
 

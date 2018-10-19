@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # Failover concepts
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 If a Skype for Business Server 2015 registrar is taken offline for service, or a service-affecting interruption has occurred between the UCMA application and the registrar, a Skype for Business Server 2015 front-end pool can redirect the application to a currently active server, if one is available. Similar to the high-availability feature in non-failure scenarios, an application is unaware of this redirection.
 

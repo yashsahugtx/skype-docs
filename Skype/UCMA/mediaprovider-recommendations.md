@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # MediaProvider recommendations
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 To implement bandwidth management in a class derived from the [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.16\)) class, the derived provider class must carry out the following tasks:
 

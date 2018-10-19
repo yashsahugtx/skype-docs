@@ -11,7 +11,7 @@ mtps_version: v=office.16
 # VoiceXML support in UCMA 5.0
 
 
-_**Applies to:** Skype for Business 2015_
+**Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 supports Interactive Voice Response (IVR) applications authored with the industry-standard VoiceXML markup language. You can now create .NET applications that host a local or remote VoiceXML-based IVR application in UCMA 5.0. You can also migrate existing VoiceXML applications to UCMA 5.0 that may have been running on other platforms.
 

@@ -29,7 +29,7 @@ The following procedure shows the steps required to manually provision an applic
     
 
     > [!NOTE]
-    > <P>Use the identity of your application.</P>
+    > Use the identity of your application.
 
 
 
@@ -47,6 +47,6 @@ The following procedure shows the steps required to manually provision an applic
     
 
     > [!NOTE]
-    > <P>A service GRUU can be used in a single-computer pool (a pool in which the computer FQDN is the same as the pool FQDN). However, if additional computers are added to that pool, the use of the service GRUU should be discontinued and the computer GRUU used instead.</P>
+    > A service GRUU can be used in a single-computer pool (a pool in which the computer FQDN is the same as the pool FQDN). However, if additional computers are added to that pool, the use of the service GRUU should be discontinued and the computer GRUU used instead.
 
 

@@ -72,9 +72,7 @@ The following custom exception classes are implemented in UCMA 5.0:
     
 
     > [!NOTE]
-    > <P>Failure to communicate with the server components for conferencing could result in <STRONG>FailureResponseException</STRONG>.</P>
-
-
+    > Failure to communicate with the server components for conferencing could result in **FailureResponseException**.
 
   - **ConnectionFailureException**  
     Thrown when a network connection could not be made. Applications might consider prompting for a new URI (host and port) or a server name.

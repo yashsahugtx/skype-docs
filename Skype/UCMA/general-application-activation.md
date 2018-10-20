@@ -34,7 +34,7 @@ All of these steps, except for the firewall exceptions, are discussed in detail 
 
 
 > [!IMPORTANT]
-> <P>Trusted application must have the appropriate firewall exceptions in Windows Firewall on the computer on which the UCMA-based applications are running, and on any applicable corporate firewalls.</P>
+> Trusted application must have the appropriate firewall exceptions in Windows Firewall on the computer on which the UCMA-based applications are running, and on any applicable corporate firewalls.
 
 
 
@@ -48,7 +48,7 @@ All computers on which the application is to run must be added to the Skype for 
 
 
 > [!NOTE]
-> <P>Package product ISVs who intend to automate setup and deployment for the application are recommended to use PowerShell cmdlets.</P>
+> Package product ISVs who intend to automate setup and deployment for the application are recommended to use PowerShell cmdlets.
 
 
 
@@ -90,7 +90,7 @@ All computers on which the application is to run must be added to the Skype for 
     
 
     > [!NOTE]
-    > <P>If the application computer is joined to the domain, Skype for Business Server 2015 cmdlets can be run from this computer.</P>
+    > If the application computer is joined to the domain, Skype for Business Server 2015 cmdlets can be run from this computer.
 
 
 
@@ -132,7 +132,7 @@ To use DNS-based load balancing for an application pool, the application adminis
 
 
 > [!NOTE]
-> <P>DNS A records are also required for application pools consisting of only a single computer. Without a DNS A record, the application will be unable to receive inbound requests.</P>
+> DNS A records are also required for application pools consisting of only a single computer. Without a DNS A record, the application will be unable to receive inbound requests.
 
 
 
@@ -161,8 +161,8 @@ The steps that follow list different ways of requesting a certificate that match
 
 
 > [!NOTE]
-> <P>Offline requests to be sent to third-party certificate authorities can be generated using all of the following methods. Administrators should refer to Get-Help Request-CsCertificate –Full and Get-Help Import-CsCertificate –Full for additional information.</P>
-> <P>Request-CSCertificate -New -Type default -CA DomainController.contoso.com\CertificateAuthority</P>
+> Offline requests to be sent to third-party certificate authorities can be generated using all of the following methods. Administrators should refer to Get-Help Request-CsCertificate –Full and Get-Help Import-CsCertificate –Full for additional information.
+> Request-CSCertificate -New -Type default -CA DomainController.contoso.com\CertificateAuthority
 
 
 
@@ -226,7 +226,7 @@ To perform these actions using Skype for Business Server Management Shell, you m
 
 
 > [!NOTE]
-> <P>If a local Central Management Store replica is installed on the computer on which the <STRONG>Request-CsCertificate</STRONG> cmdlet is being run, the -<STRONG>ComputerFQDN</STRONG> argument can be omitted. However, the requested certificate’s private key will not be marked exportable. To allow the private key to be exported and the certificate to be reused on other machines in the pool, append -PrivateKeyExportable $true to the command.</P>
+> If a local Central Management Store replica is installed on the computer on which the **Request-CsCertificate** cmdlet is being run, the -**ComputerFQDN** argument can be omitted. However, the requested certificate’s private key will not be marked exportable. To allow the private key to be exported and the certificate to be reused on other machines in the pool, append -PrivateKeyExportable $true to the command.
 
 
 
@@ -308,11 +308,8 @@ To perform the steps in the following procedure, you must be in the Skype for Bu
 
 8.  In the **Certificate Template** dropdown menu, select **Web Server**.
     
-
     > [!NOTE]
-    > <P>If the <STRONG>Web Server</STRONG> template does not appear in the dropdown menu, the domain credentials used to connect to certsrv might lack Request permissions for the <STRONG>Web Server</STRONG> template. For information about adding the required permissions, see "Requesting Certificates from Active Directory Certificate Services" elsewhere in this topic.</P>
-
-
+    > If the **Web Server** template does not appear in the dropdown menu, the domain credentials used to connect to certsrv might lack Request permissions for the **Web Server** template. For information about adding the required permissions, see "Requesting Certificates from Active Directory Certificate Services" elsewhere in this topic.
 
 9.  In the **Name** field, enter trustedapps.contoso.com. This FQDN is for example purposes.
 
@@ -368,11 +365,9 @@ To perform the steps of the following procedure, you must be in the Skype for Bu
     
     New-CsTrustedApplication -ApplicationId applicationID -TrustedApplicationPoolFqdn trustedapps.contoso.com -Port 6000
     
-
     > [!IMPORTANT]
-    > <P>In the UCMA 5.0 release, the administrator must run the <STRONG>Enable-CsTopology</STRONG> cmdlet after running the <STRONG>New-CsTrustedApplicationPool</STRONG> or <STRONG>New-CsTrustedApplication</STRONG> cmdlet. This creates the appropriate trusted service entries in Active Directory.</P>
+    > In the UCMA 5.0 release, the administrator must run the **Enable-CsTopology** cmdlet after running the **New-CsTrustedApplicationPool** or **New-CsTrustedApplication** cmdlet. This creates the appropriate trusted service entries in Active Directory.
 
-    
     When you run this PowerShell cmdlet, replace *applicationID* with the application ID for your application, and replace *trustedapps.contoso.com* with the FQDN of your application pool.
 
 3.  Run the Enable-CsTopology cmdlet to create the appropriate trusted service entries in Active Directory.

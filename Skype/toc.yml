@@ -1502,6 +1502,8 @@
                 href: UCMA/creating-an-excel-bot.md
             - name: Visual IVR (sample)
               href: UCMA/visual-ivr-sample.md
+      - name: UCMA 5.0 API reference
+        href: https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0              
     - name: Skype for Business SDN Interface
       href: SDN/articles/skype-for-business-sdn-interface.md
       items:

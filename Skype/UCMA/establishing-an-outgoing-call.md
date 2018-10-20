@@ -21,7 +21,7 @@ The following sample demonstrates creating a new audio/video conversation, imple
 
 
 > [!NOTE]
-> <P>Applications must register for call events before the call is established.</P>
+> Applications must register for call events before the call is established.
 
 
 

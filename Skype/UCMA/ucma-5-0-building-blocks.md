@@ -10,10 +10,7 @@ mtps_version: v=office.16
 
 # UCMA 5.0 building blocks
 
-
 **Applies to**: Skype for Business 2015
-
-
 
 To understand the Microsoft Unified Communications Managed API 5.0 architecture, it is helpful to understand the classes that represent the key features of the architecture as described in [Key features of UCMA 5.0](key-features-of-ucma-5-0.md). It is also helpful to recognize that the architecture has been designed to enable these features.
 
@@ -31,21 +28,18 @@ An endpoint (represented as a [UserEndpoint](https://msdn.microsoft.com/en-us/li
 
 An endpoint can use this functionality to:
 
-  - Initiate and manage a conversation (the [GetConversations()](https://msdn.microsoft.com/en-us/library/hh349978\(v=office.16\)) method).
+- Initiate and manage a conversation (the [GetConversations()](https://msdn.microsoft.com/en-us/library/hh349978\(v=office.16\)) method).
 
-  - Schedule and manage conferences offline (the [ConferenceServices](https://msdn.microsoft.com/en-us/library/hh161814\(v=office.16\)) property).
+- Schedule and manage conferences offline (the [ConferenceServices](https://msdn.microsoft.com/en-us/library/hh161814\(v=office.16\)) property).
 
-  - Subscribe to the presence of remote presentities (the [PresenceServices](https://msdn.microsoft.com/en-us/library/hh384331\(v=office.16\)) property.
+- Subscribe to the presence of remote presentities (the [PresenceServices](https://msdn.microsoft.com/en-us/library/hh384331\(v=office.16\)) property.
 
-  - Publish presence for the endpoint owner (the [PresenceServices](https://msdn.microsoft.com/en-us/library/hh384331\(v=office.16\)) and [LocalOwnerPresence](https://msdn.microsoft.com/en-us/library/hh348476\(v=office.16\)) properties).
+- Publish presence for the endpoint owner (the [PresenceServices](https://msdn.microsoft.com/en-us/library/hh384331\(v=office.16\)) and [LocalOwnerPresence](https://msdn.microsoft.com/en-us/library/hh348476\(v=office.16\)) properties).
 
-  - Manage contacts and groups (the [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh383122\(v=office.16\)) property).
+- Manage contacts and groups (the [ContactGroupServices](https://msdn.microsoft.com/en-us/library/hh383122\(v=office.16\)) property).
     
-
-    > [!IMPORTANT]
-    > <P>The <STRONG>ContactGroupServices</STRONG> property is present only on a <STRONG>UserEndpoint</STRONG> object. For more information, see <A href="endpoint-services.md">Endpoint services</A>.</P>
-
-
+> [!IMPORTANT]
+> The **ContactGroupServices** property is present only on a **UserEndpoint** object. For more information, see [Endpoint services](endpoint-services.md).
 
 The following illustration shows the relationships among the principal objects of the architecture as well as the personas (see [Personas](personas.md)) involved in each type of object. The numbers shown between two objects indicate the kind of pairing between the two objects that can occur. For example, one local endpoint can be associated with zero or more **Conversation** objects, but can be associated with only one Presence Subscription object.
 
@@ -102,19 +96,13 @@ Each of the top-level feature areas described in [Key features of UCMA 5.0](key-
 
 ## In this section
 
-  - [Personas](personas.md)
-
-  - [Collaboration platform](collaboration-platform.md)
-
-  - [Endpoint services](endpoint-services.md)
-
-  - [Calls, flows, conversations, and MCU sessions](calls-flows-conversations-and-mcu-sessions.md)
-
-  - [Conference scheduling and management](conference-scheduling-and-management.md)
-
-  - [Presence - self and remote](presence-self-and-remote.md)
-
-  - [Contacts and groups](contacts-and-groups.md)
+- [Personas](personas.md)
+- [Collaboration platform](collaboration-platform.md)
+- [Endpoint services](endpoint-services.md)
+- [Calls, flows, conversations, and MCU sessions](calls-flows-conversations-and-mcu-sessions.md)
+- [Conference scheduling and management](conference-scheduling-and-management.md)
+- [Presence - self and remote](presence-self-and-remote.md)
+- [Contacts and groups](contacts-and-groups.md)
 
 ## See also
 

@@ -21,11 +21,11 @@ A **MediaProvider** subclass is responsible for creating the media flow (an inst
 
 A developer who creates a **MediaProvider** subclass must provide a definition for only one **MediaProvider** property, **SupportedMediaTypes**. This property returns a list of the media types supported by the custom media provider, similar to the property of the same name on the **Call** class.
 
-    public abstract IEnumerable<string> SupportedMediaTypes { get; }
+`public abstract IEnumerable<string> SupportedMediaTypes { get; }`
 
 
 > [!WARNING]
-> <P>The <STRONG>MediaProvider</STRONG> and <STRONG>Call</STRONG> classes both have a <STRONG>SupportedMediaTypes</STRONG> property. Although these properties have the same name and purpose, their return types are different.</P>
+> The **MediaProvider** and **Call** classes both have a **SupportedMediaTypes** property. Although these properties have the same name and purpose, their return types are different.
 
 
 

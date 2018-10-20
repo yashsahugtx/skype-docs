@@ -25,13 +25,13 @@ A server platform enables the development of robust applications that server a l
 
 A server platform has the following characteristics:
 
-  - A server platform listens for incoming connections.
+- A server platform listens for incoming connections.
 
-  - An endpoint that is tied to a server platform is not limited to a single connection for all traffic. It can use different connections for sending or receiving different messages to the same server.
+- An endpoint that is tied to a server platform is not limited to a single connection for all traffic. It can use different connections for sending or receiving different messages to the same server.
 
-  - Any connection on a server platform can be shared among different endpoints and operations.
+- Any connection on a server platform can be shared among different endpoints and operations.
 
-  - The number of outstanding messages is not throttled on a server platform, so it can handle larger traffic volumes.
+- The number of outstanding messages is not throttled on a server platform, so it can handle larger traffic volumes.
 
 Trusted applications are configured with a variety of settings that are stored primarily in Active Directory and the Central Management Store. Both the application and Microsoft Unified Communications Managed API 5.0 must be provisioned at run time with these settings. When these settings change, the application must update itself accordingly. Microsoft Unified Communications Managed API 5.0 enables trusted applications to manually provision UCMA by explicitly initializing it with configuration data that can be obtained through Windows PowerShell cmdlets that are run offline. However, the recommended and far simpler approach is to ask UCMA to automatically provision itself. For more information, see [Activating a UCMA 5.0 trusted application](activating-a-ucma-5-0-trusted-application.md).
 
@@ -39,13 +39,13 @@ Trusted applications are configured with a variety of settings that are stored p
 
 The provisioning data for trusted applications can be divided into two broad categories:
 
-  - Trusted application configuration data
+- Trusted application configuration data
     
-    Configuration data that is needed by the trusted application.
+  Configuration data that is needed by the trusted application.
 
-  - Endpoint configuration data
+- Endpoint configuration data
     
-    Configuration data that is needed for each endpoint used by the application.
+  Configuration data that is needed for each endpoint used by the application.
 
 In UCMA 5.0 the [CollaborationPlatform](https://msdn.microsoft.com/en-us/library/hh385176\(v=office.16\)) class provides services such as connection management and message dispatching to the endpoints. A **CollaborationPlatform** instance must be configured with a trusted application configuration. [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) instances also must be configured with individual trusted application endpoint configurations.
 
@@ -112,11 +112,8 @@ The following list shows the steps that are required to use auto-provisioning in
     }
     ```
     
-
     > [!IMPORTANT]
     > <P>In auto-provisioning, <STRONG>ApplicationEndpoint</STRONG> creation using manual settings is not permitted until the platform is established.</P>
-
-    
 
     > [!IMPORTANT]
     > <P>An application should not create a mix of auto-provisioned and manually-provisioned endpoints.</P>

@@ -146,9 +146,8 @@ Migrating a UCMA 2.0 application to Lync Server 2010
     
     **Each time you add a new contact object, perform steps 3 and 4.**
     
-
     > [!NOTE]
-    > <P>This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you are running the WMI tool for activating new contact objects.</P>
+    > This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you are running the WMI tool for activating new contact objects.
 
 
 

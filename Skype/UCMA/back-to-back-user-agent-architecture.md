@@ -19,7 +19,7 @@ The architectural framework behind the back-to-back user agent feature is based 
 
 
 > [!NOTE]
-> <P>The <STRONG>BackToBackMediaProvider</STRONG> class is internal.</P>
+> The **BackToBackMediaProvider** class is internal.
 
 
 
@@ -35,7 +35,7 @@ A back-to-back user agent is not a proxy. [RFC-3725](https://www.rfc-editor.org/
 
 
 > [!NOTE]
-> <P>RFC-3725 applies primarily to call-establish time.</P>
+> RFC-3725 applies primarily to call-establish time.
 
 
 
@@ -85,19 +85,17 @@ A **BackToBackCall** instance performs back-to-back message transmission as foll
 
 
 > [!NOTE]
-> <P>The UCMA 5.0 implementation does not permit an application to control individual message exchange behavior on an Incoming-Idle call (that is, when the <A href="https://msdn.microsoft.com/en-us/library/hh381151(v=office.16)">State</A> property on the first call leg is <STRONG>Incoming</STRONG>, and the same property on the second call leg is <STRONG>Idle</STRONG>). For more information, see <A href="https://msdn.microsoft.com/en-us/library/hh366023(v=office.16)">CallState</A>.</P>
+> The UCMA 5.0 implementation does not permit an application to control individual message exchange behavior on an Incoming-Idle call (that is, when the <A href="https://msdn.microsoft.com/en-us/library/hh381151(v=office.16)">State</A> property on the first call leg is **Incoming**, and the same property on the second call leg is **Idle**). For more information, see <A href="https://msdn.microsoft.com/en-us/library/hh366023(v=office.16)">CallState</A>.
 
+- Pass-through headers (except the restricted headers listed in the previous section) received on an incoming call are sent to the outgoing call.
 
+- SDP MIME parts received in an offer on an incoming INVITE message appear in the Offer header on the outgoing call. Custom MIME parts must be set by the application in Accept options.
 
-  - Pass-through headers (except the restricted headers listed in the previous section) received on an incoming call are sent to the outgoing call.
+- Non-reliable provisional responses received on an outgoing call are sent to the caller intact. No content body on non-reliable provisional responses is expected.
 
-  - SDP MIME parts received in an offer on an incoming INVITE message appear in the Offer header on the outgoing call. Custom MIME parts must be set by the application in Accept options.
+- All reliable provisional responses (response code 183) that create early dialogs are returned to the incoming call with modified To tags, indicating a separate fork. SDP Answer responses received on 183 responses are passed unchanged. No other MIME parts are expected on 183 responses.
 
-  - Non-reliable provisional responses received on an outgoing call are sent to the caller intact. No content body on non-reliable provisional responses is expected.
-
-  - All reliable provisional responses (response code 183) that create early dialogs are returned to the incoming call with modified To tags, indicating a separate fork. SDP Answer responses received on 183 responses are passed unchanged. No other MIME parts are expected on 183 responses.
-
-  - All messages received and responses to messages on one call leg are pushed to the other call leg unchanged with all pass-through headers (excluding restricted headers) and body.
+- All messages received and responses to messages on one call leg are pushed to the other call leg unchanged with all pass-through headers (excluding restricted headers) and body.
 
 ## Call leg state and BackToBackCall.State
 

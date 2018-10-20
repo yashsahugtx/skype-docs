@@ -27,7 +27,5 @@ Microsoft Unified Communications Managed API 5.0 provides several classes to sup
 
 ## See also
 
-#### Other resources
-
-[video demo - Lync 2013: How to do back-to-back calls using UCMA 4](https://channel9.msdn.com/posts/lync-2013-how-to-do-back-to-back-calls-using-ucma-4)
+- [Video demo - Lync 2013: How to do back-to-back calls using UCMA 4](https://channel9.msdn.com/posts/lync-2013-how-to-do-back-to-back-calls-using-ucma-4)
 

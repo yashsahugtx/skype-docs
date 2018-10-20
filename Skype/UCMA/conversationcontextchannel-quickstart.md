@@ -53,15 +53,12 @@ The application initializes the platform to start listening on behalf of a user,
 
 4.  Open the project in Visual Studio, and press **F5**.
 
+
 ## See also
 
-#### Concepts
-
-[Contextual communication](contextual-communication.md)
-
-[Conversation context channel](conversation-context-channel.md)
-
-#### Other resources
-
-[Register Contextual Conversation Packages](https://msdn.microsoft.com/en-us/library/gg253680\(v=office.16\))
+- [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.voicexml?view=ucma-voice)
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)
+- [Contextual communication](contextual-communication.md)
+- [Conversation context channel](conversation-context-channel.md)
+- [Register contextual conversation packages](https://docs.microsoft.com/lync/desktop/register-contextual-conversation-packages)
 

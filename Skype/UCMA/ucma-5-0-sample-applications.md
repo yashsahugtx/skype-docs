@@ -21,3 +21,6 @@ The following topics describe the sample applications that are shipped with .
 
   - [Reference applications](reference-applications.md)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

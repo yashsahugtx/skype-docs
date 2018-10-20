@@ -10,7 +10,6 @@ mtps_version: v=office.16
 
 # UCMA 5.0 SDK software and hardware requirements
 
-
 **Applies to**: Skype for Business 2015
 
 This topic describes the software and hardware requirements for Microsoft Unified Communications Managed API 5.0 SDK.
@@ -19,55 +18,39 @@ This topic describes the software and hardware requirements for Microsoft Unifie
 
 The following are the software requirements for a successful installation of UCMA 5.0 SDK.
 
-  - Supported operating systems
+- Supported operating systems:
     
-      - Microsoft Windows Server 2012 R2
+  - Microsoft Windows Server 2012 R2
+  - Microsoft Windows Server 2012  
+  - Microsoft Windows Server 2008 R2 SP1 or higher service pack, 64-bit version 
+  - Microsoft Windows 7 SP1 or higher service pack, 64-bit (see following note)
     
-      - Microsoft Windows Server 2012
+  > [!IMPORTANT]
+  > - UCMA 5.0 SDK is available only in a 64-bit version.
+  > - Windows XP and Windows Server 2008 are not supported.
+  > - Development is supported only in 64-bit environments.
+  > - The Desktop Experience feature must be enabled on Windows Server 2008 R2 SP1. For more information, see [Desktop Experience Overview](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772567(v=ws.11)).
+  > - Media Foundation is required on Windows Server 2012.
+
+- Microsoft Windows PowerShell 3.0 RTM
     
-      - Microsoft Windows Server 2008 R2 SP1 or higher service pack, 64-bit version
-    
-      - Microsoft Windows 7 SP1 or higher service pack, 64-bit (see following note)
-    
+  > [!IMPORTANT]
+  > To install PowerShell 3.0, see [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595).
 
-    > [!IMPORTANT]
-    > <UL>
-    > <LI>
-    > <P>UCMA 5.0 SDK is available only in a 64-bit version.</P>
-    > <LI>
-    > <P>Windows XP and Windows Server 2008 are not supported.</P>
-    > <LI>
-    > <P>Development is supported only in 64-bit environments.</P>
-    > <LI>
-    > <P>The Desktop Experience feature must be enabled on Windows Server 2008 R2 SP1. For more information, see <A href="https://technet.microsoft.com/en-us/library/cc772567.aspx">Desktop Experience Overview</A>.</P>
-    > <LI>
-    > <P>Media Foundation is required on Windows Server 2012.</P></LI></UL>
+- Microsoft .NET Framework 4.5
 
-
-
-  - Microsoft Windows PowerShell 3.0 RTM
-    
-
-    > [!IMPORTANT]
-    > <P>To install PowerShell 3.0, see <A href="https://www.microsoft.com/en-us/download/details.aspx?id=34595">Windows Management Framework 3.0</A>.</P>
-
-
-
-  - Microsoft .NET Framework 4.5
-
-**Notes**
-
-  - Side-by-side installations of UCMA 4.0 SDK and UCMA 5.0 SDK are not supported.
-
-  - When Windows Media format is installed or enabled, the computer must be restarted.
-    
-    Windows Media Format must be present if you use UCMA 5.0 to develop applications that play or record media.
-
-  - UcmaSdkSetup.exe must be run with elevated privileges.
+> [!NOTE]
+> - Side-by-side installations of UCMA 4.0 SDK and UCMA 5.0 SDK are not supported.
+> - When Windows Media format is installed or enabled, the computer must be restarted.
+> - Windows Media Format must be present if you use UCMA 5.0 to develop applications that play or record media.
+> - UcmaSdkSetup.exe must be run with elevated privileges.
 
 ## Hardware requirements
 
-The following are the hardware requirements for successful installation of UCMA 5.0 SDK.
+The following are the hardware requirements for successful installation of UCMA 5.0 SDK:
 
-  - Typical current hardware configurations with a minimum of 2 GB of RAM are recommended for the supported operating systems.
+- Typical current hardware configurations with a minimum of 2 GB of RAM are recommended for the supported operating systems.
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

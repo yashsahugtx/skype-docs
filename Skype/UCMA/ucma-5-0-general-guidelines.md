@@ -43,3 +43,6 @@ The following describes general guidelines and tips for all developers of applic
 
   - When it is not clear how to handle a particular situation using UCMA 5.0, or when there are questions that are not answered in this documentation, application developers are encouraged to post any such questions on the UCMA 5.0 forums.
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

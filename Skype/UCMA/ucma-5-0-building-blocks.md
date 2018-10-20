@@ -116,3 +116,6 @@ Each of the top-level feature areas described in [Key features of UCMA 5.0](key-
 
   - [Contacts and groups](contacts-and-groups.md)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

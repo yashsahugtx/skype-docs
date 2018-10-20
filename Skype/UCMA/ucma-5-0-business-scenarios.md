@@ -89,3 +89,6 @@ Besides the scenarios already listed, developers can use UCMA 5.0 to create appl
 
   - [Additional scenarios](additional-scenarios.md)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

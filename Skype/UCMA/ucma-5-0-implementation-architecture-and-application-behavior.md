@@ -19,11 +19,11 @@ UCMA 5.0 exposes a variety of concepts in the API, such as platform, endpoint, c
 
 
 > [!NOTE]
-> <P>These behaviors apply only to UCMA 5.0 and may not be honored by the underlying signaling layer. The signaling layer is also accessible to an application that uses UCMA 5.0.</P>
+> These behaviors apply only to UCMA 5.0 and may not be honored by the underlying signaling layer. The signaling layer is also accessible to an application that uses UCMA 5.0.
 
 
 
-## In This Section
+## In this section
 
   - [Asynchronous pattern](asynchronous-pattern.md)
 
@@ -37,3 +37,6 @@ UCMA 5.0 exposes a variety of concepts in the API, such as platform, endpoint, c
 
   - [Application behavior](application-behavior.md)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

@@ -57,15 +57,12 @@ The following are the most important attributes of UCMA 5.0:
 
   - [UCMA 5.0 class libraries references (UCMA 5.0 SDK)](https://msdn.microsoft.com/en-us/library/dn454985\(v=office.16\))
 
+
 ## See also
 
-#### Concepts
-
-[Copyright notice (UCMA 5.0 SDK)](https://msdn.microsoft.com/en-us/library/dn454986\(v=office.16\))
-
-#### Other resources
-
-[Microsoft Online Privacy Notice](https://go.microsoft.com/fwlink/?linkid=207069)
-
-[Accessibility in Microsoft Products](https://go.microsoft.com/fwlink/?linkid=205790)
+- [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.voicexml?view=ucma-voice)
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)
+- [Copyright notice (UCMA 5.0 SDK)](https://docs.microsoft.com/previous-versions/office/dn454986(v=office.16))
+- [Microsoft Online Privacy Notice](https://go.microsoft.com/fwlink/?linkid=207069)
+- [Accessibility in Microsoft Products](https://go.microsoft.com/fwlink/?linkid=205790)
 

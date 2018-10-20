@@ -10,7 +10,6 @@ mtps_version: v=office.16
 
 # VoiceXML support in UCMA 5.0
 
-
 **Applies to**: Skype for Business 2015
 
 Microsoft Unified Communications Managed API 5.0 supports Interactive Voice Response (IVR) applications authored with the industry-standard VoiceXML markup language. You can now create .NET applications that host a local or remote VoiceXML-based IVR application in UCMA 5.0. You can also migrate existing VoiceXML applications to UCMA 5.0 that may have been running on other platforms.
@@ -21,19 +20,18 @@ A hosting .NET application authored in UCMA 5.0 can process the markup language 
 
 This section provides an introduction to the features that support VoiceXML applications in UCMA 5.0.
 
-  - [Overview of VoiceXML support in UCMA 5.0](overview-of-voicexml-support-in-ucma-5-0.md)
+- [Overview of VoiceXML support in UCMA 5.0](overview-of-voicexml-support-in-ucma-5-0.md)
 
-  - [Diagram of a VoiceXML call](diagram-of-a-voicexml-call.md)
+- [Diagram of a VoiceXML call](diagram-of-a-voicexml-call.md)
 
-  - [VoiceXML browser](voicexml-browser.md)
+- [VoiceXML browser](voicexml-browser.md)
 
-  - [Connecting to audio resources in UCMA 5.0](connecting-to-audio-resources-in-ucma-5-0.md)
+- [Connecting to audio resources in UCMA 5.0](connecting-to-audio-resources-in-ucma-5-0.md)
 
-  - [Tasks of the host .NET application](tasks-of-the-host-net-application.md)
+- [Tasks of the host .NET application](tasks-of-the-host-net-application.md)
 
 ## See also
 
-#### Concepts
-
-[Unified Communications Managed API (UCMA) 5.0 SDK documentation](unified-communications-managed-api-ucma-5-0-sdk-documentation.md)
-
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)
+- [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](https://docs.microsoft.com/dotnet/api/Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml?view=ucma-voice)
+- [Unified Communications Managed API (UCMA) 5.0 SDK documentation](unified-communications-managed-api-ucma-5-0-sdk-documentation.md)

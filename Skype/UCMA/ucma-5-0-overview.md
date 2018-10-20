@@ -27,3 +27,6 @@ The topics in this section a high-level overview of Microsoft Unified Communicat
 
   - [UCMA 5.0 object model](ucma-5-0-object-model.md)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

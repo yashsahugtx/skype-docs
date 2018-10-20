@@ -31,3 +31,6 @@ The relationships among the major components of UCMA 5.0 appear in the following
 
 ![Major components of UCMA 4.0](images/Dn465975.UCMAArch04a(Office.16).jpg "Major components of UCMA 4.0")
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

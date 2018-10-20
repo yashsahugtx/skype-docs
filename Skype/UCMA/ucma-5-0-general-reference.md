@@ -10,7 +10,6 @@ mtps_version: v=office.16
 
 # UCMA 5.0 general reference
 
-
 **Applies to**: Skype for Business 2015
 
 The Microsoft Unified Communications Managed API (UCMA) 5.0 general reference consists of the following main sections.
@@ -37,7 +36,6 @@ The Microsoft Unified Communications Managed API (UCMA) 5.0 general reference co
 
 ## See also
 
-#### Concepts
-
-[Unified Communications Managed API (UCMA) 5.0 SDK documentation](unified-communications-managed-api-ucma-5-0-sdk-documentation.md)
+- [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.voicexml?view=ucma-voice)
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)
 

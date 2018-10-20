@@ -27,9 +27,8 @@ The back-to-back user agent concept is essential for call center/helpdesk applic
     
     Monitoring the conversation aids in quality control.
 
+
 ## See also
 
-#### Other resources
-
-[video demo - Lync 2013: How to do back-to-back calls using UCMA 4](https://channel9.msdn.com/posts/lync-2013-how-to-do-back-to-back-calls-using-ucma-4)
+- [Video demo - Lync 2013: How to do back-to-back calls using UCMA 4](https://channel9.msdn.com/posts/lync-2013-how-to-do-back-to-back-calls-using-ucma-4)
 

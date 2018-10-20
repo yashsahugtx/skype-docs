@@ -51,3 +51,6 @@ This section discusses the most important features of Microsoft Unified Communic
 
   - [VoiceXML 2.0 support](voicexml-2-0-support.md)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

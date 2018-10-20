@@ -30,3 +30,6 @@ This section provides conceptual details of Microsoft Unified Communications Man
 
   - [UCMA 5.0 implementation architecture and application behavior](ucma-5-0-implementation-architecture-and-application-behavior.md)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration?view=ucma-api-5.0)

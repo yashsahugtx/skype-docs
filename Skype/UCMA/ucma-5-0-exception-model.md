@@ -1,4 +1,4 @@
-﻿---
+---
 title: UCMA 5.0 exception model
 TOCTitle: UCMA 5.0 exception model
 ms:assetid: 4978a9ab-3ef3-456c-b3ac-d12ad06c03d9
@@ -72,8 +72,7 @@ The following custom exception classes are implemented in UCMA 5.0:
     
 
     > [!NOTE]
-    > <P>Failure to communicate with the server components for conferencing could result in <STRONG>FailureResponseException</STRONG>.</P>
-
+    > Failure to communicate with the server components for conferencing could result in **FailureResponseException**.
 
 
   - **ConnectionFailureException**  

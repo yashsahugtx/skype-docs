@@ -25,23 +25,21 @@ If a Skype for Business 2015 client is being used, the endpoint must register an
 
 ## Conversation context channel data traffic and limitations
 
-  - The contextual channel is currently exposed through , Skype for Business 2015, and Microsoft Unified Communications Managed API 5.0. The initial channel is established with an INVITE message. After being established, the channel exchanges data using the INFO method.
+- The contextual channel is currently exposed through , Skype for Business 2015, and Microsoft Unified Communications Managed API 5.0. The initial channel is established with an INVITE message. After being established, the channel exchanges data using the INFO method.
     
-    The initial INVITE payload must be well-formed XML, and less than 4 KB in size. The INFO payload is an unrestricted, generic message.
+  The initial INVITE payload must be well-formed XML, and less than 4 KB in size. The INFO payload is an unrestricted, generic message.
 
-  - Application data can be refreshed and sent multiple times over the course of the call. It is treated as a ‘raw,’ two-way data pipe between applications, and can be used for everything from contextual data to commands outside the normal communication channels.
+- Application data can be refreshed and sent multiple times over the course of the call. It is treated as a ‘raw,’ two-way data pipe between applications, and can be used for everything from contextual data to commands outside the normal communication channels.
 
-  - Multiple applications can be spawned during the course of a call, with each such application having its own data channel. These data channels can be addressed separately by the application, to enable scenarios in which there are a basic set of controls provided to all users, and an advanced add-on for managers, super-users, and administrators.
+- Multiple applications can be spawned during the course of a call, with each such application having its own data channel. These data channels can be addressed separately by the application, to enable scenarios in which there are a basic set of controls provided to all users, and an advanced add-on for managers, super-users, and administrators.
     
+  > [!IMPORTANT]
+  > Multiple requests for a given client application from different server application are sent to a single client application instance.
 
-    > [!IMPORTANT]
-    > <P>Multiple requests for a given client application from different server application are sent to a single client application instance.</P>
+- Contextual channels can be established at any time during the conversation, and can exist for the length of the conversation.
 
+- In a UCMA-based communication; only UCMA 5.0 can initiate the contextual channel. UCMA 5.0 does not process new INVITE messages coming from the application.
 
-
-  - Contextual channels can be established at any time during the conversation, and can exist for the length of the conversation.
-
-  - In a UCMA-based communication; only UCMA 5.0 can initiate the contextual channel. UCMA 5.0 does not process new INVITE messages coming from the application.
 
 ## Typical conversation context channel scenario
 
@@ -116,6 +114,7 @@ conversationContextChannel.BeginEstablish(guid, establishOptions, this.Establish
 
 [BeginEstablish(Guid, ConversationContextChannelEstablishOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh384061\(v=office.16\)) causes a SIP INVITE message to be sent to the remote participant endpoint. The INVITE message contains a body with content type = "application/ms-session-invite+xml" and appears similar to the following.
 
+```xml
     <session>
       <application-id>{40499119-4B60-45A6-9A7A-DC7A384D5670} </application-id>
       <additional-properties>
@@ -126,6 +125,8 @@ conversationContextChannel.BeginEstablish(guid, establishOptions, this.Establish
         <entry><name>installLink</name><value>www.Contoso.com/Download</value></entry> 
       </additional-properties>
     </session>
+```
+
 
 The following limits apply to the data being sent:
 

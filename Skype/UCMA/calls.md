@@ -1,4 +1,4 @@
-﻿---
+---
 title: Calls
 TOCTitle: Calls
 ms:assetid: 010a8697-bd7a-47db-aeb5-183392f0cb1f
@@ -25,8 +25,7 @@ A call is a communication session between two endpoints: a local endpoint and a 
     
 
     > [!IMPORTANT]
-    > <P>The default media provider for the <STRONG>AudioVideoCall</STRONG> class does not support the Video media type.</P>
-
+    > The default media provider for the <STRONG>AudioVideoCall</STRONG> class does not support the Video media type.
 
 
   - [BackToBackCall](https://msdn.microsoft.com/en-us/library/hh365598\(v=office.16\)) class.

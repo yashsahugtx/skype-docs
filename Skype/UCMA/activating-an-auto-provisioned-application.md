@@ -42,7 +42,8 @@ To perform the steps in this procedure, you must be in the Skype for Business Se
     
 
     > [!NOTE]
-    > <P>This command installs Microsoft SQL Server 2014 Express, which is required for Central Management Store replication. It also installs Microsoft Visual Studio C++ 2013 Redistributable - x64 (vcredist_x64.exe), SQL Server Native Client (sqlncli.msi), and UcmaRuntime.msi.</P>
+    > This command installs Microsoft SQL Server 2014 Express, which is required for Central Management Store replication. It also installs Microsoft Visual Studio C++ 2013 Redistributable - x64 (vcredist_x64.exe), SQL Server Native Client (sqlncli.msi), and UcmaRuntime.msi.
+
 
 
 
@@ -78,7 +79,8 @@ To perform the steps in this procedure, you must be in the Skype for Business Se
 
 
 > [!NOTE]
-> <P>If replication has not successfully completed by application run time, the application throws <STRONG>ProvisioningFailureException</STRONG> on <STRONG>CollaborationPlatform</STRONG> startup.</P>
+> If replication has not successfully completed by application run time, the application throws **ProvisioningFailureException** on **CollaborationPlatform** startup.
+
 
 
 
@@ -88,13 +90,13 @@ The PowerShell cmdlet in the following procedure enters certificate information 
 
 ### To set the certificate
 
-  - Launch Skype for Business Server Management Shell.
+- Launch Skype for Business Server Management Shell.
     
-    On the **Start** menu, select **All Programs**, select **Skype for Business Server 2015**, right-click **Skype for Business Server Management Shell**, and then click **Run as administrator**.
+  On the **Start** menu, select **All Programs**, select **Skype for Business Server 2015**, right-click **Skype for Business Server Management Shell**, and then click **Run as administrator**.
 
-  - In Skype for Business Server Management Shell, run the **Set-CsCertificate** cmdlet. In the following example, a certificate with a thumbprint of 14b04424b8316d90c72438dfefdf83d1fd917d39 is bound to the trusted application computer.
+- In Skype for Business Server Management Shell, run the **Set-CsCertificate** cmdlet. In the following example, a certificate with a thumbprint of 14b04424b8316d90c72438dfefdf83d1fd917d39 is bound to the trusted application computer.
     
-    Set-CsCertificate -Type Default -Thumbprint 14b04424b8316d90c72438dfefdf83d1fd917d39
+  Set-CsCertificate -Type Default -Thumbprint 14b04424b8316d90c72438dfefdf83d1fd917d39
 
 This cmdlet must be run for every computer in the pool. This informs UCMA auto-provisioning of the certificate used and also alerts the UCMA platform when the certificate changes.
 

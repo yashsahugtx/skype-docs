@@ -17,7 +17,8 @@ The topics in this section describe the audio devices that are available in Micr
 
 
 > [!IMPORTANT]
-> <P>The <STRONG>SpeechRecognitionConnector</STRONG> and <STRONG>SpeechSynthesisConnector</STRONG> classes are designed to work exclusively with classes in the <STRONG>Microsoft.Speech</STRONG> namespace.</P>
+> The **SpeechRecognitionConnector** and **SpeechSynthesisConnector** classes are designed to work exclusively with classes in the **Microsoft.Speech** namespace.
+
 
 
 
@@ -36,13 +37,10 @@ When a device is shut down, the attached **AudioVideoFlow** is not automatically
 
 This section contains the following topics:
 
-  - [Player](player.md)
+- [Player](player.md)
+- [Recorder](recorder.md)
+- [ToneController](tonecontroller.md)
+- [SpeechRecognitionConnector](speechrecognitionconnector.md)
+- [SpeechSynthesisConnector](speechsynthesisconnector.md)
 
-  - [Recorder](recorder.md)
-
-  - [ToneController](tonecontroller.md)
-
-  - [SpeechRecognitionConnector](speechrecognitionconnector.md)
-
-  - [SpeechSynthesisConnector](speechsynthesisconnector.md)
 

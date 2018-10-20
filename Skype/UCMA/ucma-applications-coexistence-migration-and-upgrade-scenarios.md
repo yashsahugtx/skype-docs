@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'UCMA applications: Coexistence, migration, and upgrade scenarios'
 TOCTitle: 'UCMA applications: Coexistence, migration, and upgrade scenarios'
 ms:assetid: 132c6c9c-f8e1-4d3f-aa8a-da35891b05d8
@@ -145,7 +145,8 @@ Migrating a UCMA 2.0 application to Lync Server 2013
     
 
     > [!NOTE]
-    > <P>This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you are running the WMI tool for activating new contact objects.</P>
+    > This point is emphasized to remind you to perform the verifications in these steps when a new contact object is added using PowerShell. PowerShell might not be available locally on the computer from which you are running the WMI tool for activating new contact objects.
+
 
 
 

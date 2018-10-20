@@ -61,6 +61,7 @@ The following illustration shows the possible state transitions on a **Conferenc
 
 
 > [!NOTE]
-> <P><STRONG>Conversation</STRONG> as currently implemented will begin terminating if an attempt to join a conference fails but the <STRONG>ConversationState</STRONG> on the <STRONG>Conversation</STRONG> instance is not <STRONG>Conferencing</STRONG>.</P>
+> **Conversation** as currently implemented will begin terminating if an attempt to join a conference fails but the **ConversationState** on the **Conversation** instance is not **Conferencing**.
+
 
 

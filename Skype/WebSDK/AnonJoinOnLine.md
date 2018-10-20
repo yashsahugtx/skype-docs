@@ -1,6 +1,6 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/skype-sdk/WebSDK/docs/AnonJoinOnLine
+redirect_url: https://docs.microsoft.com/skype-sdk/WebSDK/docs/PTMeetingsAnonJoinOnline
 ---
 # do not edit
-This document is a redirection source for redirection to the WebSDK/docs/ folder. Please make all edits to the Skype/WebSDK/docs/AnonJoinOnLine.md file.
+This document is a redirection source for redirection to the WebSDK/docs/ folder. Please make all edits to the Skype/WebSDK/docs/PTMeetingsAnonJoinOnline.md file.
 

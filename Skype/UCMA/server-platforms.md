@@ -1,4 +1,4 @@
-﻿---
+---
 title: Server platforms
 TOCTitle: Server platforms
 ms:assetid: 078a6a3f-9610-4a70-8cf7-2fc7f14977ca
@@ -32,6 +32,7 @@ A server platform has the following characteristics:
 - Any connection on a server platform can be shared among different endpoints and operations.
 
 - The number of outstanding messages is not throttled on a server platform, so it can handle larger traffic volumes.
+
 
 Trusted applications are configured with a variety of settings that are stored primarily in Active Directory and the Central Management Store. Both the application and Microsoft Unified Communications Managed API 5.0 must be provisioned at run time with these settings. When these settings change, the application must update itself accordingly. Microsoft Unified Communications Managed API 5.0 enables trusted applications to manually provision UCMA by explicitly initializing it with configuration data that can be obtained through Windows PowerShell cmdlets that are run offline. However, the recommended and far simpler approach is to ask UCMA to automatically provision itself. For more information, see [Activating a UCMA 5.0 trusted application](activating-a-ucma-5-0-trusted-application.md).
 

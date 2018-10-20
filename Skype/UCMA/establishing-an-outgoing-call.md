@@ -1,4 +1,4 @@
-﻿---
+---
 title: Establishing an outgoing call
 TOCTitle: Establishing an outgoing call
 ms:assetid: 95252d82-78b0-4ae6-b678-126114b57684
@@ -22,6 +22,7 @@ The following sample demonstrates creating a new audio/video conversation, imple
 
 > [!NOTE]
 > Applications must register for call events before the call is established.
+
 
 
 

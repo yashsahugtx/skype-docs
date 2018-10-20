@@ -64,3 +64,4 @@ The following illustration shows the possible state transitions on a **Conferenc
 > **Conversation** as currently implemented will begin terminating if an attempt to join a conference fails but the **ConversationState** on the **Conversation** instance is not **Conferencing**.
 
 
+

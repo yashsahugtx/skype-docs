@@ -33,6 +33,7 @@ Activation is needed not only for deploying a ready-to-ship application, but als
 
 
 
+
 ## Prerequisites for activation
 
 - UCMA 5.0 SDK or UCMA 5.0 Runtime has been installed with Skype for Business Server 2015, Core Components.
@@ -164,4 +165,5 @@ The remaining topics in this section discuss how activation, provisioning, and d
 - [Activating applications programmatically](activating-applications-programmatically.md). Steps required to run Skype for Business Server 2015 PowerShell cmdlets programmatically.
 
 - [Deactivation best practices](deactivation-best-practices.md)
+
 

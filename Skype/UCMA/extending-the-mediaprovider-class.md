@@ -23,11 +23,8 @@ A developer who creates a **MediaProvider** subclass must provide a definition f
 
 `public abstract IEnumerable<string> SupportedMediaTypes { get; }`
 
-
 > [!WARNING]
 > The **MediaProvider** and **Call** classes both have a **SupportedMediaTypes** property. Although these properties have the same name and purpose, their return types are different.
-
-
 
 ## Abstract methods on the MediaProvider class
 

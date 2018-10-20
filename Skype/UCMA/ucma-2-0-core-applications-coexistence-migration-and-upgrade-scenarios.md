@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'UCMA 2.0 Core applications: Coexistence, migration, and upgrade scenarios'
 TOCTitle: 'UCMA 2.0 Core applications: Coexistence, migration, and upgrade scenarios'
 ms:assetid: 2049823f-eb02-4c15-88f5-722ff95d14de

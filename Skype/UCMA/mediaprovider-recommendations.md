@@ -1,4 +1,4 @@
-﻿---
+---
 title: MediaProvider recommendations
 TOCTitle: MediaProvider recommendations
 ms:assetid: 11d654ce-5c01-4255-be80-1df7db15f9d4
@@ -33,4 +33,5 @@ To implement bandwidth management in a class derived from the [MediaProvider](ht
 - On the offerer side, be prepared to handle a null answer with an [SdpAnswerStatus](https://msdn.microsoft.com/en-us/library/hh383245\(v=office.16\)) value of **NotAcceptableDueToBandwidthPolicy** when the answerer rejects the call with a 488 status code.
 
 - (Optional) In **FlowConfigurationRequested** event, expose a way to get application preferences on enabling and disabling bandwidth policy.
+
 

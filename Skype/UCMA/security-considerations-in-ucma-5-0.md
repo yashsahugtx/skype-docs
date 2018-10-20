@@ -1,4 +1,4 @@
-﻿---
+---
 title: Security considerations in UCMA 5.0
 TOCTitle: Security considerations in UCMA 5.0
 ms:assetid: 5d87e5b2-9d95-4d37-98c7-c5e58a6247e9
@@ -52,5 +52,6 @@ Developers who create applications using UCMA 5.0 SDK are strongly advised to ob
 
 > [!NOTE]
 > If a UCMA 5.0 application interoperates with a non-Skype for Business Server 2015 proxy (for example, a gateway), ensure that the non-Skype for Business Server 2015 proxy supports SRTP (see RFC 3711). If Encryption=Required is used and the non-Skype for Business Server 2015 proxy does not support encryption, call failure will result.
+
 
 

@@ -40,6 +40,7 @@ If a Skype for Business 2015 client is being used, the endpoint must register an
 
 - In a UCMA-based communication; only UCMA 5.0 can initiate the contextual channel. UCMA 5.0 does not process new INVITE messages coming from the application.
 
+
 ## Typical conversation context channel scenario
 
 1.  The user interacts with a customer-facing web page with a click-to-chat button.
@@ -125,6 +126,7 @@ conversationContextChannel.BeginEstablish(guid, establishOptions, this.Establish
       </additional-properties>
     </session>
 ```
+
 
 The following limits apply to the data being sent:
 

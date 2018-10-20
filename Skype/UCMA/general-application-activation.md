@@ -1,4 +1,4 @@
-﻿---
+---
 title: General application activation
 TOCTitle: General application activation
 ms:assetid: 029f3c80-dea6-4338-b622-b9f1338d2432
@@ -38,6 +38,7 @@ All of these steps, except for the firewall exceptions, are discussed in detail 
 
 
 
+
 ## Create a pool of trusted application computers
 
 All computers on which the application is to run must be added to the Skype for Business Server 2015 topology document. It is recommended that you create a separate computer pool for a trusted application instead of running the application in the same pool where other Skype for Business Server 2015 services are running. This step involves creating a new pool and adding application computers to it, and can be accomplished in either of two ways:
@@ -49,6 +50,7 @@ All computers on which the application is to run must be added to the Skype for 
 
 > [!NOTE]
 > Package product ISVs who intend to automate setup and deployment for the application are recommended to use PowerShell cmdlets.
+
 
 
 
@@ -94,6 +96,7 @@ All computers on which the application is to run must be added to the Skype for 
 
 
 
+
 2.  Create the application pool. There are two ways to do this, depending on whether the application is auto-provisioned or manually provisioned:
     
     1.  For an auto-provisioned application, create the trusted application pool by running the **New-CsTrustedApplicationPool** cmdlet. In the following example, the FQDN of the pool of trusted application computers is *trustedapps.contoso.com*, the Registrar pool FQDN is *atl-mcs-001.contoso.com*, and the site ID is *co1*.
@@ -136,6 +139,7 @@ To use DNS-based load balancing for an application pool, the application adminis
 
 
 
+
 In the following illustration, apppool1.contoso.com is the application pool FQDN, which should return 123.1.1.1, 123.1.1.2, and 123.1.1.3 if queried by the Windows command **nslookup**.
 
 Multiple computer pool
@@ -163,6 +167,7 @@ The steps that follow list different ways of requesting a certificate that match
 > [!NOTE]
 > Offline requests to be sent to third-party certificate authorities can be generated using all of the following methods. Administrators should refer to Get-Help Request-CsCertificate –Full and Get-Help Import-CsCertificate –Full for additional information.
 > Request-CSCertificate -New -Type default -CA DomainController.contoso.com\CertificateAuthority
+
 
 
 
@@ -227,6 +232,7 @@ To perform these actions using Skype for Business Server Management Shell, you m
 
 > [!NOTE]
 > If a local Central Management Store replica is installed on the computer on which the **Request-CsCertificate** cmdlet is being run, the -**ComputerFQDN** argument can be omitted. However, the requested certificate’s private key will not be marked exportable. To allow the private key to be exported and the certificate to be reused on other machines in the pool, append -PrivateKeyExportable $true to the command.
+
 
 
 
@@ -310,6 +316,7 @@ To perform the steps in the following procedure, you must be in the Skype for Bu
     
     > [!NOTE]
     > If the **Web Server** template does not appear in the dropdown menu, the domain credentials used to connect to certsrv might lack Request permissions for the **Web Server** template. For information about adding the required permissions, see "Requesting Certificates from Active Directory Certificate Services" elsewhere in this topic.
+
 
 9.  In the **Name** field, enter trustedapps.contoso.com. This FQDN is for example purposes.
 

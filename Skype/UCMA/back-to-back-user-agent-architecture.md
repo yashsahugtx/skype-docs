@@ -23,6 +23,7 @@ The architectural framework behind the back-to-back user agent feature is based 
 
 
 
+
 Signaling layer messages are exchanged at the **Call** level, while Session Description Protocol (SDP) exchange is carried out at the **MediaProvider** level. The **BackToBackCall** class provides the necessary infrastructure to combine Session Initiation Protocol (SIP) and SDP exchange.
 
 Signaling-related messages are sent back-to-back between the Call objects. SDP offer/answer messages are sent back-to-back using media provider methods.
@@ -36,6 +37,7 @@ A back-to-back user agent is not a proxy. [RFC-3725](https://www.rfc-editor.org/
 
 > [!NOTE]
 > RFC-3725 applies primarily to call-establish time.
+
 
 
 
@@ -96,6 +98,8 @@ A **BackToBackCall** instance performs back-to-back message transmission as foll
 - All reliable provisional responses (response code 183) that create early dialogs are returned to the incoming call with modified To tags, indicating a separate fork. SDP Answer responses received on 183 responses are passed unchanged. No other MIME parts are expected on 183 responses.
 
 - All messages received and responses to messages on one call leg are pushed to the other call leg unchanged with all pass-through headers (excluding restricted headers) and body.
+
+
 
 ## Call leg state and BackToBackCall.State
 

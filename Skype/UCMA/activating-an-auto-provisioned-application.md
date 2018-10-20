@@ -46,6 +46,7 @@ To perform the steps in this procedure, you must be in the Skype for Business Se
 
 
 
+
 ## Enable Central Management store replication
 
 This step ensures that the local Central Management Store replica starts getting updates from the master Central Management Store. Before you perform any of the following steps, make sure that you are logged on to the trusted application computer as a domain user/administrator with appropriate privileges. If you are logged in as a local administrator, the PowerShell cmdlets will be unable to work, because your computer will not be able to connect to the master Central Management Store. Administrators and developers who intend to build, provision, and configure a UCMA 5.0-based trusted application that runs as a Skype for Business Server 2015 trusted service must be members of the appropriate universal group. Otherwise they will not be able to carry out their intended tasks.
@@ -79,6 +80,7 @@ To perform the steps in this procedure, you must be in the Skype for Business Se
 
 > [!NOTE]
 > If replication has not successfully completed by application run time, the application throws **ProvisioningFailureException** on **CollaborationPlatform** startup.
+
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: What is UCMA 5.0
 TOCTitle: What is UCMA 5.0
 ms:assetid: ebbfeb40-02ad-4045-bf46-b073406a5c26
@@ -49,4 +49,5 @@ UCMA 4.0 provides a flexible managed-code platform for unified communication and
 - The platform is extensible.
     
   New modalities can be added to the existing communication framework, and extension headers and URI parameters can be supplied and consumed through the APIs.
+
 

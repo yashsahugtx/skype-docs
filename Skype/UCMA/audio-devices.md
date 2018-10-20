@@ -21,6 +21,7 @@ The topics in this section describe the audio devices that are available in Micr
 
 
 
+
 In UCMA 5.0, devices are users of media data, and have [AudioVideoFlow](https://msdn.microsoft.com/en-us/library/hh383533\(v=office.16\)) instances attached to them. Although these devices are represented as properties on the **AudioVideoFlow** class, they are not automatically instantiated and each device is independent of the **AudioVideoFlow** instance that is attached to it. Before any of these devices can be used, it must be created, and then attached to an **AudioVideoFlow** instance. Although most of the devices are associated with a single **AudioVideoFlow** instance, a **Player** device can have multiple **AudioVideoFlow** instances attached to it. In addition, an **AudioVideoFlow** instance can be detached from a given **Player**, and another **AudioVideoFlow** instance can be attached.
 
 The following code example shows the steps required to create a **Player** and attach an existing **AudioVideoFlow** instance to it.
@@ -41,4 +42,5 @@ This section contains the following topics:
 - [ToneController](tonecontroller.md)
 - [SpeechRecognitionConnector](speechrecognitionconnector.md)
 - [SpeechSynthesisConnector](speechsynthesisconnector.md)
+
 

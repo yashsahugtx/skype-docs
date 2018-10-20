@@ -1,4 +1,4 @@
-﻿---
+---
 title: UCMA 5.0 building blocks
 TOCTitle: UCMA 5.0 building blocks
 ms:assetid: 8ca81f41-3f8c-427c-a9a4-18d16672a725
@@ -28,6 +28,7 @@ An endpoint (represented as a [UserEndpoint](https://msdn.microsoft.com/en-us/li
 
 An endpoint can use this functionality to:
 
+
 - Initiate and manage a conversation (the [GetConversations()](https://msdn.microsoft.com/en-us/library/hh349978\(v=office.16\)) method).
 
 - Schedule and manage conferences offline (the [ConferenceServices](https://msdn.microsoft.com/en-us/library/hh161814\(v=office.16\)) property).
@@ -40,6 +41,7 @@ An endpoint can use this functionality to:
     
 > [!IMPORTANT]
 > The **ContactGroupServices** property is present only on a **UserEndpoint** object. For more information, see [Endpoint services](endpoint-services.md).
+
 
 The following illustration shows the relationships among the principal objects of the architecture as well as the personas (see [Personas](personas.md)) involved in each type of object. The numbers shown between two objects indicate the kind of pairing between the two objects that can occur. For example, one local endpoint can be associated with zero or more **Conversation** objects, but can be associated with only one Presence Subscription object.
 
@@ -103,6 +105,7 @@ Each of the top-level feature areas described in [Key features of UCMA 5.0](key-
 - [Conference scheduling and management](conference-scheduling-and-management.md)
 - [Presence - self and remote](presence-self-and-remote.md)
 - [Contacts and groups](contacts-and-groups.md)
+
 
 ## See also
 

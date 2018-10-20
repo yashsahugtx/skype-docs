@@ -33,6 +33,7 @@ The [BeginJoin(ConferenceJoinOptions, AsyncCallback, Object)](https://msdn.micro
 
 
 
+
 The [BeginJoin(String, ConferenceJoinOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh348983\(v=office.16\)) joins the application to the supplied conference URI.
 
 ## Lobby join

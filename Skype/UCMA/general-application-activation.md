@@ -340,7 +340,7 @@ To perform the steps in the following procedure, you must be in the Skype for Bu
 
 ### Enabling a trusted application service account to access certificates in a local certificate store
 
-To perform the steps in the following procedure, you must be in Trusted Application Operator role. In this procedure, you are granting the intended user or security group access to the newly requested or imported certificate. One of the actions that must be performed is to find the certificate, which can be done using FindPrivateKey.exe. For more information, see [Find Private Key Tool (FindPrivateKey.exe)](http://msdn.microsoft.com/en-us/library/ms732026.aspx).
+To perform the steps in the following procedure, you must be in Trusted Application Operator role. In this procedure, you are granting the intended user or security group access to the newly requested or imported certificate. One of the actions that must be performed is to find the certificate, which can be done using FindPrivateKey.exe. For more information, see [Find Private Key Tool (FindPrivateKey.exe)](https://msdn.microsoft.com/en-us/library/ms732026.aspx).
 
 1.  On the **Start** menu, select **All Programs**, select **Accessories**, right-click **Command-Prompt**, and then click **Run as administrator**.
 

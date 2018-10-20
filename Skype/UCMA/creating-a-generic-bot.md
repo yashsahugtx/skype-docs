@@ -324,7 +324,7 @@ namespace BuildABot.Samples.MessageHandlers
  
      private string GetSolution(string problemDescription)
      {
-        return "http://www.letmebingthatforyou.com/?q=" + problemDescription;
+        return "https://www.letmebingthatforyou.com/?q=" + problemDescription;
      }
  
      private string GetAlternativeSolution(string problemDescription)
@@ -356,7 +356,7 @@ An interaction example follows. Notice that during the conversation, the state (
     User: no network connectivity
 
   -  
-    Bot: Will this work: http://www.letmebingthatforyou.com/?q=no network connectivity
+    Bot: Will this work: https://www.letmebingthatforyou.com/?q=no network connectivity
 
   -  
     User: no
@@ -657,14 +657,14 @@ To improve the intelligence of your bot, you might want it to collect feedback f
     
 
     > [!NOTE]
-    > <P>if the user replied to the bot's feedback request with a message that does not match the positive or negative feedback patterns, the bot will still raise the <EM>FeedbackCollected</EM> event (with the <EM>NotProvided</EM> value as its feedback type). The bot will behave as if a new conversation has started; that is, the bot will understand the user message not as a feedback response but as a new message that must be handled.</P>
+    > If the user replied to the bot's feedback request with a message that does not match the positive or negative feedback patterns, the bot will still raise the *FeedbackCollected* event (with the *NotProvided* value as its feedback type). The bot will behave as if a new conversation has started; that is, the bot will understand the user message not as a feedback response but as a new message that must be handled.
 
     
     By default, when your bot receives negative feedback, it will try to handle the *original* user message again (the first message that started the current conversation), this time with another message handler. For that, the bot will invoke the message handler that reported the next highest confidence level (as long as the level is greater than zero) for the original user message. If no more message handlers remain, or if all remaining message handlers reported zero confidence, the bot will raise the *FailedToUnderstand* event. If you want to prevent the bot from trying other message handlers when it receives negative feedback, set its *GiveUpOnNegativeFeedback* property to true.
 
 ## Test your bot
 
-It is a good idea for you to create test automation to ensure that your bot is working correctly, especially the message handlers. You can also add a Visual Studio Test project to your solution (for more information, see [A Unit Testing Walkthrough with Visual Studio Team Test](http://msdn.microsoft.com/en-us/library/ms379625\(vs.80\).aspx)) and instantiate a bot in your test class/methods to test the behavior of your message handlers. Make sure that all the desired message handler assemblies (DLLs) or projects are referenced from the test project.
+It is a good idea for you to create test automation to ensure that your bot is working correctly, especially the message handlers. You can also add a Visual Studio Test project to your solution (for more information, see [A Unit Testing Walkthrough with Visual Studio Team Test](https://msdn.microsoft.com/en-us/library/ms379625\(vs.80\).aspx)) and instantiate a bot in your test class/methods to test the behavior of your message handlers. Make sure that all the desired message handler assemblies (DLLs) or projects are referenced from the test project.
 
 For some integrated manual testing, the Build a Bot framework comes with two sample host environments in which test bots are instantiated: *BuildABot.Samples.WindowsForms* and *BuildABot.Samples.CommandPrompt*. Just copy your message handler DLLs to the same folder where the sample executable is located. When running the executable, you will be able to test the logic of your message handlers by interacting with test (console/windows) bots.
 

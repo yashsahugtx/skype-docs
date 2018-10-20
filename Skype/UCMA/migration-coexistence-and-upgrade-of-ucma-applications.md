@@ -17,9 +17,9 @@ This section discusses the steps needed to enable UCMA 2.0, UCMA 3.0, and UCMA 4
 
 Before going further in the section, read [Activation, Provisioning, and Deployment Changes in UCMA 4.0](https://msdn.microsoft.com/en-us/library/gg253592\(v=office.16\)), which should be considered a prerequisite to the material in this section. As applicable to your specific Lync Server topology, it is strongly recommended that you read one or both of the following topics in the Migration section of the Microsoft Lync Server 2013 documentation:
 
-  - [Migration from Office Communications Server 2007 R2 to Lync Server 2013](http://technet.microsoft.com/en-us/library/jj205375\(v=ocs.15\))
+  - [Migration from Office Communications Server 2007 R2 to Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205375\(v=ocs.15\))
 
-  - [Migration from Lync Server 2010 to Lync Server 2013](http://technet.microsoft.com/en-us/library/jj205369\(v=ocs.15\))
+  - [Migration from Lync Server 2010 to Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205369\(v=ocs.15\))
 
 An external UCMA 4.0 trusted application is an application developed by a third party, that is granted trusted status to run against Communications Server/Skype for Business Server 2015 and that runs on its own pool of computers. In this topic, the phrase UCMA 2.0 application should be interpreted to mean an external UCMA 2.0 trusted application. In the same way, a UCMA 3.0 application or UCMA 4.0 application should be interpreted to mean an external UCMA 3.0 or UCMA 4.0 trusted application, respectively. An application pool is the group of computers on which these external trusted applications run.
 

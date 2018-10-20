@@ -31,7 +31,7 @@ When messages are sent back-to-back across Calls, signaling headers that are con
 
 ## Header passing across call legs
 
-A back-to-back user agent is not a proxy. [RFC-3725](http://www.rfc-editor.org/rfc/rfc3725.txt) (Best Current Practices for Third Party Call Control (3pcc) in the Session Initiation Protocol (SIP)) does not define how signaling headers should be passed across the two call legs associated with a back-to-back user agent.
+A back-to-back user agent is not a proxy. [RFC-3725](https://www.rfc-editor.org/rfc/rfc3725.txt) (Best Current Practices for Third Party Call Control (3pcc) in the Session Initiation Protocol (SIP)) does not define how signaling headers should be passed across the two call legs associated with a back-to-back user agent.
 
 
 > [!NOTE]
@@ -185,5 +185,5 @@ The value of the [State](https://msdn.microsoft.com/en-us/library/hh383563\(v=of
 
 #### Other resources
 
-[video demo - Lync 2013: How to do back-to-back calls using UCMA 4](http://channel9.msdn.com/posts/lync-2013-how-to-do-back-to-back-calls-using-ucma-4)
+[video demo - Lync 2013: How to do back-to-back calls using UCMA 4](https://channel9.msdn.com/posts/lync-2013-how-to-do-back-to-back-calls-using-ucma-4)
 

@@ -43,9 +43,12 @@ While processing the elements in VoiceXML documents, the **Browser** generates e
 
 ## Creating VoiceXML applications
 
-The Unified Communications Managed API 5.0 SDK documentation does not instruct developers on creating VoiceXML applications. See the [VoiceXML Tutorial](http://msdnstage.redmond.corp.microsoft.com/en-us/library/ff770014.aspx) on MSDN for instructions and examples that will introduce you to VoiceXML authoring.
+The Unified Communications Managed API 5.0 SDK documentation does not instruct developers on creating VoiceXML applications. See the [VoiceXML Tutorial](https://docs.microsoft.com/previous-versions/office/developer/speech-technologies/ff769501(v=msdn.10)) for instructions and examples that will introduce you to VoiceXML authoring.
 
 Additional resources include the following specifications of the World Wide Web Consortium (W3C):
 
-  - [Voice Extensible Markup Language (VoiceXML) Version 2.0](http://www.w3.org/tr/2004/rec-voicexml20-20040316/)
+- [Voice Extensible Markup Language (VoiceXML) Version 2.0](https://www.w3.org/tr/2004/rec-voicexml20-20040316/)
 
+## See also
+
+- [Microsoft.Rtc.Collaboration.AudioVideo.VoiceXml Namespace](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.voicexml?view=ucma-voice)

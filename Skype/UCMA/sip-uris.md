@@ -19,7 +19,7 @@ The SIP URI parser (the [SipUriParser](https://msdn.microsoft.com/en-us/library/
 
 ## SIP URI
 
-A SIP URI includes components such as the user and host, as well as optional headers and an optional parameters collection. For more information, see section 19 of RFC 3261 [SIP: Session Initiation Protocol](http://www.ietf.org/rfc/rfc3261.txt).
+A SIP URI includes components such as the user and host, as well as optional headers and an optional parameters collection. For more information, see section 19 of RFC 3261 [SIP: Session Initiation Protocol](https://www.ietf.org/rfc/rfc3261.txt).
 
 SIP has a mechanism by which a REFER request received by a User Agent (UA) on a given session triggers the sending of another SIP method, by default an INVITE, to the target SIP URI specified in a SIP signaling header, the Refer-To: header. The SIP URI often contains headers that are carried over from the SIP URI to the SIP request that is sent as a result when the REFER request is received. The SIP URI headers are actually converted into SIP signaling headers of the new request. For the convenience of authors, UCMA 5.0 has a SIP parser that escapes and unescapes the SIP URI header characters so that applications can simply use the SIP URI headers and convert them into SIP signaling headers.
 

@@ -39,7 +39,7 @@ In addition, SIP peers:
 
   - Must provide media/audio transport using RTP/RTCP over UDP.
 
-  - Must meet the Supported IP Gateways requirements listed in [Telephony Advisor for Exchange 2010](http://technet.microsoft.com/en-us/library/ee364753.aspx).
+  - Must meet the Supported IP Gateways requirements listed in [Telephony Advisor for Exchange 2010](https://technet.microsoft.com/en-us/library/ee364753.aspx).
 
 The following illustration shows a typical setup.
 

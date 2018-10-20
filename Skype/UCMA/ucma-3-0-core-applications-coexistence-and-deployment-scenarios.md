@@ -26,7 +26,7 @@ For more information about activating a UCMA 3.0 application, see [Activating a 
 
 ## Coexistence of a UCMA 3.0 Core application in an Office Communications Server 2007—Microsoft Lync Server 2010 topology
 
-Before testing this scenario, make sure that all of the latest patches for UCMA 2.0 have been applied to the pool of computers. The following knowledge base articles describe the patches and provided links to the update packages: [KB949935](http://support.microsoft.com/kb/949935), [KB945053](http://support.microsoft.com/kb/945053), [KB942872](http://support.microsoft.com/kb/942872), and [KB956389](http://support.microsoft.com/kb/956389).
+Before testing this scenario, make sure that all of the latest patches for UCMA 2.0 have been applied to the pool of computers. The following knowledge base articles describe the patches and provided links to the update packages: [KB949935](https://support.microsoft.com/kb/949935), [KB945053](https://support.microsoft.com/kb/945053), [KB942872](https://support.microsoft.com/kb/942872), and [KB956389](https://support.microsoft.com/kb/956389).
 
 Deploy the UCMA 3.0 application in the coexistence topology, using the trusted application cmdlets.
 
@@ -48,5 +48,5 @@ In general, a user object or contact object for a UCMA 3.0 application that is n
 
 UCMA 3.0 features that depend on Lync Server 2010 are not supported if the application is deployed against .
 
-Because the UCMA 3.0 application is deployed against , it should be deployed as if it were a UCMA 2.0 application. For more information, see [Deploying a UCMA 2.0 Core Application](http://msdn.microsoft.com/en-us/library/dd280155\(v=office.13\).aspx).
+Because the UCMA 3.0 application is deployed against , it should be deployed as if it were a UCMA 2.0 application. For more information, see [Deploying a UCMA 2.0 Core Application](https://msdn.microsoft.com/en-us/library/dd280155\(v=office.13\).aspx).
 

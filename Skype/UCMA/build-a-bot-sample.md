@@ -29,5 +29,5 @@ The following topics provide a description of the development environment, and d
 
   - [Creating an Excel bot](creating-an-excel-bot.md)
 
-For more information, see [Microsoft Lync Dev Center](http://go.microsoft.com/fwlink/?linkid=201840).
+For more information, see [Microsoft Lync Dev Center](https://go.microsoft.com/fwlink/?linkid=201840).
 

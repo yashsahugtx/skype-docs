@@ -29,7 +29,7 @@ The managed SIP stack performance counters are provided by the following files, 
 
   - S4Perf.h
 
-The counters listed in this topic fall into one of two categories: PERF\_COUNTER\_LARGE\_RAWCOUNT or PERF\_COUNTER\_LARGE\_BULK\_COUNT. Counters whose **CounterType** is PERF\_COUNTER\_LARGE\_RAWCOUNT show the last observed value, not an average. Counters of type PERF\_COUNTER\_BULK\_COUNT show an average number of operations per second. For more information, see [Counter Types](http://technet2.microsoft.com/windowsserver/en/library/2c455a3c-6964-432b-9402-40f439b980881033.mspx?mfr=true).
+The counters listed in this topic fall into one of two categories: PERF\_COUNTER\_LARGE\_RAWCOUNT or PERF\_COUNTER\_LARGE\_BULK\_COUNT. Counters whose **CounterType** is PERF\_COUNTER\_LARGE\_RAWCOUNT show the last observed value, not an average. Counters of type PERF\_COUNTER\_BULK\_COUNT show an average number of operations per second.
 
 ## Installing and configuring the managed SIP stack performance counters
 

@@ -45,7 +45,7 @@ The following are three example headers. An "ms-diagnostics" header is sent for 
 
 "ms-diagnostics" and "ms-client-diagnostics" do not cross federation boundaries. To provide diagnostic information to an administrator across a federation boundary, use an "ms-diagnostics-public" header.
 
-For the full error code descriptions for UCMA 5.0, UCCP, and Skype for Business Server 2015, see [\[MS-OCER\]: Client Error Reporting Protocol Specification](http://msdn.microsoft.com/en-us/library/cc431503.aspx).
+For the full error code descriptions for UCMA 5.0, UCCP, and Skype for Business Server 2015, see [\[MS-OCER\]: Client Error Reporting Protocol Specification](https://msdn.microsoft.com/en-us/library/cc431503.aspx).
 
 It is strongly advised that an application add its own diagnostic header if the API call to send failure or rejection is caused by the application, either directly or as a reaction to changing server/platform conditions. Applications can use the members on the [DiagnosticsInformation](https://msdn.microsoft.com/en-us/library/hh161812\(v=office.16\)) class to supply diagnostics code.
 

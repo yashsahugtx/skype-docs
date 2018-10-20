@@ -19,7 +19,7 @@ Microsoft Unified Communications Managed API 5.0 is designed be multi-thread saf
 
   - UCMA 5.0 will raise events and invoke method callbacks using worker threads. If an application throws an exception in one of the event handlers or callback methods, the worker thread can crash unless the application registers for handling unhandled exceptions. For more information, see [UCMA 5.0 exception model](ucma-5-0-exception-model.md).
 
-  - When an operation is invoked on an object that is already terminated, the callback associated with that operation can be invoked in the application thread itself. When this happens, the **CompletedSynchronously** property is set to true. For more information about **CompletedSynchronously**, see [IAsyncResult](http://msdn2.microsoft.com/en-us/library/ft8a6455).
+  - When an operation is invoked on an object that is already terminated, the callback associated with that operation can be invoked in the application thread itself. When this happens, the **CompletedSynchronously** property is set to true. For more information about **CompletedSynchronously**, see [IAsyncResult](https://msdn.microsoft.com/en-us/library/ft8a6455).
 
   - The application thread will not be used by UCMA 5.0 to perform internal operations that take a long time.
 

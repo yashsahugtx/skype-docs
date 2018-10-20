@@ -21,7 +21,7 @@ For information on uninstalling this SDK, see [Uninstalling UCMA 5.0 SDK](uninst
 
 ### To install UCMA 5.0 SDK
 
-1.  Download [UcmaSdkSetup.exe](http://www.microsoft.com/en-us/download/details.aspx?id=47345).
+1.  Download [UcmaSdkSetup.exe](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
 
 2.  Launch UcmaSdkSetup.exe and follow the instructions on the screens that are displayed to accept the EULA and choose an installation location.
     

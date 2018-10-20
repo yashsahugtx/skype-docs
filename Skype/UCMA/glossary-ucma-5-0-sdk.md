@@ -159,7 +159,7 @@ mtps_version: v=office.16
 <td><p>Grammar</p></td>
 <td><p>A list of words or phrases that an application will recognize. A VoiceXML application might use multiple grammars, each of which defines what a user can say for a portion of a call. Other grammars might be active across multiple portions of a call.</p>
 <p>A grammar can assign meanings to words, typically assigning the same meaning to multiple words. For example, the spoken words &quot;Yes&quot;, &quot;Yup&quot;, &quot;Yeah&quot;, &quot;You Bet&quot;, and &quot;Affirmative&quot; can all be given the meaning &quot;Yes&quot;.</p>
-<p>UCMA 5.0 supports XML-format grammars that conform to the <a href="http://www.w3.org/tr/speech-grammar/">Speech Recognition Grammar Specification (SRGS) Version 1.0</a>. Grammars may be included inline in a VoiceXML document, or may be separate files that the VoiceXML document references with links.</p></td>
+<p>UCMA 5.0 supports XML-format grammars that conform to the <a href="https://www.w3.org/tr/speech-grammar/">Speech Recognition Grammar Specification (SRGS) Version 1.0</a>. Grammars may be included inline in a VoiceXML document, or may be separate files that the VoiceXML document references with links.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Host Application</p></td>
@@ -298,7 +298,7 @@ mtps_version: v=office.16
 </tr>
 <tr class="odd">
 <td><p><strong>VoiceXML Document</strong></p></td>
-<td><p>An XML-format file that contains markup language that conforms to the VoiceXML standard. A VoiceXML document is also called a VoiceXML page, and both terms are used in this documentation. For more information about VoiceXML, see <a href="http://www.w3.org/tr/2004/rec-voicexml20-20040316/">VoiceXML 2.0</a>.</p></td>
+<td><p>An XML-format file that contains markup language that conforms to the VoiceXML standard. A VoiceXML document is also called a VoiceXML page, and both terms are used in this documentation. For more information about VoiceXML, see <a href="https://www.w3.org/tr/2004/rec-voicexml20-20040316/">VoiceXML 2.0</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VoiceXML Interpreter</strong></p></td>

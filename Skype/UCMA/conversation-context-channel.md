@@ -120,7 +120,7 @@ conversationContextChannel.BeginEstablish(guid, establishOptions, this.Establish
       <application-id>{40499119-4B60-45A6-9A7A-DC7A384D5670} </application-id>
       <additional-properties>
         <entry><name>data</name><value>My data</value></entry>
-        <entry><name>simpleLink</name></value>http://www.microsoft.com/en/us/default.aspx </value></entry>
+        <entry><name>simpleLink</name></value>https://www.microsoft.com/en/us/default.aspx </value></entry>
         <entry><name>customToast</name><value>Good morning!</value></entry> 
         <entry><name>name</name><value>Contoso Corporate Performance Management</value></entry> 
         <entry><name>installLink</name><value>www.Contoso.com/Download</value></entry> 

@@ -21,7 +21,7 @@ The [UseGeneratedIdentityForTrustedConference](https://msdn.microsoft.com/en-us/
 
 ## Temporary Focus dialog
 
-To dial in to an MCU, an application sends a C3P **addUser** request (for more information, see [\[MS-CONFBAS\]: Centralized Conference Control Protocol: Basic Architecture and Signaling Specification](http://msdn.microsoft.com/en-us/library/cc431498.aspx)) to the MCU (by way of the Focus) declaring that a specific identity will be dialing into the MCU. After this action, the application sends a media-INVITE request. The Focus intercepts any media-INVITE request that is sent to confirm that the caller already has an active Focus dialog under the same identity.
+To dial in to an MCU, an application sends a C3P **addUser** request (for more information, see [\[MS-CONFBAS\]: Centralized Conference Control Protocol: Basic Architecture and Signaling Specification](https://msdn.microsoft.com/en-us/library/cc431498.aspx)) to the MCU (by way of the Focus) declaring that a specific identity will be dialing into the MCU. After this action, the application sends a media-INVITE request. The Focus intercepts any media-INVITE request that is sent to confirm that the caller already has an active Focus dialog under the same identity.
 
 For the media-INVITE request to succeed, the platform creates a temporary signaling dialog with the Focus under the fictitious identity. The temporary dialog is established for a trusted user, which means that the Focus and audio-video MCU endpoints for this fictitious identity do not appear in the user roster, as would normally be the case. The temporary dialog includes establishing a signaling session, but does not include a subscription.
 

@@ -39,7 +39,7 @@ The following are the software requirements for a successful installation of UCM
     > <LI>
     > <P>Development is supported only in 64-bit environments.</P>
     > <LI>
-    > <P>The Desktop Experience feature must be enabled on Windows Server 2008 R2 SP1. For more information, see <A href="http://technet.microsoft.com/en-us/library/cc772567.aspx">Desktop Experience Overview</A>.</P>
+    > <P>The Desktop Experience feature must be enabled on Windows Server 2008 R2 SP1. For more information, see <A href="https://technet.microsoft.com/en-us/library/cc772567.aspx">Desktop Experience Overview</A>.</P>
     > <LI>
     > <P>Media Foundation is required on Windows Server 2012.</P></LI></UL>
 
@@ -49,7 +49,7 @@ The following are the software requirements for a successful installation of UCM
     
 
     > [!IMPORTANT]
-    > <P>To install PowerShell 3.0, see <A href="http://www.microsoft.com/en-us/download/details.aspx?id=34595">Windows Management Framework 3.0</A>.</P>
+    > <P>To install PowerShell 3.0, see <A href="https://www.microsoft.com/en-us/download/details.aspx?id=34595">Windows Management Framework 3.0</A>.</P>
 
 
 

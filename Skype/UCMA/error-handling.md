@@ -23,11 +23,11 @@ A [MediaProvider](https://msdn.microsoft.com/en-us/library/hh383767\(v=office.16
 
 In addition to **OfferAnswerException**, the developer should also be aware of the following exceptions:
 
-1.  A **Begin***Xxx* method should throw only [ArgumentException](http://msdn2.microsoft.com/en-us/library/3w1b3114) or [InvalidOperationException](http://msdn2.microsoft.com/en-us/library/2asft85a).
+1.  A **Begin***Xxx* method should throw only [ArgumentException](https://msdn.microsoft.com/en-us/library/3w1b3114) or [InvalidOperationException](https://msdn.microsoft.com/en-us/library/2asft85a).
     
     **Begin***Xxx* can throw **InvalidOperationException** if an operation is not valid in the current state of the **MediaProvider** subclass implementation. The associated **Call** subclass should catch the exception and take appropriate action, depending on the operation state. Appropriate actions include terminating the call or retrying the operation.
     
-    A custom implementation of a **Call** subclass should not receive [ArgumentException](http://msdn2.microsoft.com/en-us/library/3w1b3114) in general, because **Call** never passes a null value of **OfferAnswerContext** or **CallContext**. The **MediaProvider** can very well assert the value on any API where **OfferAnswerContext** is passed. The **Call** class has special logic for handling an **OfferAnswerException** exception, which is shown in the previous section of this topic.
+    A custom implementation of a **Call** subclass should not receive [ArgumentException](https://msdn.microsoft.com/en-us/library/3w1b3114) in general, because **Call** never passes a null value of **OfferAnswerContext** or **CallContext**. The **MediaProvider** can very well assert the value on any API where **OfferAnswerContext** is passed. The **Call** class has special logic for handling an **OfferAnswerException** exception, which is shown in the previous section of this topic.
 
 2.  An **End***Xxx* method can throw only the exceptions that are derived from the [RealTimeException](https://msdn.microsoft.com/en-us/library/hh385103\(v=office.16\)) class:
     

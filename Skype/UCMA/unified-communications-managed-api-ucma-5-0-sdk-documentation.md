@@ -65,7 +65,7 @@ The following are the most important attributes of UCMA 5.0:
 
 #### Other resources
 
-[Microsoft Online Privacy Notice](http://go.microsoft.com/fwlink/?linkid=207069)
+[Microsoft Online Privacy Notice](https://go.microsoft.com/fwlink/?linkid=207069)
 
-[Accessibility in Microsoft Products](http://go.microsoft.com/fwlink/?linkid=205790)
+[Accessibility in Microsoft Products](https://go.microsoft.com/fwlink/?linkid=205790)
 

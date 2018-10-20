@@ -15,7 +15,7 @@ dev_langs:
 
 **Applies to**: Skype for Business 2015
 
-Use the **Sdp** class in the UCMA 5.0 to parse and construct session descriptions to be carried in a Session Initiation Protocol (SIP) request or response. These session descriptions are defined by the Session Description Protocol (SDP). For more information about SDP, see the [SDP: Session Description Protocol](http://go.microsoft.com/fwlink/?linkid=83129) RFC.
+Use the **Sdp** class in the UCMA 5.0 to parse and construct session descriptions to be carried in a Session Initiation Protocol (SIP) request or response. These session descriptions are defined by the Session Description Protocol (SDP). For more information about SDP, see the [SDP: Session Description Protocol](https://go.microsoft.com/fwlink/?linkid=83129) RFC.
 
 An application working directly with the signaling layer of UCMA 5.0 needs to parse and serialize SDP session descriptions in order to establish an audio/video session with its peer. The application receives a media description from the remote, and verifies that the content type is application/sdp. At this point it is necessary to understand what the remote is offering, but the author has only an array of bytes. Use the **Sdp** class to parse the array of bytes, so that it can be validated and interpreted.
 

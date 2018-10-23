@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conference features
 TOCTitle: Conference features
 ms:assetid: 73465dfc-ab21-4659-bb4f-f806079e3309
@@ -19,6 +19,7 @@ The topics in this section summarize the most important new or changed conferenc
 - [Conference scheduling](pre-meeting-conference-scheduling.md)
 
 - [Joining the conference and the in-conference experience](in-meeting-during-the-conference.md)
+
 
 ## Conferencing infrastructure
 

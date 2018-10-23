@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alert notification system
 TOCTitle: Alert notification system
 ms:assetid: e75d50af-2a7e-4558-bb18-7bcf2c66560f
@@ -70,7 +70,7 @@ The general call flow typical of an alert notification system application is as 
   - The [Browser](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.voicexml.browser?view=ucma-voice) class can interpret VoiceXML code to implement workflow logic that involves TTS or speech recognition.
     
   - The Connector objects (the [SpeechRecognitionConnector](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.speechrecognitionconnector?view=ucma-api) and [SpeechSynthesisConnector](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.speechsynthesisconnector?view=ucma-api) classes) can be used to implement an application that involves TTS or speech recognition.
-    
+  
   - Recording and Music on Hold: UCMA applications can play audio content to the caller on demand, record the audio portion of a call, and play music-on-hold to users while waiting for the IVR to perform background tasks.
 
 - IM and page-mode instant messaging

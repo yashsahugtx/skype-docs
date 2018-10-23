@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visual IVR (sample)
 TOCTitle: Visual IVR (sample)
 ms:assetid: fcc6ccb1-2b8e-4471-b863-2e7fe22b600f

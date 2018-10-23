@@ -1,4 +1,4 @@
-﻿---
+---
 title: Key features of UCMA 5.0
 TOCTitle: Key features of UCMA 5.0
 ms:assetid: 7d496be2-794a-4989-82a6-51cb840b964d

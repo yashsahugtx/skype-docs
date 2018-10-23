@@ -1,4 +1,4 @@
-﻿---
+---
 title: Reference topology with high availability and multiple data center
 TOCTitle: Reference topology with high availability and multiple data center
 ms:assetid: 1e63f4ec-823a-4c39-b124-ea7ee729bb71

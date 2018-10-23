@@ -1,4 +1,4 @@
-﻿---
+---
 title: Managing UCMA 5.0 applications
 TOCTitle: Managing UCMA 5.0 applications
 ms:assetid: 0666e40f-91b0-4549-aaa4-8180b53288f0
@@ -20,4 +20,5 @@ This section provides the details of application management: Microsoft Unified C
 - [Using Skype for Business Server 2015 Logging Tool](using-skype-for-business-server-2015-logging-tool.md)
 - [Migration, coexistence, and upgrade of UCMA applications](migration-coexistence-and-upgrade-of-ucma-applications.md)
 - [Deploying UCMA 4.0 and UCMA 5.0 applications in a Skype for Business Server 2015 environment](deploying-ucma-4-0-and-ucma-5-0-applications-in-a-skype-for-business-server-2015-environment.md)
+
 

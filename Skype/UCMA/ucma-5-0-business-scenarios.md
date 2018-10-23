@@ -1,4 +1,4 @@
-﻿---
+---
 title: UCMA 5.0 business scenarios
 TOCTitle: UCMA 5.0 business scenarios
 ms:assetid: 31d51c95-b05e-4b90-ade4-7036af4d8241

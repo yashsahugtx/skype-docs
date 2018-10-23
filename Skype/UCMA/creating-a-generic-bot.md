@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creating a generic bot
 TOCTitle: Creating a generic bot
 ms:assetid: 70eea19d-91ad-45ae-95b7-301919eb9633
@@ -488,7 +488,7 @@ The following extension methods are useful for adding QA objects to a *QAMessage
 - AddBatchRandomQAs  
   
   Adds a batch of *RandomQA* instances to a *QAs* list, as in this example.
-    
+   
   ```csharp
     public QASampleMessageHandler()
     {

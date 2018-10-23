@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voice companion (sample)
 TOCTitle: Voice companion (sample)
 ms:assetid: 4aa901e9-7de1-41cd-8978-49c832f15c07

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Endpoint draining
 TOCTitle: Endpoint draining
 ms:assetid: 983c3c61-2ac0-4d07-9e38-4ffed06d2798

@@ -1,4 +1,4 @@
-﻿---
+---
 title: UCMA 5.0 overview
 TOCTitle: UCMA 5.0 overview
 ms:assetid: 24a4b483-b707-4ba2-adf1-479a38205041

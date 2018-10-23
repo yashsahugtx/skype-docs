@@ -1,4 +1,4 @@
-﻿---
+---
 title: Standalone IVR application
 TOCTitle: Standalone IVR application
 ms:assetid: e824ca31-c9fa-4ba6-99de-bdc090e3547c

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AudioVideoFlow
 TOCTitle: AudioVideoFlow
 ms:assetid: 095bc495-8338-4cd7-8e1f-6964861728df

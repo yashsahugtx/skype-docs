@@ -72,7 +72,7 @@ To perform the steps in this procedure, you must be in the Skype for Business Se
    ```powershell    
      Get-CSManagementStoreReplicationStatus
    ```
-
+   
    Replication can take up to five minutes.
 
 5. If replication does not occur within five minutes, it can be manually triggered using the **Invoke-CSManagementStoreReplication** cmdlet.

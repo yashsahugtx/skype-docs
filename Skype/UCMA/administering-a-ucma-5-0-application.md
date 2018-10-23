@@ -1,4 +1,4 @@
-﻿---
+---
 title: Administering a UCMA 5.0 application
 TOCTitle: Administering a UCMA 5.0 application
 ms:assetid: 7f341709-38a6-424d-bae6-262c97c196e0
@@ -19,4 +19,5 @@ The topics in this section discuss administration of a UCMA 5.0 SDK application:
 - [Adjusting application performance](adjusting-application-performance.md)
 - [Security considerations in UCMA 5.0](security-considerations-in-ucma-5-0.md)
 - [Call admission control](call-admission-control.md)
+
 

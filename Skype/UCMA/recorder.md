@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recorder
 TOCTitle: Recorder
 ms:assetid: f1d1be77-652c-4781-b8de-9ab797231774

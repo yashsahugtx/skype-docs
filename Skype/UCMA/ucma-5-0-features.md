@@ -1,4 +1,4 @@
-﻿---
+---
 title: UCMA 5.0 features
 TOCTitle: UCMA 5.0 features
 ms:assetid: 4dfe8247-1b67-4d66-9ca1-0b7f5d919385

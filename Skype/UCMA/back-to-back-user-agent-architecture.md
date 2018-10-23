@@ -1,4 +1,4 @@
-﻿---
+---
 title: Back-to-back user agent architecture
 TOCTitle: Back-to-back user agent architecture
 ms:assetid: 433baf9b-d4c3-441d-a5fb-9f4010cc0f21
@@ -69,6 +69,7 @@ A **BackToBackCall** instance performs back-to-back message transmission as foll
 - All reliable provisional responses (response code 183) that create early dialogs are returned to the incoming call with modified To tags, indicating a separate fork. SDP Answer responses received on 183 responses are passed unchanged. No other MIME parts are expected on 183 responses.
 
 - All messages received and responses to messages on one call leg are pushed to the other call leg unchanged with all pass-through headers (excluding restricted headers) and body.
+
 
 
 ## Call leg state and BackToBackCall.State

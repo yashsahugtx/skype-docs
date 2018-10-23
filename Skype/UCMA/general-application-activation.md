@@ -156,6 +156,7 @@ The steps that follow list different ways of requesting a certificate that match
 > Offline requests to be sent to third-party certificate authorities can be generated using all of the following methods. Administrators should refer to Get-Help Request-CsCertificate –Full and Get-Help Import-CsCertificate –Full for additional information.
 > `Request-CSCertificate -New -Type default -CA DomainController.contoso.com\CertificateAuthority`
 
+
 ### Requesting certificates from Active Directory Certificate Services
 
 To request certificates as a user running in the Trusted Application Operator role, users or security groups running in that role must be given the appropriate permissions. These steps must be undertaken in the Domain Administrator role.

@@ -71,7 +71,6 @@ A **BackToBackCall** instance performs back-to-back message transmission as foll
 - All messages received and responses to messages on one call leg are pushed to the other call leg unchanged with all pass-through headers (excluding restricted headers) and body.
 
 
-
 ## Call leg state and BackToBackCall.State
 
 The value of the [State](https://msdn.microsoft.com/en-us/library/hh383563\(v=office.16\)) property on a **\[BackToBackCall\]** instance is calculated from the [State](https://msdn.microsoft.com/en-us/library/hh381151\(v=office.16\)) on each call leg. The following table summarizes the relationships of these properties.

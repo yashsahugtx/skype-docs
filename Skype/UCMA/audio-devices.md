@@ -10,7 +10,6 @@ mtps_version: v=office.16
 
 # Audio devices
 
-
 **Applies to**: Skype for Business 2015
 
 The topics in this section describe the audio devices that are available in Microsoft Unified Communications Managed API 5.0: [Player](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.player?view=ucma-api), [Recorder](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.recorder?view=ucma-api), [ToneController](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.tonecontroller?view=ucma-api), [SpeechRecognitionConnector](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.speechrecognitionconnector?view=ucma-api), and [SpeechSynthesisConnector](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.audiovideo.speechsynthesisconnector?view=ucma-api). These devices, respectively, can be used to play recorded audio, record audio, send and receive telephone dial tones, convert speech to text, or convert text to speech.
@@ -22,8 +21,10 @@ In UCMA 5.0, devices are users of media data, and have [AudioVideoFlow](https://
 
 The following code example shows the steps required to create a **Player** and attach an existing **AudioVideoFlow** instance to it.
 
+```csharp
     Player myPlayer = new Player();
     myPlayer.AttachFlow(avFlow);
+```
 
 Each of the devices has an **AttachFlow** method that it uses to attach an **AudioVideoFlow** instance. Similarly, each device has a **DetachFlow** method that it uses to detach the previously-attached **AudioVideoFlow** instance. The **AttachFlow** and **DetachFlow** operations can happen at any time, independent of the state of the **AudioVideoFlow** instance.
 

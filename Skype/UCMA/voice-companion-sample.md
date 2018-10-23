@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voice companion (sample)
 TOCTitle: Voice companion (sample)
 ms:assetid: 4aa901e9-7de1-41cd-8978-49c832f15c07
@@ -12,9 +12,9 @@ mtps_version: v=office.16
 
 **Applies to**: Skype for Business 2015
 
-Sample name: VoiceCompanion
+**Sample name**: VoiceCompanion
 
-Sample location: %ProgramFiles%\\Microsoft UCMA 5.0\\SDK\\Core\\Sample Applications\\Reference\\VoiceCompanion
+**Sample location**: %ProgramFiles%\\Microsoft UCMA 5.0\\SDK\\Core\\Sample Applications\\Reference\\VoiceCompanion
 
 ## Description
 

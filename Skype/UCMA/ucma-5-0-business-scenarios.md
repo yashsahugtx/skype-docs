@@ -1,4 +1,4 @@
-﻿---
+---
 title: UCMA 5.0 business scenarios
 TOCTitle: UCMA 5.0 business scenarios
 ms:assetid: 31d51c95-b05e-4b90-ade4-7036af4d8241
@@ -70,17 +70,9 @@ The following illustration describes the entities involved in an alert notificat
 
 For more information, see [Alert notification system](alert-notification-system.md).
 
-## Other scenarios
+## Additional scenarios
 
 Besides the scenarios already listed, developers can use UCMA 5.0 to create applications for several other scenarios. For more information, see [Additional scenarios](additional-scenarios.md).
-
-This section includes the following topics:
-
-- [Contact center](contact-center.md)
-- [Voice companion](voice-companion.md)
-- [Standalone IVR application](standalone-ivr-application.md)
-- [Alert notification system](alert-notification-system.md)
-- [Additional scenarios](additional-scenarios.md)
 
 ## See also
 

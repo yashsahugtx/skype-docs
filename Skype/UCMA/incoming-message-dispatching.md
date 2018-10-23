@@ -10,20 +10,17 @@ mtps_version: v=office.16
 
 # Incoming message dispatching
 
-
 **Applies to**: Skype for Business 2015
-
-
 
 This topic describes two endpoint properties, **OwnerUri** and **EndpointUri**, and how a Mutual TLS server platform uses them when it dispatches incoming messages to the appropriate endpoint.
 
 ## Owner URI
 
-The [LocalEndpoint](https://msdn.microsoft.com/en-us/library/hh349887\(v=office.16\)) class has a property that contains the URI of the endpoint’s owner-[OwnerUri](https://msdn.microsoft.com/en-us/library/hh385287\(v=office.16\)). This property is inherited by the [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.16\)) and [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) classes. Because users can sign on using a variety of devices (desktop and laptop computers, phones, or other devices), it is not unusual for two or more endpoints to have the same owner. In addition, because a single application can be deployed on several computers for better scalability, multiple endpoints can have the same owner URI. The owner URI can be used to target a message to a specific user. Skype for Business Server 2015 forks such messages to all **UserEndpoint** instances associated with that owner URI. The owner URI for a user endpoint matches a user record with that URI in the active directory. The owner URI for an application matches a contact record with that URI in the active directory.
+The [LocalEndpoint](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.localendpoint?view=ucma-api) class has a property that contains the URI of the endpoint’s owner-[OwnerUri](https://msdn.microsoft.com/en-us/library/hh385287\(v=office.16\)). This property is inherited by the [UserEndpoint](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.userendpoint?view=ucma-api) and [ApplicationEndpoint](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.applicationendpoint?view=ucma-api) classes. Because users can sign on using a variety of devices (desktop and laptop computers, phones, or other devices), it is not unusual for two or more endpoints to have the same owner. In addition, because a single application can be deployed on several computers for better scalability, multiple endpoints can have the same owner URI. The owner URI can be used to target a message to a specific user. Skype for Business Server 2015 forks such messages to all **UserEndpoint** instances associated with that owner URI. The owner URI for a user endpoint matches a user record with that URI in the active directory. The owner URI for an application matches a contact record with that URI in the active directory.
 
 ## Endpoint URI for a user endpoint
 
-Every endpoint also has a property that contains the URI of the endpoint itself-[EndpointUri](https://msdn.microsoft.com/en-us/library/hh381014\(v=office.16\)). This property is likewise inherited by the [UserEndpoint](https://msdn.microsoft.com/en-us/library/hh348819\(v=office.16\)) and [ApplicationEndpoint](https://msdn.microsoft.com/en-us/library/hh384825\(v=office.16\)) classes. During **UserEndpoint** registration, each user endpoint is dynamically assigned a Globally Routable Unique URI (GRUU) that uniquely identifies the endpoint. A message that targets this GRUU is routed to the specific user endpoint instance.
+Every endpoint also has a property that contains the URI of the endpoint itself-[EndpointUri](https://msdn.microsoft.com/en-us/library/hh381014\(v=office.16\)). This property is likewise inherited by the [UserEndpoint](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.userendpoint?view=ucma-api) and [ApplicationEndpoint](https://docs.microsoft.com/dotnet/api/microsoft.rtc.collaboration.applicationendpoint?view=ucma-api) classes. During **UserEndpoint** registration, each user endpoint is dynamically assigned a Globally Routable Unique URI (GRUU) that uniquely identifies the endpoint. A message that targets this GRUU is routed to the specific user endpoint instance.
 
 ## Endpoint URI for an application endpoint
 
@@ -55,11 +52,8 @@ An application endpoint is usually associated with two possible GRUU values: app
 
 If an application is deployed to leverage DNS-based load balancing or hardware load balancing, it is normally assigned an application pool GRUU. The contact record in Active Directory that contains the owner URI of the application is typically bound to the application pool GRUU for the application. When a message targets an application’s owner URI or application pool GRUU, Skype for Business Server maps the owner URI or application pool GRUU to a pool FQDN and port, and routes the message. The pool FQDN either points to a hardware load balancer or resolves to all available machine FQDNs that correspond to the various application instances. This permits any message to be routed to a particular application instance.
 
-
 > [!NOTE]
-> <P>Skype for Business Server 2015 routes messages to one specific instance of the application irrespective of whether the message uses the owner URI of the application or the pool GRUU.</P>
-
-
+> Skype for Business Server 2015 routes messages to one specific instance of the application irrespective of whether the message uses the owner URI of the application or the pool GRUU.
 
 Every application endpoint instance is also assigned a GRUU that maps to the local FQDN and port of the application instance that owns this endpoint instance. When a message targets this GRUU, Skype for Business Server 2015 maps the GRUU to the FQDN and port for the application, and routes the message to this application instance. This GRUU is usually set in the collaboration platform at the time of construction, but can be set when the platform is auto-provisioned. The GRUU is typically used for multimodal communications for an application endpoint.
 
@@ -73,11 +67,8 @@ Unlike messages that target a user, a message whose target is the owner URI of a
 
 When the target of a message is the GRUU of a user endpoint, Skype for Business Server 2015 routes the message to the specific endpoint associated with that GRUU. When the target of a message is the application instance GRUU assigned to an application, the message is routed to the specific application endpoint instance. Targeting a specific endpoint is important when an existing conversation is enhanced with a new modality.
 
-
 > [!NOTE]
-> <P>An application instance can host many <STRONG>ApplicationEndpoint</STRONG> instances, each corresponding to a different owner URI. If a message arrives that targets an application instance but does not contain the "ms-application-aor" header that resolves to a specific <STRONG>ApplicationEndpoint</STRONG> instance, the platform uses the conversation ID to resolve the message to a specific endpoint. This is done to support multimodal escalation (for example, when an audio/video call is added to a conversation involving an instant messaging call, or vice versa) for a conversation that is hosted in a specific <STRONG>ApplicationEndpoint</STRONG> instance.</P>
-
-
+> An application instance can host many **ApplicationEndpoint** instances, each corresponding to a different owner URI. If a message arrives that targets an application instance but does not contain the "ms-application-aor" header that resolves to a specific **ApplicationEndpoint** instance, the platform uses the conversation ID to resolve the message to a specific endpoint. This is done to support multimodal escalation (for example, when an audio/video call is added to a conversation involving an instant messaging call, or vice versa) for a conversation that is hosted in a specific **ApplicationEndpoint** instance.
 
 ## Message dispatching by the collaboration platform
 

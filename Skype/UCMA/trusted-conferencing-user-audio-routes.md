@@ -12,10 +12,7 @@ dev_langs:
 
 # Trusted conferencing user audio routes
 
-
 **Applies to**: Skype for Business 2015
-
-
 
 This topic describes a number of operations that can be performed after a trusted conferencing user has joined a conference.
 
@@ -29,7 +26,7 @@ To configure the supervisor correctly requires changing individual audio routes,
 
 When the application is joining the AVMCU on behalf of the supervisor by calling in, the [RemoveFromDefaultRouting](https://msdn.microsoft.com/en-us/library/hh349908\(v=office.16\)) property must be set on the [AudioVideoCallEstablishOptions](https://msdn.microsoft.com/en-us/library/hh382857\(v=office.16\)) instance as shown in the following example.
 
-``` csharp
+```csharp
 AudioVideoCallEstablishOptions options = new AudioVideoCallEstablishOptions();
 options.AudioVideoMcuDialInOptions.RemoveFromDefaultRouting = true;
 
@@ -38,7 +35,7 @@ avCall.BeginEstablish(options, null, null);
 
 If the AVMCU is asked to call the application that represents the supervisor using a dial out, then the setting must be made on the [RemoveFromDefaultRouting](https://msdn.microsoft.com/en-us/library/hh384839\(v=office.16\)) property on the [AudioVideoMcuDialOutOptions](https://msdn.microsoft.com/en-us/library/hh384541\(v=office.16\)) class.
 
-``` csharp
+```csharp
 AudioVideoMcuDialOutOptions options = new AudioVideoMcuDialOutOptions();
 options.RemoveFromDefaultRouting = true;
 
@@ -51,7 +48,7 @@ avmcu.BeginDialOut(
 
 After joining, the supervisor has no audio routes and cannot hear anything or be heard by anyone. It is now necessary to add audio routes that allow the audio from the existing participants to be heard by the supervisor. This can be accomplished with code similar to what is shown in the following example.
 
-``` csharp
+```csharp
 List<OutgoingAudioRoute> outgoingRoutes = new List<OutgoingAudioRoute>();
 List<IncomingAudioRoute> incomingRoutes = new List<IncomingAudioRoute>();
 
@@ -85,7 +82,7 @@ After monitoring the conversation for a while, the supervisor might want to cons
 
 Two steps are needed. The first step is to remove the agent from the default audio mix so that there are no routes. The second step is to add incoming and outgoing routes between the agent and the supervisor. This can be accomplished using code similar to the following example.
 
-``` csharp
+```csharp
 private void EstablishPrivateAudioChannel()
 {
   RemoveFromDefaultRoutingOptions options =
@@ -130,21 +127,16 @@ private void RemoveFromDefaultRoutingCompleted(IAsyncResult result)
 
 
 > [!NOTE]
-> <P>This solution does not account for the fact that the agent can no longer hear the customer, and the customer might not know that he is temporarily unable talk to the agent. For a better customer experience, the application design might require some additional routes to be modified.</P>
-
-
-
+> This solution does not account for the fact that the agent can no longer hear the customer, and the customer might not know that he is temporarily unable talk to the agent. For a better customer experience, the application design might require some additional routes to be modified.
 
 > [!NOTE]
-> <P>If agents are aware that they cannot respond to the supervisor because no route is set up, it might not be necessary to remove the agent from the default mix as illustrated in this example. The supervisor can add the agent back into the default routing by adding the agent back to the default mix.</P>
-
-
+> If agents are aware that they cannot respond to the supervisor because no route is set up, it might not be necessary to remove the agent from the default mix as illustrated in this example. The supervisor can add the agent back into the default routing by adding the agent back to the default mix.
 
 ## Supervisor barge-in
 
 While monitoring the agent, the supervisor might decide that the agent is not ready to solve the customer problem. The supervisor might need to take over the conversation by talking directly with the customer. To accomplish this, the application can add outbound audio routes to each participant in the AVMCU so that the supervisor’s audio can be heard. This can be done with code similar to the following.
 
-``` csharp
+```csharp
 List<OutgoingAudioRoute> outgoingRoutes = new List<OutgoingAudioRoute>();
 List<IncomingAudioRoute> incomingRoutes = new List<IncomingAudioRoute>();
 
@@ -171,15 +163,13 @@ _callToMcu.AudioVideoMcuRouting.BeginUpdateAudioRoutes(
 
 
 > [!NOTE]
-> <P>There is a disadvantage in this technique because the customer would not see the supervisor in the roster of the Skype for Business 2015 application as was the case with the agent. For this technique to work as expected, the supervisor should join the conference again, not as a trusted conference user, but under his own identity, so that he appears in the roster.</P>
-
-
+> There is a disadvantage in this technique because the customer would not see the supervisor in the roster of the Skype for Business 2015 application as was the case with the agent. For this technique to work as expected, the supervisor should join the conference again, not as a trusted conference user, but under his own identity, so that he appears in the roster.
 
 ## Adding to and removing from the default mix
 
 At any time, it might be necessary to put the customer on hold during the session with the help desk. To accomplish this, an application such as a music-on-hold (MoH) server joined as a TCU, can remove the customer from the default mix, and can add an outgoing route on which to play music, from itself to the customer. While the customer is on hold, the agent, expert, and any supervisors can discuss strategy while the customer is waiting. The following example shows an application acting as a music-on-hold server. The example assumes that the MoH application is already joined to the conference.
 
-``` csharp
+```csharp
 private void PutCustomerOnHold()
 {
   RemoveFromDefaultRoutingOptions options = new RemoveFromDefaultRoutingOptions();

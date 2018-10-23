@@ -1,4 +1,4 @@
-﻿---
+---
 title: Activating a UCMA 5.0 trusted application
 TOCTitle: Activating a UCMA 5.0 trusted application
 ms:assetid: f75a02e0-6bc2-4e18-81fd-17907b06fb7d
@@ -9,7 +9,6 @@ mtps_version: v=office.16
 ---
 
 # Activating a UCMA 5.0 trusted application
-
 
 **Applies to**: Skype for Business 2015
 
@@ -30,8 +29,6 @@ Activation is needed not only for deploying a ready-to-ship application, but als
 
 > [!NOTE]
 > It is recommended that the computer running the trusted application be joined to the domain in which Skype for Business Server 2015 is running. However, if there is no intent to run Skype for Business Server 2015 PowerShell cmdlets from the application server or to make use of UCMA auto-provisioning capabilities, then the application can be run on a computer that is not joined to the domain.
-
-
 
 
 ## Prerequisites for activation
@@ -75,13 +72,11 @@ Activation is needed not only for deploying a ready-to-ship application, but als
 </table>
 
 
-
 > [!NOTE]
 > After Skype for Business Server 2015 has been installed, administrators must manually create users with the previously listed permissions to act in the Trusted Application Administrator and Trusted Application Service Account roles.
 
 > [!NOTE]
 > A *security group* is an entity that exists in the domain and is stored in Active Directory. Security groups can be managed using the Active Directory Users and Computers Microsoft Management Console (MMC). A *local group* is an entity that exists in the computer on which the trusted application is running. Local groups can be managed by using the Local Users and Groups MMC.
-
 
 
 The following table summarizes the tasks that can be performed by the three different roles.
@@ -148,19 +143,13 @@ The following table summarizes the tasks that can be performed by the three diff
 </table>
 
 
-## In this section
+The remaining topics in this section discuss how activation, provisioning, and deployment are different in UCMA 5.0, and list the activation steps that are required for all trusted applications, as well as the activation steps required by either auto-provisioned or manually-provisioned applications:
 
-The remaining topics in this section discuss how activation, provisioning, and deployment are different in UCMA 5.0 and list the activation steps that are required for all trusted applications, as well as the activation steps required by either auto-provisioned or manually-provisioned applications:
+- [General application activation](general-application-activation.md). Activation steps needed by all trusted applications.
 
-- [General application activation](general-application-activation.md). Activation steps needed by all trusted applications
+- [Activating an auto-provisioned application](activating-an-auto-provisioned-application.md). Activation steps needed by auto-provisioned applications. Auto-provisioned applications require a local copy of the Central Management Store.
 
-- [Activating an auto-provisioned application](activating-an-auto-provisioned-application.md). Activation steps needed by auto-provisioned applications
-    
-  Auto-provisioned applications require a local copy of the Central Management Store.
-
-- [Activating a manually-provisioned application](activating-a-manually-provisioned-application.md). Activation steps needed for manually provisioned applications
-    
-  Manually-provisioned applications do not require a local copy of the Central Management Store.
+- [Activating a manually-provisioned application](activating-a-manually-provisioned-application.md). Activation steps needed for manually provisioned applications. Manually-provisioned applications do not require a local copy of the Central Management Store.
 
 - [Activating applications programmatically](activating-applications-programmatically.md). Steps required to run Skype for Business Server 2015 PowerShell cmdlets programmatically.
 

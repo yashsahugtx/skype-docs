@@ -12,26 +12,20 @@ dev_langs:
 
 # Transferring a call
 
-
 **Applies to**: Skype for Business 2015
-
-  
 
 This topic discusses attended, supervised, and unattended call transfers for a two-party audio/video conversation.
 
-
 > [!NOTE]
-> <P>Only the <A href="https://msdn.microsoft.com/en-us/library/hh383901(v=office.16)">AudioVideoCall</A> class provides call transfer functionality.</P>
-
-
+> Only the [AudioVideoCall](https://msdn.microsoft.com/en-us/library/hh383901(v=office.16) class provides call transfer functionality.
 
 The process of a call transfer involves three participants:
 
-  - The Transferor is the participant who initiates the transfer.
+- The Transferor is the participant who initiates the transfer.
 
-  - The Transferee is the participant who is transferred from the primary call to the transferred call.
+- The Transferee is the participant who is transferred from the primary call to the transferred call.
 
-  - The Transfer Target is the participant to whom the Transferee is transferred.
+- The Transfer Target is the participant to whom the Transferee is transferred.
 
 After the primary call is established, either participant can transfer the call. To accomplish a transfer, the Transferor sends a REFER message to the Transferee, causing the Transferee to send an INVITE to the Transfer Target participant.
 
@@ -41,7 +35,7 @@ The platform monitors the progress of an attended transfer and completes the tra
 
 The following code demonstrates an attended call transfer (also known as a basic transfer).
 
-``` csharp
+```csharp
 CallTransferOptions basicTransferOptions = new CallTransferOptions(CallTransferType.Attended);
 call.BeginTransfer(target, basicTransferOptions, userCallback, state);
 ```
@@ -50,13 +44,11 @@ call.BeginTransfer(target, basicTransferOptions, userCallback, state);
 
 A supervised transfer is a type of attended transfer in which the transferor establishes a call to the number being transferred to, and then provides that call as an argument to **BeginTransfer**. For a supervised transfer, the REFER message contains a **Replaces** header that specifies the call to be replaced. The following code demonstrates a supervised call transfer.
 
-
 > [!NOTE]
-> <P>Because the default <A href="https://msdn.microsoft.com/en-us/library/hh381449(v=office.16)">CallTransferType</A> is Attended, call transfers of this type can pass null as the second parameter of the <A href="https://msdn.microsoft.com/en-us/library/hh385216(v=office.16)">BeginTransfer(Call, CallTransferOptions, AsyncCallback, Object)</A> call.</P>
+> Because the default [CallTransferType](https://msdn.microsoft.com/en-us/library/hh381449(v=office.16)) is Attended, call transfers of this type can pass null as the second parameter of the [BeginTransfer(Call, CallTransferOptions, AsyncCallback, Object)](https://msdn.microsoft.com/en-us/library/hh385216(v=office.16)) call.
 
 
-
-``` csharp
+```csharp
 CallTransferOptions supervisedTransferOptions = new CallTransferOptions(CallTransferType.Attended);
 call.BeginTransfer(callToReplace, supervisedTransferOptions, userCallback, state);
 ```
@@ -65,7 +57,7 @@ call.BeginTransfer(callToReplace, supervisedTransferOptions, userCallback, state
 
 For an unattended transfer, the platform completes the transfer and terminates the primary call immediately after receiving a "REFER Accepted" message from the Transferee. At this time, the Transferee has already sent an INVITE to the Transfer Target specified by the REFER message, and must independently go through the process of establishing a new call with the Transfer Target. The platform terminates the primary call without waiting for an INVITE success or failure notification from the Transfer Target. The following code demonstrates the unattended transfer (also known as a blind transfer).
 
-``` csharp
+```csharp
 CallTransferOptions unattendedTransferOptions = new CallTransferOptions(CallTransferType.UnAttended);
 call.BeginTransfer(target, unattendedTransferOptions, userCallback, state);
 ```

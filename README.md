@@ -1,6 +1,6 @@
 # README
 
-Thank you for your interest in Skype for Business developer documentation!
+Thank you for your interest in [Skype](https://en.wikipedia.org/wiki/Skype) for Business developer documentation!
 
 ## Ways to contribute
 
